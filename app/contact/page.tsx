@@ -12,122 +12,17 @@ export default function page() {
             <h4 className="text-7xl leading-none lg:leading-normal">
               Prenez contact
             </h4>
-            <h5 className="text-xl We look forward to hearing from you.">
-              Nous vous attendions avec impatience.
-            </h5>
+            <h5 className="text-xl">Nous vous attendions avec impatience.</h5>
           </div>
           <div className="w-full lg:w-6/12">
-            <form action="">
+            <form action="https://app.oreonyx.live">
               <div className="space-y-6">
-                <div className="sm:col-span-3">
-                  <label
-                    htmlFor="first-name"
-                    className="block text-sm font-medium leading-6 text-gray-900"
-                  >
-                    Nom & prénoms
-                  </label>
-                  <div className="mt-2">
-                    <input
-                      type="text"
-                      name="first-name"
-                      id="first-name"
-                      autoComplete="given-name"
-                      className="focus:border-transparent bg-transparent block w-full  border border-black py-2 text-gray-900  ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
-                    />
-                  </div>
-                </div>
-                <div className="sm:col-span-3">
-                  <label
-                    htmlFor="first-name"
-                    className="block text-sm font-medium leading-6 text-gray-900"
-                  >
-                    Nom de votre entreprise / organisation
-                  </label>
-                  <div className="mt-2">
-                    <input
-                      type="text"
-                      name="first-name"
-                      id="first-name"
-                      autoComplete="given-name"
-                      className="focus:border-transparent bg-transparent block w-full  border border-black py-2 text-gray-900  ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
-                    />
-                  </div>
-                </div>
-                <div className="sm:col-span-3">
-                  <label
-                    htmlFor="first-name"
-                    className="focus:border-transparent bg-transparent block text-sm font-medium leading-6 text-gray-900"
-                  >
-                    Titre du poste
-                  </label>
-                  <div className="mt-2">
-                    <input
-                      type="text"
-                      name="first-name"
-                      id="first-name"
-                      autoComplete="given-name"
-                      className="focus:border-transparent bg-transparent block w-full  border border-black py-2 text-gray-900  ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
-                    />
-                  </div>
-                </div>
-                <div className="sm:col-span-3">
-                  <label
-                    htmlFor="first-name"
-                    className="focus:border-transparent bg-transparent block text-sm font-medium leading-6 text-gray-900"
-                  >
-                    Adresse email
-                  </label>
-                  <div className="mt-2">
-                    <input
-                      type="text"
-                      name="first-name"
-                      id="first-name"
-                      autoComplete="given-name"
-                      className="focus:border-transparent bg-transparent block w-full  border border-black py-2 text-gray-900  ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
-                    />
-                  </div>
-                </div>
-                <div className="sm:col-span-3">
-                  <label
-                    htmlFor="first-name"
-                    className="focus:border-transparent bg-transparent block text-sm font-medium leading-6 text-gray-900"
-                  >
-                    Numero de téléphone
-                  </label>
-                  <div className="mt-2">
-                    <input
-                      type="text"
-                      name="first-name"
-                      id="first-name"
-                      autoComplete="given-name"
-                      className="focus:border-transparent bg-transparent block w-full  border border-black py-2 text-gray-900  ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
-                    />
-                  </div>
-                </div>
-                <div className="sm:col-span-3">
-                  <label
-                    htmlFor="first-name"
-                    className="focus:border-transparent bg-transparent block text-sm font-medium leading-6 text-gray-900"
-                  >
-                    Dites-nous en plus
-                  </label>
-                  <div className="mt-2">
-                    <textarea
-                      rows={3}
-                      defaultValue={""}
-                      name="first-name"
-                      id="first-name"
-                      autoComplete="given-name"
-                      className="focus:border-transparent bg-transparent block w-full  border border-black py-2 text-gray-900  ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:text-sm sm:leading-6"
-                    />
-                  </div>
-                </div>
+                {/* Input fields */}
                 <button
-                  submit
-                  href="https://app.oreonyx.live"
+                  type="submit"
                   className="px-6 py-4 lg:py-2 border-2 bg-black text-white border-gray-900 uppercase w-full"
                 >
-                  <span> Envoyer</span>
+                  Envoyer
                 </button>
               </div>
             </form>
