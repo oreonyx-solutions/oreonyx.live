@@ -23,7 +23,7 @@ specifiers:
   react-circle-flags: ^0.0.18
   react-dom: 18.2.0
   react-player: ^2.12.0
-  remixicon: ^3.3.0
+  remixicon: ^2.5.0
   tailwind-merge: ^1.11.0
   tailwindcss: ^3.3.1
   tailwindcss-animate: ^1.0.5
@@ -47,7 +47,7 @@ dependencies:
   react-circle-flags: 0.0.18_react@18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-player: 2.12.0_react@18.2.0
-  remixicon: 3.3.0
+  remixicon: 2.5.0
   tailwind-merge: 1.11.0
   tailwindcss-animate: 1.0.5_tailwindcss@3.3.1
 
@@ -2650,8 +2650,8 @@ packages:
       functions-have-names: 1.2.3
     dev: false
 
-  /remixicon/3.3.0:
-    resolution: {integrity: sha512-iNeRbwVgd8Ef467IjMd/+joFWSBOYfqsLtxtSzsS8fWn75a1H7sgGu5uWE4c3NLjP2C1giFlx8gw63qZd96yJQ==}
+  /remixicon/2.5.0:
+    resolution: {integrity: sha512-q54ra2QutYDZpuSnFjmeagmEiN9IMo56/zz5dDNitzKD23oFRw77cWo4TsrAdmdkPiEn8mxlrTqxnkujDbEGww==}
     dev: false
 
   /resolve-from/4.0.0:
