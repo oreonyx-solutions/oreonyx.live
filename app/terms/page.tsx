@@ -28,9 +28,10 @@ export default function page() {
               selon lesquels Oreonyx Limited, anciennement F Stack Limited,
               opérant sous le nom d&apos;Oreonyx, dont le siège social est situé
               au 25 Easton Street, Office 25.3, WC1X 0DS, Londres, Royaume-Uni
-              (" Nous ", " Nous " ou " Oreonyx ") vous concède une licence pour
-              ses outils CRM et ses services API (ensemble les " Services
-              d&apos;Oreonyx ") (tels que définis ci-dessous).
+              (&apos; Nous &apos;, &apos; Nous &apos; ou &apos; Oreonyx &apos;)
+              vous concède une licence pour ses outils CRM et ses services API
+              (ensemble les &apos; Services d&apos;Oreonyx &apos;) (tels que
+              définis ci-dessous).
             </p>
             <p>
               CE CONTRAT CLIENT Oreonyx CONTIENT UNE CONVENTION D&apos;ARBITRAGE
@@ -72,11 +73,11 @@ export default function page() {
               <li>
                 garantir et déclarer que lorsque vous concluez le Contrat Client
                 d&apos;Oreonyx au nom d&apos;une autre entité juridique telle
-                qu&apos;une société ou une organisation (" Entité "), vous
-                acceptez et concluez au nom de cette Entité et vous êtes
+                qu&apos;une société ou une organisation (&apos; Entité &apos;),
+                vous acceptez et concluez au nom de cette Entité et vous êtes
                 autorisé à lier cette Entité au présent Contrat Client
-                d&apos;Oreonyx, et toute référence à " Vous " et " Votre "
-                désignera en outre cette Entité ;
+                d&apos;Oreonyx, et toute référence à &apos; Vous &apos; et
+                &apos; Votre &apos; désignera en outre cette Entité ;
               </li>
               <li>
                 garantir et déclarer que vous utiliserez les services
@@ -113,20 +114,20 @@ export default function page() {
               suivante :
             </h5>
             <p>
-              <strong>"App Marketplace "</strong> désigne un référentiel en
-              ligne d&apos;applications détenu et contrôlé par Oreonyx ou qui a
-              été approuvé par Oreonyx comme étant adapté à la publication
-              d&apos;une application d&apos;intégration dont la publication a
-              été approuvée par Oreonyx ;
+              <strong>&apos;App Marketplace &apos;</strong> désigne un
+              référentiel en ligne d&apos;applications détenu et contrôlé par
+              Oreonyx ou qui a été approuvé par Oreonyx comme étant adapté à la
+              publication d&apos;une application d&apos;intégration dont la
+              publication a été approuvée par Oreonyx ;
             </p>
             <p>
-              <strong>"Développeur agréé"</strong> désigne une partie qui a été
-              approuvée par Oreonyx pour participer au Programme pour
+              <strong>&apos;Développeur agréé&apos;</strong> désigne une partie
+              qui a été approuvée par Oreonyx pour participer au Programme pour
               développeurs ;
             </p>
             <p>
-              <strong>"Conditions d&apos;utilisation"</strong> désigne toutes
-              les conditions d&apos;utilisation d&apos;une application
+              <strong>&apos;Conditions d&apos;utilisation&apos;</strong> désigne
+              toutes les conditions d&apos;utilisation d&apos;une application
               d&apos;intégration qu&apos;un utilisateur d&apos;application est
               tenu d&apos;accepter avant que l&apos;utilisateur
               d&apos;application n&apos;ait accès à l&apos;utilisation de
@@ -136,48 +137,50 @@ export default function page() {
               d&apos;Oreonyx ;
             </p>
             <p>
-              <strong>"Utilisateur de l&apos;application"</strong> désigne un
-              utilisateur utilisant l&apos;application d&apos;intégration pour
-              transférer ses données entre Oreonyx et une plate-forme tierce ;
+              <strong>&apos;Utilisateur de l&apos;application&apos;</strong>{" "}
+              désigne un utilisateur utilisant l&apos;application
+              d&apos;intégration pour transférer ses données entre Oreonyx et
+              une plate-forme tierce ;
             </p>
             <p>
-              <strong>"API d&apos;Oreonyx"</strong> désigne l&apos;interface de
-              programmation d&apos;applications développée et activée par
-              Oreonyx qui vous permet, ainsi qu&apos;à vos utilisateurs,
-              d&apos;accéder et d&apos;utiliser certaines fonctionnalités
-              fournies par les services d&apos;Oreonyx, sous réserve du présent
-              Contrat Client d&apos;Oreonyx et de la Documentation ;
+              <strong>&apos;API d&apos;Oreonyx&apos;</strong> désigne
+              l&apos;interface de programmation d&apos;applications développée
+              et activée par Oreonyx qui vous permet, ainsi qu&apos;à vos
+              utilisateurs, d&apos;accéder et d&apos;utiliser certaines
+              fonctionnalités fournies par les services d&apos;Oreonyx, sous
+              réserve du présent Contrat Client d&apos;Oreonyx et de la
+              Documentation ;
             </p>
             <p>
-              <strong>"Applications d&apos;Oreonyx"</strong> désigne
+              <strong>&apos;Applications d&apos;Oreonyx&apos;</strong> désigne
               l&apos;application web et/ou les applications mobiles
               d&apos;Oreonyx par l&apos;intermédiaire desquelles les services
               d&apos;Oreonyx sont fournis, y compris tout logiciel qu&apos;elles
               contiennent ;
             </p>
             <p>
-              <strong>"Contenu d&apos;Oreonyx"</strong> désigne l&apos;ensemble
-              des données, informations et matériels appartenant à Oreonyx ou
-              concédés sous licence à Oreonyx et compris dans les services
-              d&apos;Oreonyx et sur les applications d&apos;Oreonyx, à
+              <strong>&apos;Contenu d&apos;Oreonyx&apos;</strong> désigne
+              l&apos;ensemble des données, informations et matériels appartenant
+              à Oreonyx ou concédés sous licence à Oreonyx et compris dans les
+              services d&apos;Oreonyx et sur les applications d&apos;Oreonyx, à
               l&apos;exclusion des données du client ;
             </p>
             <p>
-              <strong>"Services d&apos;Oreonyx"</strong> désigne les outils et
-              services de CRM mis à disposition via les Applications
+              <strong>&apos;Services d&apos;Oreonyx&apos;</strong> désigne les
+              outils et services de CRM mis à disposition via les Applications
               d&apos;Oreonyx, y compris l&apos;accès à l&apos;API d&apos;Oreonyx
               le cas échéant et tout matériel connexe fourni par Oreonyx pour
               votre utilisation dans le cadre des Services d&apos;Oreonyx, tel
               que prévu dans toute Documentation ;
             </p>
             <p>
-              <strong>"CCPA "</strong> désigne la loi californienne de 2018 sur
-              la protection de la vie privée des consommateurs ;
+              <strong>&apos;CCPA &apos;</strong> désigne la loi californienne de
+              2018 sur la protection de la vie privée des consommateurs ;
             </p>
             <p>
-              <strong>"Informations confidentielle"</strong> toutes les
-              informations (quel que soit leur mode d&apos;enregistrement ou de
-              conservation) divulguées par une partie, que ce soit avant ou
+              <strong>&apos;Informations confidentielle&apos;</strong> toutes
+              les informations (quel que soit leur mode d&apos;enregistrement ou
+              de conservation) divulguées par une partie, que ce soit avant ou
               après la date d&apos;entrée en vigueur, y compris toutes les
               informations marquées comme confidentielles ou qui ont été
               indiquées d&apos;une autre manière comme étant confidentielles, ou
@@ -195,23 +198,27 @@ export default function page() {
               tiers) ;
             </p>
             <p>
-              <strong>"Client"</strong> désigne un entrepreneur individuel, une
-              personne morale ou une organisation, autre qu&apos;un développeur
-              agréé, qui conclut le contrat client d&apos;Oreonyx avec Oreonyx
+              <strong>&apos;Client&apos;</strong> désigne un entrepreneur
+              individuel, une personne morale ou une organisation, autre
+              qu&apos;un développeur agréé, qui conclut le contrat client
+              d&apos;Oreonyx avec Oreonyx
             </p>
             <p>
-              <strong>"Données du Client"</strong> désigne l&apos;ensemble des
-              données, informations et matériels que vous et/ou vos utilisateurs
-              saisissez ou téléchargez sur les Services d&apos;Oreonyx ou
-              transmettez par l&apos;intermédiaire des Services d&apos;Oreonyx
-              et/ou de toute Application d&apos;Intégration, y compris les
-              Données Personnelles. Pour éviter toute ambiguïté, les Données du
-              Client incluront toutes les données, informations et matériels
-              reçus d&apos;un tiers qui sont partagés avec Oreonyx au moyen
-              d&apos;une Application d&apos;Intégration ;
+              <strong>&apos;Données du Client&apos;</strong> désigne
+              l&apos;ensemble des données, informations et matériels que vous
+              et/ou vos utilisateurs saisissez ou téléchargez sur les Services
+              d&apos;Oreonyx ou transmettez par l&apos;intermédiaire des
+              Services d&apos;Oreonyx et/ou de toute Application
+              d&apos;Intégration, y compris les Données Personnelles. Pour
+              éviter toute ambiguïté, les Données du Client incluront toutes les
+              données, informations et matériels reçus d&apos;un tiers qui sont
+              partagés avec Oreonyx au moyen d&apos;une Application
+              d&apos;Intégration ;
             </p>
             <p>
-              <strong>"Législation sur la protection des données"</strong>{" "}
+              <strong>
+                &apos;Législation sur la protection des données&apos;
+              </strong>{" "}
               désigne le GDPR de l&apos;UE, la directive européenne 2002/58/CE,
               le DPA 2018 du Royaume-Uni, le CCPA et toute autre législation
               et/ou réglementation qui les met en œuvre ou qui en découle, ou
@@ -222,16 +229,16 @@ export default function page() {
               juridiction concernée ;
             </p>
             <p>
-              <strong>"Programme de développement"</strong> désigne un programme
-              de développement d&apos;applications fourni par Oreonyx dans le
-              cadre duquel Oreonyx fournit à un développeur agréé tout ou partie
-              des services d&apos;Oreonyx, sous réserve des restrictions et
-              limitations définies dans le présent contrat client
-              d&apos;Oreonyx, et dans le cadre duquel le développeur peut
+              <strong>&apos;Programme de développement&apos;</strong> désigne un
+              programme de développement d&apos;applications fourni par Oreonyx
+              dans le cadre duquel Oreonyx fournit à un développeur agréé tout
+              ou partie des services d&apos;Oreonyx, sous réserve des
+              restrictions et limitations définies dans le présent contrat
+              client d&apos;Oreonyx, et dans le cadre duquel le développeur peut
               développer une application d&apos;intégration ;
             </p>
             <p>
-              <strong>"Documentation"</strong> désigne tout guide de
+              <strong>&apos;Documentation&apos;</strong> désigne tout guide de
               l&apos;utilisateur et autre documentation relative aux services
               d&apos;Oreonyx qu&apos;Oreonyx met à la disposition des clients et
               des développeurs de temps à autre, y compris, sans limitation, la
@@ -240,30 +247,32 @@ export default function page() {
               https://developers.oreonyx.live/#introduction ;
             </p>
             <p>
-              <strong>"Date d&apos;entrée en vigueur "</strong> désigne la date
-              à laquelle vous accédez aux Services d&apos;Oreonyx et commencez à
-              les utiliser et/ou acceptez le présent Contrat client
-              d&apos;Oreonyx, y compris dans le cadre d&apos;un Essai gratuit ou
-              du Programme pour développeurs, date à laquelle les conditions du
-              présent Contrat client d&apos;Oreonyx s&apos;appliqueront ;
+              <strong>&apos;Date d&apos;entrée en vigueur &apos;</strong>{" "}
+              désigne la date à laquelle vous accédez aux Services
+              d&apos;Oreonyx et commencez à les utiliser et/ou acceptez le
+              présent Contrat client d&apos;Oreonyx, y compris dans le cadre
+              d&apos;un Essai gratuit ou du Programme pour développeurs, date à
+              laquelle les conditions du présent Contrat client d&apos;Oreonyx
+              s&apos;appliqueront ;
             </p>
             <p>
               désigne le Règlement général sur la protection des données
               2016/679 ;
             </p>
             <p>
-              <strong>"App Marketplace "</strong> désigne un référentiel en
-              ligne d&apos;applications détenu et contrôlé par Oreonyx ou qui a
-              été approuvé par Oreonyx comme étant adapté à la publication
-              d&apos;une application d&apos;intégration dont la publication a
-              été approuvée par Oreonyx ;
+              <strong>&apos;App Marketplace &apos;</strong> désigne un
+              référentiel en ligne d&apos;applications détenu et contrôlé par
+              Oreonyx ou qui a été approuvé par Oreonyx comme étant adapté à la
+              publication d&apos;une application d&apos;intégration dont la
+              publication a été approuvée par Oreonyx ;
             </p>
             <p>
-              <strong>"Frais"</strong> désigne les frais que vous devez payer
-              pour les services d&apos;Oreonyx conformément au Plan ;
+              <strong>&apos;Frais&apos;</strong> désigne les frais que vous
+              devez payer pour les services d&apos;Oreonyx conformément au Plan
+              ;
             </p>
             <p>
-              <strong>"Essai gratuit"</strong> désigne une période
+              <strong>&apos;Essai gratuit&apos;</strong> désigne une période
               potentiellement limitée au cours de laquelle Oreonyx peut offrir
               tout ou partie des services d&apos;Oreonyx sans frais et sous
               réserve de restrictions d&apos;utilisation, telles que déterminées
@@ -278,8 +287,8 @@ export default function page() {
               sans préavis ;
             </p>
             <p>
-              <strong>"Durée initiale"</strong>désigne la durée fixe qui suit
-              immédiatement votre acceptation du Contrat Client ou,
+              <strong>&apos;Durée initiale&apos;</strong>désigne la durée fixe
+              qui suit immédiatement votre acceptation du Contrat Client ou,
               lorsqu&apos;un essai gratuit a été proposé, l&apos;expiration ou
               la fin de cet essai gratuit, pendant laquelle vous acceptez de
               recevoir les services d&apos;Oreonyx et de payer les frais, soit
@@ -287,89 +296,91 @@ export default function page() {
               ;
             </p>
             <p>
-              <strong>"Application d&apos;intégration"</strong> désigne une
-              application développée par un développeur ou un utilisateur agréé
-              pour son propre compte et risquant d&apos;utiliser l&apos;API
-              d&apos;Oreonyx, qui peut utiliser un flux OAuth, permettant
-              l&apos;interopérabilité entre une plateforme tierce et les
-              services d&apos;Oreonyx ;
+              <strong>&apos;Application d&apos;intégration&apos;</strong>{" "}
+              désigne une application développée par un développeur ou un
+              utilisateur agréé pour son propre compte et risquant
+              d&apos;utiliser l&apos;API d&apos;Oreonyx, qui peut utiliser un
+              flux OAuth, permettant l&apos;interopérabilité entre une
+              plateforme tierce et les services d&apos;Oreonyx ;
             </p>
             <p>
-              <strong>"Droits de propriété intellectuelle"</strong>désigne les
-              brevets, les droits brevetables, les droits d&apos;auteur, les
-              droits de conception, les droits sur les logiciels informatiques,
-              les modèles d&apos;utilité, les marques (qu&apos;elles soient ou
-              non déposées), les noms commerciaux, les droits sur les noms de
-              domaine, les droits sur les inventions, les droits sur les
-              données, les droits sur les bases de données, les droits sur
-              l&apos;habillage, le fonds de commerce, les droits d&apos;intenter
-              une action en passing off ou en concurrence déloyale, et les
-              droits de préserver la confidentialité des informations (y compris
-              le savoir-faire et les secrets commerciaux), ainsi que tous les
-              autres droits de propriété intellectuelle et industrielle, y
-              compris toutes les demandes (et les droits de demander et
-              d&apos;obtenir), renouvellements ou extensions de ces droits et
-              les droits de revendiquer la priorité de ces droits, ainsi que
-              tous les droits ou formes de protection similaires ou équivalents
-              qui existent ou existeront, actuellement ou à l&apos;avenir, dans
-              n&apos;importe quelle partie du monde ;
+              <strong>&apos;Droits de propriété intellectuelle&apos;</strong>
+              désigne les brevets, les droits brevetables, les droits
+              d&apos;auteur, les droits de conception, les droits sur les
+              logiciels informatiques, les modèles d&apos;utilité, les marques
+              (qu&apos;elles soient ou non déposées), les noms commerciaux, les
+              droits sur les noms de domaine, les droits sur les inventions, les
+              droits sur les données, les droits sur les bases de données, les
+              droits sur l&apos;habillage, le fonds de commerce, les droits
+              d&apos;intenter une action en passing off ou en concurrence
+              déloyale, et les droits de préserver la confidentialité des
+              informations (y compris le savoir-faire et les secrets
+              commerciaux), ainsi que tous les autres droits de propriété
+              intellectuelle et industrielle, y compris toutes les demandes (et
+              les droits de demander et d&apos;obtenir), renouvellements ou
+              extensions de ces droits et les droits de revendiquer la priorité
+              de ces droits, ainsi que tous les droits ou formes de protection
+              similaires ou équivalents qui existent ou existeront, actuellement
+              ou à l&apos;avenir, dans n&apos;importe quelle partie du monde ;
             </p>
             <p>
-              <strong>"Logiciel malveillant"</strong> tout virus, logiciel
-              malveillant, cheval de Troie ou tout autre logiciel nuisible
-              similaire ;
+              <strong>&apos;Logiciel malveillant&apos;</strong> tout virus,
+              logiciel malveillant, cheval de Troie ou tout autre logiciel
+              nuisible similaire ;
             </p>
             <p>
-              <strong>"Données personnelles"</strong> a la signification qui lui
-              est attribuée dans la législation applicable en matière de
-              protection des données ;
+              <strong>&apos;Données personnelles&apos;</strong> a la
+              signification qui lui est attribuée dans la législation applicable
+              en matière de protection des données ;
             </p>
             <p>
-              <strong>"Plan"</strong> désigne le plan d&apos;abonnement
-              incorporant le niveau de support fourni, les fonctionnalités et
-              les limites de données pertinentes qui sont mises à disposition
-              dans le cadre des services d&apos;Oreonyx et telles que vous les
-              avez choisies au cours de la procédure d&apos;inscription ou
-              telles que vous les avez modifiées dans la section de votre compte
-              ou manuellement par Oreonyx à la suite de votre demande ;
+              <strong>&apos;Plan&apos;</strong> désigne le plan
+              d&apos;abonnement incorporant le niveau de support fourni, les
+              fonctionnalités et les limites de données pertinentes qui sont
+              mises à disposition dans le cadre des services d&apos;Oreonyx et
+              telles que vous les avez choisies au cours de la procédure
+              d&apos;inscription ou telles que vous les avez modifiées dans la
+              section de votre compte ou manuellement par Oreonyx à la suite de
+              votre demande ;
             </p>
             <p>
-              <strong>"Période de renouvellement"</strong> désigne la durée fixe
-              suivant immédiatement la période initiale au cours de laquelle
-              vous avez le droit d&apos;accéder aux services d&apos;Oreonyx et
-              de payer les frais, et qui est d&apos;une durée égale à celle de
-              la période initiale ;
+              <strong>&apos;Période de renouvellement&apos;</strong> désigne la
+              durée fixe suivant immédiatement la période initiale au cours de
+              laquelle vous avez le droit d&apos;accéder aux services
+              d&apos;Oreonyx et de payer les frais, et qui est d&apos;une durée
+              égale à celle de la période initiale ;
             </p>
             <p>
-              <strong>"Sièges"</strong> désigne le nombre maximum de sièges
-              disponibles pour les Utilisateurs autorisés à utiliser les
+              <strong>&apos;Sièges&apos;</strong> désigne le nombre maximum de
+              sièges disponibles pour les Utilisateurs autorisés à utiliser les
               Services d&apos;Oreonyx mis à disposition par Oreonyx de temps à
               autre en vertu du Contrat Client d&apos;Oreonyx et conformément au
               Plan ;
             </p>
             <p>
-              <strong>"Durée "</strong> désigne la durée du Contrat Client
-              d&apos;Oreonyx telle que définie à l&apos;Article 3 ;
+              <strong>&apos;Durée &apos;</strong> désigne la durée du Contrat
+              Client d&apos;Oreonyx telle que définie à l&apos;Article 3 ;
             </p>
             <p>
-              <strong>"Plateforme tierce"</strong> désigne une plateforme ou un
-              logiciel fourni et hébergé par un tiers ;
+              <strong>&apos;Plateforme tierce&apos;</strong> désigne une
+              plateforme ou un logiciel fourni et hébergé par un tiers ;
             </p>
             <p>
-              <strong>"UK DPA 2018"</strong> désigne la loi britannique sur la
-              protection des données de 2018 ;
+              <strong>&apos;UK DPA 2018&apos;</strong> désigne la loi
+              britannique sur la protection des données de 2018 ;
             </p>
             <p>
-              <strong>"Utilisateur"</strong> désigne : (a) lorsque vous êtes un
-              Développeur Agréé, le Développeur Agréé ou vos Utilisateurs ; et
-              (b) lorsque vous êtes un Client, une personne physique autorisée
-              par le Client à utiliser les Services Oreonyx jusqu&apos;à
-              concurrence du nombre de Sièges achetés conformément au Plan ;
+              <strong>&apos;Utilisateur&apos;</strong> désigne : (a) lorsque
+              vous êtes un Développeur Agréé, le Développeur Agréé ou vos
+              Utilisateurs ; et (b) lorsque vous êtes un Client, une personne
+              physique autorisée par le Client à utiliser les Services Oreonyx
+              jusqu&apos;à concurrence du nombre de Sièges achetés conformément
+              au Plan ;
             </p>
             <p>
-              <strong>"Vous " " Votre"</strong> désigne le client ou le
-              développeur agréé qui conclut le contrat de client d&apos;Oreonyx,
-              selon le cas.
+              <strong>&apos;Vous &apos; &apos; Votre&apos;</strong> désigne le
+              client ou le développeur agréé qui conclut le contrat de client
+              d&apos;Oreonyx, selon le cas.
             </p>
             <h5>1.2. Dans le présent Contrat client d&apos;Oreonyx :</h5>
             <p>a) les mots au singulier incluent le pluriel ;</p>
@@ -379,8 +390,9 @@ export default function page() {
               personne physique ;
             </p>
             <p>
-              c) une référence à une "partie" désignera soit Oreonyx, soit le
-              client, et "parties" désignera à la fois Oreonyx et le client ;
+              c) une référence à une &apos;partie&apos; désignera soit Oreonyx,
+              soit le client, et &apos;parties&apos; désignera à la fois Oreonyx
+              et le client ;
             </p>
             <p>
               d) les titres des clauses sont uniquement destinés à faciliter la
@@ -388,10 +400,10 @@ export default function page() {
               Contrat Client d&apos;Oreonyx ;
             </p>
             <p>
-              e) la référence à "y compris" ou à tout autre terme similaire dans
-              le présent contrat client d&apos;Oreonyx sera traitée à titre
-              d&apos;exemple et ne limitera pas l&apos;applicabilité générale
-              des termes précédents ; et
+              e) la référence à &apos;y compris&apos; ou à tout autre terme
+              similaire dans le présent contrat client d&apos;Oreonyx sera
+              traitée à titre d&apos;exemple et ne limitera pas
+              l&apos;applicabilité générale des termes précédents ; et
             </p>
             <p>
               f) toute référence à une législation s&apos;appliquera à cette
@@ -505,9 +517,9 @@ export default function page() {
             <p>
               c) et, en outre, après la Durée, d&apos;utiliser votre nom et
               autre marque, ainsi que le nom et autre marque de
-              l&apos;application d&apos;intégration (ensemble, votre " marque
-              d&apos;application ") uniquement dans la mesure où cela est
-              nécessaire pour permettre à Oreonyx d&apos;exécuter ses
+              l&apos;application d&apos;intégration (ensemble, votre &apos;
+              marque d&apos;application &apos;) uniquement dans la mesure où
+              cela est nécessaire pour permettre à Oreonyx d&apos;exécuter ses
               obligations et d&apos;exercer les droits accordés en vertu du
               Contrat Client d&apos;Oreonyx, y compris, sans s&apos;y limiter,
               la mise à disposition de votre application d&apos;intégration sur
@@ -574,11 +586,11 @@ export default function page() {
             <p>
               h) sauf autorisation expresse aux fins d&apos;une application
               d&apos;intégration et conformément au présent contrat client
-              d&apos;Oreonyx, ou autorisation écrite d&apos;Oreonyx, créer des "
-              liens " Internet vers les services d&apos;Oreonyx ou les
-              applications d&apos;Oreonyx, ou " encadrer " ou " refléter " tout
-              contenu d&apos;Oreonyx sur tout autre serveur ou appareil sans fil
-              ou basé sur Internet ;
+              d&apos;Oreonyx, ou autorisation écrite d&apos;Oreonyx, créer des
+              &apos; liens &apos; Internet vers les services d&apos;Oreonyx ou
+              les applications d&apos;Oreonyx, ou &apos; encadrer &apos; ou
+              &apos; refléter &apos; tout contenu d&apos;Oreonyx sur tout autre
+              serveur ou appareil sans fil ou basé sur Internet ;
             </p>
             <p>
               i) tenter de contourner les mécanismes de sécurité, de contrôle
@@ -594,10 +606,11 @@ export default function page() {
               j) utiliser tout matériel, logiciel, dispositif ou technique pour
               regrouper les connexions ou réduire le nombre d&apos;appareils ou
               d&apos;utilisateurs qui accèdent directement aux services
-              d&apos;Oreonyx ou les utilisent (parfois appelé " virtualisation
-              ", " multiplexage " ou " regroupement ") afin de contourner toute
-              restriction sur l&apos;étendue de l&apos;utilisation autorisée
-              contenue dans le présent contrat client d&apos;Oreonyx ;
+              d&apos;Oreonyx ou les utilisent (parfois appelé &apos;
+              virtualisation &apos;, &apos; multiplexage &apos; ou &apos;
+              regroupement &apos;) afin de contourner toute restriction sur
+              l&apos;étendue de l&apos;utilisation autorisée contenue dans le
+              présent contrat client d&apos;Oreonyx ;
             </p>
             <p>
               k) télécharger, stocker, afficher, envoyer par courrier
@@ -841,10 +854,10 @@ export default function page() {
               d&apos;effectuer elle-même, ou par l&apos;intermédiaire d&apos;un
               tiers autorisé, tout audit, test ou évaluation (y compris, mais
               sans s&apos;y limiter, tout test de pénétration) sur toute
-              application d&apos;intégration (chacun un " Test
-              d&apos;application "), et vous devrez et ferez en sorte que vos
-              utilisateurs coopèrent pleinement avec Oreonyx dans le cadre de la
-              réalisation de tout Test d&apos;application, y compris en
+              application d&apos;intégration (chacun un &apos; Test
+              d&apos;application &apos;), et vous devrez et ferez en sorte que
+              vos utilisateurs coopèrent pleinement avec Oreonyx dans le cadre
+              de la réalisation de tout Test d&apos;application, y compris en
               fournissant toute assistance ou information raisonnablement
               demandée par Oreonyx ou tout tiers autorisé par Oreonyx à réaliser
               un Test d&apos;application. Sans préjudice des autres droits ou
@@ -873,14 +886,14 @@ export default function page() {
               6.1. Vous désignerez une (1) ou plusieurs personnes physiques
               comme responsable de la communication avec Oreonyx, de
               l&apos;annulation ou de la modification du plan, et de
-              l&apos;ajout ou de la suppression d&apos;utilisateurs (l&apos;"
-              administrateur "). Vous garantissez et déclarez que
-              l&apos;Administrateur aura le pouvoir d&apos;engager le Client,
-              sauf qu&apos;un autre représentant dûment autorisé du Client peut
-              changer l&apos;Administrateur en le notifiant à Oreonyx par
-              courrier électronique ou, le cas échéant, en attribuant le rôle à
-              un Utilisateur dûment autorisé au sein des Applications
-              d&apos;Oreonyx.
+              l&apos;ajout ou de la suppression d&apos;utilisateurs
+              (l&apos;&apos; administrateur &apos;). Vous garantissez et
+              déclarez que l&apos;Administrateur aura le pouvoir d&apos;engager
+              le Client, sauf qu&apos;un autre représentant dûment autorisé du
+              Client peut changer l&apos;Administrateur en le notifiant à
+              Oreonyx par courrier électronique ou, le cas échéant, en
+              attribuant le rôle à un Utilisateur dûment autorisé au sein des
+              Applications d&apos;Oreonyx.
             </p>
             <p>
               6.2. L&apos;Administrateur peut ajouter ou supprimer des
@@ -1021,13 +1034,13 @@ export default function page() {
               régler toutes les factures immédiatement. Si vous nous communiquez
               les détails de paiement d&apos;une carte de crédit, d&apos;une
               carte de débit, d&apos;un prélèvement automatique ou d&apos;une
-              autre méthode de paiement similaire (collectivement, " carte de
-              crédit "), vous autorisez par les présentes Oreonyx à débiter
-              automatiquement la carte de crédit, y compris toutes les taxes
-              applicables, pour régler toutes les factures en suspens, y compris
-              les frais relatifs à toute condition de renouvellement. Vous
-              reconnaissez que certaines cartes de crédit peuvent facturer des
-              frais de transaction à l&apos;étranger ou d&apos;autres frais
+              autre méthode de paiement similaire (collectivement, &apos; carte
+              de crédit &apos;), vous autorisez par les présentes Oreonyx à
+              débiter automatiquement la carte de crédit, y compris toutes les
+              taxes applicables, pour régler toutes les factures en suspens, y
+              compris les frais relatifs à toute condition de renouvellement.
+              Vous reconnaissez que certaines cartes de crédit peuvent facturer
+              des frais de transaction à l&apos;étranger ou d&apos;autres frais
               qu&apos;il vous incombera de payer.
             </p>
             <p>
@@ -1084,12 +1097,13 @@ export default function page() {
             </p>
             <h4>8. Clause de non-responsabilité</h4>
             <p>
-              8.1. Les services d&apos;Oreonyx sont fournis " en l&apos;état "
-              et " tels que disponibles ". Nous ne fournissons aucune garantie
-              d&apos;aucune sorte, qu&apos;elle soit expresse ou implicite, y
-              compris, mais sans s&apos;y limiter, les garanties implicites de
-              qualité marchande, d&apos;adéquation à un usage particulier,
-              d&apos;absence de contrefaçon ou de performance.
+              8.1. Les services d&apos;Oreonyx sont fournis &apos; en
+              l&apos;état &apos; et &apos; tels que disponibles &apos;. Nous ne
+              fournissons aucune garantie d&apos;aucune sorte, qu&apos;elle soit
+              expresse ou implicite, y compris, mais sans s&apos;y limiter, les
+              garanties implicites de qualité marchande, d&apos;adéquation à un
+              usage particulier, d&apos;absence de contrefaçon ou de
+              performance.
             </p>
             <p>
               8.2. Oreonyx ne garantit pas que les services d&apos;Oreonyx, y
@@ -1169,12 +1183,12 @@ export default function page() {
               d&apos;information, des commentaires, des suggestions, des
               améliorations, des recommandations ou d&apos;autres données
               concernant les services d&apos;Oreonyx ou une partie de ceux-ci
-              (collectivement, le " retour d&apos;information "), vous cédez par
-              la présente et/ou vous faites en sorte que les utilisateurs cèdent
-              à Oreonyx tous les droits, titres et intérêts relatifs au retour
-              d&apos;information, et vous acceptez et comprenez qu&apos;Oreonyx
-              est libre d&apos;utiliser le retour d&apos;information sans
-              paiement, attribution ou restriction.
+              (collectivement, le &apos; retour d&apos;information &apos;), vous
+              cédez par la présente et/ou vous faites en sorte que les
+              utilisateurs cèdent à Oreonyx tous les droits, titres et intérêts
+              relatifs au retour d&apos;information, et vous acceptez et
+              comprenez qu&apos;Oreonyx est libre d&apos;utiliser le retour
+              d&apos;information sans paiement, attribution ou restriction.
             </p>
             <p>
               9.6. Dans la mesure où vous ou un utilisateur créez une
@@ -1394,11 +1408,11 @@ export default function page() {
             <p>
               d) ne pas divulguer ces Informations Confidentielles à des tiers
               (autres que ses conseillers professionnels, dirigeants, employés,
-              agents, contractants et sous-traitants sur la base du " besoin de
-              savoir " strictement nécessaire conformément au présent Contrat
-              Client d&apos;Oreonyx et sous réserve que chacune de ces personnes
-              soit liée par une obligation de confidentialité qui ne soit pas
-              moins favorable que la présente Clause 13 ; et
+              agents, contractants et sous-traitants sur la base du &apos;
+              besoin de savoir &apos; strictement nécessaire conformément au
+              présent Contrat Client d&apos;Oreonyx et sous réserve que chacune
+              de ces personnes soit liée par une obligation de confidentialité
+              qui ne soit pas moins favorable que la présente Clause 13 ; et
             </p>
             <p>
               e) retourner rapidement, sur demande et, en tout état de cause, à
@@ -1469,10 +1483,11 @@ export default function page() {
             </p>
             <h4>14. Protection des données</h4>
             <p>
-              14.1. Dans la présente Clause 14, les termes " processus ", "
-              contrôleur de données ", " fournisseur de services " et "
-              processeur de données " auront les mêmes significations que celles
-              définies dans la Législation sur la protection des données.
+              14.1. Dans la présente Clause 14, les termes &apos; processus
+              &apos;, &apos; contrôleur de données &apos;, &apos; fournisseur de
+              services &apos; et &apos; processeur de données &apos; auront les
+              mêmes significations que celles définies dans la Législation sur
+              la protection des données.
             </p>
             <p>
               14.2. Les parties conviennent qu&apos;en vertu de la législation
@@ -1590,8 +1605,8 @@ export default function page() {
               <a className="text-blue-500" href="#">
                 international de transfert de données du Royaume-Uni
               </a>{" "}
-              (" IDTA ") et/ou l&apos;Addendum IDTA (selon le cas) ou les
-              Clauses Contractuelles Standard de la Commission européenne.
+              (&apos; IDTA &apos;) et/ou l&apos;Addendum IDTA (selon le cas) ou
+              les Clauses Contractuelles Standard de la Commission européenne.
               Chaque fois qu&apos;Oreonyx utilise des sous-traitants
               conformément à la présente clause 14.6, il restera responsable
               envers vous de leur conformité à la législation applicable en
@@ -1854,17 +1869,17 @@ export default function page() {
               arbitrage devant un arbitre unique en langue anglaise dans
               l&apos;État du Delaware, aux États-Unis, conformément aux règles
               d&apos;arbitrage commercial de l&apos;American Arbitration
-              Association (" AAA ") et vous et nous renonçons expressément par
-              la présente à un procès devant jury. Vous et nous nommerons comme
-              arbitre unique une personne convenue entre vous et nous ou, si
-              vous et nous ne parvenons pas à nous mettre d&apos;accord dans les
-              trente (30) jours suivant la demande d&apos;arbitrage de
-              l&apos;une des parties, cet arbitre unique sera choisi par
-              l&apos;AAA à la demande de l&apos;une ou l&apos;autre des parties.
-              Les parties supportent à parts égales le coût de l&apos;arbitrage
-              (sauf que la partie gagnante a droit à des honoraires
-              d&apos;avocat raisonnables encourus dans le cadre de
-              l&apos;arbitrage, dont le montant peut être déterminé par
+              Association (&apos; AAA &apos;) et vous et nous renonçons
+              expressément par la présente à un procès devant jury. Vous et nous
+              nommerons comme arbitre unique une personne convenue entre vous et
+              nous ou, si vous et nous ne parvenons pas à nous mettre
+              d&apos;accord dans les trente (30) jours suivant la demande
+              d&apos;arbitrage de l&apos;une des parties, cet arbitre unique
+              sera choisi par l&apos;AAA à la demande de l&apos;une ou
+              l&apos;autre des parties. Les parties supportent à parts égales le
+              coût de l&apos;arbitrage (sauf que la partie gagnante a droit à
+              des honoraires d&apos;avocat raisonnables encourus dans le cadre
+              de l&apos;arbitrage, dont le montant peut être déterminé par
               l&apos;arbitre). Toutes les décisions de l&apos;arbitre sont
               définitives et contraignantes pour les deux parties et sont
               exécutoires devant tout tribunal compétent. Nonobstant ce qui

@@ -80,10 +80,10 @@ export default function page() {
               ou utilisateurs d&apos;accéder à l&apos;API d&apos;Oreonyx afin de
               développer certaines applications permettant
               l&apos;interopérabilité entre une plateforme tierce et les
-              services d&apos;Oreonyx (chacune étant une " application
-              d&apos;intégration "). Chaque application d&apos;intégration sera
-              développée de manière indépendante et aux risques et périls du
-              développeur. En conséquence, chaque développeur d&apos;une
+              services d&apos;Oreonyx (chacune étant une &apos; application
+              d&apos;intégration &apos;). Chaque application d&apos;intégration
+              sera développée de manière indépendante et aux risques et périls
+              du développeur. En conséquence, chaque développeur d&apos;une
               application d&apos;intégration sera considéré comme un contrôleur
               distinct et indépendant de toutes les données personnelles que
               vous pouvez partager en utilisant cette application
@@ -726,8 +726,8 @@ export default function page() {
             </p>
             <p>
               Dans certaines circonstances, vous pouvez nous demander de
-              supprimer vos données : voir "Vos droits" ci-dessus pour plus
-              d&apos;informations.
+              supprimer vos données : voir &apos;Vos droits&apos; ci-dessus pour
+              plus d&apos;informations.
             </p>
             <p>
               Dans certaines circonstances, nous rendrons vos données

@@ -40,14 +40,14 @@ export default function Overview() {
             </Link>
           </h1>
           <h3 className="text-xl font-mono text-center">
-            Transformer l'éducation, le monde professionnel et les organisations
-            grâce à notre plateforme de communication 2.0. Facilitez
-            l'apprentissage à distance, renforcez la collaboration et soutenez
-            des causes mondiales telles que la lutte contre le changement
-            climatique. Favorisez l'inclusion, encouragez la coopération et
-            facilitez les prises de décisions stratégiques. Découvrez une
-            nouvelle ère d'interactions fluides et intuitives pour contribuer
-            positivement à notre monde.
+            Transformer l&apos;éducation, le monde professionnel et les
+            organisations grâce à notre plateforme de communication 2.0.
+            Facilitez l&apos;apprentissage à distance, renforcez la
+            collaboration et soutenez des causes mondiales telles que la lutte
+            contre le changement climatique. Favorisez l&apos;inclusion,
+            encouragez la coopération et facilitez les prises de décisions
+            stratégiques. Découvrez une nouvelle ère d&apos;interactions fluides
+            et intuitives pour contribuer positivement à notre monde.
           </h3>
         </div>
         <div className="w-full space-y-6">
@@ -69,9 +69,10 @@ export default function Overview() {
                   </h5>
                   <p className="text-lg text-gray-800">
                     Créez et partagez du contenu attrayant avec des outils de
-                    présentation, de dessin, de partage d'écran et bien plus
-                    encore. Transformez vos idées en réalité et engagez votre
-                    public avec des présentations interactives et dynamiques.
+                    présentation, de dessin, de partage d&apos;écran et bien
+                    plus encore. Transformez vos idées en réalité et engagez
+                    votre public avec des présentations interactives et
+                    dynamiques.
                   </p>
                 </div>
                 <div className="w-full">
@@ -103,8 +104,8 @@ export default function Overview() {
                     Organisez des réunions en ligne avec des participants du
                     monde entier. Partagez des idées, collaborez en temps réel,
                     et renforcez les liens avec vos collègues, vos amis et votre
-                    famille où que vous soyez. La communication n'a jamais été
-                    aussi simple et accessible.
+                    famille où que vous soyez. La communication n&apos;a jamais
+                    été aussi simple et accessible.
                   </p>
                 </div>
                 <div className="w-full">
@@ -139,7 +140,7 @@ export default function Overview() {
                     domaines. Apprenez à votre rythme, où que vous soyez, et
                     obtenez des certifications reconnues. Élargissez vos
                     connaissances, développez vos compétences et poursuivez vos
-                    objectifs d'apprentissage.
+                    objectifs d&apos;apprentissage.
                   </p>
                 </div>
                 <div className="w-full">

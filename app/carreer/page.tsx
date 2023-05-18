@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 //components
 import Navbar from "@/components/ui/sections/Navbar";
 import Footer from "@/components/ui/sections/Footer";
@@ -21,9 +23,9 @@ export default function page() {
               </h5>
               <p>
                 Nous sommes convaincus que les solutions actuelles sont
-                obsolètes et qu'il est temps de repenser complètement la manière
-                dont les établissements d&apos;enseignement supérieur gèrent
-                leurs processus administratifs et pédagogiques.
+                obsolètes et qu&apos;il est temps de repenser complètement la
+                manière dont les établissements d&apos;enseignement supérieur
+                gèrent leurs processus administratifs et pédagogiques.
               </p>
               <p>
                 Pour cela, nous mettons à disposition une solution innovante qui
@@ -46,7 +48,7 @@ export default function page() {
                 meilleur travail.
               </p>
               <figure>
-                <img
+                <Image
                   alt="source data"
                   src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
                 />
