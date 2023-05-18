@@ -4,7 +4,7 @@ import Image from "next/image";
 import Navbar from "@/components/ui/sections/Navbar";
 import Footer from "@/components/ui/sections/Footer";
 
-export default function Page() {
+export default function page() {
   return (
     <div className="bg-primary">
       <Navbar />

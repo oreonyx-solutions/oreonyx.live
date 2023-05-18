@@ -76,7 +76,7 @@ export default function Hero() {
                   </div>
                   <div>
                     <h5 className="text-lg text-center md:text-start">
-                      Nous offrons une plateforme vecteur d&apos;éducation,
+                      Nous offrons une platforme vecteur d&apos;éducation,
                       promotrice d&apos;idées et de solutions qui alimentent la
                       croissance des pensées et des compétences.
                     </h5>
@@ -88,8 +88,8 @@ export default function Hero() {
                   </div>
                   <div>
                     <h5 className="text-lg text-center md:text-start">
-                      Connaissances et maîtrise des interactions sociales au
-                      sein des écosystèmes universitaires et propositions de
+                      Connaissances et maitrise des interactions sociales au
+                      sein des écosystèmes Universitaires et propositions de
                       valeurs essentielles, utiles sur le marché de
                       l&apos;emploi.
                     </h5>
@@ -113,7 +113,7 @@ export default function Hero() {
                         <div>
                           <h5 className="text-xl">
                             d&apos;étudiants et d&apos;humains à éduquer à la
-                            conscience écologique.
+                            concience écologique.
                           </h5>
                         </div>
                       </div>

@@ -118,7 +118,8 @@ export default function Faq() {
               <AccordionItem value="item-6">
                 <AccordionTrigger className="uppercase">
                   <span className="hidden lg:inline">
-                    Oreonyx offre-t-il un support technique aux utilisateurs?
+                    Oreonyx offre t&apos;il un support technique aux
+                    utilisateurs?
                   </span>
                   <span className="lg:hidden">
                     Offrez-vous un support technique?
