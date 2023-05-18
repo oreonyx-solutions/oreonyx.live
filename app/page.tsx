@@ -25,8 +25,9 @@ export default function Home() {
               Participez au Programme de Bêta Testing
             </span>
             <span className="hidden lg:inline">
-              Participez au Programme de Bêta Testing d'Oreonyx : Contribuez à
-              façonner la prochaine génération d'outils éducatifs!
+              Participez au Programme de Bêta Testing d&apos;Oreonyx :
+              Contribuez à façonner la prochaine génération d&apos;outils
+              éducatifs!
             </span>
           </a>
         </span>

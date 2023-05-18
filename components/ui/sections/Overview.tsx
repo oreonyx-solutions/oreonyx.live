@@ -65,35 +65,30 @@ export default function Overview() {
               <div className="w-full space-y-3">
                 <div className="space-y-3">
                   <h5 className="text-3xl lg:text-4xl relative font-semibold">
-                    Espace de collaboration
+                    Donnez vie à vos idées
                   </h5>
-                  <p className="text-lg">
-                    En embrassant cette nouvelle ère de communication,
-                    Interagisser de manière transparente avec vos collègues de
-                    classe ou vos collaborateurs grâce à notre espace de
-                    collaboration d'équipe. Partagez des fichiers, travaillez
-                    sur des projets communs et communiquez efficacement pour
-                    accomplir vos objectifs ensemble.
+                  <p className="text-lg text-gray-800">
+                    Créez et partagez du contenu attrayant avec des outils de
+                    présentation, de dessin, de partage d'écran et bien plus
+                    encore. Transformez vos idées en réalité et engagez votre
+                    public avec des présentations interactives et dynamiques.
                   </p>
-                  <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
-                    <div className="hidden">
-                      <Link
-                        href="https://app.oreonyx.live"
-                        className="px-6 py-2 border rounded-full hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex"
-                      >
-                        <span> Commencer</span>
-                        <i className="hidden md:inline ri-arrow-right-line"></i>
-                      </Link>
-                    </div>
-                  </div>
+                </div>
+                <div className="w-full">
+                  <Link
+                    href="https://app.oreonyx.live"
+                    className="w-48 bg-gradient-to-r from-[#00b4ff] via-[#00f0ff] to-[#00ffdd] hover:bg-gradient-to-r hover:from-[#00f0ff] hover:via-[#00b4ff] hover:to-[#00ffdd] transition-colors duration-300 text-center text-white font-bold uppercase rounded-3xl py-2"
+                  >
+                    <span className="inline-block">Découvrir maintenant</span>
+                  </Link>
                 </div>
               </div>
             </div>
-            <div className="first font-mono w-full md:w-6/12 bg-[#e9e9e9] py-8 px-6 md:px-3 lg:px-6 rounded-3xl space-y-6">
+            <div className="font-mono w-full md:w-6/12 bg-[#e9e9e9] py-8 px-6 md:px-3 lg:px-6 rounded-3xl space-y-6">
               <div className="bg-[#faf9f6] h-52 rounded-3xl relative">
                 <Image
                   alt="source data"
-                  src="https://images.unsplash.com/photo-1612832164313-ac0d7e07b5ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  src="/illustrations/oreonyx_meeting.jpeg"
                   layout="fill"
                   objectFit="cover"
                   className="rounded-3xl"
@@ -102,112 +97,23 @@ export default function Overview() {
               <div className="w-full space-y-3">
                 <div className="space-y-3">
                   <h5 className="text-3xl lg:text-4xl relative font-semibold">
-                    Salle de classe virtuelle
+                    Connectez-vous avec le monde
                   </h5>
-                  <p className="text-lg">
-                    Participez à des cours en ligne interactifs via notre salle
-                    de classe virtuelle avancée. Interagissez avec vos
-                    enseignants et vos camarades de classe, assistez à des
-                    présentations et participez à des discussions en temps réel.
-                    Expérimentez la plateforme qui utilise l'intelligence
-                    artificielle pour fournir des recommandations
-                    d'apprentissage personnalisées.
+                  <p className="text-lg text-gray-800">
+                    Organisez des réunions en ligne avec des participants du
+                    monde entier. Partagez des idées, collaborez en temps réel,
+                    et renforcez les liens avec vos collègues, vos amis et votre
+                    famille où que vous soyez. La communication n'a jamais été
+                    aussi simple et accessible.
                   </p>
-                  <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
-                    <div className="hidden">
-                      <Link
-                        href="https://app.oreonyx.live"
-                        className="px-6 py-2 border rounded-full hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex"
-                      >
-                        <span> Commencer</span>
-                        <i className="hidden md:inline ri-arrow-right-line"></i>
-                      </Link>
-                    </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-            {/** App */}
-            <div className="hidden font-mono w-full md:w-6/12 bg-[#e9e9e9] pt-10 pb-8 px-6 md:px-3 lg:px-6 rounded-3xl space-y-6 md:space-y-12">
-              <div className="rounded-t-3xl flex bg-gradient-to-b from-[#faf9f6] via-[#faf9f6] to-transparent px-6">
-                <div className="relative h-32">
-                  <Image
-                    alt="source data"
-                    src="/illustrations/Workspace.png"
-                    width={150}
-                    height={0}
-                    objectFit="contain"
-                  />
-                </div>
-                <div className="h-32 relative">
-                  <Image
-                    alt="source data"
-                    src="/illustrations/Collaboration.png"
-                    width={150}
-                    height={0}
-                    objectFit="contain"
-                  />
-                </div>
-                <div className="h-32 relative">
-                  <Image
-                    alt="source data"
-                    src="/illustrations/Community.png"
-                    width={150}
-                    height={0}
-                    objectFit="contain"
-                  />
-                </div>
-              </div>
-              <div className="w-full space-y-1">
-                <div className="flex justify-center px-4">
-                  <div className="relative flex items-center space-x-2 pl-3 pr-5 py-0.5 rounded-2xl bg-gradient-to-tr from-green-500 via-green-500 to-green-300 text-white">
-                    <span className="text-sm">Bientôt disponible</span>
-                    <div className="top-0 -right-2 h-2 absolute flex justify-center items-center">
-                      <Image
-                        alt="source data"
-                        src="/gifs/party-popper_1f389.png"
-                        width={26}
-                        height={26}
-                        objectFit="contain"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="space-y-6">
-                  <div className="flex justify-center px-4">
-                    <h5 className="text-3xl lg:text-4xl relative text-center font-semibold">
-                      <span className="hidden lg:inline">
-                        Faites en plus avec
-                      </span>{" "}
-                      l'application mobile !
-                    </h5>
-                  </div>
-                  <div className="md:px-12 px-16">
-                    <div className="lg:flex space-y-3 lg:space-y-0 lg:space-x-6">
-                      <div className="px-3 py-2 bg-[#faf9f6] space-x-2 flex w-full">
-                        <div className="w-3/12 flex items-center">
-                          <i className="ri-google-play-fill text-3xl"></i>
-                        </div>
-                        <div className="w-9/12">
-                          <div className="uppercase text-sm">Telecharger</div>
-                          <div className="-mt-2 text-lg font-semibold">
-                            Google play
-                          </div>
-                        </div>
-                      </div>
-                      <div className="px-3 py-2 bg-[#faf9f6] space-x-2 flex w-full">
-                        <div className="w-3/12 flex items-center">
-                          <i className="ri-apple-fill text-3xl"></i>
-                        </div>
-                        <div className="w-9/12">
-                          <div className="uppercase text-sm">Telecharger</div>
-                          <div className="-mt-2 text-lg font-semibold">
-                            App Store
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="w-full">
+                  <Link
+                    href="https://app.oreonyx.live"
+                    className="w-48 bg-gradient-to-r from-[#00b4ff] via-[#00f0ff] to-[#00ffdd] hover:bg-gradient-to-r hover:from-[#00f0ff] hover:via-[#00b4ff] hover:to-[#00ffdd] transition-colors duration-300 text-center text-white font-bold uppercase rounded-3xl py-2"
+                  >
+                    <span className="inline-block">Découvrir maintenant</span>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -217,7 +123,7 @@ export default function Overview() {
               <div className="bg-[#faf9f6] h-52 rounded-3xl relative">
                 <Image
                   alt="source data"
-                  src="https://images.unsplash.com/photo-1573497161223-d9c42d7b0bad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  src="/illustrations/oreonyx_learning.jpeg"
                   layout="fill"
                   objectFit="cover"
                   className="rounded-3xl"
@@ -226,35 +132,31 @@ export default function Overview() {
               <div className="w-full space-y-3">
                 <div className="space-y-3">
                   <h5 className="text-3xl lg:text-4xl relative font-semibold">
-                    Emplois et Stages
+                    Apprendre sans frontières
                   </h5>
-                  <p className="text-lg">
-                    Accès privilégié à une multitude d'opportunités
-                    professionnelles. Que vous soyez étudiant à la recherche
-                    d'un stage ou d'un emploi à temps partiel, ou diplômé en
-                    quête d'une carrière prometteuse, notre plateforme vous
-                    connecte avec des entreprises de renom à la recherche de
-                    talents exceptionnels.
+                  <p className="text-lg text-gray-800">
+                    Explorez une variété de cours en ligne dans différents
+                    domaines. Apprenez à votre rythme, où que vous soyez, et
+                    obtenez des certifications reconnues. Élargissez vos
+                    connaissances, développez vos compétences et poursuivez vos
+                    objectifs d'apprentissage.
                   </p>
-                  <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
-                    <div className="hidden">
-                      <Link
-                        href="https://app.oreonyx.live"
-                        className="px-6 py-2 border rounded-full hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex"
-                      >
-                        <span> Commencer</span>
-                        <i className="hidden md:inline ri-arrow-right-line"></i>
-                      </Link>
-                    </div>
-                  </div>
+                </div>
+                <div className="w-full">
+                  <Link
+                    href="https://app.oreonyx.live"
+                    className="w-48 bg-gradient-to-r from-[#00b4ff] via-[#00f0ff] to-[#00ffdd] hover:bg-gradient-to-r hover:from-[#00f0ff] hover:via-[#00b4ff] hover:to-[#00ffdd] transition-colors duration-300 text-center text-white font-bold uppercase rounded-3xl py-2"
+                  >
+                    <span className="inline-block">Découvrir maintenant</span>
+                  </Link>
                 </div>
               </div>
             </div>
-            <div className="first font-mono w-full md:w-6/12 bg-[#e9e9e9] py-8 px-6 md:px-3 lg:px-6 rounded-3xl space-y-6">
+            <div className="font-mono w-full md:w-6/12 bg-[#e9e9e9] py-8 px-6 md:px-3 lg:px-6 rounded-3xl space-y-6">
               <div className="bg-[#faf9f6] h-52 rounded-3xl relative">
                 <Image
                   alt="source data"
-                  src="https://images.unsplash.com/photo-1556155092-490a1ba16284?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  src="/illustrations/oreonyx_collaboration.jpeg"
                   layout="fill"
                   objectFit="cover"
                   className="rounded-3xl"
@@ -263,59 +165,23 @@ export default function Overview() {
               <div className="w-full space-y-3">
                 <div className="space-y-3">
                   <h5 className="text-3xl lg:text-4xl relative font-semibold">
-                    Analytique pour tous
+                    Collaborer en toute simplicité
                   </h5>
-                  <p className="text-lg">
-                    Notre outil d'analyse de données convivial est accessible à
-                    tous les acteurs. Étudiants, enseignants, entreprises et
-                    organisations peuvent explorer, interpréter et prendre des
-                    décisions éclairées. Maximisez votre potentiel grâce à des
-                    visualisations intuitives et des fonctionnalités d'analyse
-                    avancées.
+                  <p className="text-lg text-gray-800">
+                    Travaillez efficacement avec votre équipe grâce à des outils
+                    de collaboration avancés. Partagez des fichiers, échangez
+                    des idées et coordonnez vos projets en temps réel.
+                    Simplifiez votre flux de travail, améliorez la productivité
+                    et atteignez vos objectifs plus rapidement.
                   </p>
-                  <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
-                    <div className="hidden">
-                      <Link
-                        href="https://app.oreonyx.live"
-                        className="px-6 py-2 border rounded-full hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex"
-                      >
-                        <span> Commencer</span>
-                        <i className="hidden md:inline ri-arrow-right-line"></i>
-                      </Link>
-                    </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-            {/** App */}
-            <div className="hidden font-mono w-full md:w-6/12 bg-[#e9e9e9] pt-10 pb-8 px-6 md:px-3 lg:px-6 rounded-3xl space-y-6 md:space-y-12">
-              <div className="rounded-t-3xl flex bg-gradient-to-b from-[#faf9f6] via-[#faf9f6] to-transparent px-6">
-                <div className="relative h-32">
-                  <Image
-                    alt="source data"
-                    src="/illustrations/Workspace.png"
-                    width={150}
-                    height={0}
-                    objectFit="contain"
-                  />
-                </div>
-                <div className="h-32 relative">
-                  <Image
-                    alt="source data"
-                    src="/illustrations/Collaboration.png"
-                    width={150}
-                    height={0}
-                    objectFit="contain"
-                  />
-                </div>
-                <div className="h-32 relative">
-                  <Image
-                    alt="source data"
-                    src="/illustrations/Community.png"
-                    width={150}
-                    height={0}
-                    objectFit="contain"
-                  />
+                <div className="w-full">
+                  <Link
+                    href="https://app.oreonyx.live"
+                    className="w-48 bg-gradient-to-r from-[#00b4ff] via-[#00f0ff] to-[#00ffdd] hover:bg-gradient-to-r hover:from-[#00f0ff] hover:via-[#00b4ff] hover:to-[#00ffdd] transition-colors duration-300 text-center text-white font-bold uppercase rounded-3xl py-2"
+                  >
+                    <span className="inline-block">Découvrir maintenant</span>
+                  </Link>
                 </div>
               </div>
             </div>

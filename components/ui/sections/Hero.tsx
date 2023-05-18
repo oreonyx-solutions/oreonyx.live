@@ -16,7 +16,7 @@ export default function Hero() {
           <div className="space-y-8 w-full lg:w-7/12 ">
             <div className="space-y-8">
               <h1 className="text-5xl lg:text-7xl font-mono font-bold uppercase text-gray-900">
-                Transformez l'avenir de l'éducation{" "}
+                Transformez l&apos;avenir de l&apos;éducation{" "}
                 <span className="bg-clip-text bg-gradient bg-gradient-to-br from-sky-300 via-pink-500 to-sky-600 text-transparent">
                   .
                 </span>
@@ -24,8 +24,9 @@ export default function Hero() {
               <div className="w-11/12">
                 <h5 className="text-gray-900 text-lg font-mono">
                   Une plateforme numérique révolutionnaire pour les universités,
-                  les étudiants et les entreprises, favorisant l'accès à
-                  l'enseignement supérieur et l'employabilité des jeunes
+                  les étudiants et les entreprises, favorisant l&apos;accès à
+                  l&apos;enseignement supérieur et l&apos;employabilité des
+                  jeunes
                 </h5>
               </div>
             </div>
@@ -75,9 +76,9 @@ export default function Hero() {
                   </div>
                   <div>
                     <h5 className="text-lg text-center md:text-start">
-                      Nous offrons une platforme vecteur d'éducation, promotrice
-                      d'idées et de solutions qui alimentent la croissance des
-                      pensées et des compétences.
+                      Nous offrons une plateforme vecteur d&apos;éducation,
+                      promotrice d&apos;idées et de solutions qui alimentent la
+                      croissance des pensées et des compétences.
                     </h5>
                   </div>
                 </div>
@@ -87,9 +88,10 @@ export default function Hero() {
                   </div>
                   <div>
                     <h5 className="text-lg text-center md:text-start">
-                      Connaissances et maitrise des interactions sociales au
-                      sein des écosystèmes Universitaires et propositions de
-                      valeurs essentielles, utiles sur le marché de l'emploi.
+                      Connaissances et maîtrise des interactions sociales au
+                      sein des écosystèmes universitaires et propositions de
+                      valeurs essentielles, utiles sur le marché de
+                      l&apos;emploi.
                     </h5>
                   </div>
                 </div>
@@ -110,8 +112,8 @@ export default function Hero() {
                         </div>
                         <div>
                           <h5 className="text-xl">
-                            d'étudiants et d'humains à éduquer à la concience
-                            écologique.
+                            d&apos;étudiants et d&apos;humains à éduquer à la
+                            conscience écologique.
                           </h5>
                         </div>
                       </div>
@@ -124,7 +126,7 @@ export default function Hero() {
                   <div className="text-gray-900 flex lg:inline space-y-3 lg:space-y-6">
                     <h5 className="text-3xl lg:text-4xl relative">
                       Nous sommes tous fiers, car nos objectifs entendent
-                      révolutionner l'éducation des prochaines générations.
+                      révolutionner l&apos;éducation des prochaines générations.
                     </h5>
                   </div>
                 </div>

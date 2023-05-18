@@ -25,15 +25,16 @@ export default function Faq() {
             >
               <AccordionItem value="item-1">
                 <AccordionTrigger className="uppercase">
-                  C'est quoi Oreonyx?
+                  C&apos;est quoi Oreonyx?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
                   Oreonyx est une plateforme numérique innovante qui met le
-                  numérique au service de l'écosystème universitaire. Notre
-                  mission est d'améliorer l'accès à l'enseignement supérieur et
-                  l'employabilité des jeunes en offrant des outils performants
-                  pour gérer efficacement les universités, augmenter la qualité
-                  de l'enseignement à distance et optimiser les collaborations
+                  numérique au service de l&apos;écosystème universitaire. Notre
+                  mission est d&apos;améliorer l&apos;accès à
+                  l&apos;enseignement supérieur et l&apos;employabilité des
+                  jeunes en offrant des outils performants pour gérer
+                  efficacement les universités, augmenter la qualité de
+                  l&apos;enseignement à distance et optimiser les collaborations
                   entre les étudiants, les universités, les entreprises et les
                   organisations.
                 </AccordionContent>
@@ -43,10 +44,10 @@ export default function Faq() {
                   Comment rejoindre Oreonyx?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  Oreonyx est actuellement en phase bêta, ce qui signifie qu'il
-                  n'est accessible qu'à un nombre limité de personnes. Pour
-                  rejoindre le programme de bêta-testeurs, il vous suffit de
-                  remplir ce{" "}
+                  Oreonyx est actuellement en phase bêta, ce qui signifie
+                  qu&apos;il n&apos;est accessible qu&apos;à un nombre limité de
+                  personnes. Pour rejoindre le programme de bêta-testeurs, il
+                  vous suffit de remplir ce{" "}
                   <a
                     className="underline"
                     target="_blank"
@@ -67,29 +68,32 @@ export default function Faq() {
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  L'utilisation d'Oreonyx présente plusieurs avantages pour les
-                  universités, tels que la gestion simplifiée des programmes
-                  d'études, des outils de suivi et d'évaluation des performances
-                  des étudiants, la possibilité de proposer un enseignement à
-                  distance de qualité, ainsi que des fonctionnalités de
-                  collaboration et de mise en réseau entre les étudiants, les
-                  universités, les entreprises et les organisations.
+                  L&apos;utilisation d&apos;Oreonyx présente plusieurs avantages
+                  pour les universités, tels que la gestion simplifiée des
+                  programmes d&apos;études, des outils de suivi et
+                  d&apos;évaluation des performances des étudiants, la
+                  possibilité de proposer un enseignement à distance de qualité,
+                  ainsi que des fonctionnalités de collaboration et de mise en
+                  réseau entre les étudiants, les universités, les entreprises
+                  et les organisations.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4">
                 <AccordionTrigger className="uppercase">
                   <span className="hidden lg:inline">
-                    Comment Oreonyx améliore l'enseignement à distance?
+                    Comment Oreonyx améliore l&apos;enseignement à distance?
                   </span>
-                  <span className="lg:hidden">L'enseignement à distance?</span>
+                  <span className="lg:hidden">
+                    L&apos;enseignement à distance?
+                  </span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
                   Oreonyx offre une gamme de fonctionnalités pour améliorer
-                  l'enseignement à distance, telles que des salles de classe
-                  virtuelles interactives, des outils de partage de contenus
-                  multimédias, des forums de discussion pour faciliter les
-                  échanges entre les étudiants et les enseignants, ainsi que des
-                  options d'évaluation en ligne.
+                  l&apos;enseignement à distance, telles que des salles de
+                  classe virtuelles interactives, des outils de partage de
+                  contenus multimédias, des forums de discussion pour faciliter
+                  les échanges entre les étudiants et les enseignants, ainsi que
+                  des options d&apos;évaluation en ligne.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5">
@@ -104,9 +108,9 @@ export default function Faq() {
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
                   Oreonyx facilite la collaboration en fournissant des outils de
-                  communication et de partage d'informations avancés. Les
-                  étudiants peuvent interagir avec d'autres étudiants, des
-                  enseignants, des représentants d'entreprises et des
+                  communication et de partage d&apos;informations avancés. Les
+                  étudiants peuvent interagir avec d&apos;autres étudiants, des
+                  enseignants, des représentants d&apos;entreprises et des
                   professionnels, ce qui favorise les échanges, les stages, les
                   opportunités de mentorat et les partenariats académiques.
                 </AccordionContent>
@@ -114,7 +118,7 @@ export default function Faq() {
               <AccordionItem value="item-6">
                 <AccordionTrigger className="uppercase">
                   <span className="hidden lg:inline">
-                    Oreonyx offre t'il un support technique aux utilisateurs?
+                    Oreonyx offre-t-il un support technique aux utilisateurs?
                   </span>
                   <span className="lg:hidden">
                     Offrez-vous un support technique?
@@ -131,57 +135,57 @@ export default function Faq() {
               <AccordionItem value="item-7">
                 <AccordionTrigger className="uppercase">
                   <span className="hidden lg:inline">
-                    Quels types d'outils de gestion sont disponibles pour les
-                    universités ?
+                    Quels types d&apos;outils de gestion sont disponibles pour
+                    les universités ?
                   </span>
                   <span className="lg:hidden">
                     Quel sont les outils de gestion?
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  Oreonyx propose une variété d'outils de gestion pour les
+                  Oreonyx propose une variété d&apos;outils de gestion pour les
                   universités, notamment la gestion des emplois du temps, des
                   examens et des évaluations, des données étudiantes, des
                   inscriptions, ainsi que des fonctionnalités de reporting et
-                  d'analyse pour suivre les performances et les progrès des
+                  d&apos;analyse pour suivre les performances et les progrès des
                   étudiants.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-8">
                 <AccordionTrigger className="uppercase">
                   <span className="hidden lg:inline">
-                    Comment Oreonyx contribue-t-il à l'employabilité des
+                    Comment Oreonyx contribue-t-il à l&apos;employabilité des
                     étudiants ?
                   </span>
                   <span className="lg:hidden">
-                    L'employabilité des étudiants?
+                    L&apos;employabilité des étudiants?
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  Oreonyx favorise l'employabilité des étudiants en offrant des
-                  opportunités de connexion avec des entreprises et des
+                  Oreonyx favorise l&apos;employabilité des étudiants en offrant
+                  des opportunités de connexion avec des entreprises et des
                   organisations partenaires. Les étudiants peuvent accéder à des
                   offres de stages, à des programmes de mentorat, à des
                   ressources de développement professionnel et à des événements
                   de réseautage pour renforcer leurs compétences et leurs
-                  perspectives d'emploi.
+                  perspectives d&apos;emploi.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-9">
                 <AccordionTrigger className="uppercase">
                   <span className="hidden lg:inline">
-                    Quelle est la disponibilité géographique d'Oreonyx?
+                    Quelle est la disponibilité géographique d&apos;Oreonyx?
                   </span>
                   <span className="lg:hidden">
-                    Disponibilité géographique d'Oreonyx?
+                    Disponibilité géographique d&apos;Oreonyx?
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  Oreonyx est une plateforme accessible à l'échelle mondiale.
-                  Tant que vous disposez d'une connexion Internet, vous pouvez
-                  accéder à Oreonyx depuis n'importe quel endroit et participer
-                  à ses fonctionnalités, indépendamment de votre emplacement
-                  géographique.
+                  Oreonyx est une plateforme accessible à l&apos;échelle
+                  mondiale. Tant que vous disposez d&apos;une connexion
+                  Internet, vous pouvez accéder à Oreonyx depuis n&apos;importe
+                  quel endroit et participer à ses fonctionnalités,
+                  indépendamment de votre emplacement géographique.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

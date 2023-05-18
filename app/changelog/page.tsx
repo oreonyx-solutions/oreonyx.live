@@ -13,7 +13,7 @@ export default function page() {
             <div className="w-full md:w-8/12 lg:w-6/12 space-y-8">
               <h5 className="text-5xl font-medium">Quoi de neuf ?</h5>
               <h4 className="text-xl">
-                Un aperçu des dernières fonctionnalités d'Oreonyx, des
+                Un aperçu des dernières fonctionnalités d&apos;Oreonyx, des
                 améliorations de produits, des mises à jour de conception et des
                 corrections de bogues importantes.
               </h4>
@@ -28,39 +28,42 @@ export default function page() {
               </p>
               <ul className="list-disc">
                 <li>
-                  Possibilité de créer des définitions d'attributs avec un emoji
-                  comme titre.
+                  Possibilité de créer des définitions d&apos;attributs avec un
+                  emoji comme titre.
                 </li>
                 <li>
-                  Ajout de corrections et d'améliorations historiques de la
-                  synchronisation des boîtes aux lettres, y compris l'affichage
-                  d'un message d'erreur de synchronisation des boîtes aux
-                  lettres si nous détectons que nous ne pouvons pas synchroniser
-                  le courrier d'une boîte de réception Gmail.
+                  Ajout de corrections et d&apos;améliorations historiques de la
+                  synchronisation des boîtes aux lettres, y compris
+                  l&apos;affichage d&apos;un message d&apos;erreur de
+                  synchronisation des boîtes aux lettres si nous détectons que
+                  nous ne pouvons pas synchroniser le courrier d&apos;une boîte
+                  de réception Gmail.
                 </li>
                 <li>
                   Augmentation de la vitesse de synchronisation des boîtes aux
-                  lettres en augmentant la simultanéité de notre file d'attente.
+                  lettres en augmentant la simultanéité de notre file
+                  d&apos;attente.
                 </li>
                 <li>
-                  Mise à jour des tableaux afin qu'ils ne défilent
+                  Mise à jour des tableaux afin qu&apos;ils ne défilent
                   automatiquement que lorsque le clavier est utilisé.
                 </li>
                 <li>
-                  Correction d'un bug qui empêchait l'affichage de l'adresse
-                  électronique d'un enregistrement dans notre extension de
-                  navigateur.
+                  Correction d&apos;un bug qui empêchait l&apos;affichage de
+                  l&apos;adresse électronique d&apos;un enregistrement dans
+                  notre extension de navigateur.
                 </li>
                 <li>
-                  Publication d'une nouvelle version de notre extension pour
-                  navigateur.
+                  Publication d&apos;une nouvelle version de notre extension
+                  pour navigateur.
                 </li>
                 <li>
                   Implémentation de la possibilité de rendre le markdown dans
-                  les documents de l'API.
+                  les documents de l&apos;API.
                 </li>
                 <li>
-                  Correction d'un bug où les tâches en double étaient affichées.
+                  Correction d&apos;un bug où les tâches en double étaient
+                  affichées.
                 </li>
               </ul>
               <div className="flex justify-between font-medium">
@@ -87,39 +90,42 @@ export default function page() {
               </p>
               <ul className="list-disc">
                 <li>
-                  Possibilité de créer des définitions d'attributs avec un emoji
-                  comme titre.
+                  Possibilité de créer des définitions d&apos;attributs avec un
+                  emoji comme titre.
                 </li>
                 <li>
-                  Ajout de corrections et d'améliorations historiques de la
-                  synchronisation des boîtes aux lettres, y compris l'affichage
-                  d'un message d'erreur de synchronisation des boîtes aux
-                  lettres si nous détectons que nous ne pouvons pas synchroniser
-                  le courrier d'une boîte de réception Gmail.
+                  Ajout de corrections et d&apos;améliorations historiques de la
+                  synchronisation des boîtes aux lettres, y compris
+                  l&apos;affichage d&apos;un message d&apos;erreur de
+                  synchronisation des boîtes aux lettres si nous détectons que
+                  nous ne pouvons pas synchroniser le courrier d&apos;une boîte
+                  de réception Gmail.
                 </li>
                 <li>
                   Augmentation de la vitesse de synchronisation des boîtes aux
-                  lettres en augmentant la simultanéité de notre file d'attente.
+                  lettres en augmentant la simultanéité de notre file
+                  d&apos;attente.
                 </li>
                 <li>
-                  Mise à jour des tableaux afin qu'ils ne défilent
+                  Mise à jour des tableaux afin qu&apos;ils ne défilent
                   automatiquement que lorsque le clavier est utilisé.
                 </li>
                 <li>
-                  Correction d'un bug qui empêchait l'affichage de l'adresse
-                  électronique d'un enregistrement dans notre extension de
-                  navigateur.
+                  Correction d&apos;un bug qui empêchait l&apos;affichage de
+                  l&apos;adresse électronique d&apos;un enregistrement dans
+                  notre extension de navigateur.
                 </li>
                 <li>
-                  Publication d'une nouvelle version de notre extension pour
-                  navigateur.
+                  Publication d&apos;une nouvelle version de notre extension
+                  pour navigateur.
                 </li>
                 <li>
                   Implémentation de la possibilité de rendre le markdown dans
-                  les documents de l'API.
+                  les documents de l&apos;API.
                 </li>
                 <li>
-                  Correction d'un bug où les tâches en double étaient affichées.
+                  Correction d&apos;un bug où les tâches en double étaient
+                  affichées.
                 </li>
               </ul>
               <div className="flex justify-between font-medium">
@@ -146,39 +152,42 @@ export default function page() {
               </p>
               <ul className="list-disc">
                 <li>
-                  Possibilité de créer des définitions d'attributs avec un emoji
-                  comme titre.
+                  Possibilité de créer des définitions d&apos;attributs avec un
+                  emoji comme titre.
                 </li>
                 <li>
-                  Ajout de corrections et d'améliorations historiques de la
-                  synchronisation des boîtes aux lettres, y compris l'affichage
-                  d'un message d'erreur de synchronisation des boîtes aux
-                  lettres si nous détectons que nous ne pouvons pas synchroniser
-                  le courrier d'une boîte de réception Gmail.
+                  Ajout de corrections et d&apos;améliorations historiques de la
+                  synchronisation des boîtes aux lettres, y compris
+                  l&apos;affichage d&apos;un message d&apos;erreur de
+                  synchronisation des boîtes aux lettres si nous détectons que
+                  nous ne pouvons pas synchroniser le courrier d&apos;une boîte
+                  de réception Gmail.
                 </li>
                 <li>
                   Augmentation de la vitesse de synchronisation des boîtes aux
-                  lettres en augmentant la simultanéité de notre file d'attente.
+                  lettres en augmentant la simultanéité de notre file
+                  d&apos;attente.
                 </li>
                 <li>
-                  Mise à jour des tableaux afin qu'ils ne défilent
+                  Mise à jour des tableaux afin qu&apos;ils ne défilent
                   automatiquement que lorsque le clavier est utilisé.
                 </li>
                 <li>
-                  Correction d'un bug qui empêchait l'affichage de l'adresse
-                  électronique d'un enregistrement dans notre extension de
-                  navigateur.
+                  Correction d&apos;un bug qui empêchait l&apos;affichage de
+                  l&apos;adresse électronique d&apos;un enregistrement dans
+                  notre extension de navigateur.
                 </li>
                 <li>
-                  Publication d'une nouvelle version de notre extension pour
-                  navigateur.
+                  Publication d&apos;une nouvelle version de notre extension
+                  pour navigateur.
                 </li>
                 <li>
                   Implémentation de la possibilité de rendre le markdown dans
-                  les documents de l'API.
+                  les documents de l&apos;API.
                 </li>
                 <li>
-                  Correction d'un bug où les tâches en double étaient affichées.
+                  Correction d&apos;un bug où les tâches en double étaient
+                  affichées.
                 </li>
               </ul>
               <div className="flex justify-between font-medium">

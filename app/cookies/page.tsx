@@ -2,7 +2,7 @@
 import Navbar from "@/components/ui/sections/Navbar";
 import Footer from "@/components/ui/sections/Footer";
 
-export default function page() {
+export default function Page() {
   return (
     <div className="bg-primary">
       <Navbar />
@@ -31,7 +31,8 @@ export default function page() {
               données personnelles, consultez notre politique de
               confidentialité. Cela nous aide à vous offrir une bonne expérience
               lorsque vous naviguez sur notre site web et utilisez notre
-              produit, ainsi qu'à nous permettre d'améliorer nos sites.
+              produit, ainsi qu&apos;à nous permettre d&apos;améliorer nos
+              sites.
             </p>
             <p>
               Un cookie est un petit fichier de lettres et de chiffres que nous
@@ -44,23 +45,24 @@ export default function page() {
               Le présent document décrit plus en détail les types de cookies que
               nous utilisons et les raisons de leur utilisation. Dans les
               tableaux ci-dessous, vous trouverez une description de chaque
-              cookie que nous utilisons, son rôle et sa date d'expiration.
+              cookie que nous utilisons, son rôle et sa date d&apos;expiration.
             </p>
             <p>Nous utilisons les cookies suivants :</p>
             <p>
-              <strong>Cookies strictement nécessaires.</strong> Il s'agit des
-              cookies nécessaires au fonctionnement de notre site web. Ils
+              <strong>Cookies strictement nécessaires.</strong> Il s&apos;agit
+              des cookies nécessaires au fonctionnement de notre site web. Ils
               comprennent, par exemple, les cookies qui vous permettent de vous
-              connecter à des zones sécurisées de notre site web, d'utiliser un
-              panier d'achat ou des services de facturation électronique.
+              connecter à des zones sécurisées de notre site web,
+              d&apos;utiliser un panier d&apos;achat ou des services de
+              facturation électronique.
             </p>
             <p>
               <strong>Cookies analytiques ou de performance.</strong> Ils nous
               permettent de reconnaître et de compter le nombre de visiteurs et
               de voir comment les visiteurs se déplacent sur notre site web
-              lorsqu'ils l'utilisent. Cela nous aide à améliorer le
+              lorsqu&apos;ils l&apos;utilisent. Cela nous aide à améliorer le
               fonctionnement de notre site web, par exemple en veillant à ce que
-              les utilisateurs trouvent facilement ce qu'ils recherchent.
+              les utilisateurs trouvent facilement ce qu&apos;ils recherchent.
             </p>
             <p>
               <strong>Cookies de fonctionnalité</strong> Ils sont utilisés pour
@@ -88,20 +90,20 @@ export default function page() {
               </strong>
             </p>
             <p>
-              _clck | 1 an | Persiste l'ID de l'utilisateur Clarity et les
-              préférences, uniques à ce site, sur le navigateur. Cela garantit
-              que le comportement lors de visites ultérieures sur le même site
-              sera attribué au même identifiant d'utilisateur.
+              _clck | 1 an | Persiste l&apos;ID de l&apos;utilisateur Clarity et
+              les préférences, uniques à ce site, sur le navigateur. Cela
+              garantit que le comportement lors de visites ultérieures sur le
+              même site sera attribué au même identifiant d&apos;utilisateur.
             </p>
             <p>
               _ga | 2 ans | Utilisé pour distinguer les utilisateurs dans Google
               Analytics
             </p>
             <p>
-              _gaexp | 79 jours | Utilisé pour déterminer l'inclusion d'un
-              utilisateur dans une expérience A/B de Google Optimize et
-              l'expiration des expériences auxquelles un utilisateur a été
-              inclus.
+              _gaexp | 79 jours | Utilisé pour déterminer l&apos;inclusion
+              d&apos;un utilisateur dans une expérience A/B de Google Optimize
+              et l&apos;expiration des expériences auxquelles un utilisateur a
+              été inclus.
             </p>
             <p>
               _gat_gtag | 1 jour | Utilisé pour stocker et suivre les
@@ -117,7 +119,7 @@ export default function page() {
             </p>
             <p>
               oreonyx-cookie-banner | 1 an | Oreonyx utilise ce cookie pour se
-              souvenir de l'acceptation de notre bannière de cookies.
+              souvenir de l&apos;acceptation de notre bannière de cookies.
             </p>
             <p>
               oreonyx-session | 180 jours | Oreonyx utilise ce cookie pour
@@ -137,26 +139,27 @@ export default function page() {
             </p>
             <p>
               CLID | 1 an | Identifie la première fois que Clarity a vu cet
-              utilisateur sur n'importe quel site utilisant Clarity.
+              utilisateur sur n&apos;importe quel site utilisant Clarity.
             </p>
             <p>
               MUID | 1 an 24 jours | Identifie les navigateurs web uniques qui
               visitent les sites Microsoft. Ces cookies sont utilisés pour la
-              publicité, l'analyse des sites et d'autres objectifs
+              publicité, l&apos;analyse des sites et d&apos;autres objectifs
               opérationnels.
             </p>
             <p>
-              bcookie | 2 ans | Cookie d'identification du navigateur permettant
-              d'identifier de manière unique les appareils accédant à{" "}
+              bcookie | 2 ans | Cookie d&apos;identification du navigateur
+              permettant d&apos;identifier de manière unique les appareils
+              accédant à
               <a href="#" className="text-blue-500">
                 LinkedIn
-              </a>{" "}
+              </a>
               afin de détecter les abus sur la plateforme.
             </p>
             <p>
               li_gc | 2 ans | Utilisé pour stocker le consentement des invités
-              concernant l'utilisation de cookies à des fins non essentielles
-              pour LinkedIn.
+              concernant l&apos;utilisation de cookies à des fins non
+              essentielles pour LinkedIn.
             </p>
             <p>
               lidc | 1 jour | Pour faciliter la sélection du centre de données
@@ -172,13 +175,13 @@ export default function page() {
             </p>
             <p>
               Veuillez noter que des tiers peuvent également utiliser des
-              cookies sur lesquels nous n'avons aucun contrôle. Ces tiers nommés
-              peuvent inclure, par exemple, Intercom pour notre fonctionnalité
-              de chat et nos courriels, ou des réseaux publicitaires et des
-              fournisseurs de services externes tels que des services d'analyse
-              du trafic web. Ces cookies tiers sont susceptibles d'être des
-              cookies analytiques, des cookies de performance ou des cookies de
-              ciblage.
+              cookies sur lesquels nous n&apos;avons aucun contrôle. Ces tiers
+              nommés peuvent inclure, par exemple, Intercom pour notre
+              fonctionnalité de chat et nos courriels, ou des réseaux
+              publicitaires et des fournisseurs de services externes tels que
+              des services d&apos;analyse du trafic web. Ces cookies tiers sont
+              susceptibles d&apos;être des cookies analytiques, des cookies de
+              performance ou des cookies de ciblage.
             </p>
           </div>
         </div>

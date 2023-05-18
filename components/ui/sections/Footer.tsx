@@ -85,7 +85,7 @@ export default function Footer() {
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/"
                     >
-                      Planning
+                      Business Intelligence
                     </Link>
                   </li>
                   <li>
@@ -93,7 +93,7 @@ export default function Footer() {
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/"
                     >
-                      Collaboration
+                      Data Visualization
                     </Link>
                   </li>
                   <li>
@@ -101,15 +101,7 @@ export default function Footer() {
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/"
                     >
-                      Gestion de données
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                      href="/"
-                    >
-                      Formations
+                      Data Integration
                     </Link>
                   </li>
                 </ul>
@@ -117,66 +109,18 @@ export default function Footer() {
             </div>
             <div className="space-y-3">
               <div>
-                <h5 className="text-xl font-medium uppercase font-mono">
-                  Ressources.
+                <h5 className="text-xl font-mono font-medium uppercase">
+                  Ressources
                 </h5>
               </div>
               <div>
                 <ul className="list-none">
                   <li>
                     <Link
-                      className="hidden hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
+                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/"
                     >
-                      Centre d'assistance
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="hidden hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                      href="/"
-                    >
-                      Plan d'assistance
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                      href="/privacy"
-                    >
-                      Politique de confidentialité
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                      href="/terms"
-                    >
-                      Conditions d'utilisation
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                      href="/cookies"
-                    >
-                      Paramètre des cookies
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                      href="/changelog"
-                    >
-                      Changelog
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                      href="/security"
-                    >
-                      Sûreté et sécurité
+                      Documentation
                     </Link>
                   </li>
                   <li>
@@ -184,7 +128,15 @@ export default function Footer() {
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/"
                     >
-                      Status
+                      Tutoriels
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
+                      href="/"
+                    >
+                      Blog
                     </Link>
                   </li>
                 </ul>
@@ -192,8 +144,8 @@ export default function Footer() {
             </div>
             <div className="space-y-3">
               <div>
-                <h5 className="text-xl font-medium uppercase font-mono">
-                  Entreprise.
+                <h5 className="text-xl font-mono font-medium uppercase">
+                  Entreprise
                 </h5>
               </div>
               <div>
@@ -201,15 +153,15 @@ export default function Footer() {
                   <li>
                     <Link
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                      href="/about"
+                      href="/"
                     >
-                      A propos
+                      À propos de nous
                     </Link>
                   </li>
                   <li>
                     <Link
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                      href="/carreer"
+                      href="/"
                     >
                       Carrières
                     </Link>
@@ -217,31 +169,7 @@ export default function Footer() {
                   <li>
                     <Link
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                      href="/blog"
-                    >
-                      Newsroom
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                      href="/presskit"
-                    >
-                      Kit presse
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                      href="/contact"
-                    >
-                      Devenir partenaire
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                      href="/contact"
+                      href="/"
                     >
                       Contact
                     </Link>
@@ -250,102 +178,23 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="space-y-6">
-            <div className="space-y-3">
-              <div>
-                <h5 className="text-xl font-medium uppercase font-mono">
-                  Besoin d'une aide spécifique?.
-                </h5>
-              </div>
-              <div>
-                <ul className="list-none">
-                  <li>
-                    <a
-                      className="hover:underline"
-                      href="mailto:support@oreonyx.live"
-                    >
-                      {" "}
-                      support@oreonyx.live
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="hover:underline"
-                      href="mailto:carreers@oreonyx.live"
-                    >
-                      {" "}
-                      carreers@oreonyx.live
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="hover:underline"
-                      href="mailto:press@oreonyx.live"
-                    >
-                      {" "}
-                      press@oreonyx.live
-                    </a>
-                  </li>
-                </ul>
-              </div>
+          <div className="space-y-4 md:flex md:justify-between md:items-center">
+            <div>
+              <CircleFlag
+                countryCode="FR"
+                height="30"
+                width="30"
+                className="inline-block mr-2"
+              />
+              <span>Paris, France</span>
             </div>
-            <div className="space-y-3">
-              <div>
-                <h5 className="text-xl font-medium uppercase font-mono">
-                  Lieux.
-                </h5>
-              </div>
-              <div>
-                <ul className="list-none">
-                  <li>
-                    <div className="flex space-x-1">
-                      <div title="Togo flag">
-                        <CircleFlag className="h-6" countryCode="tg" />
-                      </div>
-                      <div>
-                        : Immeuble LAKISH, Boulevard du 30 Aout, Lomé, TG
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="space-y-3">
-              <div>
-                <h5 className="text-xl font-medium uppercase font-mono">
-                  Changer de langue.
-                </h5>
-              </div>
-              <div>
-                <ul className="list-none">
-                  <li>
-                    <button
-                      title="changer de langue"
-                      className="space-x-1 flex items-center hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
-                    >
-                      <i className="ri-global-line text-2xl"></i>
-                      <span>FR</span>
-                    </button>
-                  </li>
-                </ul>
-              </div>
+            <div>
+              <span className="text-gray-600">
+                © 2023 Oreonyx. Tous droits réservés.
+              </span>
             </div>
           </div>
         </div>
-      </div>
-      <div className="space-y-2 py-12 md:max-w-6xl 2xl:max-w-7xl mx-auto ">
-        <h6 className="v">
-          * Oreonyx est une marque ou une marque déposée de GTEA, Sarl.
-        </h6>
-        <h6>
-          * Toutes les marques déposées et tous les noms de marque appartiennent
-          à leurs propriétaires respectifs. L'utilisation de ces marques et noms
-          de marque ne représente en aucun cas l'approbation ou l'association
-          avec Oreonyx.
-        </h6>
-        <h6>
-          Copyright © 2023 Oreonyx Technologies Ltd. Tous droits réservés.
-        </h6>
       </div>
     </div>
   );

@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
-//components
 import Navbar from "@/components/ui/sections/Navbar";
 import Footer from "@/components/ui/sections/Footer";
 import CTA from "@/components/ui/sections/CTA";
@@ -17,7 +15,8 @@ export default function page() {
               <div className="flex justify-center">
                 <div className="w-full lg:w-10/12">
                   <h4 className="text-4xl md:text-5xl lg:text-7xl font-medium md:text-center">
-                    Briser les obstacles d'un accès à une éducation de qualité
+                    Briser les obstacles d&apos;un accès à une éducation de
+                    qualité
                   </h4>
                 </div>
               </div>
@@ -25,24 +24,26 @@ export default function page() {
                 <h6 className="text-gray-500 text-lg md:text-center">
                   Les technologies éducatives représentent la meilleure chance
                   de réinventer de fond en comble le système éducatif mondial
-                  afin qu'il puisse bénéficier à tous, y compris les millions de
-                  personnes qui n'ont pas accès à une éducation de qualité.
+                  afin qu&apos;il puisse bénéficier à tous, y compris les
+                  millions de personnes qui n&apos;ont pas accès à une éducation
+                  de qualité.
                 </h6>
               </div>
               <div className="flex justify-center">
                 <h6 className="text-gray-500 lg:text-lg md:text-center">
-                  Les avantages économiques et sociaux de l'accès de tous à une
-                  éducation de qualité sont considérables. En plus de garantir
-                  une meilleure qualité de vie pour les individus, une éducation
-                  de qualité est essentielle pour améliorer l'employabilité des
-                  jeunes. C'est pourquoi nous travaillons à développer une pile
-                  de technologies éducatives en tant que service, que toute
-                  institution peut utiliser pour offrir à ses étudiants des
-                  opportunités éducatives équitables et de qualité, basées sur
-                  les dernières innovations technologiques. Ainsi, nous
-                  contribuons à former une nouvelle génération de travailleurs
-                  compétents et qualifiés, prêts à relever les défis du marché
-                  du travail et à contribuer à la croissance économique.
+                  Les avantages économiques et sociaux de l&apos;accès de tous à
+                  une éducation de qualité sont considérables. En plus de
+                  garantir une meilleure qualité de vie pour les individus, une
+                  éducation de qualité est essentielle pour améliorer
+                  l&apos;employabilité des jeunes. C&apos;est pourquoi nous
+                  travaillons à développer une pile de technologies éducatives
+                  en tant que service, que toute institution peut utiliser pour
+                  offrir à ses étudiants des opportunités éducatives équitables
+                  et de qualité, basées sur les dernières innovations
+                  technologiques. Ainsi, nous contribuons à former une nouvelle
+                  génération de travailleurs compétents et qualifiés, prêts à
+                  relever les défis du marché du travail et à contribuer à la
+                  croissance économique.
                 </h6>
               </div>
               <div className="flex md:justify-center pt-6">
