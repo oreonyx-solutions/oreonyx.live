@@ -9,8 +9,13 @@ export default function Overview() {
       <div className="pb-0 pt-16 md:py-16 space-y-3">
         <div className="flex justify-center">
           <span className="text-lg text-transparent text-center md:text-lg font-bold bg-clip-text bg-gradient-to-r from-[#faf9f6] via-gray-900 to-[#faf9f6]">
-            Une infrastructure solide grâce à des partenaires technique de
-            confiance
+            <span className="lg:hidden">
+              Des partenaires technique de confiance
+            </span>
+            <span className="hidden lg:inline">
+              Une infrastructure solide grâce à des partenaires technique de
+              confiance
+            </span>
           </span>
         </div>
         <div className="w-full flex justify-center">
@@ -30,7 +35,7 @@ export default function Overview() {
           <h1 className="text-center text-3xl md:text-6xl font-mono font-bold uppercase">
             NOTRE OFFRE DE VALEUR{" "}
           </h1>
-          <h3 className="text-xl font-mono text-center">
+          <h3 className="text-lg lg:text-xl font-mono text-center">
             Transformer l&apos;éducation, le monde professionnel et les
             organisations grâce à notre plateforme de communication 2.0.
             Facilitez l&apos;apprentissage à distance, renforcez la
@@ -43,7 +48,7 @@ export default function Overview() {
         </div>
         <div className="w-full space-y-6">
           <div className="space-y-6 md:space-y-0 md:flex md:space-x-6">
-            <div className="font-mono w-full md:w-6/12 bg-[#e9e9e9] py-8 px-6 md:px-3 lg:px-6 rounded-3xl space-y-6">
+            <div className="font-mono w-full md:w-6/12 bg-[#e9e9e9] py-4 md:py-8 px-3 md:px-3 lg:px-6 rounded-3xl space-y-6">
               <div className="bg-[#faf9f6] h-52 rounded-3xl relative">
                 <Image
                   alt="source data"
@@ -55,7 +60,7 @@ export default function Overview() {
               </div>
               <div className="w-full space-y-3">
                 <div className="space-y-3">
-                  <h5 className="text-3xl lg:text-4xl relative font-semibold">
+                  <h5 className="text-xl lg:text-4xl relative font-semibold">
                     Espace de collaboration
                   </h5>
                   <p className="text-lg">
@@ -80,7 +85,7 @@ export default function Overview() {
                 </div>
               </div>
             </div>
-            <div className="first font-mono w-full md:w-6/12 bg-[#e9e9e9] py-8 px-6 md:px-3 lg:px-6 rounded-3xl space-y-6">
+            <div className="first font-mono w-full md:w-6/12 bg-[#e9e9e9] py-4 md:py-8 px-3 md:px-3 lg:px-6 rounded-3xl space-y-6">
               <div className="bg-[#faf9f6] h-52 rounded-3xl relative">
                 <Image
                   alt="source data"
@@ -92,7 +97,7 @@ export default function Overview() {
               </div>
               <div className="w-full space-y-3">
                 <div className="space-y-3">
-                  <h5 className="text-3xl lg:text-4xl relative font-semibold">
+                  <h5 className="text-xl lg:text-4xl relative font-semibold">
                     Salle de classe virtuelle
                   </h5>
                   <p className="text-lg">
@@ -204,7 +209,7 @@ export default function Overview() {
             </div>
           </div>
           <div className="space-y-6 md:space-y-0 md:flex md:space-x-6">
-            <div className="font-mono w-full md:w-6/12 bg-[#e9e9e9] py-8 px-6 md:px-3 lg:px-6 rounded-3xl space-y-6">
+            <div className="font-mono w-full md:w-6/12 bg-[#e9e9e9] py-4 md:py-8 px-3 md:px-3 lg:px-6 rounded-3xl space-y-6">
               <div className="bg-[#faf9f6] h-52 rounded-3xl relative">
                 <Image
                   alt="source data"
@@ -216,7 +221,7 @@ export default function Overview() {
               </div>
               <div className="w-full space-y-3">
                 <div className="space-y-3">
-                  <h5 className="text-3xl lg:text-4xl relative font-semibold">
+                  <h5 className="text-xl lg:text-4xl relative font-semibold">
                     Emplois et Stages
                   </h5>
                   <p className="text-lg">
@@ -241,7 +246,7 @@ export default function Overview() {
                 </div>
               </div>
             </div>
-            <div className="first font-mono w-full md:w-6/12 bg-[#e9e9e9] py-8 px-6 md:px-3 lg:px-6 rounded-3xl space-y-6">
+            <div className="first font-mono w-full md:w-6/12 bg-[#e9e9e9] py-4 md:py-8 px-3 md:px-3 lg:px-6 rounded-3xl space-y-6">
               <div className="bg-[#faf9f6] h-52 rounded-3xl relative">
                 <Image
                   alt="source data"
@@ -253,7 +258,7 @@ export default function Overview() {
               </div>
               <div className="w-full space-y-3">
                 <div className="space-y-3">
-                  <h5 className="text-3xl lg:text-4xl relative font-semibold">
+                  <h5 className="text-xl lg:text-4xl relative font-semibold">
                     Analytique pour tous
                   </h5>
                   <p className="text-lg">
@@ -275,38 +280,6 @@ export default function Overview() {
                       </Link>
                     </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            {/** App */}
-            <div className="hidden font-mono w-full md:w-6/12 bg-[#e9e9e9] pt-10 pb-8 px-6 md:px-3 lg:px-6 rounded-3xl space-y-6 md:space-y-12">
-              <div className="rounded-t-3xl flex bg-gradient-to-b from-[#faf9f6] via-[#faf9f6] to-transparent px-6">
-                <div className="relative h-32">
-                  <Image
-                    alt="source data"
-                    src="/illustrations/Workspace.png"
-                    width={150}
-                    height={0}
-                    objectFit="contain"
-                  />
-                </div>
-                <div className="h-32 relative">
-                  <Image
-                    alt="source data"
-                    src="/illustrations/Collaboration.png"
-                    width={150}
-                    height={0}
-                    objectFit="contain"
-                  />
-                </div>
-                <div className="h-32 relative">
-                  <Image
-                    alt="source data"
-                    src="/illustrations/Community.png"
-                    width={150}
-                    height={0}
-                    objectFit="contain"
-                  />
                 </div>
               </div>
             </div>

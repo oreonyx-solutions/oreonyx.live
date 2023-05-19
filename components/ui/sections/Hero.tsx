@@ -83,7 +83,7 @@ export default function Hero() {
                     <ShieldCheck className="h-8 w-8" />
                   </div>
                   <div>
-                    <h5 className="text-lg text-center md:text-start">
+                    <h5 className="text-md lg:text-lg text-center md:text-start">
                       Nous offrons une platforme vecteur d&apos;éducation,
                       promotrice d&apos;idées et de solutions qui alimentent la
                       croissance des pensées et des compétences.
@@ -95,7 +95,7 @@ export default function Hero() {
                     <ShieldCheck className="h-8 w-8" />
                   </div>
                   <div>
-                    <h5 className="text-lg text-center md:text-start">
+                    <h5 className="text-md lg:text-lg text-center md:text-start">
                       Connaissances et maitrise des interactions sociales au
                       sein des écosystèmes Universitaires et propositions de
                       valeurs essentielles, utiles sur le marché de
@@ -120,8 +120,8 @@ export default function Hero() {
                       className="cl lg:hidden absolute transform rotate-12 -right-8 -bottom-12"
                       alt="source data"
                       src="/svg/seedling-line-nx.svg"
-                      width={160}
-                      height={160}
+                      width={140}
+                      height={140}
                     />
                     <div className="space-y-3 text-white w-11/12 lg:w-8/12">
                       <div>
@@ -129,7 +129,9 @@ export default function Hero() {
                       </div>
                       <div className="">
                         <div>
-                          <h5 className="text-5xl font-bold">+8 Milliards</h5>
+                          <h5 className="text-4xl lg:text-5xl font-bold">
+                            +8 Milliards
+                          </h5>
                         </div>
                         <div>
                           <h5 className="text-xl">
@@ -145,7 +147,7 @@ export default function Hero() {
               <div className="w-full md:w-6/12 rounded-3xl bg-[#faf9f6]">
                 <div className="relative py-4 lg:py-8 flex px-4 lg:px-8 text-gray-900">
                   <div className="text-gray-900 flex lg:inline space-y-3 lg:space-y-6">
-                    <h5 className="text-3xl lg:text-4xl relative">
+                    <h5 className="text-center text-xl lg:text-4xl relative">
                       Nous sommes tous fiers, car nos objectifs entendent
                       révolutionner l&apos;éducation des prochaines générations.
                     </h5>

@@ -4,10 +4,10 @@ import { ArrowRight, HelpCircle } from "lucide-react";
 export default function CTA() {
   return (
     <div className="py-12">
-      <div className="bg-[#e9e9e9] md:rounded-3xl py-12 md:py-6 lg:py-24 px-8 lg:px-12 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-6">
+      <div className="bg-[#e9e9e9] md:rounded-3xl py-12 md:py-6 lg:py-24 px-6 md:px-8 lg:px-12 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-6">
         <div className="md:flex justify-center">
           <div className="w-full md:w-10/12 lg:w-10/12">
-            <h1 className="text-4xl lg:text-6xl md:text-center font-mono font-bold uppercase">
+            <h1 className="text-2xl md:text-4xl lg:text-6xl md:text-center font-mono font-bold uppercase">
               Il est temps de passez à la vitesse supérieure{" "}
             </h1>
           </div>

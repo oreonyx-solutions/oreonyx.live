@@ -8,9 +8,9 @@ export default function page() {
   return (
     <div className="bg-primary">
       <Navbar />
-      <div className="font-mono pt-24 space-y-12 px-4 md:px-6  xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
+      <div className="font-mono pt-12 lg:pt-24 space-y-12 px-4 md:px-6  xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div className="space-y-10">
-          <div className="prose lg:prose-lg">
+          <div className="prose prose-base lg:prose-lg">
             <h1>
               <span className="text-green-500">Construire </span>une platforme
               innovante vecteur d&apos;évolution de pensées et d&apos;idées
@@ -63,7 +63,9 @@ export default function page() {
           </div>
           <hr className="my-12 lg:my-32" />
           <div className="space-y-6">
-            <h4 className="text-4xl font-semibold">Postes à pourvoir</h4>
+            <h4 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
+              Postes à pourvoir
+            </h4>
             <div className="w-full lg:flex lg:space-x-3 space-y-10 lg:space-y-0">
               <div className="space-y-6 w-full md:w-9/12 lg:w-7/12 lg:pr-16">
                 <div className="space-y-3">
@@ -71,12 +73,14 @@ export default function page() {
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
-                        <h6 className="text-lg font-medium">Head of Design</h6>
+                        <h6 className="text-base md:text-lg font-medium">
+                          Head of Design
+                        </h6>
                       </div>
                       <div>
                         <a
                           href="#"
-                          className="text-lg space-x-2 flex items-center font-medium"
+                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
                           <span>
@@ -89,14 +93,14 @@ export default function page() {
                     </div>
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
-                        <h6 className="text-lg font-medium">
+                        <h6 className="text-base md:text-lg font-medium">
                           Product Designer
                         </h6>
                       </div>
                       <div>
                         <a
                           href="#"
-                          className="text-lg space-x-2 flex items-center font-medium"
+                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
                           <span>
@@ -114,14 +118,14 @@ export default function page() {
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
-                        <h6 className="text-lg font-medium">
+                        <h6 className="text-base md:text-lg font-medium">
                           Senior Frontend Engineer
                         </h6>
                       </div>
                       <div>
                         <a
                           href="#"
-                          className="text-lg space-x-2 flex items-center font-medium"
+                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
                           <span>
@@ -134,14 +138,14 @@ export default function page() {
                     </div>
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
-                        <h6 className="text-lg font-medium">
+                        <h6 className="text-base md:text-lg font-medium">
                           Senior - Staff Backend Engineer
                         </h6>
                       </div>
                       <div>
                         <a
                           href="#"
-                          className="text-lg space-x-2 flex items-center font-medium"
+                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
                           <span>
@@ -154,14 +158,14 @@ export default function page() {
                     </div>
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
-                        <h6 className="text-lg font-medium">
+                        <h6 className="text-base md:text-lg font-medium">
                           Senior - Staff Infrastructure Engineer
                         </h6>
                       </div>
                       <div>
                         <a
                           href="#"
-                          className="text-lg space-x-2 flex items-center font-medium"
+                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
                           <span>
@@ -174,14 +178,14 @@ export default function page() {
                     </div>
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
-                        <h6 className="text-lg font-medium">
+                        <h6 className="text-base md:text-lg font-medium">
                           Senior - Staff Mobile Engineer (Hybrid)
                         </h6>
                       </div>
                       <div>
                         <a
                           href="#"
-                          className="text-lg space-x-2 flex items-center font-medium"
+                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
                           <span>
@@ -199,14 +203,14 @@ export default function page() {
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
-                        <h6 className="text-lg font-medium">
+                        <h6 className="text-base md:text-lg font-medium">
                           Head of Social Media Management
                         </h6>
                       </div>
                       <div>
                         <a
                           href="#"
-                          className="text-lg space-x-2 flex items-center font-medium"
+                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
                           <span>
@@ -219,14 +223,14 @@ export default function page() {
                     </div>
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
-                        <h6 className="text-lg font-medium">
+                        <h6 className="text-base md:text-lg font-medium">
                           Senior - Product Support Specialist
                         </h6>
                       </div>
                       <div>
                         <a
                           href="#"
-                          className="text-lg space-x-2 flex items-center font-medium"
+                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
                           <span>
@@ -244,12 +248,14 @@ export default function page() {
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
-                        <h6 className="text-lg font-medium">Head of Finance</h6>
+                        <h6 className="text-base md:text-lg font-medium">
+                          Head of Finance
+                        </h6>
                       </div>
                       <div>
                         <a
                           href="#"
-                          className="text-lg space-x-2 flex items-center font-medium"
+                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
                           <span>
@@ -267,14 +273,14 @@ export default function page() {
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
-                        <h6 className="text-lg font-medium">
+                        <h6 className="text-base md:text-lg font-medium">
                           Head of Data and Aquisition
                         </h6>
                       </div>
                       <div>
                         <a
                           href="#"
-                          className="text-lg space-x-2 flex items-center font-medium"
+                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
                           <span>
@@ -287,14 +293,14 @@ export default function page() {
                     </div>
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
-                        <h6 className="text-lg font-medium">
+                        <h6 className="text-base md:text-lg font-medium">
                           Junior Data Scientist
                         </h6>
                       </div>
                       <div>
                         <a
                           href="#"
-                          className="text-lg space-x-2 flex items-center font-medium"
+                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
                           <span>
@@ -312,14 +318,14 @@ export default function page() {
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
-                        <h6 className="text-lg font-medium">
+                        <h6 className="text-base md:text-lg font-medium">
                           Head of Legal Affairs
                         </h6>
                       </div>
                       <div>
                         <a
                           href="#"
-                          className="text-lg space-x-2 flex items-center font-medium"
+                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
                           <span>
@@ -367,7 +373,7 @@ export default function page() {
                   </div>
                 </div>
                 <div className="w-full md:w-6/12 lg:w-full space-y-6">
-                  <h4 className="text-2xl font-medium">
+                  <h4 className="text-xl md:text-2xl font-medium">
                     Vous souhaitez nous contacter pour un poste en particulier?
                     un stage ou une consultation?
                   </h4>

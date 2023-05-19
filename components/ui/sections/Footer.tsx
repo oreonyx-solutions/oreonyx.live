@@ -7,20 +7,20 @@ import { ArrowRight, Globe2 } from "lucide-react";
 export default function Footer() {
   return (
     <div className="px-4 md:pt-12 font-mono">
-      <div className="border-b md:max-w-6xl 2xl:max-w-7xl mx-auto h-auto md:flex space-y-6 md:space-y-0 pb-12 sm:pb-12 lg:pb-24">
+      <div className="border-b md:max-w-6xl 2xl:max-w-7xl mx-auto h-auto md:flex space-y-12 md:space-y-0 pb-12 sm:pb-12 lg:pb-24">
         <div className="w-full md:w-5/12 space-y-6">
           <div className="">
-            <label className="text-4xl lg:text-5xl text-center font-mono font-medium">
+            <label className="text-3xl lg:text-5xl text-center font-mono font-medium">
               Recevez nos dernières actualités{" "}
             </label>
           </div>
-          <div className="w-full md:w-9/12 border rounded-xl pl-3 pr-2 py-1 flex items-center">
+          <div className="w-full md:w-9/12 border rounded-xl pl-3 pr-2 py-2 flex items-center">
             <input
               type="text"
               className="p-0 focus:border-transparent focus:ring-0 focus:outline-0 h-full w-full border-none bg-transparent"
               placeholder="Votre adresse email"
             />
-            <button className="bg-gradient-to-tr from-blue-500 via-blue-500 to-blue-300 text-white px-3 py-1 rounded-xl">
+            <button className="bg-gradient-to-tr from-blue-500 via-blue-500 to-blue-300 text-white px-3 py-2 rounded-xl">
               <ArrowRight className="h-4 w-4" />
             </button>
           </div>
@@ -67,7 +67,7 @@ export default function Footer() {
           <div className="columns-2 lg:grid lg:grid-cols-3 md:gap-4 space-y-6 lg:space-y-0">
             <div className="space-y-3">
               <div>
-                <h5 className="text-xl font-mono font-medium uppercase">
+                <h5 className="text-lg md:text-xl font-mono font-medium uppercase">
                   Platforme.
                 </h5>
               </div>
@@ -118,7 +118,7 @@ export default function Footer() {
             </div>
             <div className="space-y-3">
               <div>
-                <h5 className="text-xl font-medium uppercase font-mono">
+                <h5 className="text-lg md:text-xl font-mono font-medium uppercase">
                   Ressources.
                 </h5>
               </div>
@@ -193,7 +193,7 @@ export default function Footer() {
             </div>
             <div className="space-y-3">
               <div>
-                <h5 className="text-xl font-medium uppercase font-mono">
+                <h5 className="text-lg md:text-xl font-mono font-medium uppercase">
                   Entreprise.
                 </h5>
               </div>
@@ -292,7 +292,7 @@ export default function Footer() {
             </div>
             <div className="space-y-3">
               <div>
-                <h5 className="text-xl font-medium uppercase font-mono">
+                <h5 className="text-lg md:text-xl font-mono font-medium uppercase">
                   Lieux.
                 </h5>
               </div>
@@ -313,7 +313,7 @@ export default function Footer() {
             </div>
             <div className="space-y-3">
               <div>
-                <h5 className="text-xl font-medium uppercase font-mono">
+                <h5 className="text-lg md:text-xl font-mono font-medium uppercase">
                   Changer de langue.
                 </h5>
               </div>

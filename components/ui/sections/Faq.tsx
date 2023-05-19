@@ -12,7 +12,7 @@ export default function Faq() {
     <div className="my-24 lg:my-24 px-6 lg:px-6 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-6 font-mono">
       <div className="flex justify-center">
         <div className="w-full md:w-8/12">
-          <h1 className="text-4xl lg:text-6xl text-center font-bold uppercase">
+          <h1 className="text-2xl md:text-4xl lg:text-6xl text-center font-bold uppercase">
             Foire aux questions!{" "}
           </h1>
         </div>
@@ -65,9 +65,7 @@ export default function Faq() {
                   <span className="hidden lg:inline">
                     Quels sont les avantages pour les universités ?
                   </span>
-                  <span className="lg:hidden">
-                    Avantages pour les universités ?
-                  </span>
+                  <span className="lg:hidden">Quels sont les Avantages ?</span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
                   L&apos;utilisation d&apos;Oreonyx présente plusieurs avantages
@@ -104,9 +102,7 @@ export default function Faq() {
                     Comment favorise-t-il la collaboration entre les parties
                     prenantes?
                   </span>
-                  <span className="lg:hidden">
-                    Collaborations entre les parties?
-                  </span>
+                  <span className="lg:hidden">Les Collaborations?</span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
                   Oreonyx facilite la collaboration en fournissant des outils de
@@ -123,9 +119,7 @@ export default function Faq() {
                     Oreonyx offre t&apos;il un support technique aux
                     utilisateurs?
                   </span>
-                  <span className="lg:hidden">
-                    Offrez-vous un support technique?
-                  </span>
+                  <span className="lg:hidden">Support technique?</span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
                   Oui, Oreonyx propose un support technique dédié aux
@@ -141,9 +135,7 @@ export default function Faq() {
                     Quels types d&apos;outils de gestion sont disponibles pour
                     les universités ?
                   </span>
-                  <span className="lg:hidden">
-                    Quel sont les outils de gestion?
-                  </span>
+                  <span className="lg:hidden">Les outils de gestion?</span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
                   Oreonyx propose une variété d&apos;outils de gestion pour les
@@ -161,7 +153,7 @@ export default function Faq() {
                     étudiants ?
                   </span>
                   <span className="lg:hidden">
-                    L&apos;employabilité des étudiants?
+                    L&apos;employabilité des jeunes?
                   </span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
@@ -179,9 +171,7 @@ export default function Faq() {
                   <span className="hidden lg:inline">
                     Quelle est la disponibilité géographique d&apos;Oreonyx?
                   </span>
-                  <span className="lg:hidden">
-                    Disponibilité géographique d&apos;Oreonyx?
-                  </span>
+                  <span className="lg:hidden">Disponibilité géographique?</span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
                   Oreonyx est une plateforme accessible à l&apos;échelle
