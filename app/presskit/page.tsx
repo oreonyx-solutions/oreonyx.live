@@ -4,6 +4,8 @@ import Image from "next/image";
 import Navbar from "@/components/ui/sections/Navbar";
 import Footer from "@/components/ui/sections/Footer";
 
+import { ArrowDown } from "lucide-react";
+
 export default function page() {
   return (
     <div className="bg-primary">
@@ -21,8 +23,10 @@ export default function page() {
             </div>
             <div className="w-full md:w-6/12 flex lg:justify-end lg:items-end">
               <button className="px-6 py-2 border-2 bg-black text-white border-gray-900 uppercase flex items-center space-x-2">
-                <span>Télécharger tous les fichiers</span>
-                <i className="ri-arrow-down-line"></i>
+                <span className="font-medium">
+                  Télécharger tous les fichiers
+                </span>
+                <ArrowDown className="h-4 w-4" />
               </button>
             </div>
           </div>
@@ -84,8 +88,10 @@ export default function page() {
               </div>
               <div className="space-y-6">
                 <button className="px-6 py-2 border-2 bg-black text-white border-gray-900 uppercase flex items-center space-x-2">
-                  <span>Télécharger les logos primaires</span>
-                  <i className="ri-arrow-down-line"></i>
+                  <span className="font-medium">
+                    Télécharger les logos primaires
+                  </span>
+                  <ArrowDown className="h-4 w-4" />
                 </button>
               </div>
             </div>
@@ -141,8 +147,8 @@ export default function page() {
             </h5>
           </div>
           <button className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex items-center space-x-2">
-            <span>Télécharger tous les fichiers</span>
-            <i className="ri-arrow-down-line"></i>
+            <span className="font-medium">Télécharger tous les fichiers</span>
+            <ArrowDown className="h-4 w-4" />
           </button>
         </div>
       </div>

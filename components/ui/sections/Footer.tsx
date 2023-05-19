@@ -2,6 +2,7 @@ import Link from "next/link";
 
 //flags
 import { CircleFlag } from "react-circle-flags";
+import { ArrowRight, Globe2 } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -20,7 +21,7 @@ export default function Footer() {
               placeholder="Votre adresse email"
             />
             <button className="bg-gradient-to-tr from-blue-500 via-blue-500 to-blue-300 text-white px-3 py-1 rounded-xl">
-              <i className="ri-arrow-right-line"></i>
+              <ArrowRight className="h-4 w-4" />
             </button>
           </div>
           <div className="columns-3 lg:flex space-y-3 lg:space-y-0 lg:space-x-3">
@@ -321,10 +322,12 @@ export default function Footer() {
                   <li>
                     <button
                       title="changer de langue"
-                      className="space-x-1 flex items-center hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
+                      className="space-x-1 flex items-center"
                     >
-                      <i className="ri-global-line text-2xl"></i>
-                      <span>FR</span>
+                      <Globe2 className="h-6 w-6" />
+                      <span className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black">
+                        FR
+                      </span>
                     </button>
                   </li>
                 </ul>

@@ -2,6 +2,8 @@
 import Navbar from "@/components/ui/sections/Navbar";
 import Footer from "@/components/ui/sections/Footer";
 
+import { ArrowRight, MailCheck } from "lucide-react";
+
 export default function page() {
   return (
     <div className="bg-primary">
@@ -81,7 +83,7 @@ export default function page() {
                             Voir{" "}
                             <span className="hidden md:inline">le poste</span>
                           </span>
-                          <i className="ri-arrow-right-line"></i>
+                          <ArrowRight className="h-4 w-4 hidden md:inline" />
                         </a>
                       </div>
                     </div>
@@ -101,7 +103,7 @@ export default function page() {
                             Voir{" "}
                             <span className="hidden md:inline">le poste</span>
                           </span>
-                          <i className="ri-arrow-right-line"></i>
+                          <ArrowRight className="h-4 w-4 hidden md:inline" />
                         </a>
                       </div>
                     </div>
@@ -126,7 +128,7 @@ export default function page() {
                             Voir{" "}
                             <span className="hidden md:inline">le poste</span>
                           </span>
-                          <i className="ri-arrow-right-line"></i>
+                          <ArrowRight className="h-4 w-4 hidden md:inline" />
                         </a>
                       </div>
                     </div>
@@ -146,7 +148,7 @@ export default function page() {
                             Voir{" "}
                             <span className="hidden md:inline">le poste</span>
                           </span>
-                          <i className="ri-arrow-right-line"></i>
+                          <ArrowRight className="h-4 w-4 hidden md:inline" />
                         </a>
                       </div>
                     </div>
@@ -166,7 +168,7 @@ export default function page() {
                             Voir{" "}
                             <span className="hidden md:inline">le poste</span>
                           </span>
-                          <i className="ri-arrow-right-line"></i>
+                          <ArrowRight className="h-4 w-4 hidden md:inline" />
                         </a>
                       </div>
                     </div>
@@ -186,7 +188,7 @@ export default function page() {
                             Voir{" "}
                             <span className="hidden md:inline">le poste</span>
                           </span>
-                          <i className="ri-arrow-right-line"></i>
+                          <ArrowRight className="h-4 w-4 hidden md:inline" />
                         </a>
                       </div>
                     </div>
@@ -211,7 +213,7 @@ export default function page() {
                             Voir{" "}
                             <span className="hidden md:inline">le poste</span>
                           </span>
-                          <i className="ri-arrow-right-line"></i>
+                          <ArrowRight className="h-4 w-4 hidden md:inline" />
                         </a>
                       </div>
                     </div>
@@ -231,7 +233,7 @@ export default function page() {
                             Voir{" "}
                             <span className="hidden md:inline">le poste</span>
                           </span>
-                          <i className="ri-arrow-right-line"></i>
+                          <ArrowRight className="h-4 w-4 hidden md:inline" />
                         </a>
                       </div>
                     </div>
@@ -254,7 +256,7 @@ export default function page() {
                             Voir{" "}
                             <span className="hidden md:inline">le poste</span>
                           </span>
-                          <i className="ri-arrow-right-line"></i>
+                          <ArrowRight className="h-4 w-4 hidden md:inline" />
                         </a>
                       </div>
                     </div>
@@ -279,7 +281,7 @@ export default function page() {
                             Voir{" "}
                             <span className="hidden md:inline">le poste</span>
                           </span>
-                          <i className="ri-arrow-right-line"></i>
+                          <ArrowRight className="h-4 w-4 hidden md:inline" />
                         </a>
                       </div>
                     </div>
@@ -299,7 +301,7 @@ export default function page() {
                             Voir{" "}
                             <span className="hidden md:inline">le poste</span>
                           </span>
-                          <i className="ri-arrow-right-line"></i>
+                          <ArrowRight className="h-4 w-4 hidden md:inline" />
                         </a>
                       </div>
                     </div>
@@ -324,7 +326,7 @@ export default function page() {
                             Voir{" "}
                             <span className="hidden md:inline">le poste</span>
                           </span>
-                          <i className="ri-arrow-right-line"></i>
+                          <ArrowRight className="h-4 w-4 hidden md:inline" />
                         </a>
                       </div>
                     </div>
@@ -372,10 +374,10 @@ export default function page() {
                   <div className="flex w-full ">
                     <a
                       href="mailto:carreers@oreonyx.live"
-                      className="px-6 py-3 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex space-x-2"
+                      className="px-6 py-3 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex space-x-2 items-center"
                     >
-                      <span>Envoyez-nous un mail</span>
-                      <i className="ri-mail-send-fill"></i>
+                      <span className="font-medium">Envoyez-nous un mail</span>
+                      <MailCheck className="h-4 w-4" />
                     </a>
                   </div>
                 </div>

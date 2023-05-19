@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ArrowRight, HelpCircle } from "lucide-react";
 
 export default function CTA() {
   return (
@@ -23,18 +24,21 @@ export default function CTA() {
         <div className="md:flex justify-center items-center space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
           <div>
             <a target="_blank" href="https://tally.so/r/nrBOep" className="">
-              <span className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex">
-                <span> Rejoindre le programme bêta </span>
-                <i className="hidden md:inline ri-arrow-right-line"></i>
+              <span className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex items-center">
+                <span className="font-medium">
+                  {" "}
+                  Rejoindre le programme bêta{" "}
+                </span>
+                <ArrowRight className="h-4 w-4 hidden md:inline" />
               </span>
             </a>
           </div>
           <div>
             <Link
               href="support"
-              className="font-medium lg:px-6 lg:py-2 uppercase flex space-x-2"
+              className="font-medium lg:px-6 lg:py-2 uppercase flex space-x-2 items-center"
             >
-              <i className="ri-questionnaire-line"></i>
+              <HelpCircle className="h-4 w-4" />
               <span className="hover:underline">Support</span>
             </Link>
           </div>

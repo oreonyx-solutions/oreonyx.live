@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { ArrowRight } from "lucide-react";
+
 export default function Overview() {
   return (
     <div>
@@ -25,19 +27,8 @@ export default function Overview() {
       </div>
       <div className="mt-6 px-3 lg:px-12 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-6 md:space-y-12">
         <div className="space-y-8 md:w-full">
-          <h1
-            id="features"
-            className="text-center text-3xl md:text-6xl font-mono font-bold uppercase"
-          >
+          <h1 className="text-center text-3xl md:text-6xl font-mono font-bold uppercase">
             NOTRE OFFRE DE VALEUR{" "}
-            <Link
-              href="https://app.oreonyx.live"
-              className="space-x-2 hidden absolute border-2 border-gray-900 hover:bg-gray-900 hover:text-white px-4 py-2 rounded-3xl text-sm ml-4"
-            >
-              <div className="">
-                <i className="text-2xl ri-arrow-right-up-line"></i>
-              </div>
-            </Link>
           </h1>
           <h3 className="text-xl font-mono text-center">
             Transformer l&apos;éducation, le monde professionnel et les
@@ -81,8 +72,8 @@ export default function Overview() {
                         href="https://app.oreonyx.live"
                         className="px-6 py-2 border rounded-full hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex"
                       >
-                        <span> Commencer</span>
-                        <i className="hidden md:inline ri-arrow-right-line"></i>
+                        <span className="font-medium">Commencer</span>
+                        <ArrowRight className="h-4 w-4 hidden md:inline" />
                       </Link>
                     </div>
                   </div>
@@ -120,7 +111,7 @@ export default function Overview() {
                         className="px-6 py-2 border rounded-full hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex"
                       >
                         <span> Commencer</span>
-                        <i className="hidden md:inline ri-arrow-right-line"></i>
+                        <ArrowRight className="h-4 w-4 hidden md:inline" />
                       </Link>
                     </div>
                   </div>
@@ -243,7 +234,7 @@ export default function Overview() {
                         className="px-6 py-2 border rounded-full hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex"
                       >
                         <span> Commencer</span>
-                        <i className="hidden md:inline ri-arrow-right-line"></i>
+                        <ArrowRight className="h-4 w-4 hidden md:inline" />
                       </Link>
                     </div>
                   </div>
@@ -280,7 +271,7 @@ export default function Overview() {
                         className="px-6 py-2 border rounded-full hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex"
                       >
                         <span> Commencer</span>
-                        <i className="hidden md:inline ri-arrow-right-line"></i>
+                        <ArrowRight className="h-4 w-4 hidden md:inline" />
                       </Link>
                     </div>
                   </div>

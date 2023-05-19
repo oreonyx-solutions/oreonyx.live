@@ -5,6 +5,8 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
+import { MailCheck } from "lucide-react";
+
 export default function Faq() {
   return (
     <div className="my-24 lg:my-24 px-6 lg:px-6 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-6 font-mono">
@@ -195,13 +197,15 @@ export default function Faq() {
         <div className="flex justify-center w-full ">
           <a
             href="mailto:support@oreonyx.live"
-            className="px-6 py-3 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex space-x-2"
+            className="space-x-2 px-6 py-3 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex items-center first-line:space-x-2"
           >
-            <span className="hidden lg:inline">
+            <span className="hidden lg:inline font-medium">
               Contactez-nous directement par mail
             </span>
-            <span className="lg:hidden">Contactez-nous par mail</span>
-            <i className="ri-mail-send-fill"></i>
+            <span className="lg:hidden font-medium">
+              Contactez-nous par mail
+            </span>
+            <MailCheck className="h-4 w-4" />
           </a>
         </div>
       </div>

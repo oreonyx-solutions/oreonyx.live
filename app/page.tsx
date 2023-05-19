@@ -4,6 +4,8 @@ import Link from "next/link";
 //gonna unistall this
 import ReactPlayer from "react-player";
 
+import { X } from "lucide-react";
+
 //components
 import Navbar from "@/components/ui/sections/Navbar";
 import Hero from "@/components/ui/sections/Hero";
@@ -32,7 +34,7 @@ export default function Home() {
           </a>
         </span>
         <button title="Fermer" className="absolute right-5">
-          <i className="ri-close-line text-xl"></i>
+          <X className="h-5 w-5" />
         </button>
       </div>
       <Navbar />
