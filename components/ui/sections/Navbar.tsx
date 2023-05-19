@@ -114,7 +114,7 @@ export default function Navbar() {
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <Link href="carreer">
+              <Link href="blog">
                 <div className="flex space-x-2 items-center">
                   <span>
                     <Album className="h-4 w-4 text-gray-600" />
@@ -124,7 +124,7 @@ export default function Navbar() {
               </Link>
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <Link href="carreer">
+              <Link href="about">
                 <div className="flex space-x-2 items-center">
                   <span>
                     <Building2 className="h-4 w-4 text-gray-600" />
