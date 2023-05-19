@@ -47,7 +47,7 @@ export default function Hero() {
                       {" "}
                       Rejoindre le programme bêta{" "}
                     </span>
-                    <ArrowRight className="h-4 w-4 hidden md:inline" />
+                    <ArrowRight className="h-4 w-4" />
                   </span>
                 </a>
               </div>
@@ -74,7 +74,7 @@ export default function Hero() {
         <div className="bg-gradient-to-b from-[#e9e9e9] via-[#e9e9e9] to-transparent rounded-3xl">
           <div className="px-2 lg:px-6 py-2 lg:py-6 font-mono space-y-6">
             <div className=" bg-[#faf9f6] px-6 py-12 space-y-8 rounded-3xl">
-              <h2 className="uppercase text-4xl lg:text-6xl font-bold text-center text-gray-900">
+              <h2 className="uppercase text-3xl lg:text-6xl font-bold text-center text-gray-900">
                 Pourquoi choisir Oreonyx?
               </h2>
               <div className="md:flex space-y-6 md:space-y-0">
@@ -114,14 +114,14 @@ export default function Hero() {
                       alt="source data"
                       src="/svg/seedling-line-nx.svg"
                       width={256}
-                      height={0}
+                      height={256}
                     />
                     <Image
                       className="cl lg:hidden absolute transform rotate-12 -right-8 -bottom-12"
                       alt="source data"
                       src="/svg/seedling-line-nx.svg"
                       width={160}
-                      height={0}
+                      height={160}
                     />
                     <div className="space-y-3 text-white w-11/12 lg:w-8/12">
                       <div>

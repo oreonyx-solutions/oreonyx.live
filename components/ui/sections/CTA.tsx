@@ -30,7 +30,7 @@ export default function CTA() {
                   {" "}
                   Rejoindre le programme bêta{" "}
                 </span>
-                <ArrowRight className="h-4 w-4 hidden md:inline" />
+                <ArrowRight className="h-4 w-4" />
               </span>
             </a>
           </div>
