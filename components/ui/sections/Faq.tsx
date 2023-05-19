@@ -202,9 +202,7 @@ export default function Faq() {
             <span className="hidden lg:inline font-medium">
               Contactez-nous directement par mail
             </span>
-            <span className="lg:hidden font-medium">
-              Contactez-nous par mail
-            </span>
+            <span className="lg:hidden font-medium">Envoyez un mail</span>
             <MailCheck className="h-4 w-4" />
           </a>
         </div>

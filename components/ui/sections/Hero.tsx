@@ -16,7 +16,7 @@ export default function Hero() {
         <div className="lg:py-32 py-12 lg:flex space-y-12 md:space-y-0">
           <div className="space-y-8 w-full lg:w-7/12 ">
             <div className="space-y-8">
-              <h1 className="text-5xl lg:text-7xl font-mono font-bold uppercase text-gray-900">
+              <h1 className="text-4xl lg:text-7xl font-mono font-bold uppercase text-gray-900">
                 Transformez l&apos;avenir de l&apos;éducation{" "}
                 <span className="bg-clip-text bg-gradient bg-gradient-to-br from-sky-300 via-pink-500 to-sky-600 text-transparent">
                   .
@@ -39,7 +39,11 @@ export default function Hero() {
                   className=""
                 >
                   <span className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex items-center">
-                    <span className="font-medium">
+                    <span className="md:hidden font-medium">
+                      {" "}
+                      Programme bêta{" "}
+                    </span>
+                    <span className="hidden md:inline last:font-medium">
                       {" "}
                       Rejoindre le programme bêta{" "}
                     </span>
