@@ -64,12 +64,12 @@ export default function Overview() {
                     Espace de collaboration
                   </h5>
                   <p className="text-lg">
-                    En embrassant cette nouvelle ère de communication,
-                    Interagisser de manière transparente avec vos collègues de
-                    classe ou vos collaborateurs grâce à notre espace de
-                    collaboration d&apos;équipe. Partagez des fichiers,
-                    travaillez sur des projets communs et communiquez
-                    efficacement pour accomplir vos objectifs ensemble.
+                    Embrasser cette nouvelle ère de communication, Interagisser
+                    de manière transparente avec vos collègues ou vos
+                    collaborateurs grâce à notre espace de collaboration
+                    d&apos;équipe. Partagez des fichiers, travaillez sur des
+                    projets communs et communiquez efficacement pour accomplir
+                    vos objectifs ensemble.
                   </p>
                   <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
                     <div className="hidden">
@@ -102,12 +102,11 @@ export default function Overview() {
                   </h5>
                   <p className="text-lg">
                     Participez à des cours en ligne interactifs via notre salle
-                    de classe virtuelle avancée. Interagissez avec vos
-                    enseignants et vos camarades de classe, assistez à des
-                    présentations et participez à des discussions en temps réel.
-                    Expérimentez la plateforme qui utilise l&apos;intelligence
-                    artificielle pour fournir des recommandations
-                    d&apos;apprentissage personnalisées.
+                    de classe virtuelle avancée. Assistez à des présentations,
+                    posez des questions et participez à des discussions en temps
+                    réel. Expérimentez la plateforme qui utilise
+                    l&apos;intelligence artificielle pour fournir des
+                    recommandations d&apos;apprentissage personnalisées.
                   </p>
                   <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
                     <div className="hidden">
