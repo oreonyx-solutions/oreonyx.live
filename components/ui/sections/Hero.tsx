@@ -103,7 +103,10 @@ export default function Hero() {
             </div>
             <div className="md:flex w-full md:space-x-6 space-y-6 md:space-y-0">
               <div className="w-full md:w-6/12">
-                <Link href="program/oreonyx-climate">
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1TOHMsgLBAdze2NsWyqhul2XQv7XnEo1D/view?usp=sharing"
+                >
                   <div className="rounded-3xl overflow-hidden relative w-full py-8 flex px-4 lg:px-8 bg-gradient-to-tr from-green-500 via-green-500 to-green-300">
                     <Image
                       className="cl hidden lg:inline absolute transform rotate-12 -right-6 -bottom-24 text-white"
@@ -138,7 +141,7 @@ export default function Hero() {
                       </div>
                     </div>
                   </div>
-                </Link>
+                </a>
               </div>
               <div className="w-full md:w-6/12 rounded-3xl bg-[#faf9f6]">
                 <div className="relative py-4 lg:py-8 flex px-4 lg:px-8 text-gray-900">
