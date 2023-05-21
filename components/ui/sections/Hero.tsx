@@ -50,7 +50,7 @@ export default function Hero() {
               <div>
                 <Link
                   href="contact"
-                  className="md:px-6 md:py-2 hover:underline uppercase "
+                  className="font-medium md:px-6 md:py-2 hover:underline uppercase "
                 >
                   Contactez-nous
                 </Link>
