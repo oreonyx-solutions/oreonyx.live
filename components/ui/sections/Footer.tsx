@@ -182,7 +182,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
+                      className="hidden hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/"
                     >
                       Status
