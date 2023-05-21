@@ -157,7 +157,11 @@ export default function Navbar() {
         >
           <span>Inscription</span>
         </Link>
-        <a target="_blank" href="https://tally.so/r/nrBOep">
+        <a
+          target="_blank"
+          href="https://tally.so/r/nrBOep"
+          className="hidden lg:inline"
+        >
           <button className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 flex items-center">
             <span className="md:hidden font-medium"> Programme bêta </span>
             <span className="hidden md:inline font-medium">
