@@ -22,7 +22,7 @@ export default function Hero() {
                   .
                 </span>
               </h1>
-              <div className="w-11/12">
+              <div className="w-full">
                 <h5 className="text-gray-900 text-lg font-mono">
                   Une plateforme numérique révolutionnaire pour les universités,
                   les étudiants et les entreprises, favorisant l&apos;accès à
@@ -43,7 +43,7 @@ export default function Hero() {
                       {" "}
                       Programme bêta{" "}
                     </span>
-                    <span className="hidden md:inline last:font-medium">
+                    <span className="hidden md:inline font-medium">
                       {" "}
                       Rejoindre le programme bêta{" "}
                     </span>
