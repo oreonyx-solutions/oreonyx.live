@@ -70,7 +70,7 @@ export default function Hero() {
         <div className="bg-gradient-to-b from-[#e9e9e9] via-[#e9e9e9] to-transparent rounded-3xl">
           <div className="px-2 lg:px-6 py-2 lg:py-6 font-mono space-y-6">
             <div className=" bg-[#faf9f6] px-6 py-12 space-y-8 rounded-3xl">
-              <h2 className="uppercase text-3xl lg:text-6xl font-bold text-center text-gray-900">
+              <h2 className="uppercase text-2xl lg:text-6xl font-bold text-center text-gray-900">
                 Pourquoi choisir Oreonyx?
               </h2>
               <div className="md:flex space-y-6 md:space-y-0">
