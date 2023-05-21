@@ -32,7 +32,7 @@ export default function Overview() {
       </div>
       <div className="mt-6 px-3 lg:px-12 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-6 md:space-y-12">
         <div className="space-y-8 md:w-full">
-          <h1 className="text-center text-3xl md:text-6xl font-mono font-bold uppercase">
+          <h1 className="text-center text-2xl md:text-6xl font-mono font-bold uppercase">
             NOTRE OFFRE DE VALEUR{" "}
           </h1>
           <h3 className="text-lg lg:text-xl font-mono text-center">
