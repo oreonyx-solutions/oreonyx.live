@@ -64,7 +64,7 @@ export default function Overview() {
                     Espace de collaboration
                   </h5>
                   <p className="text-lg">
-                    Embrasser cette nouvelle ère de communication, Interagisser
+                    Embrasser cette nouvelle ère de communication, interagissez
                     de manière transparente avec vos collègues ou vos
                     collaborateurs grâce à notre espace de collaboration
                     d&apos;équipe. Partagez des fichiers, travaillez sur des
@@ -103,10 +103,10 @@ export default function Overview() {
                   <p className="text-lg">
                     Participez à des cours en ligne interactifs via notre salle
                     de classe virtuelle avancée. Assistez à des présentations,
-                    posez des questions et participez à des discussions en temps
-                    réel. Expérimentez la plateforme qui utilise
-                    l&apos;intelligence artificielle pour fournir des
-                    recommandations d&apos;apprentissage personnalisées.
+                    posez des questions et discuter en temps réel. Expérimentez
+                    dès maintenant la plateforme qui utilise l&apos;intelligence
+                    artificielle pour fournir des recommandations
+                    d&apos;apprentissage personnalisées.
                   </p>
                   <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
                     <div className="hidden">
