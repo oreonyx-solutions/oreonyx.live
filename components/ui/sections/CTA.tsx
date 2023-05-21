@@ -23,15 +23,15 @@ export default function CTA() {
         </div>
         <div className="md:flex justify-center items-center space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
           <div>
-            <a target="_blank" href="https://tally.so/r/nrBOep" className="">
-              <span className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex items-center">
+            <a target="_blank" href="https://tally.so/r/nrBOep">
+              <button className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 flex items-center">
                 <span className="md:hidden font-medium"> Programme bêta </span>
                 <span className="hidden md:inline font-medium">
                   {" "}
                   Rejoindre le programme bêta{" "}
                 </span>
                 <ArrowRight className="h-4 w-4" />
-              </span>
+              </button>
             </a>
           </div>
           <div>

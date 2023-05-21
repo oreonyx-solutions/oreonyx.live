@@ -22,7 +22,7 @@ export default function Hero() {
                   .
                 </span>
               </h1>
-              <div className="w-full">
+              <div className="w-">
                 <h5 className="text-gray-900 text-lg font-mono">
                   Une plateforme numérique révolutionnaire pour les universités,
                   les étudiants et les entreprises, favorisant l&apos;accès à
@@ -33,12 +33,8 @@ export default function Hero() {
             </div>
             <div className="md:flex items-center space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
               <div>
-                <a
-                  target="_blank"
-                  href="https://tally.so/r/nrBOep"
-                  className=""
-                >
-                  <span className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex items-center">
+                <a target="_blank" href="https://tally.so/r/nrBOep">
+                  <button className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 flex items-center">
                     <span className="md:hidden font-medium">
                       {" "}
                       Programme bêta{" "}
@@ -48,7 +44,7 @@ export default function Hero() {
                       Rejoindre le programme bêta{" "}
                     </span>
                     <ArrowRight className="h-4 w-4" />
-                  </span>
+                  </button>
                 </a>
               </div>
               <div>
