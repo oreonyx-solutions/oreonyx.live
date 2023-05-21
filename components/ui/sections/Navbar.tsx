@@ -71,7 +71,7 @@ export default function Navbar() {
             href="https://t.me/oreonyxHQ"
             target="_blank"
           >
-            <div className="mr-2 relative flex items-center space-x-1 px-3 py-0.5 rounded-full bg-gradient-to-tr from-blue-500 via-blue-500 to-blue-300 text-white">
+            <div className="hidden mr-2 relative md:flex items-center space-x-1 px-3 py-0.5 rounded-full bg-gradient-to-tr from-blue-500 via-blue-500 to-blue-300 text-white">
               <span className="text-sm">
                 <span className="hidden md:inline">Rejoignez notre </span>{" "}
                 Telegram
@@ -97,7 +97,7 @@ export default function Navbar() {
             <AlignJustify className="h-5 w-5" />
           </DropdownMenuTrigger>
           <DropdownMenuContent className="font-mono uppercase bg-white">
-            <DropdownMenuItem className="flex space-x-2 items-center">
+            <DropdownMenuItem className="hidden flex space-x-2 items-center">
               <span>
                 <Boxes className="h-4 w-4 text-gray-600" />
               </span>
@@ -142,6 +142,25 @@ export default function Navbar() {
                   </span>
                 </div>
               </a>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <div className="relative flex items-center space-x-1 px-3 py-0.5 rounded-full bg-gradient-to-tr from-blue-500 via-blue-500 to-blue-300 text-white">
+                <span className="text-sm">
+                  <span className="hidden md:inline">Rejoignez notre </span>{" "}
+                  Telegram
+                </span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="16"
+                  height="16"
+                >
+                  <path
+                    d="M12.001 20C16.4193 20 20.001 16.4183 20.001 12C20.001 7.58172 16.4193 4 12.001 4C7.5827 4 4.00098 7.58172 4.00098 12C4.00098 16.4183 7.5827 20 12.001 20ZM12.001 22C6.47813 22 2.00098 17.5228 2.00098 12C2.00098 6.47715 6.47813 2 12.001 2C17.5238 2 22.001 6.47715 22.001 12C22.001 17.5228 17.5238 22 12.001 22ZM8.89113 13.1708L6.39308 12.3911C5.85317 12.2255 5.84996 11.854 6.51397 11.5871L16.247 7.82754C16.8115 7.59644 17.1325 7.88842 16.9495 8.61641L15.2917 16.4377C15.1763 16.9941 14.8407 17.1266 14.3759 16.8698L11.825 14.9823L10.6361 16.1297C10.5139 16.2476 10.4145 16.3489 10.2273 16.3743C10.04 16.3996 9.88564 16.3442 9.77337 16.0337L8.90378 13.1628L8.89113 13.1708Z"
+                    fill="rgba(255,255,255,1)"
+                  ></path>
+                </svg>
+              </div>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
