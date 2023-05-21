@@ -233,7 +233,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
+                      className="hidden hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/contact"
                     >
                       Devenir partenaire
@@ -241,7 +241,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link
-                      className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
+                      className="hidden hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/contact"
                     >
                       Contact
@@ -254,7 +254,7 @@ export default function Footer() {
           <div className="space-y-6">
             <div className="space-y-3">
               <div>
-                <h5 className="text-xl font-medium uppercase font-mono">
+                <h5 className="text-lg md:text-xl font-mono font-medium uppercase">
                   Besoin d&apos;une aide spécifique?.
                 </h5>
               </div>
