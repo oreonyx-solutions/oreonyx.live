@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
         <div className="w-full md:w-7/12 md:pl-12 space-y-10">
           <div className="columns-2 lg:grid lg:grid-cols-3 md:gap-4 space-y-6 lg:space-y-0">
-            <div className="space-y-3">
+            <div className="space-y-3 hidden">
               <div>
                 <h5 className="text-lg md:text-xl font-mono font-medium uppercase">
                   Platforme.
