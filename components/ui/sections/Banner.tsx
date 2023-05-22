@@ -1,5 +1,3 @@
-"use client";
-
 import { X } from "lucide-react";
 import { useState, useEffect } from "react";
 
@@ -8,7 +6,7 @@ export default function Banner() {
 
   useEffect(() => {
     const isBannerClosed = localStorage.getItem("isBannerClosed");
-    setIsBannerVisible(!isBannerClosed);
+    setIsBannerVisible(!isBannerClosed || isBannerClosed !== "true");
   }, []);
 
   const closeBanner = () => {
