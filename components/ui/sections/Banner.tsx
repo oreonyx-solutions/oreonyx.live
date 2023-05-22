@@ -1,6 +1,23 @@
 import { X } from "lucide-react";
+import { useState, useEffect } from "react";
 
 export default function Banner() {
+  const [isBannerVisible, setIsBannerVisible] = useState(true);
+
+  useEffect(() => {
+    const isBannerClosed = localStorage.getItem("isBannerClosed");
+    setIsBannerVisible(!isBannerClosed);
+  }, []);
+
+  const closeBanner = () => {
+    localStorage.setItem("isBannerClosed", "true");
+    setIsBannerVisible(false);
+  };
+
+  if (!isBannerVisible) {
+    return null; // Hide the banner if it's not visible
+  }
+
   return (
     <div className="bg-black py-2 text-white flex justify-center items-center relative w-full">
       <span className="line-clamp-1">
@@ -12,7 +29,7 @@ export default function Banner() {
           </span>
         </a>
       </span>
-      <button title="Fermer" className="absolute right-5">
+      <button title="Fermer" className="absolute right-5" onClick={closeBanner}>
         <X className="h-5 w-5" />
       </button>
     </div>
