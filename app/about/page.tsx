@@ -71,7 +71,7 @@ export default function page() {
               <div className="hidden lg:inline w-3/12"></div>
               <div className="w-full lg:w-9/12 grid grid-cols-1 md:grid-cols-3 gap-5 font-sans">
                 <div className="space-y-3">
-                  <div className="rounded-xl bg-green-200 h-52 md:h-40 lg:h-60 relative">
+                  <div className="rounded-xl bg-secondary h-52 md:h-40 lg:h-60 relative">
                     <Image
                       alt="source data"
                       src="/team/Benoit.jpg"
@@ -86,7 +86,7 @@ export default function page() {
                   </div>
                 </div>
                 <div className="space-y-3">
-                  <div className="rounded-xl bg-green-200 h-52 md:h-40 lg:h-60 relative">
+                  <div className="rounded-xl bg-secondary h-52 md:h-40 lg:h-60 relative">
                     <Image
                       alt="source data"
                       src="/team/Amelie.jpg"
@@ -101,7 +101,7 @@ export default function page() {
                   </div>
                 </div>
                 <div className="space-y-3">
-                  <div className="rounded-xl bg-green-200 h-52 md:h-40 lg:h-60 relative">
+                  <div className="rounded-xl bg-secondary h-52 md:h-40 lg:h-60 relative">
                     <Image
                       alt="source data"
                       src="/team/Ayen.jpg"
@@ -116,7 +116,7 @@ export default function page() {
                   </div>
                 </div>
                 <div className="space-y-3">
-                  <div className="rounded-xl bg-green-200 h-52 md:h-40 lg:h-60 relative">
+                  <div className="rounded-xl bg-secondary h-52 md:h-40 lg:h-60 relative">
                     <Image
                       alt="source data"
                       src="/team/Arouna.jpg"
@@ -131,7 +131,7 @@ export default function page() {
                   </div>
                 </div>
                 <div className="space-y-3">
-                  <div className="rounded-xl bg-green-200 h-52 md:h-40 lg:h-60 relative">
+                  <div className="rounded-xl bg-secondary h-52 md:h-40 lg:h-60 relative">
                     <Image
                       alt="source data"
                       src="/team/Henok.jpg"
