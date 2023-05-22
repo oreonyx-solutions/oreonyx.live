@@ -2,6 +2,8 @@
 import Navbar from "@/components/ui/sections/Navbar";
 import Footer from "@/components/ui/sections/Footer";
 
+import Image from "next/image";
+
 import { ArrowRight, MailCheck } from "lucide-react";
 
 export default function page() {
@@ -52,7 +54,7 @@ export default function page() {
                 meilleur travail.
               </p>
               <figure>
-                <img
+                <Image
                   alt="source data"
                   src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
                 />
@@ -380,7 +382,7 @@ export default function page() {
                 <div className="w-full md:w-6/12 lg:w-full space-y-6">
                   <h4 className="text-xl md:text-2xl font-medium">
                     Vous souhaitez nous contacter pour un poste en particulier?
-                    un stage ou juste pour discuter autour d'un bon café?
+                    un stage ou juste pour discuter autour d&apos;un bon café?
                   </h4>
                   <div className="flex w-full ">
                     <a
