@@ -154,7 +154,7 @@ export default function page() {
                       <div>
                         <a
                           target="_blank"
-                          href="#"
+                          href="https://docs.google.com/document/d/1jlYnFSHuLGZ8R_S__MbmK3FriGeWk8f6FVl9oop6hSg/edit?usp=share_link"
                           className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
@@ -211,7 +211,7 @@ export default function page() {
                   </div>
                 </div>
                 <div className="space-y-3">
-                  <h5 className="text-green-500 text-lg">Sales</h5>
+                  <h5 className="text-green-500 text-lg">Marketing</h5>
                   <div className="space-y-3">
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
