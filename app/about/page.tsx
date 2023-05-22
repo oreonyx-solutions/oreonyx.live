@@ -74,7 +74,7 @@ export default function page() {
                   <div className="rounded-xl bg-green-200 h-52 md:h-40 lg:h-60 relative">
                     <Image
                       alt="source data"
-                      src="https://images.unsplash.com/photo-1628149321186-7d4c5b1170f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGJsYWNrJTIwbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"
+                      src="/team/Benoit.jpg"
                       layout="fill"
                       objectFit="cover"
                       className="grayscale hover:grayscale-0 transition-all rounded-xl object-top"
@@ -89,7 +89,7 @@ export default function page() {
                   <div className="rounded-xl bg-green-200 h-52 md:h-40 lg:h-60 relative">
                     <Image
                       alt="source data"
-                      src="https://images.unsplash.com/photo-1523824921871-d6f1a15151f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJsYWNrJTIwd29tYW4lMjBwb3J0cmFpdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+                      src="/team/Amelie.jpg"
                       layout="fill"
                       objectFit="cover"
                       className="grayscale hover:grayscale-0 transition-all rounded-xl object-top"
@@ -101,10 +101,10 @@ export default function page() {
                   </div>
                 </div>
                 <div className="space-y-3">
-                  <div className="rounded-xl bg-green-200 h-40 h-52 md:h-40 lg:h-60 relative">
+                  <div className="rounded-xl bg-green-200 h-52 md:h-40 lg:h-60 relative">
                     <Image
                       alt="source data"
-                      src="https://images.unsplash.com/photo-1620932934121-64b011924f08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM4fHxibGFjayUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+                      src="/team/Ayen.jpg"
                       layout="fill"
                       objectFit="cover"
                       className="grayscale hover:grayscale-0 transition-all rounded-xl object-top"
@@ -119,7 +119,7 @@ export default function page() {
                   <div className="rounded-xl bg-green-200 h-52 md:h-40 lg:h-60 relative">
                     <Image
                       alt="source data"
-                      src="https://images.unsplash.com/photo-1620511469298-7c119cc6982c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA3fHxibGFjayUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+                      src="/team/Arouna.jpg"
                       layout="fill"
                       objectFit="cover"
                       className="grayscale hover:grayscale-0 transition-all rounded-xl object-top"
@@ -127,14 +127,14 @@ export default function page() {
                   </div>
                   <div className="-space-y-1">
                     <h5 className="font-bold text-lg">Amadou Arouna</h5>
-                    <h5 className="text-base">Lead Cloud Architect</h5>
+                    <h5 className="text-base">Backend Developper</h5>
                   </div>
                 </div>
                 <div className="space-y-3">
                   <div className="rounded-xl bg-green-200 h-52 md:h-40 lg:h-60 relative">
                     <Image
                       alt="source data"
-                      src="https://images.unsplash.com/photo-1631598064992-f1c204d466b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTM0fHxibGFjayUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60"
+                      src="/team/Henok.jpg"
                       layout="fill"
                       objectFit="cover"
                       className="grayscale hover:grayscale-0 transition-all rounded-xl object-top"
