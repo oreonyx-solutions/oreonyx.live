@@ -8,7 +8,7 @@ export default function page() {
   return (
     <div className="bg-primary">
       <Navbar />
-      <div className="pt-24 font-mono px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
+      <div className="lg:pt-60 lg:pb-32 pt-32 pb-24 font-mono px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div className="space-y-10">
           <div className="space-y-3 lg:space-y-6">
             <div className="flex justify-center">

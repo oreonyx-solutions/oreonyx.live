@@ -10,11 +10,12 @@ export default function page() {
   return (
     <div className="bg-primary">
       <Navbar />
-      <div className="font-mono pt-12 lg:pt-24 space-y-12 px-4 md:px-6  xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
+      <div className="font-mono lg:pt-60 lg:pb-32 pt-32 pb-24 space-y-12 px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div className="space-y-10">
           <h1 className="text-2xl md:hidden">
-            <span className="text-green-500 font-bold">Construire </span>une platforme
-            innovante vecteur d&apos;évolution de pensées et d&apos;idées
+            <span className="text-green-500 font-bold">Construire </span>une
+            platforme innovante vecteur d&apos;évolution de pensées et
+            d&apos;idées
           </h1>
           <div className="prose prose-base lg:prose-lg">
             <h1 className="hidden md:block">
