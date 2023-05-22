@@ -10,8 +10,12 @@ export default function page() {
       <Navbar />
       <div className="font-mono pt-12 lg:pt-24 space-y-12 px-4 md:px-6  xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div className="space-y-10">
+          <h1 className="text-2xl md:hidden">
+            <span className="text-green-500">Construire </span>une platforme
+            innovante vecteur d&apos;évolution de pensées et d&apos;idées
+          </h1>
           <div className="prose prose-base lg:prose-lg">
-            <h1>
+            <h1 className="hidden md:inline">
               <span className="text-green-500">Construire </span>une platforme
               innovante vecteur d&apos;évolution de pensées et d&apos;idées
             </h1>
@@ -91,7 +95,7 @@ export default function page() {
                         </a>
                       </div>
                     </div>
-                    <div className="flex items-center justify-between">
+                    <div className="hidden items-center justify-between">
                       <div className="w-8/12">
                         <h6 className="text-base md:text-lg font-medium">
                           Product Designer
@@ -116,7 +120,7 @@ export default function page() {
                 <div className="space-y-3">
                   <h5 className="text-green-500 text-lg">Engineering</h5>
                   <div className="space-y-3">
-                    <div className="flex items-center justify-between">
+                    <div className="hidden items-center justify-between">
                       <div className="w-8/12">
                         <h6 className="text-base md:text-lg font-medium">
                           Senior Frontend Engineer
@@ -139,7 +143,7 @@ export default function page() {
                     <div className="flex items-center justify-between">
                       <div className="w-8/12">
                         <h6 className="text-base md:text-lg font-medium">
-                          Senior - Staff Backend Engineer
+                          Junior Backend Engineer
                         </h6>
                       </div>
                       <div>
@@ -156,7 +160,7 @@ export default function page() {
                         </a>
                       </div>
                     </div>
-                    <div className="flex items-center justify-between">
+                    <div className="hidden items-center justify-between">
                       <div className="w-8/12">
                         <h6 className="text-base md:text-lg font-medium">
                           Senior - Staff Infrastructure Engineer
@@ -291,7 +295,7 @@ export default function page() {
                         </a>
                       </div>
                     </div>
-                    <div className="flex items-center justify-between">
+                    <div className="hidden items-center justify-between">
                       <div className="w-8/12">
                         <h6 className="text-base md:text-lg font-medium">
                           Junior Data Scientist
@@ -368,6 +372,7 @@ export default function page() {
                       <li>
                         Evenements réguliers de l&apos;équipe et hors-sites.
                       </li>
+                      <li>Cours d&apos;anglais approfondi</li>
                       <li>Semaines de hack trimestrielles.</li>
                     </ul>
                   </div>
@@ -375,7 +380,7 @@ export default function page() {
                 <div className="w-full md:w-6/12 lg:w-full space-y-6">
                   <h4 className="text-xl md:text-2xl font-medium">
                     Vous souhaitez nous contacter pour un poste en particulier?
-                    un stage ou une consultation?
+                    un stage ou juste pour discuter autour d'un bon café?
                   </h4>
                   <div className="flex w-full ">
                     <a
