@@ -85,7 +85,8 @@ export default function page() {
                       </div>
                       <div>
                         <a
-                          href="#"
+                          target="_blank"
+                          href="https://docs.google.com/document/d/1okdmNQSgIT7FKWkxFLFXJIwOGdHlgcG8W9vloaU1vog/edit?usp=share_link"
                           className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
@@ -105,6 +106,7 @@ export default function page() {
                       </div>
                       <div>
                         <a
+                          target="_blank"
                           href="#"
                           className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
@@ -130,6 +132,7 @@ export default function page() {
                       </div>
                       <div>
                         <a
+                          target="_blank"
                           href="#"
                           className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
@@ -150,6 +153,7 @@ export default function page() {
                       </div>
                       <div>
                         <a
+                          target="_blank"
                           href="#"
                           className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
@@ -170,6 +174,7 @@ export default function page() {
                       </div>
                       <div>
                         <a
+                          target="_blank"
                           href="#"
                           className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
@@ -190,7 +195,8 @@ export default function page() {
                       </div>
                       <div>
                         <a
-                          href="#"
+                          target="_blank"
+                          href="https://docs.google.com/document/d/13QXhXWmMEsO5au979JGn4HbcWD600uvN94oMaX96x7o/edit?usp=share_link"
                           className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
@@ -215,7 +221,8 @@ export default function page() {
                       </div>
                       <div>
                         <a
-                          href="#"
+                          target="_blank"
+                          href="https://docs.google.com/document/d/1HUl3LOx8SQSkJY2CoHYfeXL0x0f7zsM9_Cz9CobyLWE/edit?usp=share_link"
                           className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
@@ -235,6 +242,7 @@ export default function page() {
                       </div>
                       <div>
                         <a
+                          target="_blank"
                           href="#"
                           className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
@@ -260,7 +268,8 @@ export default function page() {
                       </div>
                       <div>
                         <a
-                          href="#"
+                          target="_blank"
+                          href="https://docs.google.com/document/d/1Khl5lklm_2cFXr7sFtu0lgXQUJ2OUpwqZ_lwA605lOY/edit?usp=share_link"
                           className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
@@ -285,7 +294,8 @@ export default function page() {
                       </div>
                       <div>
                         <a
-                          href="#"
+                          target="_blank"
+                          href="https://docs.google.com/document/d/1ErPChHE2BlLiaa_0bGFGRJkMEaL8Rhdj0mCoGaQiIlI/edit?usp=share_link"
                           className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
@@ -305,7 +315,8 @@ export default function page() {
                       </div>
                       <div>
                         <a
-                          href="#"
+                          target="_blank"
+                          href="https://docs.google.com/document/d/1jlYnFSHuLGZ8R_S__MbmK3FriGeWk8f6FVl9oop6hSg/edit?usp=share_link"
                           className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
@@ -330,7 +341,8 @@ export default function page() {
                       </div>
                       <div>
                         <a
-                          href="#"
+                          target="_blank"
+                          href="https://docs.google.com/document/d/1VKwA9QJXOoFJT5dcutTyalBy0RiAoaP1AL226ddN5Q0/edit?usp=share_link"
                           className="text-base md:text-lg space-x-2 flex items-center font-medium"
                         >
                           {" "}
