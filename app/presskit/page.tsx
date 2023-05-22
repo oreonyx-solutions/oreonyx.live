@@ -51,11 +51,11 @@ export default function page() {
               </div>
               <div className="lg:flex space-y-6 lg:space-y-0 lg:space-x-6">
                 <div className="space-y-4 w-full md:w-10/12 lg:w-6/12">
-                  <div className="bg-secondary h-72 flex justify-center items-center">
+                  <div className="bg-black h-72 flex justify-center items-center">
                     <div className="relative">
                       <Image
                         alt="source data"
-                        src="/oreonyx-primary-logo-dark.png"
+                        src="/oreonyx-primary-logo-light.png"
                         width={250}
                         height={0}
                       />
@@ -206,7 +206,7 @@ export default function page() {
               </li>
             </ul>
           </div>
-          <div className="space-y-3 mb-6">
+          <div className="space-y-3">
             <h5 className="text-4xl font-medium">Télécharger</h5>
             <h5 className="text-lg">
               Vous pouvez télécharger les fichiers SVG et PNG. Veuillez ne pas
@@ -214,6 +214,7 @@ export default function page() {
             </h5>
           </div>
           <a
+            className=" mt-6"
             target="_blank"
             href="https://drive.google.com/drive/folders/1mBIN7oluLZkuqU5E2gUM0GPuRicRN5_y?usp=share_link"
           >
