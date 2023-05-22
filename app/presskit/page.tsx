@@ -206,7 +206,7 @@ export default function page() {
               </li>
             </ul>
           </div>
-          <div className="space-y-3">
+          <div className="space-y-3 mb-6">
             <h5 className="text-4xl font-medium">Télécharger</h5>
             <h5 className="text-lg">
               Vous pouvez télécharger les fichiers SVG et PNG. Veuillez ne pas
@@ -214,7 +214,6 @@ export default function page() {
             </h5>
           </div>
           <a
-            className=" mt-6"
             target="_blank"
             href="https://drive.google.com/drive/folders/1mBIN7oluLZkuqU5E2gUM0GPuRicRN5_y?usp=share_link"
           >
