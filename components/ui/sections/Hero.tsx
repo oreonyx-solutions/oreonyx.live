@@ -13,7 +13,7 @@ export default function Hero() {
   return (
     <div className="px-4 md:px-6 xl:px-0 w-full flex justify-between md:max-w-6xl 2xl:max-w-7xl mx-auto">
       <div className="space-y-2">
-        <div className="lg:py-32 py-12 lg:flex space-y-12 md:space-y-0">
+        <div className="lg:py-52 py-32 lg:flex space-y-12 md:space-y-0">
           <div className="space-y-8 w-full lg:w-7/12 ">
             <div className="space-y-8">
               <h1 className="text-4xl lg:text-7xl font-mono font-bold uppercase text-gray-900">
