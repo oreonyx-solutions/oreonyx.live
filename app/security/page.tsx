@@ -6,7 +6,7 @@ export default function page() {
   return (
     <div className="bg-primary">
       <Navbar />
-      <div className="font-mono my-24 px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
+      <div className="font-mono lg:pt-60 lg:pb-32 pt-32 pb-24 px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div className="space-y-12 w-full">
           <div className="space-y-6 lg:space-y-0 lg:flex justify-between">
             <div className="w-full md:w-8/12 lg:w-6/12 space-y-8">
@@ -14,8 +14,9 @@ export default function page() {
               <h4 className="text-xl">
                 La sécurité et la conformité représentent des aspects clés de
                 tout produit utilisé par votre équipe. Oreonyx s&apos;engage à
-                sécuriser l&apos;accès à vos données, à éliminer les vulnérabilités
-                des systèmes et à assurer la continuité de l&apos;accès.
+                sécuriser l&apos;accès à vos données, à éliminer les
+                vulnérabilités des systèmes et à assurer la continuité de
+                l&apos;accès.
               </h4>
               <h6 className="text-lg text-gray-600">
                 Dernière mise à jour: Avril 2023
@@ -26,18 +27,20 @@ export default function page() {
             <p>
               Oreonyx utilise un ensemble de technologies et de services
               industriels pour protéger vos données contre l&apos;accès, la
-              divulgation, l&apos;utilisation et la perte non autorisés, et la perte.
+              divulgation, l&apos;utilisation et la perte non autorisés, et la
+              perte.
             </p>
             <p>
-              Tous les administrateurs d&apos;Oreonyx font l&apos;objet d&apos;une vérification
-              de leurs antécédents et sont régulièrement formés aux pratiques de
-              sécurité, à la fois lors de l&apos;intégration dans l&apos;entreprise et sur
-              une base trimestrielle.
+              Tous les administrateurs d&apos;Oreonyx font l&apos;objet
+              d&apos;une vérification de leurs antécédents et sont régulièrement
+              formés aux pratiques de sécurité, à la fois lors de
+              l&apos;intégration dans l&apos;entreprise et sur une base
+              trimestrielle.
             </p>
             <p>
               La sécurité chez Oreonyx est dirigée par le responsable de
-              l&apos;ingénierie d&apos;Oreonyx et maintenue par l&apos;équipe interne
-              d&apos;ingénierie de l&apos;infrastructure d&apos;Oreonyx.
+              l&apos;ingénierie d&apos;Oreonyx et maintenue par l&apos;équipe
+              interne d&apos;ingénierie de l&apos;infrastructure d&apos;Oreonyx.
             </p>
             <h3>Certifications de conformité</h3>
             <div>
@@ -69,23 +72,24 @@ export default function page() {
               <h4>PCI DSS</h4>
               <p>
                 Oreonyx utilise Stripe pour traiter les informations relatives
-                aux paiements et aux cartes, qui a fait l&apos;objet d&apos;un audit par
-                un évaluateur de sécurité qualifié PCI indépendant et est
-                certifié en tant que fournisseur de services PCI de niveau 1. Il
-                s&apos;agit du niveau de certification le plus strict disponible dans
-                l&apos;industrie des paiements.
+                aux paiements et aux cartes, qui a fait l&apos;objet d&apos;un
+                audit par un évaluateur de sécurité qualifié PCI indépendant et
+                est certifié en tant que fournisseur de services PCI de niveau
+                1. Il s&apos;agit du niveau de certification le plus strict
+                disponible dans l&apos;industrie des paiements.
               </p>
               <p>
                 Oreonyx ne reçoit généralement pas de données de cartes de
                 crédit, ce qui le rend conforme aux normes de sécurité des
-                données de l&apos;industrie des cartes de paiement (PCI DSS) dans la
-                plupart des cas.
+                données de l&apos;industrie des cartes de paiement (PCI DSS)
+                dans la plupart des cas.
               </p>
               <p>
-                Oreonyx lui-même n&apos;est pas conçu pour le stockage de données
-                protégées par la norme PCI et les clients doivent s&apos;assurer
-                qu&apos;ils n&apos;utilisent pas le système d&apos;une manière qui nécessite le
-                stockage d&apos;informations relatives aux cartes de crédit.
+                Oreonyx lui-même n&apos;est pas conçu pour le stockage de
+                données protégées par la norme PCI et les clients doivent
+                s&apos;assurer qu&apos;ils n&apos;utilisent pas le système
+                d&apos;une manière qui nécessite le stockage d&apos;informations
+                relatives aux cartes de crédit.
               </p>
             </div>
             <div>
@@ -109,8 +113,8 @@ export default function page() {
                 souhaité.
               </p>
               <p>
-                Oreonyx dispose d&apos;un processus de réponse bien documenté pour la
-                détection et la résolution des incidents de sécurité.
+                Oreonyx dispose d&apos;un processus de réponse bien documenté
+                pour la détection et la résolution des incidents de sécurité.
               </p>
             </div>
             <div>
@@ -136,7 +140,8 @@ export default function page() {
                 <li>Contrôle d&apos;accès biométriquel</li>
                 <li>Alarmes</li>
                 <li>
-                  Cartes de contrôle d&apos;accès électroniques conçues par Google
+                  Cartes de contrôle d&apos;accès électroniques conçues par
+                  Google
                 </li>
               </ul>
               <p>
@@ -144,49 +149,50 @@ export default function page() {
                 données, consultez le livre blanc de Google sur la sécurité.
               </p>
               <p>
-                Les employés d&apos;Oreonyx n&apos;ont pas d&apos;accès physique aux centres de
-                données, serveurs, équipements de réseau ou supports de stockage
-                de Google.
+                Les employés d&apos;Oreonyx n&apos;ont pas d&apos;accès physique
+                aux centres de données, serveurs, équipements de réseau ou
+                supports de stockage de Google.
               </p>
             </div>
             <div>
               <h4>Contrôle d&apos;accès logique</h4>
               <p>
-                Oreonyx est l&apos;administrateur attitré de son infrastructure sur
-                Google Cloud Platform et seul un petit nombre d&apos;employés
-                autorisés d&apos;Oreonyx ont accès à la configuration de cette
-                infrastructure. Lorsque la configuration de l&apos;infrastructure est
-                effectuée, elle l&apos;est en fonction des besoins et nécessite une
-                authentification à deux facteurs.
+                Oreonyx est l&apos;administrateur attitré de son infrastructure
+                sur Google Cloud Platform et seul un petit nombre
+                d&apos;employés autorisés d&apos;Oreonyx ont accès à la
+                configuration de cette infrastructure. Lorsque la configuration
+                de l&apos;infrastructure est effectuée, elle l&apos;est en
+                fonction des besoins et nécessite une authentification à deux
+                facteurs.
               </p>
               <p>
-                L&apos;accès direct aux serveurs (tel que SSH) n&apos;est effectué qu&apos;en
-                cas de besoin et fait l&apos;objet d&apos;un enregistrement d&apos;audit
-                détaillé. Les connexions SSH sont protégées par une
-                authentification à deux facteurs et des certificats
-                régulièrement renouvelés.
+                L&apos;accès direct aux serveurs (tel que SSH) n&apos;est
+                effectué qu&apos;en cas de besoin et fait l&apos;objet d&apos;un
+                enregistrement d&apos;audit détaillé. Les connexions SSH sont
+                protégées par une authentification à deux facteurs et des
+                certificats régulièrement renouvelés.
               </p>
               <p>
                 Les connexions des administrateurs aux serveurs de production se
                 font sur un réseau privé.
               </p>
               <p>
-                Les droits d&apos;administration (y compris SSH, accès à la base de
-                données et configuration de l&apos;infrastructure) sont étroitement
-                contrôlés et limités à un très petit nombre de membres de notre
-                équipe.
+                Les droits d&apos;administration (y compris SSH, accès à la base
+                de données et configuration de l&apos;infrastructure) sont
+                étroitement contrôlés et limités à un très petit nombre de
+                membres de notre équipe.
               </p>
             </div>
             <div>
               <h4>Test de pénétration</h4>
               <p>
-                Oreonyx fait l&apos;objet d&apos;un test de pénétration annuel par une
-                agence tierce accréditée.
+                Oreonyx fait l&apos;objet d&apos;un test de pénétration annuel
+                par une agence tierce accréditée.
               </p>
               <p>
                 Les testeurs de pénétration reçoivent un diagramme de haut
-                niveau de l&apos;architecture de l&apos;application et les tests sont
-                exécutés dans notre environnement de production hébergé.
+                niveau de l&apos;architecture de l&apos;application et les tests
+                sont exécutés dans notre environnement de production hébergé.
               </p>
               <p>
                 Les informations sur les vulnérabilités de sécurité exploitées
@@ -204,9 +210,10 @@ export default function page() {
             <div>
               <h4>Détection et prévention des intrusions</h4>
               <p>
-                Oreonyx utilise une combinaison de signaux basés sur l&apos;hôte, sur
-                le réseau et sur l&apos;infrastructure pour fournir des systèmes de
-                détection et de prévention des intrusions (IDS/IPS).
+                Oreonyx utilise une combinaison de signaux basés sur
+                l&apos;hôte, sur le réseau et sur l&apos;infrastructure pour
+                fournir des systèmes de détection et de prévention des
+                intrusions (IDS/IPS).
               </p>
               <p>
                 Nous utilisons à la fois la sécurité basée sur les signatures et
@@ -215,14 +222,14 @@ export default function page() {
               </p>
               <p>
                 Notre stratégie IPS implique un contrôle strict de la surface
-                d&apos;attaque, l&apos;utilisation de contrôles de détection intelligents
-                et superposés aux points d&apos;entrée des données, et le déploiement
-                de technologies qui remédient automatiquement aux situations
-                potentiellement dangereuses.
+                d&apos;attaque, l&apos;utilisation de contrôles de détection
+                intelligents et superposés aux points d&apos;entrée des données,
+                et le déploiement de technologies qui remédient automatiquement
+                aux situations potentiellement dangereuses.
               </p>
               <p>
-                Oreonyx n&apos;offre pas à ses clients l&apos;accès aux analyses des
-                événements de sécurité, mais continue à leur fournir une
+                Oreonyx n&apos;offre pas à ses clients l&apos;accès aux analyses
+                des événements de sécurité, mais continue à leur fournir une
                 assistance pendant et après tout temps d&apos;arrêt imprévu.
               </p>
             </div>
@@ -243,14 +250,14 @@ export default function page() {
             <div>
               <h4>Reprise après sinistre</h4>
               <p>
-                Oreonyx dessert principalement un trafic provenant d&apos;une seule
-                région géographique répartie sur plusieurs zones de
+                Oreonyx dessert principalement un trafic provenant d&apos;une
+                seule région géographique répartie sur plusieurs zones de
                 disponibilité.
               </p>
               <p>
-                Dans le cas improbable d&apos;une panne régionale prolongée, nous
-                maintenons une procédure documentée pour le provisionnement de
-                notre environnement de déploiement dans une région distincte.
+                Dans le cas improbable d&apos;une panne régionale prolongée,
+                nous maintenons une procédure documentée pour le provisionnement
+                de notre environnement de déploiement dans une région distincte.
               </p>
               <p>
                 Oreonyx dispose d&apos;un processus de réponse aux incidents
@@ -266,32 +273,32 @@ export default function page() {
                 en utilisant TLS 1.2 ou supérieur.
               </p>
               <p>
-                Tous les systèmes d&apos;Oreonyx sont configurés pour rejeter les
-                connexions utilisant une version TLS inférieure à 1.2 ou celles
-                utilisant des suites de chiffrement potentiellement non
+                Tous les systèmes d&apos;Oreonyx sont configurés pour rejeter
+                les connexions utilisant une version TLS inférieure à 1.2 ou
+                celles utilisant des suites de chiffrement potentiellement non
                 sécurisées.
               </p>
               <p>
                 Oreonyx exploite un réseau de confiance zéro, ce qui signifie
-                que tout le trafic réseau, même à l&apos;intérieur du périmètre de
-                notre propre réseau, est crypté.
+                que tout le trafic réseau, même à l&apos;intérieur du périmètre
+                de notre propre réseau, est crypté.
               </p>
               <p>
                 Oreonyx teste régulièrement la disponibilité et la sécurité de
-                sa configuration SSL à l&apos;aide de SSL Labs Reporting. Le dernier
-                rapport peut être consulté ici.
+                sa configuration SSL à l&apos;aide de SSL Labs Reporting. Le
+                dernier rapport peut être consulté ici.
               </p>
               <p>
                 Toutes les demandes adressées au système sont enregistrées et
-                surveillées à l&apos;aide d&apos;une combinaison de systèmes basés sur des
-                règles et des anomalies.
+                surveillées à l&apos;aide d&apos;une combinaison de systèmes
+                basés sur des règles et des anomalies.
               </p>
             </div>
             <div>
               <h4>Données quittant le système</h4>
               <p>
-                Oreonyx permet à ses clients d&apos;accéder aux données stockées dans
-                Oreonyx par le biais de plusieurs méthodes, notamment :
+                Oreonyx permet à ses clients d&apos;accéder aux données stockées
+                dans Oreonyx par le biais de plusieurs méthodes, notamment :
               </p>
               <ul>
                 <li>
@@ -300,8 +307,8 @@ export default function page() {
                 </li>
                 <li>Nos applications mobiles pour Android et iOS</li>
                 <li>
-                  Notre API REST pour les développeurs est hébergée à l&apos;adresse
-                  suivante : https://api.oreonyx.live
+                  Notre API REST pour les développeurs est hébergée à
+                  l&apos;adresse suivante : https://api.oreonyx.live
                 </li>
               </ul>
               <p>
@@ -332,9 +339,9 @@ export default function page() {
                 (TOTP).
               </p>
               <p>
-                Une fois activée, l&apos;authentification à deux facteurs s&apos;applique
-                à toutes les méthodes d&apos;authentification, y compris
-                l&apos;authentification unique.
+                Une fois activée, l&apos;authentification à deux facteurs
+                s&apos;applique à toutes les méthodes d&apos;authentification, y
+                compris l&apos;authentification unique.
               </p>
             </div>
             <div>
@@ -344,9 +351,9 @@ export default function page() {
                 leur compte Google ou GSuite for Business.
               </p>
               <p>
-                Oreonyx participe au programme d&apos;évaluation de la sécurité de
-                Google, ce qui signifie que notre flux de connexion avec Google
-                est évalué chaque année en termes de sécurité et de
+                Oreonyx participe au programme d&apos;évaluation de la sécurité
+                de Google, ce qui signifie que notre flux de connexion avec
+                Google est évalué chaque année en termes de sécurité et de
                 confidentialité par un auditeur tiers désigné par Google.
               </p>
             </div>
@@ -358,8 +365,8 @@ export default function page() {
               </p>
               <p>
                 Les espaces de travail ont la possibilité de forcer tous leurs
-                utilisateurs à s&apos;authentifier à l&apos;aide de SAML 2.0 pour
-                s&apos;aligner sur leurs propres exigences en matière
+                utilisateurs à s&apos;authentifier à l&apos;aide de SAML 2.0
+                pour s&apos;aligner sur leurs propres exigences en matière
                 d&apos;authentification.
               </p>
             </div>
@@ -367,16 +374,17 @@ export default function page() {
               <h4>Authentification API REST (clé API)</h4>
               <p>
                 Oreonyx fournit une API REST complète qui permet à nos clients
-                d&apos;accéder à leurs données par le biais d&apos;intégrations avec
-                d&apos;autres plateformes.
+                d&apos;accéder à leurs données par le biais d&apos;intégrations
+                avec d&apos;autres plateformes.
               </p>
               <p>
                 Les clés API ont été conçues pour résister aux attaques par
                 force brute.
               </p>
               <p>
-                Les clients sont en mesure d&apos;émettre, de modifier et de révoquer
-                les clés API via la page Paramètres de l&apos;espace de travail.
+                Les clients sont en mesure d&apos;émettre, de modifier et de
+                révoquer les clés API via la page Paramètres de l&apos;espace de
+                travail.
               </p>
             </div>
             <div>
@@ -388,8 +396,8 @@ export default function page() {
                 testées et expédiées à nos clients dans un ordre rapide.
               </p>
               <p>
-                Au cours d&apos;une journée de travail typique, nous déployons entre
-                une et vingt versions d&apos;Oreonyx à nos clients.
+                Au cours d&apos;une journée de travail typique, nous déployons
+                entre une et vingt versions d&apos;Oreonyx à nos clients.
               </p>
               <p>
                 Notre modèle de développement par itération rapide améliore
@@ -404,8 +412,8 @@ export default function page() {
             <div>
               <h3>Sécurité de l&apos;entreprise</h3>
               <p>
-                Oreonyx estime qu&apos;une bonne sécurité s&apos;applique aussi bien à
-                notre équipe qu&apos;à notre plate-forme.
+                Oreonyx estime qu&apos;une bonne sécurité s&apos;applique aussi
+                bien à notre équipe qu&apos;à notre plate-forme.
               </p>
             </div>
             <div>
@@ -419,13 +427,13 @@ export default function page() {
             <div>
               <h4>Sécurité et configuration des points d&apos;extrémité</h4>
               <p>
-                Oreonyx utilise Fleetsmith pour la gestion de l&apos;inventaire et la
-                configuration.
+                Oreonyx utilise Fleetsmith pour la gestion de l&apos;inventaire
+                et la configuration.
               </p>
               <p>
-                Tous les terminaux d&apos;Oreonyx utilisent le chiffrement intégral
-                du disque, le verrouillage de l&apos;écran, l&apos;effacement à distance
-                et des mots de passe forts.
+                Tous les terminaux d&apos;Oreonyx utilisent le chiffrement
+                intégral du disque, le verrouillage de l&apos;écran,
+                l&apos;effacement à distance et des mots de passe forts.
               </p>
             </div>
             <div>
@@ -435,13 +443,14 @@ export default function page() {
                 traitement des risques.
               </p>
               <p>
-                Oreonyx utilise une combinaison d&apos;évaluations des risques basées
-                sur les actifs et les scénarios.
+                Oreonyx utilise une combinaison d&apos;évaluations des risques
+                basées sur les actifs et les scénarios.
               </p>
               <p>
-                Tous les déploiements d&apos;Oreonyx font l&apos;objet d&apos;un examen par les
-                pairs, de tests automatisés et d&apos;un processus de déploiement
-                automatisé qui met à jour l&apos;environnement de production.
+                Tous les déploiements d&apos;Oreonyx font l&apos;objet d&apos;un
+                examen par les pairs, de tests automatisés et d&apos;un
+                processus de déploiement automatisé qui met à jour
+                l&apos;environnement de production.
               </p>
               <p>
                 Oreonyx effectue régulièrement une gestion et un traitement des
@@ -472,9 +481,9 @@ export default function page() {
             <div>
               <h4>Vérifications des antécédents</h4>
               <p>
-                AAttio effectue des vérifications d&apos;antécédents en utilisant le
-                service britannique Disclosure and Barring pour les membres de
-                notre équipe qui ont un accès administrateur à notre
+                AAttio effectue des vérifications d&apos;antécédents en
+                utilisant le service britannique Disclosure and Barring pour les
+                membres de notre équipe qui ont un accès administrateur à notre
                 infrastructure.
               </p>
             </div>
@@ -486,23 +495,23 @@ export default function page() {
                 trimestres par la suite.
               </p>
               <p>
-                Les membres de l&apos;équipe d&apos;ingénieurs d&apos;Oreonyx reçoivent
-                régulièrement une formation supplémentaire qui couvre les
-                pratiques de développement sécurisé, telles que le Top 10 de
+                Les membres de l&apos;équipe d&apos;ingénieurs d&apos;Oreonyx
+                reçoivent régulièrement une formation supplémentaire qui couvre
+                les pratiques de développement sécurisé, telles que le Top 10 de
                 l&apos;OWASP, en plus de nos politiques internes.
               </p>
             </div>
             <div>
               <h4>Politique de réponse aux incidents</h4>
               <p>
-                Lorsqu&apos;un incident de sécurité affecte la confidentialité des
-                données du client, Oreonyx contacte les administrateurs
+                Lorsqu&apos;un incident de sécurité affecte la confidentialité
+                des données du client, Oreonyx contacte les administrateurs
                 enregistrés de l&apos;espace de travail.
               </p>
               <p>
-                Oreonyx tient à jour une page d&apos;état publique à l&apos;adresse
-                https://status.oreonyx.live qui rend compte des problèmes
-                opérationnels.
+                Oreonyx tient à jour une page d&apos;état publique à
+                l&apos;adresse https://status.oreonyx.live qui rend compte des
+                problèmes opérationnels.
               </p>
               <p>
                 Toute personne peut s&apos;abonner aux mises à jour par courrier

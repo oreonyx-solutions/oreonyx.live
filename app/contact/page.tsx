@@ -6,7 +6,7 @@ export default function page() {
   return (
     <div className="bg-primary">
       <Navbar />
-      <div className="font-mono mt-24 space-y-12 px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
+      <div className="font-mono lg:pt-60 lg:pb-32 pt-32 pb-24 space-y-12 px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div className="w-full lg:flex space-y-8 lg:space-y-0">
           <div className="w-full lg:w-6/12">
             <h4 className="text-7xl leading-none lg:leading-normal">
