@@ -46,11 +46,11 @@ export default function page() {
               </div>
               <div className="lg:flex space-y-6 lg:space-y-0 lg:space-x-6">
                 <div className="space-y-4 w-full md:w-10/12 lg:w-6/12">
-                  <div className="bg-black h-72 flex justify-center items-center">
+                  <div className="bg-secondary h-72 flex justify-center items-center">
                     <div className="relative">
                       <Image
                         alt="source data"
-                        src="/oreonyx_default.png"
+                        src="/oreonyx-primary-logo-dark.png"
                         width={250}
                         height={0}
                       />
@@ -65,11 +65,11 @@ export default function page() {
                   </div>
                 </div>
                 <div className="space-y-4 w-full md:w-10/12 lg:w-6/12">
-                  <div className="bg-secondary h-72 flex justify-center items-center">
+                  <div className="bg-black h-72 flex justify-center items-center">
                     <div className="relative">
                       <Image
                         alt="source data"
-                        src="/oreonyx_default_dark.png"
+                        src="/oreonyx-primary-logo-light.png"
                         width={250}
                         height={0}
                       />
@@ -87,12 +87,72 @@ export default function page() {
                 </div>
               </div>
               <div className="space-y-6">
-                <button className="px-6 py-2 border-2 bg-black text-white border-gray-900 uppercase flex items-center space-x-2">
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/drive/folders/1mBIN7oluLZkuqU5E2gUM0GPuRicRN5_y?usp=share_link"
+                  className="px-6 py-2 border-2 bg-black text-white border-gray-900 uppercase flex items-center space-x-2"
+                >
                   <span className="font-medium">
                     Télécharger les logos primaires
                   </span>
                   <ArrowDown className="h-4 w-4" />
-                </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="space-y-24">
+            <div className="space-y-6">
+              <div className="w-full md:w-8/12 space-y-3">
+                <h5 className="text-3xl font-medium">Logo Monotone</h5>
+                <h4 className="text-lg">
+                  Lorsque nos logos primaires ou en couleur ne sont pas
+                  disponibles, utilisez le logo monotone qui offre le plus de
+                  contraste.
+                </h4>
+              </div>
+              <div className="lg:flex space-y-6 lg:space-y-0 lg:space-x-6">
+                <div className="space-y-4 w-full md:w-10/12 lg:w-6/12">
+                  <div className="bg-secondary h-72 flex justify-center items-center">
+                    <div className="relative">
+                      <Image
+                        alt="source data"
+                        src="/oreonyx_default_dark.png"
+                        width={250}
+                        height={0}
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <h5 className="text-lg font-semibold">Monotone Blanc</h5>
+                  </div>
+                </div>
+                <div className="space-y-4 w-full md:w-10/12 lg:w-6/12">
+                  <div className="bg-dark h-72 flex justify-center items-center">
+                    <div className="relative">
+                      <Image
+                        alt="source data"
+                        src="/oreonyx_default.png"
+                        width={250}
+                        height={0}
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <h5 className="text-lg font-semibold">Monotone Noir</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="space-y-6">
+                <a
+                  target="_blank"
+                  href="https://drive.google.com/drive/folders/1mBIN7oluLZkuqU5E2gUM0GPuRicRN5_y?usp=share_link"
+                  className="px-6 py-2 border-2 bg-black text-white border-gray-900 uppercase flex items-center space-x-2"
+                >
+                  <span className="font-medium">
+                    Télécharger les logos monotones
+                  </span>
+                  <ArrowDown className="h-4 w-4" />
+                </a>
               </div>
             </div>
           </div>
@@ -146,10 +206,14 @@ export default function page() {
               modifier le logo Oreonyx.
             </h5>
           </div>
-          <button className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex items-center space-x-2">
+          <a
+            target="_blank"
+            href="https://drive.google.com/drive/folders/1mBIN7oluLZkuqU5E2gUM0GPuRicRN5_y?usp=share_link"
+            className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex items-center space-x-2"
+          >
             <span className="font-medium">Télécharger tous les fichiers</span>
             <ArrowDown className="h-4 w-4" />
-          </button>
+          </a>
         </div>
       </div>
       <Footer />
