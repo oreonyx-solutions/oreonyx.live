@@ -2,7 +2,7 @@ import { X } from "lucide-react";
 
 export default function Banner() {
   return (
-    <div className="bg-black py-2 text-white flex justify-center items-center relative">
+    <div className="bg-black py-2 text-white flex justify-center items-center relative w-full">
       <span className="line-clamp-1">
         <a href="#" className="hover:underline">
           <span className="lg:hidden">Nouvel article: Bêta Testing !</span>

@@ -23,7 +23,7 @@ import Banner from "@/components/ui/sections/Banner";
 
 export default function Navbar() {
   return (
-    <div className="fixed z-10">
+    <div className="fixed z-10 w-full">
       <Banner />
       <div className="bg-primary font-mono uppercase text-gray-900 py-4 px-4 md:px-6 xl:px-0 w-full flex justify-between md:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div className="space-x-20 flex items-center">
