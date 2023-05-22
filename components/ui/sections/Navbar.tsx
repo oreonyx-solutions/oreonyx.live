@@ -28,7 +28,7 @@ export default function Navbar() {
         >
           <Image
             alt="source data"
-            src="/oreonyx_default_dark.png"
+            src="/oreonyx-primary-logo-dark.png"
             width={106}
             height={0}
           />
