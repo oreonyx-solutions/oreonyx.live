@@ -51,11 +51,11 @@ export default function page() {
               </div>
               <div className="lg:flex space-y-6 lg:space-y-0 lg:space-x-6">
                 <div className="space-y-4 w-full md:w-10/12 lg:w-6/12">
-                  <div className="bg-black h-72 flex justify-center items-center">
+                  <div className="bg-secondary h-72 flex justify-center items-center">
                     <div className="relative">
                       <Image
                         alt="source data"
-                        src="/oreonyx-primary-logo-light.png"
+                        src="/oreonyx-primary-logo-dark.png"
                         width={250}
                         height={0}
                       />
