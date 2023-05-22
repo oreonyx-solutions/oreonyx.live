@@ -153,9 +153,9 @@ export default function page() {
                   target="_blank"
                   href="https://drive.google.com/drive/folders/1mBIN7oluLZkuqU5E2gUM0GPuRicRN5_y?usp=share_link"
                 >
-                  <button>
+                  <button className="px-6 py-2 border-2 bg-black text-white border-gray-900 uppercase flex items-center space-x-2">
                     <span className="font-medium">
-                      Télécharger les logos monotones
+                      Télécharger les logos monochrome
                     </span>
                     <ArrowDown className="h-4 w-4" />
                   </button>
@@ -214,6 +214,7 @@ export default function page() {
             </h5>
           </div>
           <a
+            className=" mt-6"
             target="_blank"
             href="https://drive.google.com/drive/folders/1mBIN7oluLZkuqU5E2gUM0GPuRicRN5_y?usp=share_link"
           >
