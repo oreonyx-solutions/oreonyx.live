@@ -22,12 +22,17 @@ export default function page() {
               </h4>
             </div>
             <div className="w-full md:w-6/12 flex lg:justify-end lg:items-end">
-              <button className="px-6 py-2 border-2 bg-black text-white border-gray-900 uppercase flex items-center space-x-2">
-                <span className="font-medium">
-                  Télécharger tous les fichiers
-                </span>
-                <ArrowDown className="h-4 w-4" />
-              </button>
+              <a
+                target="_blank"
+                href="https://drive.google.com/drive/folders/1mBIN7oluLZkuqU5E2gUM0GPuRicRN5_y?usp=share_link"
+              >
+                <button className="px-6 py-2 border-2 bg-black text-white border-gray-900 uppercase flex items-center space-x-2">
+                  <span className="font-medium">
+                    Télécharger tous les fichiers
+                  </span>
+                  <ArrowDown className="h-4 w-4" />
+                </button>
+              </a>
             </div>
           </div>
           <hr className="my-12" />
@@ -46,11 +51,11 @@ export default function page() {
               </div>
               <div className="lg:flex space-y-6 lg:space-y-0 lg:space-x-6">
                 <div className="space-y-4 w-full md:w-10/12 lg:w-6/12">
-                  <div className="bg-secondary h-72 flex justify-center items-center">
+                  <div className="bg-black h-72 flex justify-center items-center">
                     <div className="relative">
                       <Image
                         alt="source data"
-                        src="/oreonyx-primary-logo-dark.png"
+                        src="/oreonyx-primary-logo-light.png"
                         width={250}
                         height={0}
                       />
@@ -65,11 +70,11 @@ export default function page() {
                   </div>
                 </div>
                 <div className="space-y-4 w-full md:w-10/12 lg:w-6/12">
-                  <div className="bg-black h-72 flex justify-center items-center">
+                  <div className="bg-secondary h-72 flex justify-center items-center">
                     <div className="relative">
                       <Image
                         alt="source data"
-                        src="/oreonyx-primary-logo-light.png"
+                        src="/oreonyx-primary-logo-dark.png"
                         width={250}
                         height={0}
                       />
@@ -80,8 +85,8 @@ export default function page() {
                       Logo primaire inversé
                     </h5>
                     <h6 className="text-lg">
-                      Cette version comporte un mot-symbole blanc pour une
-                      meilleure lisibilité sur des fonds sombres ou chargés.
+                      Cette version comporte un mot-symbole noir pour une
+                      meilleure lisibilité sur des fonds blanc ou chargés.
                     </h6>
                   </div>
                 </div>
@@ -90,12 +95,13 @@ export default function page() {
                 <a
                   target="_blank"
                   href="https://drive.google.com/drive/folders/1mBIN7oluLZkuqU5E2gUM0GPuRicRN5_y?usp=share_link"
-                  className="px-6 py-2 border-2 bg-black text-white border-gray-900 uppercase flex items-center space-x-2"
                 >
-                  <span className="font-medium">
-                    Télécharger les logos primaires
-                  </span>
-                  <ArrowDown className="h-4 w-4" />
+                  <button className="px-6 py-2 border-2 bg-black text-white border-gray-900 uppercase flex items-center space-x-2">
+                    <span className="font-medium">
+                      Télécharger les logos primaires
+                    </span>
+                    <ArrowDown className="h-4 w-4" />
+                  </button>
                 </a>
               </div>
             </div>
@@ -123,11 +129,11 @@ export default function page() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-lg font-semibold">Monotone Blanc</h5>
+                    <h5 className="text-lg font-semibold">Monotone Noir</h5>
                   </div>
                 </div>
                 <div className="space-y-4 w-full md:w-10/12 lg:w-6/12">
-                  <div className="bg-dark h-72 flex justify-center items-center">
+                  <div className="bg-black h-72 flex justify-center items-center">
                     <div className="relative">
                       <Image
                         alt="source data"
@@ -138,7 +144,7 @@ export default function page() {
                     </div>
                   </div>
                   <div>
-                    <h5 className="text-lg font-semibold">Monotone Noir</h5>
+                    <h5 className="text-lg font-semibold">Monotone Blanc</h5>
                   </div>
                 </div>
               </div>
@@ -146,12 +152,13 @@ export default function page() {
                 <a
                   target="_blank"
                   href="https://drive.google.com/drive/folders/1mBIN7oluLZkuqU5E2gUM0GPuRicRN5_y?usp=share_link"
-                  className="px-6 py-2 border-2 bg-black text-white border-gray-900 uppercase flex items-center space-x-2"
                 >
-                  <span className="font-medium">
-                    Télécharger les logos monotones
-                  </span>
-                  <ArrowDown className="h-4 w-4" />
+                  <button>
+                    <span className="font-medium">
+                      Télécharger les logos monotones
+                    </span>
+                    <ArrowDown className="h-4 w-4" />
+                  </button>
                 </a>
               </div>
             </div>
@@ -209,10 +216,11 @@ export default function page() {
           <a
             target="_blank"
             href="https://drive.google.com/drive/folders/1mBIN7oluLZkuqU5E2gUM0GPuRicRN5_y?usp=share_link"
-            className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex items-center space-x-2"
           >
-            <span className="font-medium">Télécharger tous les fichiers</span>
-            <ArrowDown className="h-4 w-4" />
+            <button className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex items-center space-x-2">
+              <span className="font-medium">Télécharger tous les fichiers</span>
+              <ArrowDown className="h-4 w-4" />
+            </button>
           </a>
         </div>
       </div>
