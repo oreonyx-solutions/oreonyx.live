@@ -51,9 +51,9 @@ export default function page() {
               <div className="flex md:justify-center pt-6">
                 <Link
                   href="https://app.oreonyx.live"
-                  className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 flex"
+                  className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 flex items-center"
                 >
-                  <span> Contacter-nous </span>
+                  <span className="font-medium">Contacter-nous</span>
                   <MailCheck className="h-4 w-4" />
                 </Link>
               </div>
