@@ -225,7 +225,7 @@ export default function page() {
                         </a>
                       </div>
                     </div>
-                    <div className="flex items-center justify-between">
+                    <div className="hidden items-center justify-between">
                       <div className="w-8/12">
                         <h6 className="text-base md:text-lg font-medium">
                           Senior - Product Support Specialist
@@ -372,7 +372,7 @@ export default function page() {
                       <li>
                         Evenements réguliers de l&apos;équipe et hors-sites.
                       </li>
-                      <li>Cours d&apos;anglais approfondi</li>
+                      <li>Cours d&apos;anglais offert</li>
                       <li>Semaines de hack trimestrielles.</li>
                     </ul>
                   </div>
