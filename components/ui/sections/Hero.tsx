@@ -13,8 +13,8 @@ export default function Hero() {
   return (
     <div className="px-4 md:px-6 xl:px-0 w-full flex justify-between md:max-w-6xl 2xl:max-w-7xl mx-auto">
       <div className="space-y-2">
-        <div className="lg:pt-60 lg:pb-12 pt-32 pb-32 lg:flex space-y-12 md:space-y-0">
-          <div className="space-y-8 w-full lg:w-7/12 ">
+        <div className="lg:pt-60 lg:pb-32 pt-32 pb-24 lg:flex space-y-12 md:space-y-0">
+          <div className="space-y-8 w-full lg:w-7/12">
             <div className="space-y-8">
               <h1 className="text-4xl lg:text-7xl font-mono font-bold uppercase text-gray-900">
                 Transformez l&apos;avenir de l&apos;éducation{" "}
@@ -22,7 +22,7 @@ export default function Hero() {
                   .
                 </span>
               </h1>
-              <div className="w-11/12">
+              <div className="w-9/12">
                 <h5 className="text-gray-900 text-lg font-mono">
                   Une plateforme numérique révolutionnaire pour les universités,
                   les étudiants et les entreprises, favorisant l&apos;accès à
