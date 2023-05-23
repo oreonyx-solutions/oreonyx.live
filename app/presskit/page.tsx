@@ -1,3 +1,6 @@
+import { useState } from "react";
+import { useIntl } from "react-intl";
+
 import Image from "next/image";
 
 //components
@@ -7,6 +10,13 @@ import Footer from "@/components/ui/sections/Footer";
 import { ArrowDown } from "lucide-react";
 
 export default function page() {
+  const intl = useIntl();
+  const [language, setLanguage] = useState("fr"); // Initialize the language state with the default language
+
+  const handleLanguageChange = (newLanguage: string) => {
+    setLanguage(newLanguage);
+  };
+
   return (
     <div className="bg-primary">
       <Navbar />
@@ -225,7 +235,7 @@ export default function page() {
           </a>
         </div>
       </div>
-      <Footer />
+      <Footer language={language} onLanguageChange={handleLanguageChange} />
     </div>
   );
 }

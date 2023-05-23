@@ -1,9 +1,21 @@
+import { useState } from "react";
+import { useIntl } from "react-intl";
+
+import Image from "next/image";
+
 //components
 import Navbar from "@/components/ui/sections/Navbar";
 import CTA from "@/components/ui/sections/CTA";
 import Footer from "@/components/ui/sections/Footer";
 
 export default function page() {
+  const intl = useIntl();
+  const [language, setLanguage] = useState("fr"); // Initialize the language state with the default language
+
+  const handleLanguageChange = (newLanguage: string) => {
+    setLanguage(newLanguage);
+  };
+
   return (
     <div className="bg-primary">
       <Navbar />
@@ -88,7 +100,7 @@ export default function page() {
       <div className="md:px-6">
         <CTA />
       </div>
-      <Footer />
+      <Footer language={language} onLanguageChange={handleLanguageChange} />
     </div>
   );
 }
