@@ -5,7 +5,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const locale = "fr"; // Set the default locale here if needefd
+  const locale = "en"; // Set the default locale here if needefd
 
   return (
     <html lang={locale}>

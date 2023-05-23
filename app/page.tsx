@@ -9,6 +9,8 @@ import CTA from "@/components/ui/sections/CTA";
 import Footer from "@/components/ui/sections/Footer";
 import Overview from "@/components/ui/sections/Overview";
 
+import styles from "./page.module.css";
+
 export default function Home() {
   return (
     <div className="bg-primary">
