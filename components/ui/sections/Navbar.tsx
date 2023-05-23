@@ -145,7 +145,7 @@ export default function Navbar() {
                   className=""
                 >
                   <div className="flex space-x-2 items-center text-transparent bg-clip-text bg-gradient-to-r from-sky-300 via-pink-500 to-sky-600">
-                    <span>Programme bêta</span>
+                    <span>Beta program</span>
                     <span>
                       <ArrowRight className="h-4 w-4 hidden md:inline" />
                     </span>
