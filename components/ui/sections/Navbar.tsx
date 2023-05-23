@@ -19,12 +19,12 @@ import {
 } from "@/components/ui/dropdown-menu";
 
 //components
-import Banner from "@/components/ui/sections/Banner";
+//import Banner from "@/components/ui/sections/Banner";
 
 export default function Navbar() {
   return (
     <div className="fixed z-10 w-full">
-      <Banner />
+      {/**<Banner /> */}
       <div className="bg-primary font-mono uppercase text-gray-900 py-4 px-4 md:px-6 xl:px-0 w-full flex justify-between md:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div className="space-x-20 flex items-center">
           <Link
@@ -50,7 +50,7 @@ export default function Navbar() {
                 Carrières
               </Link>
               <Link
-                className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
+                className="hidden hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                 title="Blog"
                 href="blog"
               >
@@ -76,7 +76,7 @@ export default function Navbar() {
               href="https://t.me/oreonyxHQ"
               target="_blank"
             >
-              <div className="hidden mr-2 relative md:flex items-center space-x-1 px-3 py-0.5 rounded-full bg-gradient-to-tr from-blue-500 via-blue-500 to-blue-300 text-white">
+              <div className="hidden mr-2 relative md:hidden items-center space-x-1 px-3 py-0.5 rounded-full bg-gradient-to-tr from-blue-500 via-blue-500 to-blue-300 text-white">
                 <span className="text-sm">
                   <span className="hidden md:inline">Rejoignez notre </span>{" "}
                   Telegram
@@ -102,7 +102,7 @@ export default function Navbar() {
               <AlignJustify className="h-5 w-5" />
             </DropdownMenuTrigger>
             <DropdownMenuContent className="font-mono uppercase bg-white">
-              <DropdownMenuItem className="hidden flex space-x-2 items-center">
+              <DropdownMenuItem className="hidden space-x-2 items-center">
                 <span>
                   <Boxes className="h-4 w-4 text-gray-600" />
                 </span>
