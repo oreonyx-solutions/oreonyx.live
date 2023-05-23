@@ -13,7 +13,7 @@ const messages: Messages = {
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
-  const locale = "fr"; // Set the default locale here if needed
+  const locale = "fr"; // Set the default locale here if needefd
 
   return (
     <IntlProvider locale={locale} messages={messages[locale]}>
