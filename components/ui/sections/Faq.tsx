@@ -13,7 +13,7 @@ export default function Faq() {
       <div className="flex justify-center">
         <div className="w-full md:w-8/12">
           <h1 className="text-2xl md:text-4xl lg:text-6xl text-center font-bold uppercase">
-            Foire aux questions!{" "}
+            FREQUENTLY ASKED QUESTIONS!
           </h1>
         </div>
       </div>
@@ -27,158 +27,141 @@ export default function Faq() {
             >
               <AccordionItem value="item-1">
                 <AccordionTrigger className="uppercase">
-                  C&apos;est quoi Oreonyx?
+                  WHAT IS OREONYX?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  Oreonyx est une plateforme numérique innovante qui met le
-                  numérique au service de l&apos;écosystème universitaire. Notre
-                  mission est d&apos;améliorer l&apos;accès à
-                  l&apos;enseignement supérieur et l&apos;employabilité des
-                  jeunes en offrant des outils performants pour gérer
-                  efficacement les universités, augmenter la qualité de
-                  l&apos;enseignement à distance et optimiser les collaborations
-                  entre les étudiants, les universités, les entreprises et les
-                  organisations.
+                  Oreonyx is an innovative digital platform that puts digital
+                  technology at the service of the university ecosystem. Our
+                  mission is to improve access to higher education and
+                  employability of young people by providing powerful tools to
+                  efficiently manage universities, increase the quality of
+                  distance learning and optimize collaborations between
+                  students, universities, companies and organizations.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">
                 <AccordionTrigger className="uppercase">
-                  Comment rejoindre Oreonyx?
+                  HOW TO JOIN OREONYX?
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  Oreonyx est actuellement en phase bêta, ce qui signifie
-                  qu&apos;il n&apos;est accessible qu&apos;à un nombre limité de
-                  personnes. Pour rejoindre le programme de bêta-testeurs, il
-                  vous suffit de remplir ce{" "}
+                  Oreonyx is currently in beta phase, which means it is only
+                  available to a limited number of people. To join the beta
+                  tester program, simply fill out this
                   <a
                     className="underline"
                     target="_blank"
                     href="https://tally.so/r/nrBOep"
                   >
-                    formulaire
+                    form
                   </a>
-                  . Nous vous tiendrons informé de votre éligibilité.
+                  .We will keep you informed of your eligibility.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-3">
                 <AccordionTrigger className="uppercase">
                   <span className="hidden lg:inline">
-                    Quels sont les avantages pour les universités ?
+                    WHAT ARE THE BENEFITS FOR UNIVERSITIES?
                   </span>
-                  <span className="lg:hidden">Quels sont les Avantages ?</span>
+                  <span className="lg:hidden">WHAT ARE THE ADVANTAGES?</span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  L&apos;utilisation d&apos;Oreonyx présente plusieurs avantages
-                  pour les universités, tels que la gestion simplifiée des
-                  programmes d&apos;études, des outils de suivi et
-                  d&apos;évaluation des performances des étudiants, la
-                  possibilité de proposer un enseignement à distance de qualité,
-                  ainsi que des fonctionnalités de collaboration et de mise en
-                  réseau entre les étudiants, les universités, les entreprises
-                  et les organisations.
+                  Using Oreonyx offers several benefits for universities, such
+                  as simplified curriculum management, tools for monitoring and
+                  evaluating student performance, the ability to provide quality
+                  distance learning, as well as collaboration and networking
+                  features between students, universities, companies and
+                  organizations.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-4">
                 <AccordionTrigger className="uppercase">
                   <span className="hidden lg:inline">
-                    Comment Oreonyx améliore l&apos;enseignement à distance?
+                    HOW DOES OREONYX IMPROVE DISTANCE LEARNING?
                   </span>
-                  <span className="lg:hidden">
-                    L&apos;enseignement à distance?
-                  </span>
+                  <span className="lg:hidden">DISTANCE LEARNING?</span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  Oreonyx offre une gamme de fonctionnalités pour améliorer
-                  l&apos;enseignement à distance, telles que des salles de
-                  classe virtuelles interactives, des outils de partage de
-                  contenus multimédias, des forums de discussion pour faciliter
-                  les échanges entre les étudiants et les enseignants, ainsi que
-                  des options d&apos;évaluation en ligne.
+                  Oreonyx offers a range of features to enhance distance
+                  learning, such as interactive virtual classrooms, multimedia
+                  content sharing tools, discussion forums to facilitate
+                  exchanges between students and teachers, and online assessment
+                  options.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-5">
                 <AccordionTrigger className="uppercase">
                   <span className="hidden lg:inline">
-                    Comment favorise-t-il la collaboration entre les parties
-                    prenantes?
+                    HOW DOES IT FOSTER COLLABORATION BETWEEN STAKEHOLDERS?
                   </span>
-                  <span className="lg:hidden">Les Collaborations?</span>
+                  <span className="lg:hidden">COLLABORATIONS?</span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  Oreonyx facilite la collaboration en fournissant des outils de
-                  communication et de partage d&apos;informations avancés. Les
-                  étudiants peuvent interagir avec d&apos;autres étudiants, des
-                  enseignants, des représentants d&apos;entreprises et des
-                  professionnels, ce qui favorise les échanges, les stages, les
-                  opportunités de mentorat et les partenariats académiques.
+                  Oreonyx facilitates collaboration by providing advanced
+                  communication and information sharing tools. Students can
+                  interact with other students, teachers, company
+                  representatives and professionals, which promotes exchanges,
+                  internships, mentoring opportunities and academic
+                  partnerships.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-6">
                 <AccordionTrigger className="uppercase">
                   <span className="hidden lg:inline">
-                    Oreonyx offre t&apos;il un support technique aux
-                    utilisateurs?
+                    DOES OREONYX OFFER TECHNICAL SUPPORT TO USERS?
                   </span>
-                  <span className="lg:hidden">Support technique?</span>
+                  <span className="lg:hidden">TECHNICAL SUPPORT?</span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  Oui, Oreonyx propose un support technique dédié aux
-                  utilisateurs. Notre équipe de support est disponible pour
-                  répondre à vos questions, résoudre les problèmes techniques et
-                  fournir une assistance pour garantir une expérience fluide sur
-                  la plateforme.
+                  Yes, Oreonyx offers a dedicated technical support to users.
+                  Our support team is available to answer your questions,
+                  resolve technical issues and provide assistance to ensure a
+                  smooth experience on the platform.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-7">
                 <AccordionTrigger className="uppercase">
                   <span className="hidden lg:inline">
-                    Quels types d&apos;outils de gestion sont disponibles pour
-                    les universités ?
+                    WHAT TYPES OF MANAGEMENT TOOLS ARE AVAILABLE FOR
+                    UNIVERSITIES?
                   </span>
-                  <span className="lg:hidden">Les outils de gestion?</span>
+                  <span className="lg:hidden">MANAGEMENT TOOLS?</span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  Oreonyx propose une variété d&apos;outils de gestion pour les
-                  universités, notamment la gestion des emplois du temps, des
-                  examens et des évaluations, des données étudiantes, des
-                  inscriptions, ainsi que des fonctionnalités de reporting et
-                  d&apos;analyse pour suivre les performances et les progrès des
-                  étudiants.
+                  Oreonyx offers a variety of management tools for universities,
+                  including schedule management, exam and assessment management,
+                  student data management, enrollment management, as well as
+                  reporting and analysis features to track student performance
+                  and progress.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-8">
                 <AccordionTrigger className="uppercase">
                   <span className="hidden lg:inline">
-                    Comment Oreonyx contribue-t-il à l&apos;employabilité des
-                    étudiants ?
+                    HOW DOES OREONYX CONTRIBUTE TO STUDENT EMPLOYABILITY?
                   </span>
-                  <span className="lg:hidden">
-                    L&apos;employabilité des jeunes?
-                  </span>
+                  <span className="lg:hidden">EMPLOYABILITY OF YOUTH?</span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  Oreonyx favorise l&apos;employabilité des étudiants en offrant
-                  des opportunités de connexion avec des entreprises et des
-                  organisations partenaires. Les étudiants peuvent accéder à des
-                  offres de stages, à des programmes de mentorat, à des
-                  ressources de développement professionnel et à des événements
-                  de réseautage pour renforcer leurs compétences et leurs
-                  perspectives d&apos;emploi.
+                  Oreonyx promotes student employability by providing
+                  opportunities to connect with partner companies and
+                  organizations. Students can access internship opportunities,
+                  mentoring programs, professional development resources, and
+                  networking events to strengthen their skills and employment
+                  prospects.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-9">
                 <AccordionTrigger className="uppercase">
                   <span className="hidden lg:inline">
-                    Quelle est la disponibilité géographique d&apos;Oreonyx?
+                    WHAT IS THE GEOGRAPHIC AVAILABILITY OF OREONYX?
                   </span>
-                  <span className="lg:hidden">Disponibilité géographique?</span>
+                  <span className="lg:hidden">GEOGRAPHICAL AVAILABILITY?</span>
                 </AccordionTrigger>
                 <AccordionContent className="text-lg">
-                  Oreonyx est une plateforme accessible à l&apos;échelle
-                  mondiale. Tant que vous disposez d&apos;une connexion
-                  Internet, vous pouvez accéder à Oreonyx depuis n&apos;importe
-                  quel endroit et participer à ses fonctionnalités,
-                  indépendamment de votre emplacement géographique.
+                  Oreonyx is a globally accessible platform. As long as you have
+                  an Internet connection, you can access Oreonyx from anywhere
+                  and participate in its features, regardless of your geographic
+                  location.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -190,9 +173,9 @@ export default function Faq() {
             className="space-x-2 px-6 py-3 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex items-center first-line:space-x-2"
           >
             <span className="hidden lg:inline font-medium">
-              Contactez-nous directement par mail
+              Contact us directly by mail
             </span>
-            <span className="lg:hidden font-medium">Envoyez un mail</span>
+            <span className="lg:hidden font-medium">SEND AN EMAIL</span>
             <MailCheck className="h-4 w-4" />
           </a>
         </div>

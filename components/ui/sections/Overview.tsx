@@ -9,12 +9,9 @@ export default function Overview() {
       <div className="pb-0 pt-16 md:py-16 space-y-3">
         <div className="flex justify-center">
           <span className="text-lg text-transparent text-center md:text-lg font-bold bg-clip-text bg-gradient-to-r from-[#faf9f6] via-gray-900 to-[#faf9f6]">
-            <span className="lg:hidden">
-              Des partenaires technique de confiance
-            </span>
+            <span className="lg:hidden">Trusted technical partners</span>
             <span className="hidden lg:inline">
-              Une infrastructure solide grâce à des partenaires technique de
-              confiance
+              A solid infrastructure with trusted technical partners
             </span>
           </span>
         </div>
@@ -33,17 +30,15 @@ export default function Overview() {
       <div className="mt-6 px-3 lg:px-12 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-6 md:space-y-12">
         <div className="space-y-8 md:w-full">
           <h1 className="text-center text-2xl md:text-6xl font-mono font-bold uppercase">
-            NOTRE OFFRE DE VALEUR{" "}
+            OUR VALUE PROPOSITION
           </h1>
           <h3 className="text-lg lg:text-xl font-mono text-center">
-            Transformer l&apos;éducation, le monde professionnel et les
-            organisations grâce à notre plateforme de communication 2.0.
-            Facilitez l&apos;apprentissage à distance, renforcez la
-            collaboration et soutenez des causes mondiales telles que la lutte
-            contre le changement climatique. Favorisez l&apos;inclusion,
-            encouragez la coopération et facilitez les prises de décisions
-            stratégiques. Découvrez une nouvelle ère d&apos;interactions fluides
-            et intuitives pour contribuer positivement à notre monde.
+            Transform education, business and organizations with our 2.0
+            communications platform. Facilitate distance learning, strengthen
+            collaboration, and support global causes such as climate change.
+            Promote inclusion, foster cooperation and facilitate strategic
+            decision-making. Discover a new era of fluid, intuitive interactions
+            to make a positive contribution to our world.
           </h3>
         </div>
         <div className="w-full space-y-6">
@@ -61,15 +56,13 @@ export default function Overview() {
               <div className="w-full space-y-3">
                 <div className="space-y-3">
                   <h5 className="text-xl lg:text-4xl relative font-semibold">
-                    Espace de collaboration
+                    Collaborative Space
                   </h5>
                   <p className="text-lg">
-                    Embrasser cette nouvelle ère de communication, interagissez
-                    de manière transparente avec vos collègues ou vos
-                    collaborateurs grâce à notre espace de collaboration
-                    d&apos;équipe. Partagez des fichiers, travaillez sur des
-                    projets communs et communiquez efficacement pour accomplir
-                    vos objectifs ensemble.
+                    Embrace this new era of communication, interact seamlessly
+                    with your colleagues or collaborators through our team
+                    collaboration space. Share files, work on joint projects and
+                    communicate effectively to accomplish your goals together.
                   </p>
                   <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
                     <div className="hidden">
@@ -98,15 +91,14 @@ export default function Overview() {
               <div className="w-full space-y-3">
                 <div className="space-y-3">
                   <h5 className="text-xl lg:text-4xl relative font-semibold">
-                    Salle de classe virtuelle
+                    Virtual Classroom
                   </h5>
                   <p className="text-lg">
-                    Participez à des cours en ligne interactifs via notre salle
-                    de classe virtuelle avancée. Assistez à des présentations,
-                    posez des questions et discuter en temps réel. Expérimentez
-                    dès maintenant la plateforme qui utilise l&apos;intelligence
-                    artificielle pour fournir des recommandations
-                    d&apos;apprentissage personnalisées.
+                    Participate in interactive online courses via our advanced
+                    virtual classroom. Attend presentations, ask questions and
+                    chat in real time. Experience the platform now that uses
+                    artificial intelligence to provide personalized learning
+                    recommendations.
                   </p>
                   <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
                     <div className="hidden">
@@ -221,15 +213,14 @@ export default function Overview() {
               <div className="w-full space-y-3">
                 <div className="space-y-3">
                   <h5 className="text-xl lg:text-4xl relative font-semibold">
-                    Emplois et Stages
+                    Jobs and Internships
                   </h5>
                   <p className="text-lg">
-                    Accès privilégié à une multitude d&apos;opportunités
-                    professionnelles. Que vous soyez étudiant à la recherche
-                    d&apos;un stage ou d&apos;un emploi à temps partiel, ou
-                    diplômé en quête d&apos;une carrière prometteuse, notre
-                    plateforme vous connecte avec des entreprises de renom à la
-                    recherche de talents exceptionnels.
+                    Privileged access to a multitude of professional
+                    opportunities. Whether you're a student looking for an
+                    internship or part-time job, or a graduate looking for a
+                    promising career, our platform connects you with top
+                    companies looking for exceptional talent.
                   </p>
                   <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
                     <div className="hidden">
@@ -258,15 +249,14 @@ export default function Overview() {
               <div className="w-full space-y-3">
                 <div className="space-y-3">
                   <h5 className="text-xl lg:text-4xl relative font-semibold">
-                    Analytique pour tous
+                    Analytics for everyone
                   </h5>
                   <p className="text-lg">
-                    Notre outil d&apos;analyse de données convivial est
-                    accessible à tous les acteurs. Étudiants, enseignants,
-                    entreprises et organisations peuvent explorer, interpréter
-                    et prendre des décisions éclairées. Maximisez votre
-                    potentiel grâce à des visualisations intuitives et des
-                    fonctionnalités d&apos;analyse avancées.
+                    Our user-friendly data analytics tool is accessible to all
+                    stakeholders. Students, faculty, businesses, and
+                    organizations can explore, interpret, and make informed
+                    decisions. Maximize your potential with intuitive
+                    visualizations and advanced analytics.
                   </p>
                   <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
                     <div className="hidden">

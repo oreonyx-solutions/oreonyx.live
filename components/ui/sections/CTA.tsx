@@ -8,16 +8,16 @@ export default function CTA() {
         <div className="md:flex justify-center">
           <div className="w-full md:w-10/12 lg:w-10/12">
             <h1 className="text-2xl md:text-4xl lg:text-6xl md:text-center font-mono font-bold uppercase">
-              Il est temps de passez à la vitesse supérieure{" "}
+              IT'S TIME TO TAKE IT TO THE NEXT LEVEL
             </h1>
           </div>
         </div>
         <div className="md:flex justify-center">
           <div className="w-full md:w-8/12 lg:w-6/12">
             <h1 className="text-lg md:text-center font-mono">
-              Maintenant, vous pouvez toucher un maximum de personne facilement
-              en utilisant Oreonyx, vous pouvez obtenir toute la commodité dans
-              vos mains. Inscrivez-vous dès maintenant.
+              Now you can reach the maximum number of people easily using
+              Oreonyx, you can get all the convenience in your hands. Sign up
+              now.
             </h1>
           </div>
         </div>

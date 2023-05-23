@@ -17,17 +17,16 @@ export default function Hero() {
           <div className="space-y-8 w-full lg:w-7/12">
             <div className="space-y-8">
               <h1 className="text-4xl lg:text-7xl font-mono font-bold uppercase text-gray-900">
-                Transformez l&apos;avenir de l&apos;éducation{" "}
+                TRANSFORM THE FUTURE OF EDUCATION
                 <span className="bg-clip-text bg-gradient bg-gradient-to-br from-sky-300 via-pink-500 to-sky-600 text-transparent">
                   .
                 </span>
               </h1>
               <div className="w-9/12">
                 <h5 className="text-gray-900 text-lg font-mono">
-                  Une plateforme numérique révolutionnaire pour les universités,
-                  les étudiants et les entreprises, favorisant l&apos;accès à
-                  l&apos;enseignement supérieur et l&apos;employabilité des
-                  jeunes
+                  A revolutionary digital platform for universities, students
+                  and businesses, promoting access to higher education and
+                  employability of young people.
                 </h5>
               </div>
             </div>
@@ -37,11 +36,11 @@ export default function Hero() {
                   <button className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 flex items-center">
                     <span className="md:hidden font-medium">
                       {" "}
-                      Programme bêta{" "}
+                      Beta program{" "}
                     </span>
                     <span className="hidden md:inline font-medium">
                       {" "}
-                      Rejoindre le programme bêta{" "}
+                      Join the beta program{" "}
                     </span>
                     <ArrowRight className="h-4 w-4" />
                   </button>
@@ -52,7 +51,7 @@ export default function Hero() {
                   href="contact"
                   className="font-medium md:px-6 md:py-2 hover:underline uppercase "
                 >
-                  Contactez-nous
+                  Contact us
                 </Link>
               </div>
             </div>
@@ -71,7 +70,7 @@ export default function Hero() {
           <div className="px-2 lg:px-6 py-2 lg:py-6 font-mono space-y-6">
             <div className=" bg-[#faf9f6] px-6 py-12 space-y-8 rounded-3xl">
               <h2 className="uppercase text-2xl lg:text-6xl font-bold text-center text-gray-900">
-                Pourquoi choisir Oreonyx?
+                Why choose Oreonyx?
               </h2>
               <div className="md:flex space-y-6 md:space-y-0">
                 <div className="w-full md:w-6/12 space-x-6  py-4 space-y-6 md:space-y-0 md:flex md:px-6 text-gray-900">
@@ -80,9 +79,8 @@ export default function Hero() {
                   </div>
                   <div>
                     <h5 className="text-md lg:text-lg text-center md:text-start">
-                      Nous offrons une platforme vecteur d&apos;éducation,
-                      promotrice d&apos;idées et de solutions qui alimentent la
-                      croissance des pensées et des compétences.
+                      We offer a platform for education, promoting ideas and
+                      solutions that fuel the growth of thoughts and skills.
                     </h5>
                   </div>
                 </div>
@@ -92,10 +90,9 @@ export default function Hero() {
                   </div>
                   <div>
                     <h5 className="text-md lg:text-lg text-center md:text-start">
-                      Connaissances et maitrise des interactions sociales au
-                      sein des écosystèmes Universitaires et propositions de
-                      valeurs essentielles, utiles sur le marché de
-                      l&apos;emploi.
+                      Knowledge and mastery of social interactions within the
+                      academic ecosystems and proposals of essential values,
+                      useful in the job market.
                     </h5>
                   </div>
                 </div>
@@ -129,13 +126,13 @@ export default function Hero() {
                       <div className="">
                         <div>
                           <h5 className="text-4xl lg:text-5xl font-bold">
-                            +8 Milliards
+                            +8 Billion
                           </h5>
                         </div>
                         <div>
                           <h5 className="text-xl">
-                            d&apos;étudiants et d&apos;humains à éduquer à la
-                            concience écologique.
+                            students and humans to be educated in ecological
+                            awareness.
                           </h5>
                         </div>
                       </div>
@@ -147,8 +144,8 @@ export default function Hero() {
                 <div className="relative py-4 lg:py-8 flex px-4 lg:px-8 text-gray-900">
                   <div className="text-gray-900 flex lg:inline space-y-3 lg:space-y-6">
                     <h5 className="text-center text-xl lg:text-4xl relative">
-                      Nous sommes tous fiers, car nos objectifs entendent
-                      révolutionner l&apos;éducation des prochaines générations.
+                      We are all proud, because our goals are to revolutionize
+                      the education of the next generations.
                     </h5>
                   </div>
                 </div>

@@ -110,7 +110,7 @@ export default function Navbar() {
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <Link href="carreer">
-                  <div className="flex space-x-2 items-center">
+                  <div className="hidden space-x-2 items-center">
                     <span>
                       <Briefcase className="h-4 w-4 text-gray-600" />
                     </span>
@@ -120,7 +120,7 @@ export default function Navbar() {
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <Link href="blog">
-                  <div className="flex space-x-2 items-center">
+                  <div className="hidden space-x-2 items-center">
                     <span>
                       <Album className="h-4 w-4 text-gray-600" />
                     </span>
@@ -153,7 +153,7 @@ export default function Navbar() {
                 </a>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <div className="relative flex items-center space-x-1 px-3 py-0.5 rounded-full bg-gradient-to-tr from-blue-500 via-blue-500 to-blue-300 text-white">
+                <div className="relative hidden items-center space-x-1 px-3 py-0.5 rounded-full bg-gradient-to-tr from-blue-500 via-blue-500 to-blue-300 text-white">
                   <span className="text-sm">
                     <span className="hidden md:inline">Rejoignez notre </span>{" "}
                     Telegram

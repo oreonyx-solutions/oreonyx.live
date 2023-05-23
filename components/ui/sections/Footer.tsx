@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="w-full md:w-5/12 space-y-6">
           <div className="">
             <label className="text-3xl lg:text-5xl text-center font-mono font-medium">
-              Recevez nos dernières actualités{" "}
+              Receive our latest news
             </label>
           </div>
           <div className="w-full md:w-9/12 border rounded-xl pl-3 pr-2 py-2 flex items-center">
@@ -121,7 +121,7 @@ export default function Footer() {
             <div className="space-y-3">
               <div>
                 <h5 className="text-lg md:text-xl font-mono font-medium uppercase">
-                  Ressources.
+                  RESOURCES.
                 </h5>
               </div>
               <div>
@@ -147,7 +147,7 @@ export default function Footer() {
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/privacy"
                     >
-                      Politique de confidentialité
+                      Privacy Policy
                     </Link>
                   </li>
                   <li>
@@ -155,7 +155,7 @@ export default function Footer() {
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/terms"
                     >
-                      Conditions d&apos;utilisation
+                      Terms of use
                     </Link>
                   </li>
                   <li>
@@ -163,7 +163,7 @@ export default function Footer() {
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/cookies"
                     >
-                      Paramètre des cookies
+                      Cookie settings
                     </Link>
                   </li>
                   <li>
@@ -179,7 +179,7 @@ export default function Footer() {
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/security"
                     >
-                      Sûreté et sécurité
+                      Safety and Security
                     </Link>
                   </li>
                   <li>
@@ -196,7 +196,7 @@ export default function Footer() {
             <div className="space-y-3">
               <div>
                 <h5 className="text-lg md:text-xl font-mono font-medium uppercase">
-                  Entreprise.
+                  COMPANY.
                 </h5>
               </div>
               <div>
@@ -206,7 +206,7 @@ export default function Footer() {
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/about"
                     >
-                      A propos
+                      About us
                     </Link>
                   </li>
                   <li>
@@ -214,7 +214,7 @@ export default function Footer() {
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/carreer"
                     >
-                      Carrières
+                      Careers
                     </Link>
                   </li>
                   <li>
@@ -230,7 +230,7 @@ export default function Footer() {
                       className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                       href="/presskit"
                     >
-                      Kit presse
+                      Press kit
                     </Link>
                   </li>
                   <li>
@@ -257,7 +257,7 @@ export default function Footer() {
             <div className="space-y-3">
               <div>
                 <h5 className="text-lg md:text-xl font-mono font-medium uppercase">
-                  Besoin d&apos;une aide spécifique?.
+                  NEED SPECIFIC HELP?.
                 </h5>
               </div>
               <div>
@@ -295,7 +295,7 @@ export default function Footer() {
             <div className="space-y-3">
               <div>
                 <h5 className="text-lg md:text-xl font-mono font-medium uppercase">
-                  Lieux.
+                  LOCATIONS.
                 </h5>
               </div>
               <div>
@@ -318,17 +318,14 @@ export default function Footer() {
       </div>
       <div className="space-y-2 py-12 md:max-w-6xl 2xl:max-w-7xl mx-auto ">
         <h6 className="v">
-          * Oreonyx est une marque ou une marque déposée de GTEA, Sarl.
+          * Oreonyx is a trademark or registered trademark of GTEA, Sarl.
         </h6>
         <h6>
-          * Toutes les marques déposées et tous les noms de marque appartiennent
-          à leurs propriétaires respectifs. L&apos;utilisation de ces marques et
-          noms de marque ne représente en aucun cas l&apos;approbation ou
-          l&apos;association avec Oreonyx.
+          * All trademarks and brand names belong to their respective owners.
+          The use of these trademarks and brand names does not represent any
+          endorsement or association with Oreonyx.
         </h6>
-        <h6>
-          Copyright © 2023 Oreonyx Technologies Ltd. Tous droits réservés.
-        </h6>
+        <h6>Copyright © 2023 Oreonyx Technologies Ltd. All rights reserved.</h6>
       </div>
     </div>
   );
