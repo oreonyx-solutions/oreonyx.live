@@ -217,7 +217,7 @@ export default function Overview() {
                   </h5>
                   <p className="text-lg">
                     Privileged access to a multitude of professional
-                    opportunities. Whether you're a student looking for an
+                    opportunities. Whether you&apos;re a student looking for an
                     internship or part-time job, or a graduate looking for a
                     promising career, our platform connects you with top
                     companies looking for exceptional talent.

@@ -8,7 +8,7 @@ export default function CTA() {
         <div className="md:flex justify-center">
           <div className="w-full md:w-10/12 lg:w-10/12">
             <h1 className="text-2xl md:text-4xl lg:text-6xl md:text-center font-mono font-bold uppercase">
-              IT'S TIME TO TAKE IT TO THE NEXT LEVEL
+              IT&apos;S TIME TO TAKE IT TO THE NEXT LEVEL
             </h1>
           </div>
         </div>
@@ -25,10 +25,10 @@ export default function CTA() {
           <div>
             <a target="_blank" href="https://tally.so/r/nrBOep">
               <button className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 flex items-center">
-                <span className="md:hidden font-medium"> Programme bêta </span>
+                <span className="md:hidden font-medium"> Beta program</span>
                 <span className="hidden md:inline font-medium">
                   {" "}
-                  Rejoindre le programme bêta{" "}
+                  Join the beta program{" "}
                 </span>
                 <ArrowRight className="h-4 w-4" />
               </button>
