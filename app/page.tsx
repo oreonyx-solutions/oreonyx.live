@@ -1,10 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
-
-//gonna unistall this
-import ReactPlayer from "react-player";
-
-import { X } from "lucide-react";
+import { useState } from "react";
+import { useIntl } from "react-intl";
+import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
 
 //components
 import Navbar from "@/components/ui/sections/Navbar";
@@ -14,19 +10,25 @@ import CTA from "@/components/ui/sections/CTA";
 import Footer from "@/components/ui/sections/Footer";
 import Overview from "@/components/ui/sections/Overview";
 
-//styles
-import styles from "./page.module.css";
-
+// Rest of the imports and component code
 export default function Home() {
+  const intl = useIntl();
+  const [language, setLanguage] = useState("fr"); // Initialize the language state with the default language
+
+  const handleLanguageChange = (newLanguage: string) => {
+    setLanguage(newLanguage);
+  };
+
   return (
     <div className="bg-primary">
+      <h1>{intl.formatMessage({ id: "home.title" })}</h1>
       <Navbar />
       <Hero />
       <div className="md:px-6 text-gray-900">
         <Overview />
         <Faq />
         <CTA />
-        <Footer />
+        <Footer language={language} onLanguageChange={handleLanguageChange} />
       </div>
     </div>
   );

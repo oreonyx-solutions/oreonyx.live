@@ -1,19 +1,18 @@
+import React, { useState } from "react";
+
 import Link from "next/link";
 
 //flags
 import { CircleFlag } from "react-circle-flags";
 import { ArrowRight, Globe2 } from "lucide-react";
+import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
 
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+interface FooterProps {
+  language: string;
+  onLanguageChange: (newLanguage: string) => void;
+}
 
-export default function Footer() {
+export default function Footer({ language, onLanguageChange }: FooterProps) {
   return (
     <div className="px-4 md:pt-12 font-mono">
       <div className="border-b md:max-w-6xl 2xl:max-w-7xl mx-auto h-auto md:flex space-y-12 md:space-y-0 pb-12 sm:pb-12 lg:pb-24">
@@ -320,38 +319,10 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="space-y-3">
-              <div>
-                <h5 className="text-lg md:text-xl font-mono font-medium uppercase">
-                  Changer de langue.
-                </h5>
-              </div>
-              <div>
-                <ul className="list-none">
-                  <li>
-                    <button
-                      title="changer de langue"
-                      className="space-x-1 flex items-center"
-                    >
-                      <Globe2 className="h-6 w-6" />
-                      <DropdownMenu>
-                        <DropdownMenuTrigger className="lg:hidden">
-                          Français
-                        </DropdownMenuTrigger>
-                        <DropdownMenuContent className="font-mono uppercase bg-white">
-                          <DropdownMenuItem className="hidden space-x-2 items-center">
-                            Français
-                          </DropdownMenuItem>
-                          <DropdownMenuItem className="hidden space-x-2 items-center">
-                            Anglais
-                          </DropdownMenuItem>
-                        </DropdownMenuContent>
-                      </DropdownMenu>
-                    </button>
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <LanguageSwitcher
+              language={language}
+              onLanguageChange={onLanguageChange}
+            />
           </div>
         </div>
       </div>
