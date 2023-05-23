@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { useIntl } from "react-intl";
 import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
