@@ -4,6 +4,15 @@ import Link from "next/link";
 import { CircleFlag } from "react-circle-flags";
 import { ArrowRight, Globe2 } from "lucide-react";
 
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+
 export default function Footer() {
   return (
     <div className="px-4 md:pt-12 font-mono">
@@ -325,9 +334,19 @@ export default function Footer() {
                       className="space-x-1 flex items-center"
                     >
                       <Globe2 className="h-6 w-6" />
-                      <span className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black">
-                        FR
-                      </span>
+                      <DropdownMenu>
+                        <DropdownMenuTrigger className="lg:hidden">
+                          Français
+                        </DropdownMenuTrigger>
+                        <DropdownMenuContent className="font-mono uppercase bg-white">
+                          <DropdownMenuItem className="hidden space-x-2 items-center">
+                            Français
+                          </DropdownMenuItem>
+                          <DropdownMenuItem className="hidden space-x-2 items-center">
+                            Anglais
+                          </DropdownMenuItem>
+                        </DropdownMenuContent>
+                      </DropdownMenu>
                     </button>
                   </li>
                 </ul>
