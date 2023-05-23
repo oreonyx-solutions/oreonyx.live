@@ -532,7 +532,7 @@ export default function page() {
         </div>
       </div>
       <hr className="my-12" />
-      <Footer language={language} onLanguageChange={handleLanguageChange} />
+      <Footer language={language} onLanguageChange={setLanguage} />
     </div>
   );
 }

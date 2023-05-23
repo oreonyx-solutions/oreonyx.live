@@ -100,7 +100,7 @@ export default function page() {
       <div className="md:px-6">
         <CTA />
       </div>
-      <Footer language={language} onLanguageChange={handleLanguageChange} />
+      <Footer language={language} onLanguageChange={setLanguage} />
     </div>
   );
 }

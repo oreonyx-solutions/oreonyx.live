@@ -29,7 +29,7 @@ export default function Home() {
         <Overview />
         <Faq />
         <CTA />
-        <Footer language={language} onLanguageChange={handleLanguageChange} />
+        <Footer language={language} onLanguageChange={setLanguage} />
       </div>
     </div>
   );
