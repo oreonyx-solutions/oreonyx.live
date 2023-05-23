@@ -9,7 +9,7 @@ import Image from "next/image";
 import Navbar from "@/components/ui/sections/Navbar";
 import Footer from "@/components/ui/sections/Footer";
 
-export default function page() {
+export default function Page() {
   const intl = useIntl();
   const [language, setLanguage] = useState("fr"); // Initialize the language state with the default language
 

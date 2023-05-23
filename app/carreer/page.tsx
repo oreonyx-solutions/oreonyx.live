@@ -11,7 +11,7 @@ import Image from "next/image";
 
 import { ArrowRight, MailCheck } from "lucide-react";
 
-export default function page() {
+export default function Page() {
   const intl = useIntl();
   const [language, setLanguage] = useState("fr"); // Initialize the language state with the default language
 
