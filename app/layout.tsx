@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { IntlProvider } from "react-intl";
 import { useRouter } from "next/router";
