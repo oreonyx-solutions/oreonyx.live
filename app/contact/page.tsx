@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import React, { useState } from "react";
 import { useIntl } from "react-intl";
 
 import Image from "next/image";
