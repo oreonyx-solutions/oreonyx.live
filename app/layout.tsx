@@ -1,6 +1,10 @@
 import React from "react";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const locale = "fr"; // Set the default locale here if needefd
 
   return (
