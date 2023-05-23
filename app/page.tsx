@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useIntl } from "react-intl";
-
 import Navbar from "@/components/ui/sections/Navbar";
 import Hero from "@/components/ui/sections/Hero";
 import Faq from "@/components/ui/sections/Faq";

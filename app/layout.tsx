@@ -1,8 +1,5 @@
-"use client";
-
 import React from "react";
 import { IntlProvider } from "react-intl";
-import { useRouter } from "next/router";
 import enMessages from "@/locales/en.json";
 import frMessages from "@/locales/fr.json";
 
@@ -15,23 +12,12 @@ const messages: Messages = {
   fr: frMessages,
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  const router = useRouter();
-  const { locale } = router;
-
-  // Provide a fallback value for the locale
-  const selectedLocale = locale ?? "en";
+export default function Layout({ children }: { children: React.ReactNode }) {
+  const locale = "fr"; // Set the default locale here if needed
 
   return (
-    <IntlProvider
-      locale={selectedLocale}
-      messages={messages[selectedLocale as keyof Messages]}
-    >
-      <html lang={selectedLocale}>
+    <IntlProvider locale={locale} messages={messages[locale]}>
+      <html lang={locale}>
         <body>{children}</body>
       </html>
     </IntlProvider>
