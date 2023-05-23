@@ -47,7 +47,7 @@ export default function Navbar() {
                 title="Carrières"
                 href="carreer"
               >
-                Carrières
+                Carreers
               </Link>
               <Link
                 className="hidden hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
@@ -61,7 +61,7 @@ export default function Navbar() {
                 title="A propos"
                 href="about"
               >
-                A propos
+                About us
               </Link>
               <Link
                 className="hidden hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
@@ -110,7 +110,7 @@ export default function Navbar() {
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <Link href="carreer">
-                  <div className="hidden space-x-2 items-center">
+                  <div className="flex space-x-2 items-center">
                     <span>
                       <Briefcase className="h-4 w-4 text-gray-600" />
                     </span>
