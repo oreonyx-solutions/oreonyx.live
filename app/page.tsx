@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { IntlProvider, useIntl } from "react-intl";
+import { useIntl } from "react-intl";
 
 import Navbar from "@/components/ui/sections/Navbar";
 import Hero from "@/components/ui/sections/Hero";
@@ -30,21 +30,16 @@ export default function Home() {
   };
 
   return (
-    <IntlProvider
-      locale={language}
-      messages={messages[language as keyof Messages]}
-    >
-      <div className="bg-primary">
-        <h1>{intl.formatMessage({ id: "home.title" })}</h1>
-        <Navbar />
-        <Hero />
-        <div className="md:px-6 text-gray-900">
-          <Overview />
-          <Faq />
-          <CTA />
-          <Footer language={language} onLanguageChange={setLanguage} />
-        </div>
+    <div className="bg-primary">
+      <h1>{intl.formatMessage({ id: "home.title" })}</h1>
+      <Navbar />
+      <Hero />
+      <div className="md:px-6 text-gray-900">
+        <Overview />
+        <Faq />
+        <CTA />
+        <Footer language={language} onLanguageChange={setLanguage} />
       </div>
-    </IntlProvider>
+    </div>
   );
 }
