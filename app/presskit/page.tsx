@@ -237,7 +237,7 @@ export default function Page() {
           </a>
         </div>
       </div>
-      <Footer language={language} onLanguageChange={setLanguage} />
+      <Footer />
     </div>
   );
 }

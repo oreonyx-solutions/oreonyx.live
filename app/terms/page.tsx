@@ -1964,7 +1964,7 @@ export default function Page() {
         </div>
       </div>
       <hr className="my-12" />
-      <Footer language={language} onLanguageChange={setLanguage} />
+      <Footer />
     </div>
   );
 }

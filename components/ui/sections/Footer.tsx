@@ -5,14 +5,8 @@ import Link from "next/link";
 //flags
 import { CircleFlag } from "react-circle-flags";
 import { ArrowRight, Globe2 } from "lucide-react";
-import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
 
-interface FooterProps {
-  language: string;
-  onLanguageChange: (newLanguage: string) => void;
-}
-
-export default function Footer({ language, onLanguageChange }: FooterProps) {
+export default function Footer() {
   return (
     <div className="px-4 md:pt-12 font-mono">
       <div className="border-b md:max-w-6xl 2xl:max-w-7xl mx-auto h-auto md:flex space-y-12 md:space-y-0 pb-12 sm:pb-12 lg:pb-24">
@@ -319,10 +313,6 @@ export default function Footer({ language, onLanguageChange }: FooterProps) {
                 </ul>
               </div>
             </div>
-            <LanguageSwitcher
-              language={language}
-              onLanguageChange={onLanguageChange}
-            />
           </div>
         </div>
       </div>
