@@ -1,3 +1,5 @@
+//hero
+
 &apos;
 
 TRANSFORMEZ L'AVENIR DE L'ÉDUCATION 
@@ -112,3 +114,65 @@ tg
 * Oreonyx est une marque ou une marque déposée de GTEA, Sarl.
 * Toutes les marques déposées et tous les noms de marque appartiennent à leurs propriétaires respectifs. L'utilisation de ces marques et noms de marque ne représente en aucun cas l'approbation ou l'association avec Oreonyx.
 Copyright © 2023 Oreonyx Technologies Ltd. Tous droits réservés.
+
+
+//about
+Briser les obstacles d'un accès à une éducation de qualité
+
+Les technologies éducatives représentent la meilleure chance de réinventer de fond en comble le système éducatif mondial afin qu'il puisse bénéficier à tous, y compris les millions de personnes qui n'ont pas accès à une éducation de qualité.
+Les avantages économiques et sociaux de l'accès de tous à une éducation de qualité sont considérables. En plus de garantir une meilleure qualité de vie pour les individus, une éducation de qualité est essentielle pour améliorer l'employabilité des jeunes. C'est pourquoi nous travaillons à développer une pile de technologies éducatives en tant que service, que toute institution peut utiliser pour offrir à ses étudiants des opportunités éducatives équitables et de qualité, basées sur les dernières innovations technologiques. Ainsi, nous contribuons à former une nouvelle génération de travailleurs compétents et qualifiés, prêts à relever les défis du marché du travail et à contribuer à la croissance économique.
+CONTACTER-NOUS
+Notre équipe
+Une équipe croissante de professionnels des produits, de la technologie et des services éducatifs.
+
+
+//carreers
+Construire une platforme innovante vecteur d'évolution de pensées et d'idées
+
+Chez Oreonyx, notre objectif est de révolutionner l'écosystème de l'éducation supérieure en fournissant une plateforme de gestion intégrée de nouvelle génération.
+Nous sommes convaincus que les solutions actuelles sont obsolètes et qu'il est temps de repenser complètement la manière dont les établissements d'enseignement supérieur gèrent leurs processus administratifs et pédagogiques.
+
+Pour cela, nous mettons à disposition une solution innovante qui permet d'améliorer l'expérience étudiante et de faciliter la gestion administrative. Nous offrons des outils de collaboration et de formation à distance pour répondre aux besoins des établissements d'enseignement supérieur modernes.
+
+Notre mission est de simplifier la gestion administrative de l'enseignement supérieur avec des outils innovants pour une meilleure expérience étudiante.
+Nous sommes déterminés à construire une entreprise qui reflète les équipes, les communautés et le monde pour lequel nous construisons. Nous cherchons toujours à nous assurer que chacun chez Oreonyx est vu, entendu, valorisé et habilité à faire son meilleur travail.
+Nous sommes à la recherche des meilleurs talents en ingénierie, design, marketing et vente pour rejoindre notre mission de révolutionner l'écosystème de l'éducation supérieure. Venez nous rejoindre dans cette aventure !
+
+Postes à pourvoir
+
+Design
+Head of Design
+Voir le poste
+Engineering
+Junior Backend Engineer
+Voir le poste
+Senior - Staff Mobile Engineer (Hybrid)
+Voir le poste
+Marketing
+Head of Social Media Management
+Voir le poste
+Finance
+Head of Finance
+Voir le poste
+Data
+Head of Data and Aquisition
+Voir le poste
+Legal
+Head of Legal Affairs
+Voir le poste
+
+Avantages & Bénéfices
+Equilibre entre vie professionnelle et vie privée.
+Salaire & Equité compétitifs.
+Conditions de participation favorables aux employés (exercices anticipé et prolongé au Togo).
+Travail à distance, pas d'obligation de déplacement vers le bureau.
+Assurance maladie, soins dentaire et soins de la vue (Togo).
+5 semaines de congés payés, congé parental.
+Mackbook Pro M2, écran 5K et accessoires.
+Dejeuner et café payés pendants les jours de travail.
+Evenements réguliers de l'équipe et hors-sites.
+Cours d'anglais offert
+Semaines de hack trimestrielles.
+
+Vous souhaitez nous contacter pour un poste en particulier? un stage ou juste pour discuter autour d'un bon café?
+ENVOYEZ-NOUS UN MAIL

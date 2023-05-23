@@ -114,7 +114,7 @@ export default function Navbar() {
                     <span>
                       <Briefcase className="h-4 w-4 text-gray-600" />
                     </span>
-                    <span>Carrières</span>
+                    <span>Carreers</span>
                   </div>
                 </Link>
               </DropdownMenuItem>
@@ -134,7 +134,7 @@ export default function Navbar() {
                     <span>
                       <Building2 className="h-4 w-4 text-gray-600" />
                     </span>
-                    <span>A propos</span>
+                    <span>About us</span>
                   </div>
                 </Link>
               </DropdownMenuItem>
@@ -191,10 +191,10 @@ export default function Navbar() {
             className="hidden lg:inline"
           >
             <button className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 flex items-center">
-              <span className="md:hidden font-medium"> Programme bêta </span>
+              <span className="md:hidden font-medium"> Beta program</span>
               <span className="hidden md:inline font-medium">
                 {" "}
-                Rejoindre le programme bêta{" "}
+                Join the beta program{" "}
               </span>
               <ArrowRight className="h-4 w-4" />
             </button>
