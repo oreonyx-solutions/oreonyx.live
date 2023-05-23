@@ -1,20 +1,12 @@
 "use client";
 
 import React, { useState } from "react";
-import { useIntl } from "react-intl";
 
 //components
 import Navbar from "@/components/ui/sections/Navbar";
 import Footer from "@/components/ui/sections/Footer";
 
 export default function Page() {
-  const intl = useIntl();
-  const [language, setLanguage] = useState("fr"); // Initialize the language state with the default language
-
-  const handleLanguageChange = (newLanguage: string) => {
-    setLanguage(newLanguage);
-  };
-
   return (
     <div className="bg-primary">
       <Navbar />
