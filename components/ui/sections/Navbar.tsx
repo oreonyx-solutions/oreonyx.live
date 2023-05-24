@@ -118,7 +118,7 @@ export default function Navbar() {
                   </div>
                 </Link>
               </DropdownMenuItem>
-              <DropdownMenuItem>
+              {/*<DropdownMenuItem>
                 <Link href="blog">
                   <div className="hidden space-x-2 items-center">
                     <span>
@@ -127,7 +127,7 @@ export default function Navbar() {
                     <span>Blog</span>
                   </div>
                 </Link>
-              </DropdownMenuItem>
+              </DropdownMenuItem>*/}
               <DropdownMenuItem>
                 <Link href="about">
                   <div className="flex space-x-2 items-center">
@@ -152,7 +152,7 @@ export default function Navbar() {
                   </div>
                 </a>
               </DropdownMenuItem>
-              <DropdownMenuItem>
+              {/*<DropdownMenuItem>
                 <div className="relative hidden items-center space-x-1 px-3 py-0.5 rounded-full bg-gradient-to-tr from-blue-500 via-blue-500 to-blue-300 text-white">
                   <span className="text-sm">
                     <span className="hidden md:inline">Rejoignez notre </span>{" "}
@@ -170,7 +170,7 @@ export default function Navbar() {
                     ></path>
                   </svg>
                 </div>
-              </DropdownMenuItem>
+              </DropdownMenuItem>*/}
             </DropdownMenuContent>
           </DropdownMenu>
           <Link
