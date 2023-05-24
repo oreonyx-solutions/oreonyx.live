@@ -17,46 +17,40 @@ export default function Page() {
       <div className="font-mono lg:pt-60 lg:pb-32 pt-32 pb-24 space-y-12 px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div className="space-y-10">
           <h1 className="text-2xl md:hidden">
-            <span className="text-green-500 font-bold">Construire </span>une
-            platforme innovante vecteur d&apos;évolution de pensées et
-            d&apos;idées
+            <span className="text-green-500 font-bold">Building </span>uan
+            innovative platform for the evolution of thoughts and ideas
           </h1>
           <div className="prose prose-base lg:prose-lg">
             <h1 className="hidden md:block">
-              <span className="text-green-500">Construire </span>une platforme
-              innovante vecteur d&apos;évolution de pensées et d&apos;idées
+              <span className="text-green-500 font-bold">Building </span>uan
+              innovative platform for the evolution of thoughts and ideas
             </h1>
             <div>
               <h5>
-                Chez Oreonyx, notre objectif est de révolutionner
-                l&apos;écosystème de l&apos;éducation supérieure en fournissant
-                une plateforme de gestion intégrée de nouvelle génération.
+                At Oreonyx, our goal is to revolutionize the higher education
+                ecosystem by providing a next generation integrated management
+                platform.
               </h5>
               <p>
-                Nous sommes convaincus que les solutions actuelles sont
-                obsolètes et qu&apos;il est temps de repenser complètement la
-                manière dont les établissements d&apos;enseignement supérieur
-                gèrent leurs processus administratifs et pédagogiques.
+                We believe that current solutions are outdated and that it is
+                time to completely rethink the way higher education institutions
+                manage their administrative and pedagogical processes.
               </p>
               <p>
-                Pour cela, nous mettons à disposition une solution innovante qui
-                permet d&apos;améliorer l&apos;expérience étudiante et de
-                faciliter la gestion administrative. Nous offrons des outils de
-                collaboration et de formation à distance pour répondre aux
-                besoins des établissements d&apos;enseignement supérieur
-                modernes.
+                To do this, we provide an innovative solution that improves the
+                student experience and facilitates administrative management. We
+                offer collaboration and distance learning tools to meet the
+                needs of modern higher education institutions.
               </p>
               <blockquote>
-                Notre mission est de simplifier la gestion administrative de
-                l&apos;enseignement supérieur avec des outils innovants pour une
-                meilleure expérience étudiante.
+                Our mission is to simplify higher education administration with
+                innovative tools for a better student experience.
               </blockquote>
               <p>
-                Nous sommes déterminés à construire une entreprise qui reflète
-                les équipes, les communautés et le monde pour lequel nous
-                construisons. Nous cherchons toujours à nous assurer que chacun
-                chez Oreonyx est vu, entendu, valorisé et habilité à faire son
-                meilleur travail.
+                We are committed to building a company that reflects the teams,
+                communities and world we are building for. We are always looking
+                to ensure that everyone at Oreonyx is seen, heard, valued and
+                empowered to do their best work.
               </p>
               <figure>
                 <Image
@@ -64,10 +58,9 @@ export default function Page() {
                   src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
                 />
                 <figcaption>
-                  Nous sommes à la recherche des meilleurs talents en
-                  ingénierie, design, marketing et vente pour rejoindre notre
-                  mission de révolutionner l&apos;écosystème de l&apos;éducation
-                  supérieure. Venez nous rejoindre dans cette aventure !
+                  We're looking for the best engineering, design, marketing and
+                  sales talent to join our mission to revolutionize the higher
+                  education ecosystem. Come join us on this journey!
                 </figcaption>
               </figure>
             </div>
@@ -75,7 +68,7 @@ export default function Page() {
           <hr className="my-12 lg:my-32" />
           <div className="space-y-6">
             <h4 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
-              Postes à pourvoir
+              Open positions
             </h4>
             <div className="w-full lg:flex lg:space-x-3 space-y-10 lg:space-y-0">
               <div className="space-y-6 w-full md:w-9/12 lg:w-7/12 lg:pr-16">
@@ -367,46 +360,36 @@ export default function Page() {
                   <h5 className="text-lg font-medium">Avantages & Bénéfices</h5>
                   <div className="pl-3">
                     <ul className="list-decimal">
+                      <li>Work-life balance.</li>
+                      <li>Competitive salary & equity.</li>
                       <li>
-                        Equilibre entre vie professionnelle et vie privée.
-                      </li>
-                      <li>Salaire & Equité compétitifs.</li>
-                      <li>
-                        Conditions de participation favorables aux employés
-                        (exercices anticipé et prolongé au Togo).
+                        Favourable participation conditions for employees (early
+                        and extended exercise in Togo).
                       </li>
                       <li>
-                        Travail à distance, pas d&apos;obligation de déplacement
-                        vers le bureau.
+                        Remote work, no obligation to travel to the office.
                       </li>
-                      <li>
-                        Assurance maladie, soins dentaire et soins de la vue
-                        (Togo).
-                      </li>
-                      <li>5 semaines de congés payés, congé parental.</li>
-                      <li>Mackbook Pro M2, écran 5K et accessoires.</li>
-                      <li>
-                        Dejeuner et café payés pendants les jours de travail.
-                      </li>
-                      <li>
-                        Evenements réguliers de l&apos;équipe et hors-sites.
-                      </li>
-                      <li>Cours d&apos;anglais offert</li>
-                      <li>Semaines de hack trimestrielles.</li>
+                      <li>Health, dental and vision insurance (Togo).</li>
+                      <li>5 weeks paid vacation, parental leave.</li>
+                      <li>Mackbook Pro M2, 5K monitor and accessories.</li>
+                      <li>Paid lunch and coffee on work days.</li>
+                      <li>Regular team and off-site events.</li>
+                      <li>English classes offered.</li>
+                      <li>Quarterly hack weeks.</li>
                     </ul>
                   </div>
                 </div>
                 <div className="w-full md:w-6/12 lg:w-full space-y-6">
                   <h4 className="text-xl md:text-2xl font-medium">
-                    Vous souhaitez nous contacter pour un poste en particulier?
-                    un stage ou juste pour discuter autour d&apos;un bon café?
+                    You want to contact us for a specific job? an internship or
+                    just to chat over a good coffee?
                   </h4>
                   <div className="flex w-full ">
                     <a
                       href="mailto:carreers@oreonyx.live"
                       className="px-6 py-3 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex space-x-2 items-center"
                     >
-                      <span className="font-medium">Envoyez-nous un mail</span>
+                      <span className="font-medium">SEND US AN EMAIL</span>
                       <MailCheck className="h-4 w-4" />
                     </a>
                   </div>
