@@ -14,7 +14,7 @@ export default function Page() {
   return (
     <div className="bg-primary">
       <Navbar />
-      <div className="font-mono lg:pt-48 lg:pb-32 pt-32 pb-24 space-y-12 px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
+      <div className="font-mono lg:pt-32 lg:pb-32 pt-32 pb-24 space-y-12 px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div className="space-y-10">
           <h1 className="text-2xl md:hidden">
             <span className="text-green-500 font-bold">Building </span>an
@@ -22,7 +22,7 @@ export default function Page() {
           </h1>
           <div className="prose prose-base lg:prose-lg">
             <h1 className="hidden md:block">
-              <span className="text-green-500 font-bold">Building </span>uan
+              <span className="text-green-500 font-bold">Building </span>an
               innovative platform for the evolution of thoughts and ideas
             </h1>
             <div>
