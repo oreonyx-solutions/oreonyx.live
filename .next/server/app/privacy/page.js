@@ -1,0 +1,767 @@
+(() => {
+var exports = {};
+exports.id = 385;
+exports.ids = [385];
+exports.modules = {
+
+/***/ 8038:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/react");
+
+/***/ }),
+
+/***/ 8704:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/react-dom/server-rendering-stub");
+
+/***/ }),
+
+/***/ 7897:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/react-server-dom-webpack/client");
+
+/***/ }),
+
+/***/ 6786:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/compiled/react/jsx-runtime");
+
+/***/ }),
+
+/***/ 3918:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/amp-context.js");
+
+/***/ }),
+
+/***/ 5732:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/amp-mode.js");
+
+/***/ }),
+
+/***/ 3280:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/app-router-context.js");
+
+/***/ }),
+
+/***/ 2796:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/head-manager-context.js");
+
+/***/ }),
+
+/***/ 9274:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/hooks-client-context.js");
+
+/***/ }),
+
+/***/ 4486:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-blur-svg.js");
+
+/***/ }),
+
+/***/ 744:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-config-context.js");
+
+/***/ }),
+
+/***/ 5843:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-config.js");
+
+/***/ }),
+
+/***/ 9552:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/image-loader");
+
+/***/ }),
+
+/***/ 4964:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router-context.js");
+
+/***/ }),
+
+/***/ 1751:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js");
+
+/***/ }),
+
+/***/ 3938:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
+
+/***/ }),
+
+/***/ 1668:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll.js");
+
+/***/ }),
+
+/***/ 1897:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
+
+/***/ }),
+
+/***/ 1109:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/is-local-url.js");
+
+/***/ }),
+
+/***/ 8854:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
+
+/***/ }),
+
+/***/ 3297:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash.js");
+
+/***/ }),
+
+/***/ 7782:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/router/utils/resolve-href.js");
+
+/***/ }),
+
+/***/ 3349:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/server-inserted-html.js");
+
+/***/ }),
+
+/***/ 2470:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/side-effect.js");
+
+/***/ }),
+
+/***/ 9232:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils.js");
+
+/***/ }),
+
+/***/ 618:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("next/dist/shared/lib/utils/warn-once.js");
+
+/***/ }),
+
+/***/ 8589:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "AppRouter": () => (/* reexport default from dynamic */ next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0___default.a),
+/* harmony export */   "GlobalError": () => (/* reexport default from dynamic */ next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3___default.a),
+/* harmony export */   "LayoutRouter": () => (/* reexport default from dynamic */ next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1___default.a),
+/* harmony export */   "RenderFromTemplateContext": () => (/* reexport default from dynamic */ next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2___default.a),
+/* harmony export */   "__next_app_webpack_require__": () => (/* binding */ __next_app_webpack_require__),
+/* harmony export */   "pages": () => (/* binding */ pages),
+/* harmony export */   "renderToReadableStream": () => (/* reexport safe */ next_dist_compiled_react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_7__.renderToReadableStream),
+/* harmony export */   "requestAsyncStorage": () => (/* reexport safe */ next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5__.requestAsyncStorage),
+/* harmony export */   "serverHooks": () => (/* reexport module object */ next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_6__),
+/* harmony export */   "staticGenerationAsyncStorage": () => (/* reexport safe */ next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4__.staticGenerationAsyncStorage),
+/* harmony export */   "tree": () => (/* binding */ tree)
+/* harmony export */ });
+/* harmony import */ var next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2286);
+/* harmony import */ var next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5717);
+/* harmony import */ var next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8353);
+/* harmony import */ var next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(7340);
+/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(9029);
+/* harmony import */ var next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(2458);
+/* harmony import */ var next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4065);
+/* harmony import */ var next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var next_dist_compiled_react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(8378);
+
+    const tree = {
+        children: [
+        '',
+        {
+        children: [
+        'privacy',
+        {
+        children: ['', {}, {
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2666, 23)), "/Users/macintosh/Workspace/Ox/oreonyx.live/app/privacy/page.tsx"],
+          
+        }]
+      },
+        {
+          
+          
+        }
+      ]
+      },
+        {
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7471)), "/Users/macintosh/Workspace/Ox/oreonyx.live/app/layout.tsx"],
+          
+        }
+      ]
+      }.children;
+    const pages = ["/Users/macintosh/Workspace/Ox/oreonyx.live/app/privacy/page.tsx"];
+
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    const __next_app_webpack_require__ = __webpack_require__
+  
+
+/***/ }),
+
+/***/ 3776:
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9728))
+
+/***/ }),
+
+/***/ 2666:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+/* __next_internal_client_entry_do_not_use__ default */ const { createProxy  } = __webpack_require__(1399);
+module.exports = createProxy("/Users/macintosh/Workspace/Ox/oreonyx.live/app/privacy/page.tsx");
+
+
+/***/ }),
+
+/***/ 9728:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ Page)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(8038);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_ui_sections_Navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6750);
+/* harmony import */ var _components_ui_sections_Footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(6616);
+
+
+//components
+
+
+function Page() {
+    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+        className: "bg-primary",
+        children: [
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_ui_sections_Navbar__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z, {}),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                className: "font-mono lg:pt-32 lg:pb-32 pt-32 pb-24 px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto",
+                children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                    className: "space-y-12 w-full",
+                    children: [
+                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+                            className: "space-y-6 lg:space-y-0 lg:flex justify-between",
+                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                                className: "w-full md:w-8/12 lg:w-6/12 space-y-8",
+                                children: [
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h5", {
+                                        className: "text-5xl font-medium",
+                                        children: "Politique de confidentialit\xe9"
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                        className: "text-xl",
+                                        children: "Oreonyx prend tr\xe8s au s\xe9rieux la s\xe9curit\xe9 de vos donn\xe9es et de notre infrastructure. Nous nous engageons \xe0 fournir un environnement s\xfbr, s\xe9curis\xe9 et disponible pour tous nos clients, \xe0 tout moment."
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h6", {
+                                        className: "text-lg text-gray-600",
+                                        children: "Derni\xe8re mise \xe0 jour: Avril 2023"
+                                    })
+                                ]
+                            })
+                        }),
+                        /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                            className: "prose lg:prose-xl",
+                            children: [
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                    children: "1. Introduction"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "La pr\xe9sente politique de confidentialit\xe9 d\xe9finit la mani\xe8re dont nous, Oreonyx Limited, anciennement F Stack Limited et op\xe9rant sous le nom d'Oreonyx, dont le si\xe8ge social est situ\xe9 Office 25.3, 25 Easton Street, London, WC1X 0DS, Angleterre, collectons et traitons vos donn\xe9es \xe0 caract\xe8re personnel et explique vos droits concernant vos donn\xe9es \xe0 caract\xe8re personnel. Si vous avez des questions sur la pr\xe9sente politique de confidentialit\xe9 ou si vous souhaitez exercer l'un de vos droits relatifs \xe0 vos donn\xe9es personnelles, vous pouvez nous contacter \xe0 l'adresse ci-dessus ou par courrier \xe9lectronique \xe0 l'adresse support@oreonyx.live. Notre m\xe9thode de contact pr\xe9f\xe9r\xe9e est le courrier \xe9lectronique."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "La pr\xe9sente politique de protection de la vie priv\xe9e a une incidence sur vos droits et obligations juridiques ; veuillez donc la lire attentivement. Si vous n'acceptez pas d'\xeatre li\xe9 par cette politique de confidentialit\xe9, veuillez ne pas nous fournir vos donn\xe9es personnelles ou demander \xe0 votre employeur de ne pas le faire."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nous pouvons mettre \xe0 jour la pr\xe9sente politique de confidentialit\xe9 de temps \xe0 autre, \xe0 notre discr\xe9tion, et en particulier pour refl\xe9ter toute modification des lois applicables. Si nous le faisons et que les changements affectent substantiellement vos droits ou obligations, nous prendrons des mesures commercialement raisonnables pour vous en informer. Dans le cas contraire, il vous incombe de consulter r\xe9guli\xe8rement la pr\xe9sente politique de protection de la vie priv\xe9e afin de prendre connaissance de toute modification qui y serait apport\xe9e."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nous pouvons collecter vos donn\xe9es personnelles parce que vous nous les fournissez, ou parce que votre employeur ou un coll\xe8gue est notre client et souhaite cr\xe9er un compte pour que vous puissiez acc\xe9der \xe0 notre plateforme. Dans ce cas, nous sommes le responsable du traitement de vos donn\xe9es \xe0 caract\xe8re personnel."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Il se peut \xe9galement que nous recevions vos donn\xe9es \xe0 caract\xe8re personnel par l'interm\xe9diaire de notre plateforme parce que l'un de nos clients a t\xe9l\xe9charg\xe9 vos donn\xe9es dans son compte sur notre plateforme. Dans ce cas, nous sommes le responsable du traitement de vos donn\xe9es \xe0 caract\xe8re personnel et nous ne traiterons vos donn\xe9es \xe0 caract\xe8re personnel que conform\xe9ment aux instructions du client."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Dans certains cas, nous pouvons permettre \xe0 certains d\xe9veloppeurs ou utilisateurs d'acc\xe9der \xe0 l'API d'Oreonyx afin de d\xe9velopper certaines applications permettant l'interop\xe9rabilit\xe9 entre une plateforme tierce et les services d'Oreonyx (chacune \xe9tant une ' application d'int\xe9gration '). Chaque application d'int\xe9gration sera d\xe9velopp\xe9e de mani\xe8re ind\xe9pendante et aux risques et p\xe9rils du d\xe9veloppeur. En cons\xe9quence, chaque d\xe9veloppeur d'une application d'int\xe9gration sera consid\xe9r\xe9 comme un contr\xf4leur distinct et ind\xe9pendant de toutes les donn\xe9es personnelles que vous pouvez partager en utilisant cette application d'int\xe9gration, et vous serez soumis aux conditions et \xe0 la politique de confidentialit\xe9 distinctes de l'application d'int\xe9gration. Nous vous encourageons \xe0 lire les conditions et la politique de confidentialit\xe9 de chaque application d'int\xe9gration que vous pouvez utiliser dans le cadre de nos services."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Ce site web n'est pas destin\xe9 aux enfants et nous ne collectons pas sciemment des donn\xe9es relatives aux enfants."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Ce site web peut inclure des liens vers des sites web, des plug-ins et des applications de tiers (y compris des applications d'int\xe9gration). Le fait de cliquer sur ces liens ou d'activer ces connexions peut permettre \xe0 des tiers de collecter ou de partager des donn\xe9es vous concernant. Nous ne contr\xf4lons pas ces sites web tiers et ne sommes pas responsables de leurs d\xe9clarations de confidentialit\xe9. Lorsque vous quittez notre site web, nous vous encourageons \xe0 lire la politique de confidentialit\xe9 de chaque site web que vous visitez."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                    children: "2. Quelles sont les donn\xe9es \xe0 caract\xe8re personnel que nous collectons et aupr\xe8s de qui ? Par donn\xe9es \xe0 caract\xe8re personnel, nous entendons toute information identifiable vous concernant, telle que votre nom, votre adresse \xe9lectronique, votre sexe, votre date de naissance, votre num\xe9ro de t\xe9l\xe9phone mobile et personnel, votre adresse IP ou une photo de vous que vous t\xe9l\xe9chargez sur notre plateforme. Nous nous r\xe9servons le droit d'anonymiser et/ou de pseudonymiser ces donn\xe9es personnelles afin qu'elles ne soient plus personnellement identifiables et de les utiliser sous une forme anonyme et/ou pseudonymis\xe9e \xe0 des fins commerciales internes, \xe0 des fins d'analyse ou \xe0 d'autres fins de temps \xe0 autre."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nous pouvons obtenir des cat\xe9gories particuli\xe8res de donn\xe9es \xe0 caract\xe8re personnel vous concernant si vous ou un client choisissez de nous fournir ces donn\xe9es. Les cat\xe9gories sp\xe9ciales de donn\xe9es \xe0 caract\xe8re personnel sont les donn\xe9es concernant votre race ou votre origine ethnique, vos opinions politiques, vos croyances religieuses ou philosophiques, votre appartenance \xe0 un syndicat, vos donn\xe9es g\xe9n\xe9tiques, vos donn\xe9es biom\xe9triques, vos donn\xe9es relatives \xe0 la sant\xe9 ou \xe0 la vie sexuelle ou \xe0 l'orientation sexuelle."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "2.1 Donn\xe9es que vous nous fournissez"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Il peut arriver que vous nous fournissiez des donn\xe9es \xe0 caract\xe8re personnel. Cela peut \xeatre d\xfb au fait que vous souhaitez"
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "utiliser notre site web ;"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "utiliser notre application mobile"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "postuler \xe0 un emploi chez nous ;"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "nous fournir des services ;"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "vous abonner pour recevoir des courriels de mise \xe0 jour des produits de notre part ; ou"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "nous contacter de toute autre mani\xe8re, y compris pour des questions, des commentaires ou des r\xe9clamations."
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Vous pouvez nous fournir des donn\xe9es personnelles directement, ou par l'interm\xe9diaire de nos plateformes de m\xe9dias sociaux ou d'une application d'int\xe9gration, ou d'autres personnes peuvent fournir vos donn\xe9es personnelles, par exemple pour vous ajouter \xe0 l'espace de travail de votre \xe9quipe."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nous traiterons toutes ces donn\xe9es personnelles conform\xe9ment \xe0 la pr\xe9sente politique de confidentialit\xe9. Certaines donn\xe9es \xe0 caract\xe8re personnel doivent obligatoirement nous \xeatre fournies pour que nous puissions r\xe9pondre \xe0 votre demande, par exemple pour vous fournir des services, et nous vous l'indiquerons clairement au moment de la collecte des donn\xe9es \xe0 caract\xe8re personnel."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Lorsque nous devons collecter des donn\xe9es \xe0 caract\xe8re personnel en vertu de la loi ou d'un contrat conclu avec vous et que vous ne nous fournissez pas ces donn\xe9es lorsque nous vous le demandons, il se peut que nous ne soyons pas en mesure d'ex\xe9cuter le contrat que nous avons conclu ou que nous essayons de conclure avec vous (par exemple, pour vous fournir nos services). Dans ce cas, il se peut que nous devions annuler un produit ou un service que vous avez souscrit aupr\xe8s de nous, mais nous vous en informerons \xe0 ce moment-l\xe0."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Toutes les donn\xe9es \xe0 caract\xe8re personnel que vous nous fournissez doivent \xeatre vraies, compl\xe8tes et exactes. \xc0 notre demande, vous devez fournir rapidement une preuve de votre identit\xe9. Si vous nous fournissez des donn\xe9es inexactes ou fausses et que nous soup\xe7onnons ou identifions une fraude, nous l'enregistrerons et nous pourrons \xe9galement le signaler. Lorsque vous nous contactez par courrier \xe9lectronique ou postal, nous pouvons conserver une trace de la correspondance et nous pouvons \xe9galement enregistrer tout appel t\xe9l\xe9phonique que nous avons avec vous."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "2.2 Donn\xe9es que nous collectons automatiquement \xe0 votre sujet"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Lorsque vous utilisez notre site web ou notre application mobile, nous collectons et stockons automatiquement des informations sur votre appareil et vos activit\xe9s. Ces informations peuvent inclure :"
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "des informations techniques sur votre appareil telles que le type d'appareil, le navigateur web ou le syst\xe8me d'exploitation ;"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "vos pr\xe9f\xe9rences et param\xe8tres tels que le fuseau horaire et la langue ; et"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "la dur\xe9e d'utilisation du site web/de l'application et les services et fonctionnalit\xe9s que vous avez utilis\xe9s."
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Certaines de ces informations sont collect\xe9es \xe0 l'aide de cookies et de technologies de suivi similaires. Si vous souhaitez en savoir plus sur les types de cookies que nous utilisons, pourquoi et comment vous pouvez les contr\xf4ler, veuillez consulter notre Politique en mati\xe8re de cookies."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "2.3 Type de donn\xe9es que nous collectons automatiquement \xe0 partir de services tiers connect\xe9s, tels que Google Services, Dropbox, Microsoft Outlook et Microsoft OneDrive."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Vous pouvez choisir l'option de vous connecter \xe0 des services tiers ou d'y acc\xe9der afin d'acc\xe9der \xe0 ces informations \xe0 partir de l'application Oreonyx et, dans ce cas, nous collecterons et stockerons automatiquement vos donn\xe9es d'utilisateur aupr\xe8s de ce tiers. Ces donn\xe9es peuvent inclure"
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Profil de la tierce partie"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Nom de l'utilisateur"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "l'adresse e-mail"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Courrier \xe9lectronique (contenu, pi\xe8ces jointes et m\xe9tadonn\xe9es)"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "le calendrier"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Fichiers"
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "2.4 Donn\xe9es que nous recevons d'autres personnes"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Comme indiqu\xe9 ci-dessus, votre employeur ou un coll\xe8gue peut de temps \xe0 autre nous fournir des donn\xe9es personnelles vous concernant (par exemple, votre adresse \xe9lectronique) afin que vous puissiez cr\xe9er un compte sur notre plateforme, ou l'un de nos fournisseurs peut nous envoyer des donn\xe9es personnelles que nous t\xe9l\xe9chargeons sur notre plateforme. Si un tiers, tel que votre employeur ou un coll\xe8gue, nous fournit votre adresse \xe9lectronique qui est votre adresse \xe9lectronique personnelle et non professionnelle, vous devez nous contacter pour nous en informer et nous supprimerons ces donn\xe9es."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nous pouvons \xe9galement recevoir des donn\xe9es personnelles vous concernant de la part d'une application d'int\xe9gration, de nos fournisseurs de paiement et/ou de nos partenaires de services de s\xe9curit\xe9 du site web, en particulier en cas d'utilisation abusive de la plateforme, y compris l'introduction de virus ou d'autres logiciels malveillants."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si vous postulez \xe0 un emploi chez nous, nous pouvons recevoir des donn\xe9es personnelles vous concernant de la part de votre ancien employeur ou d'une autre r\xe9f\xe9rence."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                    children: "3. Utilisation licite de vos donn\xe9es personnelles Nous n'utiliserons vos donn\xe9es \xe0 caract\xe8re personnel que si nous disposons d'une base l\xe9gale pour le faire. Les motifs l\xe9gitimes sur lesquels nous nous appuyons dans le cadre de la pr\xe9sente politique de protection de la vie priv\xe9e sont les suivants :"
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "le consentement (lorsque vous choisissez de le fournir, par exemple lorsque vous choisissez d'utiliser une application d'int\xe9gration pour partager vos donn\xe9es entre Oreonyx et un tiers, et jamais pour les donn\xe9es provenant des services Google connect\xe9s) ;"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "l'ex\xe9cution de notre contrat avec vous, votre employeur ou votre coll\xe8gue ;"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "le respect des exigences l\xe9gales ; et"
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "les int\xe9r\xeats l\xe9gitimes. Lorsque nous faisons r\xe9f\xe9rence aux int\xe9r\xeats l\xe9gitimes, nous entendons nos int\xe9r\xeats commerciaux l\xe9gitimes dans le cadre du fonctionnement normal de notre entreprise, qui n'ont pas d'impact mat\xe9riel sur vos droits, votre libert\xe9 ou vos int\xe9r\xeats."
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nous n'utiliserons vos donn\xe9es personnelles que si nous disposons d'une base l\xe9gale pour le faire. La mani\xe8re dont nous utilisons vos donn\xe9es personnelles d\xe9pend de la raison pour laquelle nous les avons collect\xe9es."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "3.1 Utilisation de donn\xe9es provenant de votre employeur ou d'un coll\xe8gue qui utilise Oreonyx"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si nous avons re\xe7u vos donn\xe9es personnelles parce que vous \xeates employ\xe9 par une soci\xe9t\xe9 qui utilise Oreonyx comme CRM ou parce qu'un coll\xe8gue utilise Oreonyx pour de tels services et vous invite \xe0 collaborer sur son espace de travail, nous traiterons vos donn\xe9es personnelles pour ex\xe9cuter tout contrat que nous avons conclu avec votre employeur ou votre coll\xe8gue ou en relation avec toute mesure que nous prenons \xe0 la demande de votre employeur ou de votre coll\xe8gue avant de conclure un contrat avec nous ou de mettre \xe0 jour un tel contrat avec nous. Typiquement, cela inclut la cr\xe9ation d'un compte utilisateur pour vous afin que vous puissiez acc\xe9der aux applications Oreonyx et rejoindre l'espace de travail de votre employeur ou coll\xe8gue."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "3.2 Utilisation de donn\xe9es provenant de services Google connect\xe9s"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si nous avons re\xe7u vos donn\xe9es personnelles parce que vous avez choisi de vous connecter avec Google, nous traiterons vos donn\xe9es personnelles pour ex\xe9cuter tout contrat que nous avons conclu avec votre employeur ou en relation avec toute mesure que nous prenons \xe0 la demande de votre employeur avant de conclure un contrat. Cela inclut notamment le fait de vous donner acc\xe8s \xe0 l'application Oreonyx."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Oreonyx est une application de gestion de la relation client (CRM) et de gestion des t\xe2ches destin\xe9e aux entreprises. Si nous avons re\xe7u des donn\xe9es personnelles parce que vous avez choisi de connecter votre Google Drive, Google Calendar et/ou votre compte Gmail, nous collecterons vos donn\xe9es \xe0 partir de ce service afin d'am\xe9liorer l'exp\xe9rience de gestion des courriels, des fichiers et des contacts et d'am\xe9liorer votre productivit\xe9 lors de l'utilisation de l'application Oreonyx. En particulier, cela inclut l'acc\xe8s \xe0 vos donn\xe9es d'utilisateur Google \xe0 partir de l'application Oreonyx o\xf9 vous pouvez voir vos donn\xe9es dans le contexte pertinent d'une application de logiciel CRM et g\xe9rer vos relations professionnelles."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Limites suppl\xe9mentaires concernant l'utilisation de vos donn\xe9es d'utilisateur Google :"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nonobstant toute autre disposition de la pr\xe9sente politique de confidentialit\xe9, si vous nous donnez acc\xe8s \xe0 des donn\xe9es provenant de services Google connect\xe9s, notre utilisation de ces donn\xe9es sera soumise \xe0 ces restrictions suppl\xe9mentaires :"
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Nous n'utiliserons l'acc\xe8s aux donn\xe9es d'un service Google connect\xe9 que pour fournir notre application web et mobile de CRM et de gestion des t\xe2ches Oreonyx qui permet aux utilisateurs de lire, traiter et \xe9crire des e-mails, d'acc\xe9der \xe0 leurs fichiers Google Drive et \xe0 leur agenda. En outre, notre utilisation des donn\xe9es est limit\xe9e \xe0 la fourniture ou \xe0 l'am\xe9lioration des fonctionnalit\xe9s destin\xe9es \xe0 l'utilisateur qui sont mises en \xe9vidence dans l'interface utilisateur de l'application qui en fait la demande."
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Nous ne transmettrons pas ces donn\xe9es \xe0 des tiers, \xe0 moins que cela ne soit n\xe9cessaire pour fournir et am\xe9liorer les fonctionnalit\xe9s qui sont mises en \xe9vidence dans l'interface utilisateur, pour se conformer \xe0 la l\xe9gislation applicable ou dans le cadre d'une fusion, d'une acquisition ou d'une vente d'actifs."
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Nous n'utiliserons jamais les donn\xe9es des utilisateurs de Google pour diffuser des publicit\xe9s, y compris des publicit\xe9s recibl\xe9es, personnalis\xe9es ou bas\xe9es sur les centres d'int\xe9r\xeat."
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Nous n'autoriserons pas les \xeatres humains \xe0 lire ces donn\xe9es sauf si nous avons votre accord affirmatif pour des messages sp\xe9cifiques, si cela est n\xe9cessaire \xe0 des fins de s\xe9curit\xe9 telles que l'investigation d'abus, pour se conformer \xe0 la loi applicable ou pour nos op\xe9rations internes et, m\xeame dans ce cas, uniquement lorsque les donn\xe9es ont \xe9t\xe9 agr\xe9g\xe9es et rendues anonymes."
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "L'utilisation et le transfert par Oreonyx \xe0 toute autre application des informations re\xe7ues des API de Google seront conformes \xe0 la politique des donn\xe9es utilisateur des services API de Google, y compris les exigences relatives \xe0 l'utilisation limit\xe9e."
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "3.3 Utilisation des donn\xe9es que vous avez t\xe9l\xe9charg\xe9es ou saisies dans l'application Oreonyx"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si nous avons re\xe7u vos donn\xe9es personnelles parce que vous les avez t\xe9l\xe9charg\xe9es sur notre plateforme, nous traiterons ces donn\xe9es personnelles pour l'un des objectifs l\xe9gitimes d\xe9crits ci-dessus et selon vos instructions."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "3.4 Utilisation des donn\xe9es pour nos int\xe9r\xeats l\xe9gitimes"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nous pouvons \xe9galement utiliser vos donn\xe9es personnelles dans le cadre de nos int\xe9r\xeats l\xe9gitimes, y compris pour traiter les services \xe0 la client\xe8le dont vous avez besoin, \xe0 des fins r\xe9glementaires et juridiques (par exemple \xe0 des fins de lutte contre le blanchiment d'argent et de pr\xe9vention de la fraude), \xe0 des fins d'audit et pour vous contacter au sujet des modifications apport\xe9es \xe0 la pr\xe9sente politique de confidentialit\xe9."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "3.5 Utilisation des donn\xe9es pour fournir des courriels de mise \xe0 jour des produits (marketing)"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nous nous effor\xe7ons de vous offrir des choix concernant certaines utilisations de vos donn\xe9es personnelles, en particulier dans le domaine du marketing et de la publicit\xe9."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nous pouvons utiliser vos donn\xe9es d'identit\xe9, de contact, techniques, d'utilisation et de profil pour nous faire une id\xe9e de ce que nous pensons que vous voulez ou avez besoin, ou de ce qui peut vous int\xe9resser. C'est ainsi que nous d\xe9cidons quels produits, services et offres peuvent \xeatre pertinents pour vous (c'est ce que nous appelons le marketing)."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Vous recevrez des communications marketing de notre part si vous nous avez demand\xe9 des informations ou si vous avez achet\xe9 nos services et si vous n'avez pas refus\xe9 de recevoir ces communications."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Vous pouvez consentir \xe0 recevoir de notre part des messages \xe9lectroniques de mise \xe0 jour sur les produits. Vous pouvez demander \xe0 ne plus recevoir de messages marketing \xe0 tout moment en suivant les liens d'exclusion figurant dans les messages marketing qui vous sont envoy\xe9s, en acc\xe9dant aux param\xe8tres de notre site web ou en nous contactant \xe0 tout moment."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si vous choisissez de ne plus recevoir ces messages marketing, cela ne s'appliquera pas aux donn\xe9es \xe0 caract\xe8re personnel qui nous sont fournies \xe0 la suite d'un achat, d'un enregistrement de garantie, d'une exp\xe9rience avec un produit ou un service ou d'autres transactions. Il se peut donc que vous receviez des messages \xe9lectroniques concernant votre utilisation, votre compte et/ou l'utilisation de votre compte par les utilisateurs, m\xeame si vous avez choisi de ne pas recevoir nos messages de marketing. En effet, ces courriels sont transactionnels et ne requi\xe8rent pas votre consentement pour \xeatre re\xe7us. Veuillez noter que si vous refusez de recevoir des courriels de marketing, il se peut que nous ayons besoin de quelques jours pour mettre \xe0 jour nos dossiers afin de refl\xe9ter votre demande."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si vous nous demandez de vous retirer de notre liste d'envoi de mises \xe0 jour de produits, nous conserverons votre nom et votre adresse \xe9lectronique afin de nous assurer que nous ne vous enverrons plus d'informations sur les mises \xe0 jour de produits. Nous continuerons \xe9galement \xe0 vous envoyer les informations n\xe9cessaires relatives \xe0 votre utilisation de nos services si vous, votre employeur ou votre coll\xe8gue avez un compte chez nous."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nous obtiendrons \xe9galement votre consentement explicite avant de partager vos donn\xe9es personnelles avec des tiers \xe0 des fins de marketing."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "3.6 Utilisation des donn\xe9es pour am\xe9liorer nos services Nous analysons \xe9galement les donn\xe9es relatives \xe0 l'utilisation de notre plateforme et utilisons ces informations pour am\xe9liorer nos services et notre plateforme dans le cadre de nos int\xe9r\xeats l\xe9gitimes. Veuillez consulter notre politique en mati\xe8re de cookies pour obtenir des informations d\xe9taill\xe9es."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "3.7 Utilisation des donn\xe9es pour traiter les demandes d'emploi"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si vous postulez \xe0 un emploi chez nous, nous utiliserons les donn\xe9es personnelles que vous nous fournissez pour traiter votre candidature et vous r\xe9pondre en cons\xe9quence."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "3.8 Changement de finalit\xe9"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nous n'utiliserons vos donn\xe9es \xe0 caract\xe8re personnel qu'aux fins pour lesquelles nous les avons collect\xe9es (telles que d\xe9crites ci-dessus), \xe0 moins que nous ne consid\xe9rions raisonnablement que nous devons les utiliser pour une autre raison et que cette raison est compatible avec l'objectif initial. Si vous souhaitez obtenir une explication sur la mani\xe8re dont le traitement pour la nouvelle finalit\xe9 est compatible avec la finalit\xe9 initiale, veuillez nous contacter."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si nous devons utiliser vos donn\xe9es \xe0 caract\xe8re personnel \xe0 des fins non li\xe9es, nous vous en informerons et nous vous expliquerons la base juridique qui nous permet de le faire."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Veuillez noter que nous pouvons traiter vos donn\xe9es \xe0 caract\xe8re personnel \xe0 votre insu ou sans votre consentement, conform\xe9ment aux r\xe8gles susmentionn\xe9es, lorsque la loi l'exige ou le permet."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                    children: "4. Avec qui partageons-nous vos donn\xe9es ?"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Pour nos int\xe9r\xeats l\xe9gitimes, nous pouvons partager vos donn\xe9es \xe0 caract\xe8re personnel avec tous les prestataires de services, sous-traitants et agents que nous pouvons d\xe9signer pour ex\xe9cuter des fonctions en notre nom et conform\xe9ment \xe0 nos instructions, y compris les prestataires de paiement, les prestataires de services informatiques, les comptables, les auditeurs et les avocats. Nous ne fournirons \xe0 nos prestataires de services, sous-traitants et agents que les donn\xe9es \xe0 caract\xe8re personnel dont ils ont besoin pour nous fournir le service et, si nous cessons d'utiliser leurs services, nous leur demanderons de supprimer vos donn\xe9es \xe0 caract\xe8re personnel ou de les rendre anonymes dans leurs syst\xe8mes."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Afin de respecter nos obligations l\xe9gales, nous pouvons, dans certaines circonstances, \xeatre amen\xe9s \xe0 divulguer vos donn\xe9es personnelles en vertu des lois et/ou r\xe8glements applicables, par exemple dans le cadre de proc\xe9dures de lutte contre le blanchiment d'argent ou pour prot\xe9ger les droits, la propri\xe9t\xe9 ou la s\xe9curit\xe9 d'un tiers."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Pour nos int\xe9r\xeats l\xe9gitimes, nous pouvons \xe9galement partager vos donn\xe9es personnelles dans le cadre de, ou pendant les n\xe9gociations de, toute fusion, vente d'actifs, consolidation ou restructuration, financement ou acquisition de tout ou partie de notre activit\xe9 par ou dans une autre soci\xe9t\xe9, auquel cas nous enverrons un avis \xe0 nos utilisateurs."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                    children: "5. O\xf9 nous d\xe9tenons et traitons vos donn\xe9es \xe0 caract\xe8re personnel Tout ou partie de vos donn\xe9es personnelles peuvent \xeatre stock\xe9es ou transf\xe9r\xe9es en dehors du Royaume-Uni (RU) ou de l'Espace \xe9conomique europ\xe9en (EEE), y compris, par exemple, si notre serveur de messagerie est situ\xe9 dans un pays situ\xe9 en dehors du Royaume-Uni ou de l'EEE ou si l'un de nos fournisseurs de services est bas\xe9 en dehors du Royaume-Uni ou de l'EEE."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Lorsque vos donn\xe9es personnelles sont transf\xe9r\xe9es en dehors du Royaume-Uni ou de l'EEE, elles ne sont transf\xe9r\xe9es qu'\xe0 des pays qui ont \xe9t\xe9 identifi\xe9s comme offrant une protection ad\xe9quate de vos donn\xe9es ou \xe0 un tiers pour lequel nous avons mis en place des m\xe9canismes de transfert approuv\xe9s pour prot\xe9ger vos donn\xe9es personnelles, c'est-\xe0-dire en concluant l'Accord international de transfert de donn\xe9es (IDTA) du Royaume-Uni ou un addendum, ou les Clauses contractuelles types de la Commission europ\xe9enne."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Veuillez nous contacter \xe0 l'adresse \xe9lectronique indiqu\xe9e dans la clause 10 si vous souhaitez obtenir de plus amples informations sur le m\xe9canisme sp\xe9cifique que nous utilisons lors du transfert de vos donn\xe9es \xe0 caract\xe8re personnel en dehors du Royaume-Uni ou de l'EEE en vertu du pr\xe9sent paragraphe."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                    children: "6. S\xe9curit\xe9"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nous traiterons vos donn\xe9es \xe0 caract\xe8re personnel d'une mani\xe8re qui garantisse une s\xe9curit\xe9 appropri\xe9e des donn\xe9es \xe0 caract\xe8re personnel, y compris la protection contre le traitement non autoris\xe9 ou ill\xe9gal et contre la perte, la destruction ou les dommages accidentels. Pour ce faire, nous utilisons des mesures techniques ou organisationnelles appropri\xe9es. Par exemple, toutes les informations que vous nous fournissez sont stock\xe9es sur nos serveurs s\xe9curis\xe9s et nos employ\xe9s sont tenus de respecter toutes les lois applicables en mati\xe8re de protection des donn\xe9es."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si vous \xeates notre client et que vous souhaitez nous envoyer des donn\xe9es \xe0 caract\xe8re personnel pour les h\xe9berger sur notre plateforme, nous devons tous deux nous conformer \xe0 nos obligations en vertu de l'accord client d'Oreonyx."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nonobstant ce qui pr\xe9c\xe8de, vous reconnaissez qu'aucun syst\xe8me ne peut \xeatre totalement s\xe9curis\xe9. Par cons\xe9quent, bien que nous prenions ces mesures pour s\xe9curiser vos donn\xe9es \xe0 caract\xe8re personnel, nous ne promettons pas que vos donn\xe9es \xe0 caract\xe8re personnel resteront toujours totalement s\xe9curis\xe9es. En cas de violation de la s\xe9curit\xe9, nous ferons tout ce qui est en notre pouvoir d\xe8s que possible pour mettre fin \xe0 la violation et minimiser la perte de donn\xe9es."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                    children: "7. Vos droits"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Vous disposez d'un certain nombre de droits en vertu de la l\xe9gislation applicable en mati\xe8re de protection des donn\xe9es. Certains de ces droits sont complexes et tous les d\xe9tails n'ont pas \xe9t\xe9 repris ci-dessous. De plus amples informations sont disponibles ici."
+                                }),
+                                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
+                                    children: [
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Droit d'acc\xe8s : Vous avez le droit d'obtenir de notre part une copie des donn\xe9es \xe0 caract\xe8re personnel que nous d\xe9tenons \xe0 votre sujet."
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Droit de rectification : Vous pouvez nous demander de corriger les erreurs dans les donn\xe9es \xe0 caract\xe8re personnel que nous traitons pour vous si elles sont inexactes, incompl\xe8tes ou p\xe9rim\xe9es."
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Droit \xe0 la portabilit\xe9 : Vous pouvez nous demander de transf\xe9rer vos donn\xe9es \xe0 caract\xe8re personnel \xe0 un autre prestataire de services."
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Droit \xe0 la limitation du traitement : Dans certaines circonstances, vous avez le droit d'exiger que nous limitions le traitement de vos informations personnelles."
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Droit \xe0 l'oubli : Vous avez \xe9galement le droit d'exiger \xe0 tout moment que nous supprimions les donn\xe9es \xe0 caract\xe8re personnel que nous d\xe9tenons \xe0 votre sujet, lorsqu'il n'est plus n\xe9cessaire que nous les conservions. Toutefois, bien que nous respections votre droit \xe0 l'oubli, nous pouvons conserver vos donn\xe9es \xe0 caract\xe8re personnel conform\xe9ment aux lois applicables."
+                                        }),
+                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
+                                            children: "Droit de ne plus recevoir d'informations commerciales : Vous pouvez nous demander de ne plus vous envoyer d'informations sur nos services, mais nous continuerons \xe0 vous contacter pour toute question relative \xe0 votre rapport."
+                                        })
+                                    ]
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Vous n'aurez pas \xe0 payer de frais pour acc\xe9der \xe0 vos donn\xe9es personnelles (ou pour exercer l'un des autres droits). Toutefois, nous pouvons facturer des frais raisonnables si votre demande est manifestement infond\xe9e, r\xe9p\xe9titive ou excessive. Dans ce cas, nous pouvons \xe9galement refuser de donner suite \xe0 votre demande."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Il se peut que nous devions vous demander des informations sp\xe9cifiques pour nous aider \xe0 confirmer votre identit\xe9 et garantir votre droit d'acc\xe8s \xe0 vos donn\xe9es \xe0 caract\xe8re personnel ou d'exercice de tout autre droit. Il s'agit d'une mesure de s\xe9curit\xe9 visant \xe0 garantir que les donn\xe9es \xe0 caract\xe8re personnel ne sont pas divulgu\xe9es \xe0 une personne qui n'a pas le droit de les recevoir. Nous pouvons \xe9galement vous contacter pour vous demander des informations compl\xe9mentaires concernant votre demande afin de pouvoir la traiter rapidement."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Nous nous effor\xe7ons de r\xe9pondre \xe0 toutes les demandes l\xe9gitimes dans un d\xe9lai d'un mois. Il peut arriver que nous ayons besoin de plus d'un mois si votre demande est particuli\xe8rement complexe ou si vous avez formul\xe9 plusieurs demandes. Dans ce cas, nous vous en informerons et vous tiendrons au courant."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si nous sommes un sous-traitant de vos donn\xe9es (et que notre client est le responsable du traitement), nous ne traiterons vos donn\xe9es \xe0 caract\xe8re personnel que selon les instructions de notre client. Vous devrez contacter directement notre client si vous souhaitez exercer vos droits en ce qui concerne les donn\xe9es trait\xe9es sur notre plateforme. Si vous nous contactez directement, nous en informerons notre client d\xe8s que cela sera raisonnablement possible et nous l'aiderons, en tant que responsable du traitement, \xe0 prendre les mesures appropri\xe9es pour lui permettre de s'acquitter de ses obligations envers vous."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si vous avez des r\xe9clamations concernant la pr\xe9sente politique de protection de la vie priv\xe9e ou le traitement de vos donn\xe9es \xe0 caract\xe8re personnel, n'h\xe9sitez pas \xe0 nous en faire part. Nous examinerons et \xe9tudierons votre plainte et essaierons de vous r\xe9pondre dans un d\xe9lai raisonnable. Vous pouvez \xe9galement contacter le commissaire \xe0 l'information (Information Commissioner), voir www.ico.org.uk ou, si vous \xeates bas\xe9 en dehors du Royaume-Uni, veuillez contacter votre autorit\xe9 locale de protection des donn\xe9es."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                    children: "8. Conservation des donn\xe9es personnelles Nous conserverons les donn\xe9es \xe0 caract\xe8re personnel conform\xe9ment aux lois applicables."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si nous avons re\xe7u vos donn\xe9es personnelles parce que vous \xeates un employ\xe9 d'un client, nous les conserverons jusqu'\xe0 ce que nous ne travaillions plus avec votre employeur, sauf si nous sommes tenus de conserver les donn\xe9es personnelles pendant une p\xe9riode donn\xe9e pour nous conformer \xe0 des exigences l\xe9gales, d'audit ou statutaires, y compris les exigences du HMRC en ce qui concerne les documents financiers."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si nous disposons de vos donn\xe9es personnelles parce qu'un client les a t\xe9l\xe9charg\xe9es sur notre plateforme, nous les conserverons conform\xe9ment aux instructions de notre client."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Dans certaines circonstances, vous pouvez nous demander de supprimer vos donn\xe9es : voir 'Vos droits' ci-dessus pour plus d'informations."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Dans certaines circonstances, nous rendrons vos donn\xe9es personnelles anonymes (de sorte qu'elles ne puissent plus \xeatre associ\xe9es \xe0 vous) \xe0 des fins de recherche ou de statistiques, auquel cas nous pourrons utiliser ces informations ind\xe9finiment sans vous en avertir."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                    children: "9. G\xe9n\xe9ralit\xe9s"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si une disposition de la pr\xe9sente politique de confidentialit\xe9 est jug\xe9e invalide ou inapplicable par un tribunal comp\xe9tent, cette disposition sera interpr\xe9t\xe9e, dans la mesure du possible, de mani\xe8re \xe0 refl\xe9ter les intentions des parties et toutes les autres dispositions resteront pleinement en vigueur."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "La pr\xe9sente politique de confidentialit\xe9 est r\xe9gie et interpr\xe9t\xe9e conform\xe9ment \xe0 la l\xe9gislation de l'Angleterre et du Pays de Galles, et vous acceptez de vous soumettre \xe0 la juridiction exclusive des tribunaux anglais."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h4", {
+                                    children: "10. Comment nous contacter"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Vous pouvez nous contacter pour toute question ou commentaire concernant vos donn\xe9es personnelles, la pr\xe9sente politique ou toute autre question relative \xe0 la protection de la vie priv\xe9e en envoyant un courriel \xe0 support@oreonyx.live."
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Si vous vous trouvez dans l'Union europ\xe9enne, vous pouvez adresser vos questions relatives \xe0 la protection de la vie priv\xe9e \xe0 notre repr\xe9sentant de l'UE conform\xe9ment \xe0 l'article 27 du GDPR :"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "EU-REP.Global GmbH, \xe0 l'attention d'Oreonyx"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: "Hopfenstr. 1d, 24114 Kiel, Allemagne"
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                        href: "mailto:‍attio@eu-rep.global",
+                                        children: "‍attio@eu-rep.global"
+                                    })
+                                }),
+                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
+                                        href: "https://www.eu-rep.global",
+                                        children: " www.eu-rep.global"
+                                    })
+                                })
+                            ]
+                        })
+                    ]
+                })
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("hr", {
+                className: "my-12"
+            }),
+            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_ui_sections_Footer__WEBPACK_IMPORTED_MODULE_3__/* ["default"] */ .Z, {})
+        ]
+    });
+}
+
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, [359,761,27], () => (__webpack_exec__(8589)));
+module.exports = __webpack_exports__;
+
+})();

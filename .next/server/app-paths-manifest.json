@@ -1,0 +1,14 @@
+{
+  "/about/page": "app/about/page.js",
+  "/api/hello/route": "app/api/hello/route.js",
+  "/blog/page": "app/blog/page.js",
+  "/carreer/page": "app/carreer/page.js",
+  "/changelog/page": "app/changelog/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/cookies/page": "app/cookies/page.js",
+  "/page": "app/page.js",
+  "/presskit/page": "app/presskit/page.js",
+  "/privacy/page": "app/privacy/page.js",
+  "/security/page": "app/security/page.js",
+  "/terms/page": "app/terms/page.js"
+}

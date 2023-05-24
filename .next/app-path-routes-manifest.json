@@ -1,0 +1,14 @@
+{
+  "/about/page": "/about",
+  "/api/hello/route": "/api/hello",
+  "/blog/page": "/blog",
+  "/carreer/page": "/carreer",
+  "/changelog/page": "/changelog",
+  "/contact/page": "/contact",
+  "/cookies/page": "/cookies",
+  "/page": "/",
+  "/presskit/page": "/presskit",
+  "/privacy/page": "/privacy",
+  "/security/page": "/security",
+  "/terms/page": "/terms"
+}
