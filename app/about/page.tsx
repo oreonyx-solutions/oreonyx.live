@@ -21,35 +21,32 @@ export default function Page() {
               <div className="flex justify-center">
                 <div className="w-full lg:w-10/12">
                   <h4 className="text-2xl md:text-5xl lg:text-7xl font-medium md:text-center">
-                    Briser les obstacles d&apos;un accès à une éducation de
-                    qualité
+                    Breaking down the barriers to access to quality education
                   </h4>
                 </div>
               </div>
               <div className="flex justify-center">
                 <h6 className="text-gray-500 text-lg md:text-center">
-                  Les technologies éducatives représentent la meilleure chance
-                  de réinventer de fond en comble le système éducatif mondial
-                  afin qu&apos;il puisse bénéficier à tous, y compris les
-                  millions de personnes qui n&apos;ont pas accès à une éducation
-                  de qualité.
+                  Educational technologies represent the best chance to
+                  fundamentally reinvent the global education system so that it
+                  can benefit everyone, including the millions who lack access
+                  to quality education.
                 </h6>
               </div>
               <div className="flex justify-center">
                 <h6 className="text-gray-500 lg:text-lg md:text-center">
-                  Les avantages économiques et sociaux de l&apos;accès de tous à
-                  une éducation de qualité sont considérables. En plus de
-                  garantir une meilleure qualité de vie pour les individus, une
-                  éducation de qualité est essentielle pour améliorer
-                  l&apos;employabilité des jeunes. C&apos;est pourquoi nous
-                  travaillons à développer une pile de technologies éducatives
-                  en tant que service, que toute institution peut utiliser pour
-                  offrir à ses étudiants des opportunités éducatives équitables
-                  et de qualité, basées sur les dernières innovations
-                  technologiques. Ainsi, nous contribuons à former une nouvelle
-                  génération de travailleurs compétents et qualifiés, prêts à
-                  relever les défis du marché du travail et à contribuer à la
-                  croissance économique.
+                  The economic and social benefits of providing access to
+                  quality education for all are considerable. In addition to
+                  ensuring a better quality of life for individuals, quality
+                  education is essential to improving the employability of young
+                  people. That's why we are working to develop a stack of
+                  educational technologies as a service, which any institution
+                  can use to provide its students with equitable and quality
+                  educational opportunities based on the latest technological
+                  innovations. In this way, we are helping to train a new
+                  generation of competent and skilled workers, ready to meet the
+                  challenges of the job market and contribute to economic
+                  growth.
                 </h6>
               </div>
               <div className="flex md:justify-center pt-6">
@@ -57,7 +54,7 @@ export default function Page() {
                   href="https://app.oreonyx.live"
                   className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 flex items-center"
                 >
-                  <span className="font-medium">Contacter-nous</span>
+                  <span className="font-medium">CONTACT US</span>
                   <MailCheck className="h-4 w-4" />
                 </Link>
               </div>
@@ -65,10 +62,10 @@ export default function Page() {
           </div>
           <div className="space-y-10">
             <div className="space-y-3">
-              <h6 className="text-base text-green-500">Notre équipe</h6>
+              <h6 className="text-base text-green-500">Our Team</h6>
               <h2 className="text-3xl lg:text-5xl">
-                Une équipe croissante de professionnels des produits, de la
-                technologie et des services éducatifs.
+                A growing team of product, technology and educational services
+                professionals.
               </h2>
             </div>
             <div className="w-full flex">
