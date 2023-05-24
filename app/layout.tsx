@@ -44,28 +44,35 @@ export default function RootLayout({
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <title>{metadata.title}</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
-        <meta name="description" content={metadata.description} />
-        <meta property="og:title" content="Oreonyx Technologies" />
-        <meta property="og:type" content="website" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content={metadata.og.title} />
+        <meta property="og:type" content={metadata.og.type} />
+        <meta property="og:image:alt" content={metadata.og.imageAlt} />
+        <meta property="og:url" content={metadata.og.url} />
+        <meta property="og:description" content={metadata.og.description} />
+        <meta property="og:image" content={metadata.og.image} />
+        <meta property="og:locale" content={metadata.og.locale} />
+        <meta property="og:site_name" content={metadata.og.siteName} />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content={metadata.twitter.card} />
+        <meta name="twitter:site" content={metadata.twitter.site} />
+        <meta name="twitter:creator" content={metadata.twitter.creator} />
+        <meta property="twitter:url" content={metadata.twitter.url} />
         <meta
-          property="og:image"
-          content="https://res.cloudinary.com/shogunmp7/image/upload/v1675845644/oreonyx_swzmsi.png"
+          property="twitter:image:alt"
+          content={metadata.twitter.imageAlt}
         />
-        <meta property="og:image:alt" content="Join Oreonyx Technologies" />
-        <meta property="og:url" content="https://www.oreonyx.com" />
-        <meta property="og:description" content={metadata.description} />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:site_name" content="Oreonyx" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@oreonyxHQ" />
-        <meta name="twitter:creator" content="@oreonyxHQ" />
-        <meta name="twitter:title" content="Oreonyx Technologies" />
-        <meta name="twitter:description" content={metadata.description} />
+        <meta property="twitter:title" content={metadata.twitter.title} />
         <meta
-          name="twitter:image"
-          content="https://res.cloudinary.com/shogunmp7/image/upload/v1675845644/oreonyx_swzmsi.png"
+          property="twitter:description"
+          content={metadata.twitter.description}
         />
+        <meta name="twitter:image" content={metadata.twitter.image} />
+
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/manifest.json" />
       </Head>
