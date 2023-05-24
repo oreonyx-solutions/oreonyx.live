@@ -78,7 +78,7 @@ export default function Page() {
                       src="/team/Benoit.jpg"
                       layout="fill"
                       objectFit="cover"
-                      className="grayscale hover:grayscale-0 transition-all rounded-xl object-top"
+                      className="lg:lg:grayscale hover:grayscale-0 transition-all rounded-xl object-top"
                     />
                   </div>
                   <div className="-space-y-1">
@@ -93,7 +93,7 @@ export default function Page() {
                       src="/team/Amelie.jpg"
                       layout="fill"
                       objectFit="cover"
-                      className="grayscale hover:grayscale-0 transition-all rounded-xl object-top"
+                      className="lg:grayscale hover:grayscale-0 transition-all rounded-xl object-top"
                     />
                   </div>
                   <div className="-space-y-1">
@@ -108,7 +108,7 @@ export default function Page() {
                       src="/team/Ayen.jpg"
                       layout="fill"
                       objectFit="cover"
-                      className="grayscale hover:grayscale-0 transition-all rounded-xl object-top"
+                      className="lg:grayscale hover:grayscale-0 transition-all rounded-xl object-top"
                     />
                   </div>
                   <div className="-space-y-1">
@@ -123,7 +123,7 @@ export default function Page() {
                       src="/team/Arouna.jpg"
                       layout="fill"
                       objectFit="cover"
-                      className="grayscale hover:grayscale-0 transition-all rounded-xl object-top"
+                      className="lg:grayscale hover:grayscale-0 transition-all rounded-xl object-top"
                     />
                   </div>
                   <div className="-space-y-1">
@@ -138,7 +138,7 @@ export default function Page() {
                       src="/team/Henok.jpg"
                       layout="fill"
                       objectFit="cover"
-                      className="grayscale hover:grayscale-0 transition-all rounded-xl object-top"
+                      className="lg:grayscale hover:grayscale-0 transition-all rounded-xl object-top"
                     />
                   </div>
                   <div className="-space-y-1">
