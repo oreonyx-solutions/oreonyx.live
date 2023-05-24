@@ -39,7 +39,7 @@ export default function Page() {
                   quality education for all are considerable. In addition to
                   ensuring a better quality of life for individuals, quality
                   education is essential to improving the employability of young
-                  people. That's why we are working to develop a stack of
+                  people. That&apos;s why we are working to develop a stack of
                   educational technologies as a service, which any institution
                   can use to provide its students with equitable and quality
                   educational opportunities based on the latest technological
