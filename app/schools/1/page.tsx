@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from '@/components/ui/sections/Navbar'
 import Link from "next/link";
 import Image from "next/image";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+
 import { HiOutlineMapPin, HiOutlineBuildingLibrary } from "react-icons/hi2"
 import { MdOutlineMail } from "react-icons/md"
 import { 
@@ -56,13 +58,28 @@ export default function page() {
                         </div>
                     </div>
                 </div>
-                <hr className="mt-14" />
+              
                 <div className="flex space-x-6">
-                    <button className="px-6 py-1 bg-teal-500 text-white rounded-full">Licence</button>
-                    <button className="px-6 py-1 hover:bg-gray-100 rounded-full">Master</button>
-                    <button className="px-6 py-1 hover:bg-gray-100 rounded-full">Doctorat</button>
+                <Tabs defaultValue="licence" className="w-[400px]">
+                    <TabsList>
+                        <TabsTrigger value="licence">Licence</TabsTrigger>
+                        <TabsTrigger value="master">Master</TabsTrigger>
+                        <TabsTrigger value="doctorat">Doctorat</TabsTrigger>
+                    </TabsList>
+                    <TabsContent value="licence">
+                    <div className="space-y-2">
+                            <ul className="list-none">
+                                { filieres.map((filiere, index) => {
+                                    return  <li key={index} title={ filiere.name } className='cursor-pointer text-lg hover:underline'>{ filiere.name }</li>
+                                }) }
+                            </ul>
+                        </div>
+                    </TabsContent>
+                    <TabsContent value="master">Change your password here.</TabsContent>
+                    <TabsContent value="doctorat">Change your password here.</TabsContent>
+                </Tabs>
                 </div>
-                <div className='space-y-4'>
+                <div className='space-y-4 hidden'>
                     <div className='space-y-6'>
                         <div className='space-y-3'>
                             <div className="space-y-2">
