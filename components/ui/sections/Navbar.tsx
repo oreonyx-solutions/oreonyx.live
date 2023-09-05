@@ -18,7 +18,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-import { PiArrowRightBold, PiPasswordDuotone } from "react-icons/pi"
+import { PiArrowRightBold, PiUserDuotone } from "react-icons/pi"
 
 //components
 //import Banner from "@/components/ui/sections/Banner";
@@ -51,35 +51,35 @@ export default function Navbar({ className }: NavbarProps) {
               <Link
                 className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                 title="Schools"
-                href="schools"
+                href="/school"
               >
                 Schools
               </Link>
               <Link
                 className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                 title="Carrières"
-                href="carreer"
+                href="/carreer"
               >
                 Carreers
               </Link>
               <Link
                 className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                 title="Blog"
-                href="blog"
+                href="/blog"
               >
                 Blog
               </Link>
               <Link
                 className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                 title="A propos"
-                href="about"
+                href="/about"
               >
                 About us
               </Link>
               <Link
                 className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                 title="Pricing"
-                href="pricing"
+                href="/pricing"
               >
                 Pricing
               </Link>
@@ -203,7 +203,7 @@ export default function Navbar({ className }: NavbarProps) {
             href="https://app.oreonyx.live"
             className="h-11 w-11 rounded-full flex justify-center items-center text-white bg-black"
           >
-            <PiPasswordDuotone className="text-lg" />
+            <PiUserDuotone className="text-lg" />
           </Link>
           </div>
           </div>
