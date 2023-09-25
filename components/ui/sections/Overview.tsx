@@ -13,7 +13,7 @@ export default function Overview() {
         <div className="flex justify-center">
           <span className="text-lg text-transparent text-center md:text-lg font-bold bg-clip-text bg-gradient-to-r from-[#faf9f6] via-gray-900 to-[#faf9f6]">
             <span className="lg:hidden">Trusted technical partners</span>
-            <span className="hidden lg:inline">
+            <span className="xs:hidden lg:inline">
               A solid infrastructure with trusted technical partners
             </span>
           </span>

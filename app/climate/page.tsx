@@ -8,15 +8,15 @@ import Navbar from '@/components/ui/sections/Navbar'
 import Image from "next/image";
 
 import { 
-    PiGlobeHemisphereWestDuotone,
-    PiShareFatDuotone,
     PiBuildingsDuotone,
     PiUsersThreeDuotone,
     PiStudentDuotone,
     PiRocketDuotone,
     PiTrophyDuotone,
     PiMedalMilitaryDuotone,
-    PiCoinsDuotone
+    PiCoinsDuotone,
+    PiMicrosoftExcelLogo,
+    PiPlantDuotone
 } from "react-icons/pi"
 
 const schoolsBg = {
@@ -85,28 +85,22 @@ export default function Climate() {
                                     </p>
                                    </div>
                             </div>
-                            <a
-                                href="https://app.oreonyx.live/register"
-                                className="hidden group flex space-x-1 items-center rounded-full uppercase hover:bg-black hover:text-white px-6 py-2 border-2 border-gray-900"
-                                >
-                                <span>Logical Context</span>
-                                <PiShareFatDuotone className='text-4xl' />
-                            </a>
-                            <div className="mt-6 md:flex items-center space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
+                            <hr className="my-6" />
+                            <div className="md:flex items-center space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
               <div className="space-y-2">
-                <h3 className="text-lg text-gray-400">Logical Context</h3>
+                <h3 className="text-lg text-gray-900 font-semibold">Logical Context</h3>
               <a
                   target="_blank"
                   href="https://docs.google.com/spreadsheets/d/1yBYbtCteXtszgzKtjv7T_vOmmeYeoSIA/edit?usp=drivesdk&ouid=105283526599490647806&rtpof=true&sd=true"
                   className="group flex space-x-1 items-center rounded-full uppercase hover:bg-black hover:text-white px-6 py-2 border-2 border-gray-900"
                 >
+                  <PiMicrosoftExcelLogo className='text-xl' />
                   <span>See document</span>
-                  <PiShareFatDuotone className='text-xl' />
                 </a>
               </div>
               <div className="space-y-2 flex flex-col items-start">
                 <div>
-                <h3 className="text-lg text-gray-400">Strategic Results Framework</h3>
+                <h3 className="text-lg text-gray-900 font-semibold">Strategic Results Framework</h3>
                 </div>
                 <div className="">
                     <a
@@ -114,8 +108,8 @@ export default function Climate() {
                     href="https://docs.google.com/document/d/1Bf4HXOZt1yfSO7iG8lyOu3_nGy3SGvv7"
                     className="group flex flex-shrink-0 space-x-1 items-center rounded-full uppercase hover:bg-black hover:text-white px-6 py-2 border-2 border-gray-900"
                     >
+                    <PiMicrosoftExcelLogo className='text-xl' />
                     <span>See document</span>
-                    <PiShareFatDuotone className='text-xl' />
                     </a>
                 </div>
               </div>
@@ -136,7 +130,6 @@ export default function Climate() {
                                         <h3 className="text-6xl font-black text-green-500">01.</h3>
                                         <div className="flex space-x-2 items-center">
                                             <h2 className="text-3xl bold">Awareness</h2>
-                                            <PiGlobeHemisphereWestDuotone className='text-4xl hidden' />
                                         </div>
                                     </div>
                                 <h3 className="text-lg text-gray-600">To universities and students by Oreonyx or partner organizations.</h3>
@@ -147,7 +140,6 @@ export default function Climate() {
                                         <h3 className="text-6xl font-black text-green-500">02.</h3>
                                         <div className="flex space-x-2 items-center">
                                             <h2 className="text-3xl bold">Trainings</h2>
-                                            <PiGlobeHemisphereWestDuotone className='text-4xl hidden' />
                                         </div>
                                     </div>
                                 <h3 className="text-lg text-gray-600">Organized by actors that can reach a large number of users.</h3>
@@ -158,7 +150,6 @@ export default function Climate() {
                                         <h3 className="text-6xl font-black text-green-500">03.</h3>
                                         <div className="flex space-x-2 items-center">
                                             <h2 className="text-3xl bold">Programs</h2>
-                                            <PiGlobeHemisphereWestDuotone className='text-4xl hidden' />
                                         </div>
                                     </div>
                                 <h3 className="text-lg text-gray-600">Possibility of organing webinars, conferences, surveys, forums or online fairs.</h3>
@@ -171,7 +162,6 @@ export default function Climate() {
                                         <h3 className="text-6xl font-black text-green-500">04.</h3>
                                         <div className="flex space-x-2 items-center">
                                             <h2 className="text-3xl bold">Promotion</h2>
-                                            <PiGlobeHemisphereWestDuotone className='text-4xl hidden' />
                                         </div>
                                     </div>
                                 <h3 className="text-lg text-gray-600">Annual ranking of most active universities.</h3>
@@ -182,7 +172,6 @@ export default function Climate() {
                                         <h3 className="text-6xl font-black text-green-500">05.</h3>
                                         <div className="flex space-x-2 items-center">
                                             <h2 className="text-3xl bold">Commitment</h2>
-                                            <PiGlobeHemisphereWestDuotone className='text-4xl hidden' />
                                         </div>
                                     </div>
                                 <h3 className="text-lg text-gray-600">1% of oreonyx profits will used to support waste recycling at universities.</h3>
@@ -193,7 +182,6 @@ export default function Climate() {
                                         <h3 className="text-6xl font-black text-green-500">06.</h3>
                                         <div className="flex space-x-2 items-center">
                                             <h2 className="text-3xl bold">Funding</h2>
-                                            <PiGlobeHemisphereWestDuotone className='text-4xl hidden' />
                                         </div>
                                     </div>
                                 <h3 className="text-lg text-gray-600">Opportunities for Organizations to Fund Projects.</h3>
@@ -292,7 +280,7 @@ export default function Climate() {
                             </div>
                         </SplideSlide>
                         <SplideSlide>
-                            <div className="h-auto space-y-3 w-[80vh]">
+                            <div className="h-auto space-y-3 w-[80vh] xl:w-[60vh]">
                                 <div className="w-full">
                                     <div className="h-60 rounded-xl bg-gray-300 relative overflow-hidden">
                                     <Image
@@ -319,7 +307,7 @@ export default function Climate() {
                         <div className="flex justify-center">
                             <span className="text-lg text-transparent text-center md:text-lg font-bold bg-clip-text bg-gradient-to-r from-[#faf9f6] via-gray-900 to-[#faf9f6]">
                                 <span className="lg:hidden">Trusted technical partners</span>
-                                <span className="hidden lg:inline">
+                                <span className="xs:hidden lg:inline">
                                 A solid infrastructure with trusted technical partners
                                 </span>
                             </span>
@@ -338,10 +326,20 @@ export default function Climate() {
                     </div>
                    </div>
                 </div>
+                <div className="mb-6 flex justify-center">
+                    <div className="space-x-3 flex">
+                        <PiPlantDuotone className='text-green-500 text-xl' />
+                        <PiPlantDuotone className='text-green-500 text-xl' />
+                        <PiPlantDuotone className='text-green-500 text-xl' />
+                        <PiPlantDuotone className='text-green-500 text-xl' />
+                        <PiPlantDuotone className='text-green-500 text-xl' />
+                        <PiPlantDuotone className='text-green-500 text-xl' />
+                    </div>
+                </div>
                 <div className="w-full ">
                     <div className="md:max-w-6xl 2xl:max-w-7xl mx-auto">
                         <div className="mb-12">
-                            <h1 className="text-5xl">Benefits and Impacts</h1>
+                            <h1 className="text-5xl text-center">Benefits and Impacts</h1>
                         </div>
                         <div className="flex space-x-6">
                         <div className="w-6/12 bg-green-600 text-white px-10 py-10 rounded-xl space-y-6">

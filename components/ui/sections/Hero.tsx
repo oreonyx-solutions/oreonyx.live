@@ -6,6 +6,10 @@ import { PowerGlitch } from "powerglitch";
 import { useEffect } from "react";
 import { Sprout, ArrowRight, ShieldCheck } from "lucide-react";
 
+import { 
+  PiPlantDuotone
+} from "react-icons/pi"
+
 const HeroBg = {
   backgroundImage: "url('shapes/readme-bg-pattern.png')",
 };
@@ -101,7 +105,7 @@ export default function Hero() {
                 <Link
                   href="/climate"
                 >
-                  <div className="rounded-3xl overflow-hidden relative w-full py-8 flex px-4 lg:px-8 bg-gradient-to-tr from-green-500 via-green-500 to-green-300">
+                  <div title="See the project" className="transition transform hover:scale-95 rounded-3xl overflow-hidden relative w-full py-8 flex px-4 lg:px-8 bg-gradient-to-tr from-green-500 via-green-500 to-green-300">
                     <Image
                       className="cl hidden lg:inline absolute transform rotate-12 -right-6 -bottom-24 text-white"
                       alt="source data"
@@ -110,15 +114,16 @@ export default function Hero() {
                       height={256}
                     />
                     <Image
-                      className="cl lg:hidden absolute transform rotate-12 -right-8 -bottom-12"
+                      className="cl hidden absolute transform rotate-12 -right-8 -bottom-12"
                       alt="source data"
                       src="/svg/seedling-line-nx.svg"
                       width={140}
                       height={140}
                     />
+                    <PiPlantDuotone className='cl text-[255px] text-white absolute transform -right-0 -bottom-10' />
                     <div className="space-y-3 text-white w-11/12 lg:w-8/12">
                       <div>
-                        <h5 className="text-xl">Oreonyx Climate.</h5>
+                        <h5 className="text-xl font-semibold">Oreonyx Climate.</h5>
                       </div>
                       <div className="">
                         <div>
@@ -126,7 +131,7 @@ export default function Hero() {
                             +8 Billion
                           </h5>
                         </div>
-                        <div>
+                        <div className="pr-10">
                           <h5 className="text-xl">
                             students and humans to be educated in ecological
                             awareness.

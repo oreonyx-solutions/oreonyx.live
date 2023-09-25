@@ -46,7 +46,7 @@ export default function Navbar({ className }: NavbarProps) {
             <span className="normal-case bg-purple-500/10 rounded-full px-3 py-0.5 text-purple-500">bêta</span>
           </Link>
           <div className="flex space-x-6">
-            <ul className="list-none hidden lg:flex space-x-6 items-center">
+            <ul className="list-none xs:hidden lg:flex space-x-6 items-center">
               <button className="hidden">Produits</button>
               <Link
                 className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"

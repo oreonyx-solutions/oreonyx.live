@@ -60,7 +60,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-3">
                 <AccordionTrigger className="uppercase">
-                  <span className="hidden lg:inline">
+                  <span className="xs:hidden lg:inline">
                     WHAT ARE THE BENEFITS FOR UNIVERSITIES?
                   </span>
                   <span className="lg:hidden">WHAT ARE THE ADVANTAGES?</span>
@@ -76,7 +76,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-4">
                 <AccordionTrigger className="uppercase">
-                  <span className="hidden lg:inline">
+                  <span className="xs:hidden lg:inline">
                     HOW DOES OREONYX IMPROVE DISTANCE LEARNING?
                   </span>
                   <span className="lg:hidden">DISTANCE LEARNING?</span>
@@ -91,7 +91,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-5">
                 <AccordionTrigger className="uppercase">
-                  <span className="hidden lg:inline">
+                  <span className="xs:hidden lg:inline">
                     HOW DOES IT FOSTER COLLABORATION BETWEEN STAKEHOLDERS?
                   </span>
                   <span className="lg:hidden">COLLABORATIONS?</span>
@@ -107,7 +107,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-6">
                 <AccordionTrigger className="uppercase">
-                  <span className="hidden lg:inline">
+                  <span className="xs:hidden lg:inline">
                     DOES OREONYX OFFER TECHNICAL SUPPORT TO USERS?
                   </span>
                   <span className="lg:hidden">TECHNICAL SUPPORT?</span>
@@ -121,7 +121,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-7">
                 <AccordionTrigger className="uppercase">
-                  <span className="hidden lg:inline">
+                  <span className="xs:hidden lg:inline">
                     WHAT TYPES OF MANAGEMENT TOOLS ARE AVAILABLE FOR
                     UNIVERSITIES?
                   </span>
@@ -137,7 +137,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-8">
                 <AccordionTrigger className="uppercase">
-                  <span className="hidden lg:inline">
+                  <span className="xs:hidden lg:inline">
                     HOW DOES OREONYX CONTRIBUTE TO STUDENT EMPLOYABILITY?
                   </span>
                   <span className="lg:hidden">EMPLOYABILITY OF YOUTH?</span>
@@ -153,7 +153,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-9">
                 <AccordionTrigger className="uppercase">
-                  <span className="hidden lg:inline">
+                  <span className="xs:hidden lg:inline">
                     WHAT IS THE GEOGRAPHIC AVAILABILITY OF OREONYX?
                   </span>
                   <span className="lg:hidden">GEOGRAPHICAL AVAILABILITY?</span>
@@ -173,7 +173,7 @@ export default function Faq() {
             href="mailto:support@oreonyx.live"
             className="rounded-full space-x-2 px-6 py-3 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex items-center first-line:space-x-2"
           >
-            <span className="hidden lg:inline font-medium">
+            <span className="xs:hidden lg:inline font-medium">
               Contact us directly by mail
             </span>
             <span className="lg:hidden font-medium">SEND AN EMAIL</span>
