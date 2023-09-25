@@ -135,7 +135,7 @@ export default function Hero() {
                       </div>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="w-full md:w-6/12 rounded-3xl bg-[#faf9f6]">
                 <div className="relative py-4 lg:py-8 flex px-4 lg:px-8 text-gray-900">
