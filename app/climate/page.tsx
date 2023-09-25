@@ -9,7 +9,14 @@ import Image from "next/image";
 
 import { 
     PiGlobeHemisphereWestDuotone,
-    PiShareFatDuotone  
+    PiShareFatDuotone,
+    PiBuildingsDuotone,
+    PiUsersThreeDuotone,
+    PiStudentDuotone,
+    PiRocketDuotone,
+    PiTrophyDuotone,
+    PiMedalMilitaryDuotone,
+    PiCoinsDuotone
 } from "react-icons/pi"
 
 const schoolsBg = {
@@ -123,31 +130,34 @@ export default function Climate() {
                         <h2 className="text-center text-xl">We offer through our platform</h2>
                        </div>
                         <div className="grid grid-cols-3 gap-x-32">
-                            <div className="space-y-2">
-                                    <div className="space-y-3">
+                            <div className="space-y-2 group">
+                                    <div className="space-y-3 relative">
+                                    <div className="absolute bg-green-400 h-3 w-3 left-32 -bottom-15 transition-all group-hover:scale-150 group-hover:-translate-y-1"></div>
                                         <h3 className="text-6xl font-black text-green-500">01.</h3>
                                         <div className="flex space-x-2 items-center">
-                                            <h2 className="hover:underline text-3xl bold">Awareness</h2>
+                                            <h2 className="text-3xl bold">Awareness</h2>
                                             <PiGlobeHemisphereWestDuotone className='text-4xl hidden' />
                                         </div>
                                     </div>
                                 <h3 className="text-lg text-gray-600">To universities and students by Oreonyx or partner organizations.</h3>
                             </div>
-                            <div className="space-y-2">
-                                    <div className="space-y-3">
+                            <div className="space-y-2 group">
+                                    <div className="space-y-3 relative">
+                                    <div className="absolute bg-green-400 h-3 w-3 right-5 -bottom-15 transition-all group-hover:scale-150 group-hover:-translate-y-1"></div>
                                         <h3 className="text-6xl font-black text-green-500">02.</h3>
                                         <div className="flex space-x-2 items-center">
-                                            <h2 className="hover:underline text-3xl bold">Trainings</h2>
+                                            <h2 className="text-3xl bold">Trainings</h2>
                                             <PiGlobeHemisphereWestDuotone className='text-4xl hidden' />
                                         </div>
                                     </div>
                                 <h3 className="text-lg text-gray-600">Organized by actors that can reach a large number of users.</h3>
                             </div>
-                            <div className="space-y-2">
-                                    <div className="space-y-3">
+                            <div className="space-y-2 group">
+                                    <div className="space-y-3 relative">
+                                        <div className="absolute bg-green-400 h-3 w-3 left-48 top-24 transition-all group-hover:scale-150 group-hover:-translate-y-1"></div>
                                         <h3 className="text-6xl font-black text-green-500">03.</h3>
                                         <div className="flex space-x-2 items-center">
-                                            <h2 className="hover:underline text-3xl bold">Programs</h2>
+                                            <h2 className="text-3xl bold">Programs</h2>
                                             <PiGlobeHemisphereWestDuotone className='text-4xl hidden' />
                                         </div>
                                     </div>
@@ -155,31 +165,34 @@ export default function Climate() {
                             </div>
                         </div>
                         <div className="grid grid-cols-3 gap-x-32">
-                            <div className="space-y-2">
-                                    <div className="space-y-3">
+                            <div className="space-y-2 group">
+                                    <div className="space-y-3 relative">
+                                        <div className="absolute bg-green-400 h-3 w-3 right-3 top-20 transition-all group-hover:scale-150 group-hover:-translate-y-1"></div>
                                         <h3 className="text-6xl font-black text-green-500">04.</h3>
                                         <div className="flex space-x-2 items-center">
-                                            <h2 className="hover:underline text-3xl bold">Promotion</h2>
+                                            <h2 className="text-3xl bold">Promotion</h2>
                                             <PiGlobeHemisphereWestDuotone className='text-4xl hidden' />
                                         </div>
                                     </div>
                                 <h3 className="text-lg text-gray-600">Annual ranking of most active universities.</h3>
                             </div>
-                            <div className="space-y-2">
-                                    <div className="space-y-3">
+                            <div className="space-y-2 group">
+                                    <div className="space-y-3 relative">
+                                    <div className="absolute bg-green-400 h-3 w-3 right-5 -bottom-15 transition-all group-hover:scale-150 group-hover:-translate-y-1"></div>
                                         <h3 className="text-6xl font-black text-green-500">05.</h3>
                                         <div className="flex space-x-2 items-center">
-                                            <h2 className="hover:underline text-3xl bold">Commitment</h2>
+                                            <h2 className="text-3xl bold">Commitment</h2>
                                             <PiGlobeHemisphereWestDuotone className='text-4xl hidden' />
                                         </div>
                                     </div>
                                 <h3 className="text-lg text-gray-600">1% of oreonyx profits will used to support waste recycling at universities.</h3>
                             </div>
-                            <div className="space-y-2">
-                                    <div className="space-y-3">
+                            <div className="space-y-2 group">
+                                    <div className="space-y-3 relative">
+                                    <div className="absolute bg-green-400 h-3 w-3 right-5 -bottom-15 transition-all group-hover:scale-150 group-hover:-translate-y-1"></div>
                                         <h3 className="text-6xl font-black text-green-500">06.</h3>
                                         <div className="flex space-x-2 items-center">
-                                            <h2 className="hover:underline text-3xl bold">Funding</h2>
+                                            <h2 className="text-3xl bold">Funding</h2>
                                             <PiGlobeHemisphereWestDuotone className='text-4xl hidden' />
                                         </div>
                                     </div>
@@ -331,22 +344,31 @@ export default function Climate() {
                             <h1 className="text-5xl">Benefits and Impacts</h1>
                         </div>
                         <div className="flex space-x-6">
-                        <div className="w-6/12 bg-green-600 text-white px-6 py-6 rounded-xl space-y-6">
+                        <div className="w-6/12 bg-green-600 text-white px-10 py-10 rounded-xl space-y-6">
                             <div className="space-y-3">
-                                <h2 className="text-xl font-bold">Universities</h2>
+                                <div className="flex items-center space-x-2">
+                                    <PiBuildingsDuotone className='text-2xl' />
+                                    <h2 className="text-xl font-bold">Universities</h2>
+                                </div>
                                 <p>
                                     Improvement of their carbon footprint and their environmental image Reduction of their energy and resource costs 
                                     Training of a generation of graduates aware of environmental issues 
                                 </p>
                             </div>
                             <div className="space-y-3">
-                                <h2 className="text-xl font-bold">The communities</h2>
+                                <div className="flex items-center space-x-2">
+                                    <PiUsersThreeDuotone className='text-2xl' />
+                                    <h2 className="text-xl font-bold">The communities</h2>
+                                </div>
                                 <p>
                                 Reducing the environmental impact of universities on their local environment Involvement of universities in local projects for the environment Public awareness of environmental issues.
                                 </p>
                             </div>
                             <div className="space-y-3">
-                                <h2 className="text-xl font-bold">People and students</h2>
+                                <div className="flex items-center space-x-2">
+                                    <PiStudentDuotone className='text-2xl' />
+                                    <h2 className="text-xl font-bold">People and students</h2>
+                                </div>
                                 <p>
                                 Opportunity to learn sustainability skills 
 Involvement in concrete projects for the environment Awareness and commitment to sustainability 
@@ -354,7 +376,10 @@ Involvement in concrete projects for the environment Awareness and commitment to
                                 </p>
                             </div>
                             <div className="space-y-3">
-                                <h2 className="text-xl font-bold">Governments and international organizations or NGOs</h2>
+                                <div className="flex items-center space-x-2">
+                                    <PiStudentDuotone className='text-2xl' />
+                                    <h2 className="text-xl font-bold">Governments and organizations or NGOs</h2>
+                                </div>
                                 <p>
                                 Strengthening the consideration of environmental issues in educational policies Support for the transition to a greener economy 
 Collaboration with universities for the implementation of environmental projects 
@@ -362,23 +387,31 @@ Collaboration with universities for the implementation of environmental projects
                                 </p>
                             </div>
                         </div>
-                        <div className="w-6/12 bg-gray-200 px-6 py-6 rounded-xl space-y-6">
-                            
+                        <div className="w-6/12 bg-gray-200 px-10 py-10 rounded-xl space-y-6">
                             <div className="space-y-3">
-                                <h2 className="text-xl font-bold">Short term impact </h2>
+                                <div className="flex items-center space-x-2">
+                                    <PiCoinsDuotone className='text-2xl' />
+                                    <h2 className="text-xl font-bold">Short term impact </h2>
+                                </div>
                                 <p>
                                 awareness of the importance of environmental sustainability in universities and among students Improved waste management, energy and resource consumption, and greenhouse gas emissions on university campuses Training of students in environmental practices  
                                 </p>
                             </div>
                             <div className="space-y-3">
-                                <h2 className="text-xl font-bold">Medium-term impact</h2>
+                                <div className="flex items-center space-x-2">
+                                    <PiMedalMilitaryDuotone className='text-2xl'/>
+                                    <h2 className="text-xl font-bold">Medium-term impact </h2>
+                                </div>
                                 <p>
                                 Increased university engagement in environmental projects and participation in sustainability programs 
 Strengthening partnerships with funding agencies for the implementation of environmental projects 
                                 </p>
                             </div>
                             <div className="space-y-3">
-                                <h2 className="text-xl font-bold">Long term</h2>
+                                <div className="flex items-center space-x-2">
+                                    <PiTrophyDuotone className='text-2xl'/>
+                                    <h2 className="text-xl font-bold">Long term impact </h2>
+                                </div>
                                 <p>
                                 reduction in the carbon footprint of universities and young people Emergence of new businesses and industries related to environmental sustainability 
 Widespread adoption of sustainable practices in local communities Contribution to the fight against climate change and the preservation of the environment on a global scale  
