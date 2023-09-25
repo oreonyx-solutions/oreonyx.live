@@ -96,7 +96,7 @@ export default function Climate() {
               <div className="space-y-2">
                 <h3 className="text-lg text-gray-400">Logical Context</h3>
               <a
-                  traget="_blank"
+                  target="_blank"
                   href="https://docs.google.com/spreadsheets/d/1yBYbtCteXtszgzKtjv7T_vOmmeYeoSIA/edit?usp=drivesdk&ouid=105283526599490647806&rtpof=true&sd=true"
                   className="group flex space-x-1 items-center rounded-full uppercase hover:bg-black hover:text-white px-6 py-2 border-2 border-gray-900"
                 >
