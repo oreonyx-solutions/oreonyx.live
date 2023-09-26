@@ -77,7 +77,7 @@ export default function Navbar({ className }: NavbarProps) {
                 About us
               </Link>
               <Link
-                className="hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
+                className="hidden hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-r from-black via-blue-600 to-black"
                 title="Pricing"
                 href="/pricing"
               >
