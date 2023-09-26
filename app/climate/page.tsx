@@ -34,14 +34,14 @@ export default function Climate() {
         <Navbar/>
         <section className="h-auto">
             <div className="w-full">
-                <div className="pt-36 pb-24 md:max-w-6xl 2xl:max-w-7xl mx-auto space-y space-y-12">
+                <div className="pt-36 pb-12 md:max-w-6xl 2xl:max-w-7xl mx-auto space-y space-y-12">
                     <div className="w-full flex space-x-12 ">
                         <div className="w-6/12">
                         <div className="space-y-4">
                             <h2 className="text-2xl leading-4 text-green-500">
                                 Observation
                             </h2>
-                            <h3 className="text-lg">
+                            <h3 className="text-lg text-gray-600">
                                 Environmental challenges, such as climate change and pollution, particularly affect developing countries, including in Africa.
                                 University campuses face issues such as waste management, energy and resource consumption, and greenhouse gas emissions. Various programs are being put in place, however universities are lagging behind in reducing their ecological footprint and promoting environmental sustainability.
                             </h3>
@@ -49,7 +49,10 @@ export default function Climate() {
                         </div>
                         <div className="w-6/12">
                             <div className="h-full w-full rounded-full bg-gray-200 overflow-hidden relative">
-                            <Image
+                               <div className="w-full h-full relative z-10 flex justify-center">
+                                    <PiPlantDuotone className='text-[255px] text-white absolute' />
+                               </div>
+                                <Image
                                 alt="source data"
                                 src="/illustrations/flooding-af.jpeg"
                                 layout="fill"
@@ -77,10 +80,10 @@ export default function Climate() {
                                         Value Proposition
                                     </h2>
                                    <div>
-                                   <p className="text-lg">
+                                   <p className="text-lg text-gray-600">
                                         Oreonyx Climate. Digital for eco-university responsability
                                     </p>
-                                    <p className="text-lg">
+                                    <p className="text-lg text-gray-600">
                                     We offers customized solutions to help universities reduce their environmental impact and promote environmental sustainability through our university campus management platform.
                                     </p>
                                    </div>
@@ -120,8 +123,12 @@ export default function Climate() {
                 <div  style={DataBg} className="mt-12 flex text-white py-24 px-12 space-x-4">
                     <div className="md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-12">
                        <div className="space-y-4 mb-14">
-                        <h1 className="text-center text-5xl">Solution</h1>
-                        <h2 className="text-center text-xl">We offer through our platform</h2>
+                        <h1 className="text-4xl lg:text-5xl text-center font-mono font-bold uppercase">Our Solution</h1>
+                        <div className="flex justify-center">
+                            <div className="w-6/12">
+                                <h2 className="text-center text-xl text-gray-500">Through our platform, we propose to improve collaboration in order to create better opportunities for engaged citizen action.</h2>
+                            </div>
+                        </div>
                        </div>
                         <div className="grid grid-cols-3 gap-x-32">
                             <div className="space-y-2 group">
@@ -192,10 +199,10 @@ export default function Climate() {
                 <div className="pt-24 md:max-w-6xl 2xl:max-w-7xl mx-auto">
                    <div className="w-full flex justify-between">
                         <div className="w-6/12 pr-24">
-                            <h1 className="text-5xl">Collaboration structure</h1>
+                            <h1 className="text-4xl lg:text-5xl font-mono font-bold uppercase text-gray-900">Collaboration structure</h1>
                         </div>
                         <div className="w-6/12 pl-12">
-                            <h2 className="text-lg">In the Oreonyx Climate implementaion platform Idea, we collaborate with the following stakeholders for early use cases, feedback and improvements</h2>
+                            <h2 className="text-lg text-gray-600">In the Oreonyx Climate implementaion platform Idea, we collaborate with the following stakeholders for early use cases, feedback and improvements</h2>
                         </div>
                    </div>
                    <div className="mt-12">
@@ -226,7 +233,7 @@ export default function Climate() {
                                 <div className="">
                                    <div className="space-y-2">
                                         <h3 className="text-lg font-semibold">Universities, Youth, Students</h3>
-                                        <p>
+                                        <p className="text-gray-600">
                                         Platform designed for diverse users, focusing on universities, young adults (16-35), and students, fostering engagement and growth with myriad opportunities.
                                         </p>
                                    </div>
@@ -249,7 +256,7 @@ export default function Climate() {
                                 <div className="">
                                    <div className="space-y-2">
                                         <h3 className="text-lg font-semibold">Catalyzing Sustainability in Universities</h3>
-                                        <p>
+                                        <p className="text-gray-600">
                                         With Government agencies, NGOs, and organizations have the potential to play a pivotal role in fostering the awareness, training and implementation of sustainable practices.
                                         </p>
                                    </div>
@@ -262,7 +269,7 @@ export default function Climate() {
                                     <div className="h-[30vh] rounded-xl bg-gray-300 relative overflow-hidden">
                                     <Image
                                         alt="source data"
-                                        src="/illustrations/investors.jpg"
+                                        src="/illustrations/investor.jpg"
                                         layout="fill"
                                         objectFit="cover"
                                         className="object-center"
@@ -272,7 +279,7 @@ export default function Climate() {
                                 <div className="">
                                    <div className="space-y-2">
                                         <h3 className="text-lg font-semibold">Investors and Donors</h3>
-                                        <p>
+                                        <p className="text-gray-600">
                                         Investors and donors will have the opportunity to contribute crucial financial support to bolster the platform's growth and expansion efforts, further enhancing its reach and impact.
                                         </p>
                                    </div>
@@ -295,7 +302,7 @@ export default function Climate() {
                                 <div className="">
                                    <div className="space-y-2">
                                         <h3 className="text-lg font-semibold">Elevating Platform with Data Experts</h3>
-                                        <p>
+                                        <p className="text-gray-600">
                                         Tech companies and data analytics experts will have the capacity to offer cutting-edge technologies to enhance the platform's functionality, driving innovation and efficiency
                                         </p>
                                    </div>
@@ -303,7 +310,7 @@ export default function Climate() {
                             </div>
                         </SplideSlide>
                     </Splide>
-                    <div className="pb-0 pt-16 md:py-16 space-y-3">
+                    <div className="pb-0 pt-16 md:pt-16 space-y-3">
                         <div className="flex justify-center">
                             <span className="text-lg text-transparent text-center md:text-lg font-bold bg-clip-text bg-gradient-to-r from-[#faf9f6] via-gray-900 to-[#faf9f6]">
                                 <span className="lg:hidden">Trusted technical partners</span>
@@ -326,7 +333,7 @@ export default function Climate() {
                     </div>
                    </div>
                 </div>
-                <div className="mb-6 flex justify-center">
+                <div className="my-12 flex justify-center">
                     <div className="space-x-3 flex">
                         <PiPlantDuotone className='text-green-500 text-xl' />
                         <PiPlantDuotone className='text-green-500 text-xl' />
@@ -339,7 +346,7 @@ export default function Climate() {
                 <div className="w-full ">
                     <div className="md:max-w-6xl 2xl:max-w-7xl mx-auto">
                         <div className="mb-12">
-                            <h1 className="text-5xl text-center">Benefits and Impacts</h1>
+                            <h1 className="text-4xl lg:text-5xl text-center font-mono font-bold uppercase text-gray-900">Benefits and Impacts</h1>
                         </div>
                         <div className="flex space-x-6">
                         <div className="w-6/12 bg-green-600 text-white px-10 py-10 rounded-xl space-y-6">
@@ -375,7 +382,7 @@ Involvement in concrete projects for the environment Awareness and commitment to
                             </div>
                             <div className="space-y-3">
                                 <div className="flex items-center space-x-2">
-                                    <PiStudentDuotone className='text-2xl' />
+                                    <PiBuildingsDuotone className='text-2xl' />
                                     <h2 className="text-xl font-bold">Governments and organizations or NGOs</h2>
                                 </div>
                                 <p>

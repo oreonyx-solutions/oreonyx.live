@@ -5,15 +5,14 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-import { MailCheck } from "lucide-react";
-import { PiVoicemailDuotone } from "react-icons/pi";
+import { PiEnvelopeSimpleDuotone } from "react-icons/pi";
 
 export default function Faq() {
   return (
     <div className="my-24 lg:my-24 px-6 lg:px-6 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-6 font-mono">
       <div className="flex justify-center">
         <div className="w-full md:w-8/12">
-          <h1 className="text-2xl md:text-4xl lg:text-6xl text-center font-bold uppercase">
+          <h1 className="text-center text-2xl md:text-5xl font-mono font-bold uppercase">
             FREQUENTLY ASKED QUESTIONS!
           </h1>
         </div>
@@ -173,11 +172,8 @@ export default function Faq() {
             href="mailto:support@oreonyx.live"
             className="rounded-full space-x-2 px-6 py-3 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex items-center first-line:space-x-2"
           >
-            <span className="xs:hidden lg:inline font-medium">
-              Contact us directly by mail
-            </span>
-            <span className="lg:hidden font-medium">SEND AN EMAIL</span>
-            <PiVoicemailDuotone className="text_lg" />
+            <span className="font-medium">SEND AN EMAIL</span>
+            <PiEnvelopeSimpleDuotone className="text-xl" />
           </a>
         </div>
       </div>

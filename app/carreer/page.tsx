@@ -5,10 +5,12 @@ import React, { useState } from "react";
 //components
 import Navbar from "@/components/ui/sections/Navbar";
 import Footer from "@/components/ui/sections/Footer";
-
 import Image from "next/image";
 
-import { ArrowRight, MailCheck } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import { 
+  PiEnvelopeSimpleDuotone
+} from "react-icons/pi"
 
 export default function Page() {
   return (
@@ -16,6 +18,20 @@ export default function Page() {
       <Navbar />
       <div className="font-mono lg:pt-32 lg:pb-32 pt-32 pb-24 space-y-12 px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div className="space-y-10">
+        <figure className="relative h-80 rounded-xl overflow-hidden">
+                <Image
+                  alt="source data"
+                  src="/illustrations/team.jpeg"
+                  layout="fill"
+                  objectFit="cover"
+                  className="object-center"
+                />
+                <figcaption>
+                  We&apos;re looking for the best engineering, design, marketing
+                  and sales talent to join our mission to revolutionize the
+                  higher education ecosystem. Come join us on this journey!
+                </figcaption>
+              </figure>
           <h1 className="text-2xl md:hidden">
             <span className="text-green-500 font-bold">Building </span>an
             innovative platform for the evolution of thoughts and ideas
@@ -52,21 +68,10 @@ export default function Page() {
                 to ensure that everyone at Oreonyx is seen, heard, valued and
                 empowered to do their best work.
               </p>
-              <figure>
-                <Image
-                  alt="source data"
-                  src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
-                />
-                <figcaption>
-                  We&apos;re looking for the best engineering, design, marketing
-                  and sales talent to join our mission to revolutionize the
-                  higher education ecosystem. Come join us on this journey!
-                </figcaption>
-              </figure>
             </div>
           </div>
           <hr className="my-12 lg:my-32" />
-          <div className="space-y-6">
+          <div className="space-y-12">
             <h4 className="text-2xl md:text-3xl lg:text-4xl font-semibold">
               Open positions
             </h4>
@@ -82,140 +87,20 @@ export default function Page() {
                         </h6>
                       </div>
                       <div>
-                        <a
-                          target="_blank"
-                          href="https://docs.google.com/document/d/1okdmNQSgIT7FKWkxFLFXJIwOGdHlgcG8W9vloaU1vog/edit?usp=share_link"
-                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
-                        >
-                          {" "}
-                          <span>
-                            &apos;{" "}
-                            <span className="hidden md:inline">
-                              the position
-                            </span>
-                          </span>
-                          <ArrowRight className="h-4 w-4 hidden md:inline" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="hidden items-center justify-between">
-                      <div className="w-8/12">
-                        <h6 className="text-base md:text-lg font-medium">
-                          Product Designer
-                        </h6>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="#"
-                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
-                        >
-                          {" "}
+                      <a
+                        target="_blank"
+                        href="https://docs.google.com/document/d/1okdmNQSgIT7FKWkxFLFXJIwOGdHlgcG8W9vloaU1vog/edit?usp=share_link"
+                        className="text-base md:text-lg group flex space-x-1 items-center rounded-full font-medium"
+                      >
+                        {" "}
                           <span>
                             See{" "}
-                            <span className="hidden md:inline">
+                            <span className="xs:hidden md:inline">
                               the position
                             </span>
                           </span>
-                          <ArrowRight className="h-4 w-4 hidden md:inline" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="space-y-3">
-                  <h5 className="text-green-500 text-lg">Engineering</h5>
-                  <div className="space-y-3">
-                    <div className="hidden items-center justify-between">
-                      <div className="w-8/12">
-                        <h6 className="text-base md:text-lg font-medium">
-                          Senior Frontend Engineer
-                        </h6>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="#"
-                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
-                        >
-                          {" "}
-                          <span>
-                            See{" "}
-                            <span className="hidden md:inline">
-                              the position
-                            </span>
-                          </span>
-                          <ArrowRight className="h-4 w-4 hidden md:inline" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <div className="w-8/12">
-                        <h6 className="text-base md:text-lg font-medium">
-                          Junior Backend Engineer
-                        </h6>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://docs.google.com/document/d/1jlYnFSHuLGZ8R_S__MbmK3FriGeWk8f6FVl9oop6hSg/edit?usp=share_link"
-                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
-                        >
-                          {" "}
-                          <span>
-                            See{" "}
-                            <span className="hidden md:inline">
-                              the position
-                            </span>
-                          </span>
-                          <ArrowRight className="h-4 w-4 hidden md:inline" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="hidden items-center justify-between">
-                      <div className="w-8/12">
-                        <h6 className="text-base md:text-lg font-medium">
-                          Senior - Staff Infrastructure Engineer
-                        </h6>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="#"
-                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
-                        >
-                          {" "}
-                          <span>
-                            See{" "}
-                            <span className="hidden md:inline">
-                              the position
-                            </span>
-                          </span>
-                          <ArrowRight className="h-4 w-4 hidden md:inline" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="flex items-center justify-between">
-                      <div className="w-8/12">
-                        <h6 className="text-base md:text-lg font-medium">
-                          Senior - Staff Mobile Engineer (Hybrid)
-                        </h6>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="https://docs.google.com/document/d/13QXhXWmMEsO5au979JGn4HbcWD600uvN94oMaX96x7o/edit?usp=share_link"
-                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
-                        >
-                          {" "}
-                          <span>
-                            See{" "}
-                            <span className="hidden md:inline">
-                              the position
-                            </span>
-                          </span>
-                          <ArrowRight className="h-4 w-4 hidden md:inline" />
-                        </a>
+                          <i className="group-hover:transfrom group-hover:translate-x-1 transition-all ri-arrow-right-line"></i>
+                      </a>
                       </div>
                     </div>
                   </div>
@@ -230,43 +115,20 @@ export default function Page() {
                         </h6>
                       </div>
                       <div>
-                        <a
-                          target="_blank"
-                          href="https://docs.google.com/document/d/1HUl3LOx8SQSkJY2CoHYfeXL0x0f7zsM9_Cz9CobyLWE/edit?usp=share_link"
-                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
-                        >
-                          {" "}
+                      <a
+                        target="_blank"
+                        href="https://docs.google.com/document/d/1HUl3LOx8SQSkJY2CoHYfeXL0x0f7zsM9_Cz9CobyLWE/edit?usp=share_link"
+                        className="text-base md:text-lg group flex space-x-1 items-center rounded-full font-medium"
+                      >
+                        {" "}
                           <span>
                             See{" "}
-                            <span className="hidden md:inline">
+                            <span className="xs:hidden md:inline">
                               the position
                             </span>
                           </span>
-                          <ArrowRight className="h-4 w-4 hidden md:inline" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="hidden items-center justify-between">
-                      <div className="w-8/12">
-                        <h6 className="text-base md:text-lg font-medium">
-                          Senior - Product Support Specialist
-                        </h6>
-                      </div>
-                      <div>
-                        <a
-                          target="_blank"
-                          href="#"
-                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
-                        >
-                          {" "}
-                          <span>
-                            See{" "}
-                            <span className="hidden md:inline">
-                              the position
-                            </span>
-                          </span>
-                          <ArrowRight className="h-4 w-4 hidden md:inline" />
-                        </a>
+                          <i className="group-hover:transfrom group-hover:translate-x-1 transition-all ri-arrow-right-line"></i>
+                      </a>
                       </div>
                     </div>
                   </div>
@@ -281,20 +143,20 @@ export default function Page() {
                         </h6>
                       </div>
                       <div>
-                        <a
-                          target="_blank"
-                          href="https://docs.google.com/document/d/1Khl5lklm_2cFXr7sFtu0lgXQUJ2OUpwqZ_lwA605lOY/edit?usp=share_link"
-                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
-                        >
-                          {" "}
+                      <a
+                        target="_blank"
+                        href="https://docs.google.com/document/d/1Khl5lklm_2cFXr7sFtu0lgXQUJ2OUpwqZ_lwA605lOY/edit?usp=share_link"
+                        className="text-base md:text-lg group flex space-x-1 items-center rounded-full font-medium"
+                      >
+                        {" "}
                           <span>
                             See{" "}
-                            <span className="hidden md:inline">
+                            <span className="xs:hidden md:inline">
                               the position
                             </span>
                           </span>
-                          <ArrowRight className="h-4 w-4 hidden md:inline" />
-                        </a>
+                          <i className="group-hover:transfrom group-hover:translate-x-1 transition-all ri-arrow-right-line"></i>
+                      </a>
                       </div>
                     </div>
                   </div>
@@ -309,20 +171,20 @@ export default function Page() {
                         </h6>
                       </div>
                       <div>
-                        <a
-                          target="_blank"
-                          href="https://docs.google.com/document/d/1ErPChHE2BlLiaa_0bGFGRJkMEaL8Rhdj0mCoGaQiIlI/edit?usp=share_link"
-                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
-                        >
-                          {" "}
+                      <a
+                        target="_blank"
+                        href="https://docs.google.com/document/d/1ErPChHE2BlLiaa_0bGFGRJkMEaL8Rhdj0mCoGaQiIlI/edit?usp=share_link"
+                        className="text-base md:text-lg group flex space-x-1 items-center rounded-full font-medium"
+                      >
+                        {" "}
                           <span>
                             See{" "}
-                            <span className="hidden md:inline">
+                            <span className="xs:hidden md:inline">
                               the position
                             </span>
                           </span>
-                          <ArrowRight className="h-4 w-4 hidden md:inline" />
-                        </a>
+                          <i className="group-hover:transfrom group-hover:translate-x-1 transition-all ri-arrow-right-line"></i>
+                      </a>
                       </div>
                     </div>
                     <div className="hidden items-center justify-between">
@@ -332,20 +194,20 @@ export default function Page() {
                         </h6>
                       </div>
                       <div>
-                        <a
-                          target="_blank"
-                          href="https://docs.google.com/document/d/1jlYnFSHuLGZ8R_S__MbmK3FriGeWk8f6FVl9oop6hSg/edit?usp=share_link"
-                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
-                        >
-                          {" "}
+                      <a
+                        target="_blank"
+                        href="https://docs.google.com/document/d/1jlYnFSHuLGZ8R_S__MbmK3FriGeWk8f6FVl9oop6hSg/edit?usp=share_link"
+                        className="text-base md:text-lg group flex space-x-1 items-center rounded-full font-medium"
+                      >
+                        {" "}
                           <span>
                             See{" "}
-                            <span className="hidden md:inline">
+                            <span className="xs:hidden md:inline">
                               the position
                             </span>
                           </span>
-                          <ArrowRight className="h-4 w-4 hidden md:inline" />
-                        </a>
+                          <i className="group-hover:transfrom group-hover:translate-x-1 transition-all ri-arrow-right-line"></i>
+                      </a>
                       </div>
                     </div>
                   </div>
@@ -360,20 +222,20 @@ export default function Page() {
                         </h6>
                       </div>
                       <div>
-                        <a
-                          target="_blank"
-                          href="https://docs.google.com/document/d/1VKwA9QJXOoFJT5dcutTyalBy0RiAoaP1AL226ddN5Q0/edit?usp=share_link"
-                          className="text-base md:text-lg space-x-2 flex items-center font-medium"
-                        >
-                          {" "}
+                      <a
+                        target="_blank"
+                        href="https://docs.google.com/document/d/1VKwA9QJXOoFJT5dcutTyalBy0RiAoaP1AL226ddN5Q0/edit?usp=share_link"
+                        className="text-base md:text-lg group flex space-x-1 items-center rounded-full font-medium"
+                      >
+                        {" "}
                           <span>
                             See{" "}
-                            <span className="hidden md:inline">
+                            <span className="xs:hidden md:inline">
                               the position
                             </span>
                           </span>
-                          <ArrowRight className="h-4 w-4 hidden md:inline" />
-                        </a>
+                          <i className="group-hover:transfrom group-hover:translate-x-1 transition-all ri-arrow-right-line"></i>
+                      </a>
                       </div>
                     </div>
                   </div>
@@ -403,7 +265,7 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
-                <div className="w-full md:w-6/12 lg:w-full space-y-6">
+                <div className="w-full md:w-6/12 lg:w-full space-y-10">
                   <h4 className="text-xl md:text-2xl font-medium">
                     You want to contact us for a specific job? an internship or
                     just to chat over a good coffee?
@@ -411,10 +273,10 @@ export default function Page() {
                   <div className="flex w-full ">
                     <a
                       href="mailto:carreers@oreonyx.live"
-                      className="px-6 py-3 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex space-x-2 items-center"
+                      className="rounded-full px-6 py-3 border-2 hover:bg-black hover:text-white border-gray-900 uppercase flex space-x-2 items-center"
                     >
-                      <span className="font-medium">SEND US AN EMAIL</span>
-                      <MailCheck className="h-4 w-4" />
+                      <span className="font-medium">SEND EMAIL</span>
+                      <PiEnvelopeSimpleDuotone className='text-xl' />
                     </a>
                   </div>
                 </div>

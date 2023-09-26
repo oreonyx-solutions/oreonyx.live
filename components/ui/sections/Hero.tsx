@@ -7,7 +7,8 @@ import { useEffect } from "react";
 import { Sprout, ArrowRight, ShieldCheck } from "lucide-react";
 
 import { 
-  PiPlantDuotone
+  PiPlantDuotone,
+  PiShieldCheckDuotone
 } from "react-icons/pi"
 
 const HeroBg = {
@@ -77,24 +78,21 @@ export default function Hero() {
               <div className="md:flex space-y-6 md:space-y-0">
                 <div className="w-full md:w-6/12 space-x-6  py-4 space-y-6 md:space-y-0 md:flex md:px-6 text-gray-900">
                   <div className="flex justify-center md:inline md:justify-start">
-                    <ShieldCheck className="h-8 w-8" />
+                    <PiShieldCheckDuotone className="text-3xl" />
                   </div>
                   <div>
                     <h5 className="text-md lg:text-lg text-center md:text-start">
-                      We offer a platform for education, promoting ideas and
-                      solutions that fuel the growth of thoughts and skills.
+                    We provide a platform for education, promoting ideas and solutions that fuel growth in thinking and skills. We firmly believe that education is the foundation for the upliftment of society.
                     </h5>
                   </div>
                 </div>
                 <div className="w-full md:w-6/12 space-x-6  py-4 space-y-6 md:space-y-0  md:flex md:px-6 text-gray-900">
                   <div className="flex justify-center md:inline md:justify-start">
-                    <ShieldCheck className="h-8 w-8" />
+                    <PiShieldCheckDuotone className="text-3xl" />
                   </div>
                   <div>
                     <h5 className="text-md lg:text-lg text-center md:text-start">
-                      Knowledge and mastery of social interactions within the
-                      academic ecosystems and proposals of essential values,
-                      useful in the job market.
+                    Develop an in-depth knowledge and mastery of social interactions within university ecosystems through essential value propositions, useful on the skills and job market.
                     </h5>
                   </div>
                 </div>
@@ -146,7 +144,7 @@ export default function Hero() {
                 <div className="relative py-4 lg:py-8 flex px-4 lg:px-8 text-gray-900">
                   <div className="text-gray-900 flex lg:inline space-y-3 lg:space-y-6">
                     <h5 className="text-center text-xl lg:text-4xl relative">
-                      We are all proud, because our goals are to revolutionize
+                      We are all proud, because our goals are to <span className="text-green-500">revolutionize </span>
                       the education of the next generations.
                     </h5>
                   </div>

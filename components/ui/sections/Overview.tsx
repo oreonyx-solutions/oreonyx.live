@@ -2,6 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
+import { 
+  PiHandCoinsDuotone
+} from "react-icons/pi"
+
 const schoolsBg = {
   backgroundImage: "url('shapes/security-design-grid.svg')"
 };
@@ -9,7 +13,7 @@ const schoolsBg = {
 export default function Overview() {
   return (
     <div>
-      <div className="pb-0 pt-16 md:py-16 space-y-3">
+      <div className="pb-0 pt-16 md:pt-16 space-y-3">
         <div className="flex justify-center">
           <span className="text-lg text-transparent text-center md:text-lg font-bold bg-clip-text bg-gradient-to-r from-[#faf9f6] via-gray-900 to-[#faf9f6]">
             <span className="lg:hidden">Trusted technical partners</span>
@@ -30,35 +34,36 @@ export default function Overview() {
           </div>
         </div>
       </div>
+      <div className="my-12 flex justify-center">
+          <div className="space-x-3 flex">
+              <PiHandCoinsDuotone className='text-black text-xl' />
+              <PiHandCoinsDuotone className='text-black text-xl' />
+              <PiHandCoinsDuotone className='text-black text-xl' />
+              <PiHandCoinsDuotone className='text-black text-xl' />
+              <PiHandCoinsDuotone className='text-black text-xl' />
+              <PiHandCoinsDuotone className='text-black text-xl' />
+          </div>
+      </div>
       <div className="mt-6 px-3 lg:px-12 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-6 md:space-y-12">
         <div className="space-y-8 md:w-full">
-          <h1 className="text-center text-2xl md:text-6xl font-mono font-bold uppercase">
+          <h1 className="text-center text-2xl md:text-5xl font-mono font-bold uppercase">
             OUR VALUE PROPOSITION
           </h1>
-          <h3 className="text-lg lg:text-xl font-mono text-center">
-            Transform education, business and organizations with our 2.0
-            communications platform. Facilitate distance learning, strengthen
-            collaboration, and support global causes such as climate change.
-            Promote inclusion, foster cooperation and facilitate strategic
-            decision-making. Discover a new era of fluid, intuitive interactions
-            to make a positive contribution to our world.
-          </h3>
+          <div className="flex justify-center">
+            <div className="w-7/12">
+              <h3 className="text-lg lg:text-xl font-mono text-center">
+                Improve all forms of education and training with high-performance tools meticulously designed to facilitate communication tunnels, decision-making and concrete action.
+              </h3>
+            </div>
+          </div>
+          
         </div>
         <div className="w-full space-y-6">
           <div className="space-y-6 md:space-y-0 md:flex md:space-x-6">
-            <div className="group font-mono w-full md:w-6/12 bg-[#e9e9e9] py-4 md:py-8 px-3 md:px-3 lg:px-6 rounded-3xl space-y-6">
-              <div className="bg-[#faf9f6] h-52 rounded-3xl relative">
-                <Image
-                  alt="source data"
-                  src="/illustrations/oreonyx_desktop.jpeg"
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-3xl group-hover:scale-105 transition transform"
-                />
-              </div>
+            <div className="group font-mono w-full md:w-5/12 bg-[#e9e9e9] pt-4 md:pt-8 px-3 md:px-3 lg:px-8 rounded-3xl space-y-6">
               <div className="w-full space-y-3">
                 <div className="space-y-3">
-                  <h5 className="text-xl lg:text-4xl relative font-semibold">
+                  <h5 className="text-xl lg:text-2xl relative font-semibold">
                     Collaborative Space
                   </h5>
                   <p className="text-lg">
@@ -80,20 +85,19 @@ export default function Overview() {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="group first font-mono w-full md:w-6/12 bg-[#e9e9e9] py-4 md:py-8 px-3 md:px-3 lg:px-6 rounded-3xl space-y-6">
-              <div className="bg-[#faf9f6] h-52 rounded-3xl relative">
+              <div className="bg-[#faf9f6] h-80 rounded-t-3xl relative overflow-hidden">
                 <Image
                   alt="source data"
-                  src="https://images.unsplash.com/photo-1612832164313-ac0d7e07b5ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  src="/illustrations/oreonyx_desktop.jpeg"
                   layout="fill"
                   objectFit="cover"
-                  className="rounded-3xl group-hover:scale-105 transition transform"
                 />
               </div>
-              <div className="w-full space-y-3">
+            </div>
+            <div className="group font-mono w-full md:w-7/12 bg-[#e9e9e9] py-4 md:py-8 pr-3 md:pr-3 lg:pr-8 rounded-3xl space-y-6">
+              <div className="w-full space-y-3 px-3 md:px-8 mb-8">
                 <div className="space-y-3">
-                  <h5 className="text-xl lg:text-4xl relative font-semibold">
+                  <h5 className="text-xl lg:text-2xl relative font-semibold">
                     Virtual Classroom
                   </h5>
                   <p className="text-lg">
@@ -116,142 +120,21 @@ export default function Overview() {
                   </div>
                 </div>
               </div>
-            </div>
-            {/** App */}
-            <div className="hidden font-mono w-full md:w-6/12 bg-[#e9e9e9] pt-10 pb-8 px-6 md:px-3 lg:px-6 rounded-3xl space-y-6 md:space-y-12">
-              <div className="rounded-t-3xl flex bg-gradient-to-b from-[#faf9f6] via-[#faf9f6] to-transparent px-6">
-                <div className="relative h-32">
-                  <Image
-                    alt="source data"
-                    src="/illustrations/Workspace.png"
-                    width={150}
-                    height={0}
-                    objectFit="contain"
-                  />
-                </div>
-                <div className="h-32 relative">
-                  <Image
-                    alt="source data"
-                    src="/illustrations/Collaboration.png"
-                    width={150}
-                    height={0}
-                    objectFit="contain"
-                  />
-                </div>
-                <div className="h-32 relative">
-                  <Image
-                    alt="source data"
-                    src="/illustrations/Community.png"
-                    width={150}
-                    height={0}
-                    objectFit="contain"
-                  />
-                </div>
-              </div>
-              <div className="w-full space-y-1">
-                <div className="flex justify-center px-4">
-                  <div className="relative flex items-center space-x-2 pl-3 pr-5 py-0.5 rounded-2xl bg-gradient-to-tr from-green-500 via-green-500 to-green-300 text-white">
-                    <span className="text-sm">Bientôt disponible</span>
-                    <div className="top-0 -right-2 h-2 absolute flex justify-center items-center">
-                      <Image
-                        alt="source data"
-                        src="/gifs/party-popper_1f389.png"
-                        width={26}
-                        height={26}
-                        objectFit="contain"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="space-y-6">
-                  <div className="flex justify-center px-4">
-                    <h5 className="text-3xl lg:text-4xl relative text-center font-semibold">
-                      <span className="hidden lg:inline">
-                        Faites en plus avec
-                      </span>{" "}
-                      l&apos;application mobile !
-                    </h5>
-                  </div>
-                  <div className="md:px-12 px-16">
-                    <div className="lg:flex space-y-3 lg:space-y-0 lg:space-x-6">
-                      <div className="px-3 py-2 bg-[#faf9f6] space-x-2 flex w-full">
-                        <div className="w-3/12 flex items-center">
-                          <i className="ri-google-play-fill text-3xl"></i>
-                        </div>
-                        <div className="w-9/12">
-                          <div className="uppercase text-sm">Telecharger</div>
-                          <div className="-mt-2 text-lg font-semibold">
-                            Google play
-                          </div>
-                        </div>
-                      </div>
-                      <div className="px-3 py-2 bg-[#faf9f6] space-x-2 flex w-full">
-                        <div className="w-3/12 flex items-center">
-                          <i className="ri-apple-fill text-3xl"></i>
-                        </div>
-                        <div className="w-9/12">
-                          <div className="uppercase text-sm">Telecharger</div>
-                          <div className="-mt-2 text-lg font-semibold">
-                            App Store
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div className="bg-[#faf9f6] h-80 rounded-r-3xl relative overflow-hidden">
+                <Image
+                  alt="source data"
+                  src="https://images.unsplash.com/photo-1612832164313-ac0d7e07b5ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                  layout="fill"
+                  objectFit="cover"
+                />
               </div>
             </div>
           </div>
           <div className="space-y-6 md:space-y-0 md:flex md:space-x-6">
-            <div className="group font-mono w-full md:w-6/12 bg-[#e9e9e9] py-4 md:py-8 px-3 md:px-3 lg:px-6 rounded-3xl space-y-6">
-              <div className="bg-[#faf9f6] h-52 rounded-3xl relative">
-                <Image
-                  alt="source data"
-                  src="https://images.unsplash.com/photo-1573497161223-d9c42d7b0bad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-3xl group-hover:scale-105 transition transform"
-                />
-              </div>
-              <div className="w-full space-y-3">
+            <div className="group font-mono w-full md:w-7/12 bg-[#e9e9e9] py-4 md:py-8 rounded-3xl space-y-6">
+              <div className="w-full space-y-3 px-3 md:px-8 mb-8">
                 <div className="space-y-3">
-                  <h5 className="text-xl lg:text-4xl relative font-semibold">
-                    Jobs and Internships
-                  </h5>
-                  <p className="text-lg">
-                    Privileged access to a multitude of professional
-                    opportunities. Whether you&apos;re a student looking for an
-                    internship or part-time job, or a graduate looking for a
-                    promising career, our platform connects you with top
-                    companies looking for exceptional talent.
-                  </p>
-                  <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
-                    <div className="hidden">
-                      <Link
-                        href="https://app.oreonyx.live"
-                        className="px-6 py-2 border rounded-full hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex"
-                      >
-                        <span> Commencer</span>
-                        <ArrowRight className="h-4 w-4 hidden md:inline" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="group first font-mono w-full md:w-6/12 bg-[#e9e9e9] py-4 md:py-8 px-3 md:px-3 lg:px-6 rounded-3xl space-y-6">
-              <div className="bg-[#faf9f6] h-52 rounded-3xl relative">
-                <Image
-                  alt="source data"
-                  src="https://images.unsplash.com/photo-1556155092-490a1ba16284?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-3xl group-hover:scale-105 transition transform"
-                />
-              </div>
-              <div className="w-full space-y-3">
-                <div className="space-y-3">
-                  <h5 className="text-xl lg:text-4xl relative font-semibold">
+                  <h5 className="text-xl lg:text-2xl relative font-semibold">
                     Analytics for everyone
                   </h5>
                   <p className="text-lg">
@@ -273,6 +156,47 @@ export default function Overview() {
                     </div>
                   </div>
                 </div>
+              </div>
+              <div className="pl-3 md:pl-3 lg:pl-8 w-full">
+                <div className="bg-[#faf9f6] h-80 rounded-l-3xl relative overflow-hidden">
+                  <Image
+                    alt="source data"
+                    src="/illustrations/analytics.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="group font-mono w-full md:w-5/12 bg-[#e9e9e9] pt-4 md:pt-8 px-3 md:px-3 lg:px-8 rounded-3xl space-y-6">
+              <div className="w-full space-y-3">
+                <div className="space-y-3">
+                  <h5 className="text-xl lg:text-2xl relative font-semibold">
+                    Jobs and Internships
+                  </h5>
+                  <p className="text-lg">
+                    Privileged access to a multitude of professional opportunities. Whether you're a student looking for an internship or part-time job, or a graduate looking for a promising career, our platform connects you with top companies looking for exceptional talent.
+                  </p>
+                  <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
+                    <div className="hidden">
+                      <Link
+                        href="https://app.oreonyx.live"
+                        className="px-6 py-2 border rounded-full hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 md:flex"
+                      >
+                        <span className="font-medium">Commencer</span>
+                        <ArrowRight className="h-4 w-4 hidden md:inline" />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-[#faf9f6] h-80 rounded-t-3xl relative overflow-hidden">
+                <Image
+                  alt="source data"
+                  src="/illustrations/interview.jpg"
+                  layout="fill"
+                  objectFit="cover"
+                />
               </div>
             </div>
           </div>
