@@ -100,7 +100,7 @@ export default function Climate() {
                   className="group flex space-x-1 items-center rounded-full uppercase hover:bg-black hover:text-white px-6 py-2 border-2 border-gray-900"
                 >
                   <PiMicrosoftExcelLogo className='text-xl' />
-                  <span className="xs:hidden md:inline lg:hidden">Document</span>
+                  <span className="hidden xs:hidden md:inline lg:hidden">Document</span>
                   <span className="md:hidden lg:inline">Take a look</span>
                 </a>
               </div>
@@ -115,7 +115,7 @@ export default function Climate() {
                     className="group flex flex-shrink-0 space-x-1 items-center rounded-full uppercase hover:bg-black hover:text-white px-6 py-2 border-2 border-gray-900"
                     >
                     <PiMicrosoftExcelLogo className='text-xl' />
-                    <span className="xs:hidden md:inline lg:hidden">Document</span>
+                    <span className="hidden xs:hidden md:inline lg:hidden">Document</span>
                     <span className="md:hidden lg:inline">Take a look</span>
                     </a>
                 </div>
@@ -205,8 +205,8 @@ export default function Climate() {
                         <div className="lg:w-6/12 pr-24">
                             <h1 className="text-4xl lg:text-5xl font-mono font-bold uppercase text-gray-900">Collaboration structure</h1>
                         </div>
-                        <div className="w-10/12 md:w-6/12 pl-12">
-                            <h2 className="text-lg text-gray-600">In the Oreonyx Climate implementaion platform Idea, we collaborate with the following stakeholders for early use cases, feedback and improvements</h2>
+                        <div className="w-10/12 md:w-10/12 lg:w-6/12 pl-12">
+                            <h2 className="text-lg text-gray-600">In the Oreonyx Climate implementation platform Idea, we collaborate with the following stakeholders for early use cases, feedback and improvements</h2>
                         </div>
                    </div>
                    <div className="mt-12">
