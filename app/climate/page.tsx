@@ -27,7 +27,7 @@ const schoolsBg = {
 
 const DataBg = {
     backgroundImage: "url('shapes/security-hero-bg.webp')",
-    backgroundSize: "contain"
+    backgroundSize: "cover"
 }
 
 export default function Climate() {
