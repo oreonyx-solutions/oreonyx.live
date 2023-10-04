@@ -175,7 +175,7 @@ export default function Overview() {
                     Jobs and Internships
                   </h5>
                   <p className="text-lg">
-                    Privileged access to a multitude of professional opportunities. Whether you're a student looking for an internship or part-time job, or a graduate looking for a promising career, our platform connects you with top companies looking for exceptional talent.
+                    Privileged access to a multitude of professional opportunities. Whether you&apos;re a student looking for an internship or part-time job, or a graduate looking for a promising career, our platform connects you with top companies looking for exceptional talent.
                   </p>
                   <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
                     <div className="hidden">

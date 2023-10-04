@@ -50,7 +50,7 @@ export default function Page() {
                         <h1 className="text-3xl font-bold">People spend night on roofs and trees after Ukraine dan breach</h1>
                       <div className="space-y-3">
                           <h2 className="text-base text-gray-600">
-                              Hundreads of thousands of people have bee left without access to normal drinking water since the breach of the Kakhovka dam, Ukraine's President Volodymyr Zlensky has said.<Link href="/blog/people-spend-night-on-roofs-and-trees-after-Ukraine-dan-breach" className="text-green-500 hover:underline font-medium">Read More</Link>
+                              Hundreads of thousands of people have bee left without access to normal drinking water since the breach of the Kakhovka dam, Ukraine&apos;s President Volodymyr Zlensky has said.<Link href="/blog/people-spend-night-on-roofs-and-trees-after-Ukraine-dan-breach" className="text-green-500 hover:underline font-medium">Read More</Link>
                           </h2>
                           <div className="justify-between">
                             <div>
@@ -210,7 +210,7 @@ export default function Page() {
                       <h1 className="text-2xl font-bold">People spend night on roofs and trees after Ukraine dan breach</h1>
                       <div className="space-y-3">
                         <h2 className="text-base text-gray-600">
-                            Hundreads of thousands of people have bee left without access to normal drinking water since the breach of the Kakhovka dam, Ukraine's President Volodymyr Zlensky has said.
+                            Hundreads of thousands of people have bee left without access to normal drinking water since the breach of the Kakhovka dam, Ukraine&apos;s President Volodymyr Zlensky has said.
                         </h2>
                       </div>
                       <div>
@@ -242,7 +242,7 @@ export default function Page() {
                       <h1 className="text-2xl font-bold">People spend night on roofs and trees after Ukraine dan breach</h1>
                       <div className="space-y-3">
                         <h2 className="text-base text-gray-600">
-                            Hundreads of thousands of people have bee left without access to normal drinking water since the breach of the Kakhovka dam, Ukraine's President Volodymyr Zlensky has said.
+                            Hundreads of thousands of people have bee left without access to normal drinking water since the breach of the Kakhovka dam, Ukraine&apos;s President Volodymyr Zlensky has said.
                         </h2>
                       </div>
                       <div>
@@ -274,7 +274,7 @@ export default function Page() {
                       <h1 className="text-2xl font-bold">People spend night on roofs and trees after Ukraine dan breach</h1>
                       <div className="space-y-3">
                         <h2 className="text-base text-gray-600">
-                            Hundreads of thousands of people have bee left without access to normal drinking water since the breach of the Kakhovka dam, Ukraine's President Volodymyr Zlensky has said.
+                            Hundreads of thousands of people have bee left without access to normal drinking water since the breach of the Kakhovka dam, Ukraine&apos;s President Volodymyr Zlensky has said.
                         </h2>
                       </div>
                       <div>

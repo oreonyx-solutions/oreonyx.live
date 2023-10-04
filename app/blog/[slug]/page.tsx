@@ -27,7 +27,7 @@ export default function Article() {
                         <div className="w-8/12 space-y-4">
                             <div className="text-lg flex space-x-1 font-mono text-gray-600">
                                 <Link className="hover:underline" href="/blog">Blog</Link>
-                                <span>></span>
+                                <span></span>
                                 <span>People spend night on roofs and in trees after Ukraine dam breach</span>
                             </div>
                             <h1 className="text-4xl font-bold">People spend night on roofs and in trees after Ukraine dam breach</h1>

@@ -283,7 +283,7 @@ export default function Climate() {
                                    <div className="space-y-2">
                                         <h3 className="text-lg font-semibold">Investors and Donors</h3>
                                         <p className="text-gray-600">
-                                        Investors and donors will have the opportunity to contribute crucial financial support to bolster the platform's growth and expansion efforts, further enhancing its reach and impact.
+                                        Investors and donors will have the opportunity to contribute crucial financial support to bolster the platform&apos;s growth and expansion efforts, further enhancing its reach and impact.
                                         </p>
                                    </div>
                                 </div>
@@ -306,7 +306,7 @@ export default function Climate() {
                                    <div className="space-y-2">
                                         <h3 className="text-lg font-semibold">Elevating Platform with Data Experts</h3>
                                         <p className="text-gray-600">
-                                        Tech companies and data analytics experts will have the capacity to offer cutting-edge technologies to enhance the platform's functionality, driving innovation and efficiency
+                                        Tech companies and data analytics experts will have the capacity to offer cutting-edge technologies to enhance the platform&apos;s functionality, driving innovation and efficiency
                                         </p>
                                    </div>
                                 </div>

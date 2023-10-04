@@ -65,8 +65,8 @@ export default function page() {
                             </div>
                         </div>
                         <div className='w-2/12 space-x-8 items-center flex justify-end'>
-                            <Link title='Afficher le profil' className='invisible group-hover:visible' href={"school/ucao"}>
-                                <PiShareFatDuotone className="text-2xl" />
+                            <Link title='Afficher le profil' className='invisible group-hover:visible' href='school/ucao'>
+                                <PiShareFatDuotone className='text-2xl' />
                             </Link>
                         </div>
                     </div>
