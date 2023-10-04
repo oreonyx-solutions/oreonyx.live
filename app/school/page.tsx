@@ -27,7 +27,7 @@ export default function page() {
            </div>
           <div className="flex justify-between w-7/12">
           <div>
-            <h6 className='italic text-sm'>Commencez par écrire: <span className="text-gray-400">"le nom d&apos;une ecole" ou "d&apos;une discipline"</span></h6>
+            <h6 className='italic text-sm'>Commencez par écrire: <span className="text-gray-400">&apos;le nom d&apos;une ecole&apos; ou &apos;d&apos;une discipline&apos;</span></h6>
            </div>
           </div>
            </div>
@@ -47,7 +47,7 @@ export default function page() {
                                 height={0}
                                 />
                             </div>
-                            <div className=''>
+                            <div>
                                 <h6 className="text-gray-600 text-lg">UCAO</h6>
                                 <h6 className="font-bold line-clamp-1 text-xl">Université Catholique de l&apos;Afrique de l&apos;Ouest</h6>
                                 <div className="flex space-x-6">
