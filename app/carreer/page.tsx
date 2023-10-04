@@ -14,7 +14,7 @@ import {
 
 export default function Page() {
   return (
-    <div className="bg-primary">
+    <div>
       <Navbar />
       <div className="font-mono lg:pt-32 lg:pb-12 pt-24 space-y-12 px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div className="space-y-10">
