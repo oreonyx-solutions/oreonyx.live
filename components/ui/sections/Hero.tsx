@@ -62,8 +62,8 @@ export default function Hero() {
             </a>
               </div>
               <div>
-                <Link
-                  href="contact"
+                <a
+                  href="mailto:support@oreonyx.live"
                   className="font-medium md:px-6 md:py-2 hover:underline uppercase "
                 >
                   Contact us

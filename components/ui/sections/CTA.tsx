@@ -39,12 +39,12 @@ export default function CTA() {
             </a>
           </div>
           <div>
-            <Link
-              href="support"
+            <a
+              href="mailto:support@oreonyx.live"
               className="font-medium lg:px-6 lg:py-2 uppercase flex space-x-2 items-center"
             >
               <span className="hover:underline">Support</span>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
