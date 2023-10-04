@@ -2,6 +2,7 @@
 
 import React from 'react'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/react-splide/css';
 import CTA from "@/components/ui/sections/CTA";
 import Footer from "@/components/ui/sections/Footer";
 import Navbar from '@/components/ui/sections/Navbar'
