@@ -13,11 +13,11 @@ const schoolsBg = {
 export default function Overview() {
   return (
     <div>
-      <div className="pb-0 pt-16 md:pt-16 space-y-3">
+      <div className="pb-0 pt-6 md:pt-16 space-y-3">
         <div className="flex justify-center">
           <span className="text-lg text-transparent text-center md:text-lg font-bold bg-clip-text bg-gradient-to-r from-[#faf9f6] via-gray-900 to-[#faf9f6]">
-            <span className="lg:hidden">Trusted technical partners</span>
-            <span className="xs:hidden lg:inline">
+            <span className="md:hidden">Trusted technical partners</span>
+            <span className="hidden xs:hidden md:inline">
               A solid infrastructure with trusted technical partners
             </span>
           </span>
@@ -50,7 +50,7 @@ export default function Overview() {
             OUR VALUE PROPOSITION
           </h1>
           <div className="flex justify-center">
-            <div className="w-7/12">
+            <div className="w-11/12 xs:w-11/12 md:w-9/12 lg:w-7/12">
               <h3 className="text-lg lg:text-xl font-mono text-center">
                 Improve all forms of education and training with high-performance tools meticulously designed to facilitate communication tunnels, decision-making and concrete action.
               </h3>
@@ -60,7 +60,7 @@ export default function Overview() {
         </div>
         <div className="w-full space-y-6">
           <div className="space-y-6 md:space-y-0 md:flex md:space-x-6">
-            <div className="group font-mono w-full md:w-5/12 bg-[#e9e9e9] pt-4 md:pt-8 px-3 md:px-3 lg:px-8 rounded-3xl space-y-6">
+            <div className="group font-mono w-full md:w-5/12 bg-[#e9e9e9] pt-8 px-3 px-8 rounded-3xl space-y-6">
               <div className="w-full space-y-3">
                 <div className="space-y-3">
                   <h5 className="text-xl lg:text-2xl relative font-semibold">
@@ -94,8 +94,8 @@ export default function Overview() {
                 />
               </div>
             </div>
-            <div className="group font-mono w-full md:w-7/12 bg-[#e9e9e9] py-4 md:py-8 pr-3 md:pr-3 lg:pr-8 rounded-3xl space-y-6">
-              <div className="w-full space-y-3 px-3 md:px-8 mb-8">
+            <div className="group font-mono w-full md:w-7/12 bg-[#e9e9e9] py-8 pr-3 pr-8 rounded-3xl space-y-6">
+              <div className="w-full space-y-3 px-8 mb-8">
                 <div className="space-y-3">
                   <h5 className="text-xl lg:text-2xl relative font-semibold">
                     Virtual Classroom
@@ -131,8 +131,8 @@ export default function Overview() {
             </div>
           </div>
           <div className="space-y-6 md:space-y-0 md:flex md:space-x-6">
-            <div className="group font-mono w-full md:w-7/12 bg-[#e9e9e9] py-4 md:py-8 rounded-3xl space-y-6">
-              <div className="w-full space-y-3 px-3 md:px-8 mb-8">
+            <div className="group font-mono w-full md:w-7/12 bg-[#e9e9e9] py-8 rounded-3xl space-y-6">
+              <div className="w-full space-y-3 px-8 mb-8">
                 <div className="space-y-3">
                   <h5 className="text-xl lg:text-2xl relative font-semibold">
                     Analytics for everyone
@@ -168,7 +168,7 @@ export default function Overview() {
                 </div>
               </div>
             </div>
-            <div className="group font-mono w-full md:w-5/12 bg-[#e9e9e9] pt-4 md:pt-8 px-3 md:px-3 lg:px-8 rounded-3xl space-y-6">
+            <div className="group font-mono w-full md:w-5/12 bg-[#e9e9e9] pt-8 px-8 rounded-3xl space-y-6">
               <div className="w-full space-y-3">
                 <div className="space-y-3">
                   <h5 className="text-xl lg:text-2xl relative font-semibold">

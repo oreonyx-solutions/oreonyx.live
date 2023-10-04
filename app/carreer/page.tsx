@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <div className="bg-primary">
       <Navbar />
-      <div className="font-mono lg:pt-32 lg:pb-32 pt-32 pb-24 space-y-12 px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
+      <div className="font-mono lg:pt-32 lg:pb-12 pt-24 space-y-12 px-4 md:px-6 xl:px-0 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto">
         <div className="space-y-10">
         <figure className="relative h-80 rounded-xl overflow-hidden">
                 <Image
@@ -59,8 +59,8 @@ export default function Page() {
                 needs of modern higher education institutions.
               </p>
               <blockquote>
-                Our mission is to simplify higher education administration with
-                innovative tools for a better student experience.
+                Our mission is to simplify higher education with
+                innovative tools for a better student and all actors experiences.
               </blockquote>
               <p>
                 We are committed to building a company that reflects the teams,
@@ -95,7 +95,7 @@ export default function Page() {
                         {" "}
                           <span>
                             See{" "}
-                            <span className="xs:hidden md:inline">
+                            <span className="hidden xs:hidden md:inline">
                               the position
                             </span>
                           </span>
@@ -123,7 +123,7 @@ export default function Page() {
                         {" "}
                           <span>
                             See{" "}
-                            <span className="xs:hidden md:inline">
+                            <span className="hidden xs:hidden md:inline">
                               the position
                             </span>
                           </span>
@@ -151,7 +151,7 @@ export default function Page() {
                         {" "}
                           <span>
                             See{" "}
-                            <span className="xs:hidden md:inline">
+                            <span className="hidden xs:hidden md:inline">
                               the position
                             </span>
                           </span>
@@ -179,7 +179,7 @@ export default function Page() {
                         {" "}
                           <span>
                             See{" "}
-                            <span className="xs:hidden md:inline">
+                            <span className="hidden xs:hidden md:inline">
                               the position
                             </span>
                           </span>
@@ -202,7 +202,7 @@ export default function Page() {
                         {" "}
                           <span>
                             See{" "}
-                            <span className="xs:hidden md:inline">
+                            <span className="hidden xs:hidden md:inline">
                               the position
                             </span>
                           </span>
@@ -230,7 +230,7 @@ export default function Page() {
                         {" "}
                           <span>
                             See{" "}
-                            <span className="xs:hidden md:inline">
+                            <span className="hidden xs:hidden md:inline">
                               the position
                             </span>
                           </span>

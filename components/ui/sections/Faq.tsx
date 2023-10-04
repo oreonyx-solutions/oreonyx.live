@@ -9,17 +9,17 @@ import { PiEnvelopeSimpleDuotone } from "react-icons/pi";
 
 export default function Faq() {
   return (
-    <div className="my-24 lg:my-24 px-6 lg:px-6 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-6 font-mono">
+    <div className="my-12 lg:my-24 px-6 lg:px-6 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-6 font-mono">
       <div className="flex justify-center">
-        <div className="w-full md:w-8/12">
-          <h1 className="text-center text-2xl md:text-5xl font-mono font-bold uppercase">
+        <div className="w-full md:w-full lg:w-8/12">
+          <h1 className="text-center text-2xl md:text-4xl lg:text-5xl font-mono font-bold uppercase">
             FREQUENTLY ASKED QUESTIONS!
           </h1>
         </div>
       </div>
       <div className="space-y-12">
         <div className="flex justify-center">
-          <div className="w-full md:w-8/12">
+          <div className="w-full md:w-full lg:w-8/12">
             <Accordion
               className="text-base lg:text-lg"
               type="single"
@@ -59,7 +59,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-3">
                 <AccordionTrigger className="uppercase">
-                  <span className="xs:hidden lg:inline">
+                  <span className="hidden xs:hidden lg:inline">
                     WHAT ARE THE BENEFITS FOR UNIVERSITIES?
                   </span>
                   <span className="lg:hidden">WHAT ARE THE ADVANTAGES?</span>
@@ -75,7 +75,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-4">
                 <AccordionTrigger className="uppercase">
-                  <span className="xs:hidden lg:inline">
+                  <span className="hidden xs:hidden lg:inline">
                     HOW DOES OREONYX IMPROVE DISTANCE LEARNING?
                   </span>
                   <span className="lg:hidden">DISTANCE LEARNING?</span>
@@ -90,7 +90,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-5">
                 <AccordionTrigger className="uppercase">
-                  <span className="xs:hidden lg:inline">
+                  <span className="hidden xs:hidden lg:inline">
                     HOW DOES IT FOSTER COLLABORATION BETWEEN STAKEHOLDERS?
                   </span>
                   <span className="lg:hidden">COLLABORATIONS?</span>
@@ -106,7 +106,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-6">
                 <AccordionTrigger className="uppercase">
-                  <span className="xs:hidden lg:inline">
+                  <span className="hidden xs:hidden lg:inline">
                     DOES OREONYX OFFER TECHNICAL SUPPORT TO USERS?
                   </span>
                   <span className="lg:hidden">TECHNICAL SUPPORT?</span>
@@ -120,7 +120,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-7">
                 <AccordionTrigger className="uppercase">
-                  <span className="xs:hidden lg:inline">
+                  <span className="hidden xs:hidden lg:inline text-left">
                     WHAT TYPES OF MANAGEMENT TOOLS ARE AVAILABLE FOR
                     UNIVERSITIES?
                   </span>
@@ -136,7 +136,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-8">
                 <AccordionTrigger className="uppercase">
-                  <span className="xs:hidden lg:inline">
+                  <span className="hidden xs:hidden lg:inline">
                     HOW DOES OREONYX CONTRIBUTE TO STUDENT EMPLOYABILITY?
                   </span>
                   <span className="lg:hidden">EMPLOYABILITY OF YOUTH?</span>
@@ -152,7 +152,7 @@ export default function Faq() {
               </AccordionItem>
               <AccordionItem value="item-9">
                 <AccordionTrigger className="uppercase">
-                  <span className="xs:hidden lg:inline">
+                  <span className="hidden xs:hidden lg:inline">
                     WHAT IS THE GEOGRAPHIC AVAILABILITY OF OREONYX?
                   </span>
                   <span className="lg:hidden">GEOGRAPHICAL AVAILABILITY?</span>

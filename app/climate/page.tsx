@@ -16,7 +16,8 @@ import {
     PiMedalMilitaryDuotone,
     PiCoinsDuotone,
     PiMicrosoftExcelLogo,
-    PiPlantDuotone
+    PiPlantDuotone,
+    PiGlobeHemisphereWestDuotone
 } from "react-icons/pi"
 
 const schoolsBg = {
@@ -34,9 +35,9 @@ export default function Climate() {
         <Navbar/>
         <section className="h-auto">
             <div className="w-full">
-                <div className="pt-36 pb-12 md:max-w-6xl 2xl:max-w-7xl mx-auto space-y space-y-12">
-                    <div className="w-full flex space-x-12 ">
-                        <div className="w-6/12">
+                <div className="pt-24 lg:pt-36 pb-12 px-4 md:px-6 xl:px-0 md:max-w-6xl 2xl:max-w-7xl mx-auto space-y space-y-12">
+                    <div className="w-full md:flex space-y-8 md:space-y-0 md:space-x-12 ">
+                        <div className="w-full md:w-6/12">
                         <div className="space-y-4">
                             <h2 className="text-2xl leading-4 text-green-500">
                                 Observation
@@ -47,10 +48,10 @@ export default function Climate() {
                             </h3>
                         </div>
                         </div>
-                        <div className="w-6/12">
+                        <div className="w-full md:w-6/12 h-64 md:h-auto">
                             <div className="h-full w-full rounded-full bg-gray-200 overflow-hidden relative">
-                               <div className="w-full h-full relative z-10 flex justify-center">
-                                    <PiPlantDuotone className='text-[255px] text-white absolute' />
+                               <div className="w-full h-full relative z-10 flex justify-center items-center">
+                                    <PiGlobeHemisphereWestDuotone className='text-7xl text-white absolute' />
                                </div>
                                 <Image
                                 alt="source data"
@@ -62,8 +63,8 @@ export default function Climate() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full flex space-x-12">
-                        <div className="w-6/12">
+                    <div className="w-full md:flex space-y-8 md:space-y-0 md:space-x-12">
+                        <div className="w-full h-32 md:h-auto md:w-6/12">
                             <div className="h-full w-full rounded-full bg-gray-200 overflow-hidden relative">
                             <Image
                                 alt="source data"
@@ -74,7 +75,7 @@ export default function Climate() {
                                 />
                             </div>
                         </div>
-                        <div className="w-6/12">
+                        <div className="w-full md:w-6/12">
                             <div className="space-y-4">
                                     <h2 className="text-2xl leading-4 text-green-500">
                                         Value Proposition
@@ -89,8 +90,8 @@ export default function Climate() {
                                    </div>
                             </div>
                             <hr className="my-6" />
-                            <div className="md:flex items-center space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
-              <div className="space-y-2">
+                            <div className="md:flex space-y-6 md:space-y-0 md:space-x-6 text-gray-900 font-mono">
+              <div className="space-y-2 flex flex-col items-start">
                 <h3 className="text-lg text-gray-900 font-semibold">Logical Context</h3>
               <a
                   target="_blank"
@@ -98,7 +99,8 @@ export default function Climate() {
                   className="group flex space-x-1 items-center rounded-full uppercase hover:bg-black hover:text-white px-6 py-2 border-2 border-gray-900"
                 >
                   <PiMicrosoftExcelLogo className='text-xl' />
-                  <span>See document</span>
+                  <span className="xs:hidden md:inline lg:hidden">Document</span>
+                  <span className="md:hidden lg:inline">Take a look</span>
                 </a>
               </div>
               <div className="space-y-2 flex flex-col items-start">
@@ -112,7 +114,8 @@ export default function Climate() {
                     className="group flex flex-shrink-0 space-x-1 items-center rounded-full uppercase hover:bg-black hover:text-white px-6 py-2 border-2 border-gray-900"
                     >
                     <PiMicrosoftExcelLogo className='text-xl' />
-                    <span>See document</span>
+                    <span className="xs:hidden md:inline lg:hidden">Document</span>
+                    <span className="md:hidden lg:inline">Take a look</span>
                     </a>
                 </div>
               </div>
@@ -123,14 +126,14 @@ export default function Climate() {
                 <div  style={DataBg} className="mt-12 flex text-white py-24 px-12 space-x-4">
                     <div className="md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-12">
                        <div className="space-y-4 mb-14">
-                        <h1 className="text-4xl lg:text-5xl text-center font-mono font-bold uppercase">Our Solution</h1>
+                        <h1 className="text-3xl lg:text-5xl text-center font-mono font-bold uppercase">Our Solution</h1>
                         <div className="flex justify-center">
-                            <div className="w-6/12">
+                            <div className="w-full md:w-6/12">
                                 <h2 className="text-center text-xl text-gray-500">Through our platform, we propose to improve collaboration in order to create better opportunities for engaged citizen action.</h2>
                             </div>
                         </div>
                        </div>
-                        <div className="grid grid-cols-3 gap-x-32">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-12 md:gap-y-0 lg:gap-x-32">
                             <div className="space-y-2 group">
                                     <div className="space-y-3 relative">
                                     <div className="absolute bg-green-400 h-3 w-3 left-32 -bottom-15 transition-all group-hover:scale-150 group-hover:-translate-y-1"></div>
@@ -162,7 +165,7 @@ export default function Climate() {
                                 <h3 className="text-lg text-gray-600">Possibility of organing webinars, conferences, surveys, forums or online fairs.</h3>
                             </div>
                         </div>
-                        <div className="grid grid-cols-3 gap-x-32">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-12 md:gap-y-0 lg:gap-x-32">
                             <div className="space-y-2 group">
                                     <div className="space-y-3 relative">
                                         <div className="absolute bg-green-400 h-3 w-3 right-3 top-20 transition-all group-hover:scale-150 group-hover:-translate-y-1"></div>
@@ -196,12 +199,12 @@ export default function Climate() {
                         </div>
                     </div>
                 </div>
-                <div className="pt-24 md:max-w-6xl 2xl:max-w-7xl mx-auto">
-                   <div className="w-full flex justify-between">
-                        <div className="w-6/12 pr-24">
+                <div className="pt-24 px-4 md:px-6 xl:px-0 md:max-w-6xl 2xl:max-w-7xl mx-auto">
+                   <div className="space-y-12 lg:space-y-0 w-full lg:flex lg:justify-between">
+                        <div className="lg:w-6/12 pr-24">
                             <h1 className="text-4xl lg:text-5xl font-mono font-bold uppercase text-gray-900">Collaboration structure</h1>
                         </div>
-                        <div className="w-6/12 pl-12">
+                        <div className="w-10/12 md:w-6/12 pl-12">
                             <h2 className="text-lg text-gray-600">In the Oreonyx Climate implementaion platform Idea, we collaborate with the following stakeholders for early use cases, feedback and improvements</h2>
                         </div>
                    </div>
@@ -212,7 +215,7 @@ export default function Climate() {
                         rewind: true,
                         width : '100%',
                         gap: "1rem",
-                        perPage: 3,
+                        perPage: 1,
                         autoWidth: true,
                     } }
                    >
@@ -287,9 +290,9 @@ export default function Climate() {
                             </div>
                         </SplideSlide>
                         <SplideSlide>
-                            <div className="h-auto space-y-3 w-[80vh] xl:w-[60vh]">
+                            <div className="h-auto space-y-3 w-[40vh] xl:w-[40vh]">
                                 <div className="w-full">
-                                    <div className="h-60 rounded-xl bg-gray-300 relative overflow-hidden">
+                                    <div className="h-72 rounded-xl bg-gray-300 relative overflow-hidden">
                                     <Image
                                         alt="source data"
                                         src="/illustrations/university-2.jpeg"
@@ -310,11 +313,11 @@ export default function Climate() {
                             </div>
                         </SplideSlide>
                     </Splide>
-                    <div className="pb-0 pt-16 md:pt-16 space-y-3">
+                    <div className="pb-0 pt-12 md:pt-16 space-y-3">
                         <div className="flex justify-center">
                             <span className="text-lg text-transparent text-center md:text-lg font-bold bg-clip-text bg-gradient-to-r from-[#faf9f6] via-gray-900 to-[#faf9f6]">
                                 <span className="lg:hidden">Trusted technical partners</span>
-                                <span className="xs:hidden lg:inline">
+                                <span className="hidden xs:hidden lg:inline">
                                 A solid infrastructure with trusted technical partners
                                 </span>
                             </span>
@@ -333,23 +336,23 @@ export default function Climate() {
                     </div>
                    </div>
                 </div>
-                <div className="my-12 flex justify-center">
+                <div className="my-6 flex justify-center">
                     <div className="space-x-3 flex">
-                        <PiPlantDuotone className='text-green-500 text-xl' />
-                        <PiPlantDuotone className='text-green-500 text-xl' />
-                        <PiPlantDuotone className='text-green-500 text-xl' />
-                        <PiPlantDuotone className='text-green-500 text-xl' />
-                        <PiPlantDuotone className='text-green-500 text-xl' />
-                        <PiPlantDuotone className='text-green-500 text-xl' />
+                        <PiPlantDuotone className='text-black text-xl' />
+                        <PiPlantDuotone className='text-black text-xl' />
+                        <PiPlantDuotone className='text-black text-xl' />
+                        <PiPlantDuotone className='text-black text-xl' />
+                        <PiPlantDuotone className='text-black text-xl' />
+                        <PiPlantDuotone className='text-black text-xl' />
                     </div>
                 </div>
                 <div className="w-full ">
-                    <div className="md:max-w-6xl 2xl:max-w-7xl mx-auto">
+                    <div className="px-4 md:px-6 xl:px-0 md:max-w-6xl 2xl:max-w-7xl mx-auto">
                         <div className="mb-12">
-                            <h1 className="text-4xl lg:text-5xl text-center font-mono font-bold uppercase text-gray-900">Benefits and Impacts</h1>
+                            <h1 className="text-2xl lg:text-5xl text-center font-mono font-bold uppercase text-gray-900"><span className="text-green-500">Benefits</span> and Impacts</h1>
                         </div>
-                        <div className="flex space-x-6">
-                        <div className="w-6/12 bg-green-600 text-white px-10 py-10 rounded-xl space-y-6">
+                        <div className="lg:flex space-y-6 lg:space-y-6 lg:space-x-6">
+                        <div className="w-full lg:w-6/12 bg-green-600 text-white px-10 py-10 rounded-xl space-y-6">
                             <div className="space-y-3">
                                 <div className="flex items-center space-x-2">
                                     <PiBuildingsDuotone className='text-2xl' />
@@ -383,7 +386,7 @@ Involvement in concrete projects for the environment Awareness and commitment to
                             <div className="space-y-3">
                                 <div className="flex items-center space-x-2">
                                     <PiBuildingsDuotone className='text-2xl' />
-                                    <h2 className="text-xl font-bold">Governments and organizations or NGOs</h2>
+                                    <h2 className="text-xl font-bold">Governments, Organizations or NGOs</h2>
                                 </div>
                                 <p>
                                 Strengthening the consideration of environmental issues in educational policies Support for the transition to a greener economy 
@@ -392,7 +395,7 @@ Collaboration with universities for the implementation of environmental projects
                                 </p>
                             </div>
                         </div>
-                        <div className="w-6/12 bg-gray-200 px-10 py-10 rounded-xl space-y-6">
+                        <div className="w-full lg:w-6/12 bg-gray-200 px-10 py-10 rounded-xl space-y-6">
                             <div className="space-y-3">
                                 <div className="flex items-center space-x-2">
                                     <PiCoinsDuotone className='text-2xl' />
@@ -428,7 +431,7 @@ Widespread adoption of sustainable practices in local communities Contribution t
                     
                 </div>
                 
-               <div className="">
+               <div className="px-4 md:px-6 xl:px-0">
                 <CTA />
                 <Footer />
                </div>

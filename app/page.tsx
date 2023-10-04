@@ -12,7 +12,7 @@ import Overview from "@/components/ui/sections/Overview";
 
 export default function Home() {
   return (
-    <div className="bg-primary">
+    <div className="">
       <Navbar />
       <Hero />
       <div className="md:px-6 text-gray-900">

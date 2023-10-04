@@ -8,10 +8,10 @@ const FaqBg = {
 export default function CTA() {
   return (
     <div className="py-12">
-      <div style={FaqBg} className="md:rounded-3xl py-12 md:py-6 lg:py-24 px-6 md:px-8 lg:px-12 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-6">
+      <div style={FaqBg} className="md:rounded-3xl py-12 md:py-12 lg:py-24 px-6 md:px-8 lg:px-12 w-full md:max-w-6xl 2xl:max-w-7xl mx-auto space-y-6">
         <div className="md:flex justify-center">
           <div className="w-full md:w-10/12 lg:w-10/12">
-            <h1 className="text-2xl md:text-4xl lg:text-6xl md:text-center font-mono font-bold uppercase">
+            <h1 className="text-2xl md:text-3xl lg:text-6xl md:text-center font-mono font-bold uppercase">
               IT&apos;S TIME TO TAKE IT TO THE NEXT LEVEL
             </h1>
           </div>
@@ -30,7 +30,7 @@ export default function CTA() {
             <a target="_blank" href="https://tally.so/r/nrBOep">
               <button className="rounded-full px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 flex items-center">
                 <span className="md:hidden font-medium"> Beta program</span>
-                <span className="xs:hidden md:inline font-medium">
+                <span className="hidden xs:hidden md:inline font-medium">
                   {" "}
                   Join the beta program{" "}
                 </span>
