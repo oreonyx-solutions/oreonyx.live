@@ -352,7 +352,7 @@ export default function Climate() {
                         <div className="mb-12">
                             <h1 className="text-2xl lg:text-5xl text-center font-mono font-bold uppercase text-gray-900"><span className="text-green-500">Benefits</span> and Impacts</h1>
                         </div>
-                        <div className="lg:flex space-y-6 lg:space-y-6 lg:space-x-6">
+                        <div className="lg:flex space-y-6 lg:space-y-0 lg:space-x-6">
                         <div className="w-full lg:w-6/12 bg-green-600 text-white px-10 py-10 rounded-xl space-y-6">
                             <div className="space-y-3">
                                 <div className="flex items-center space-x-2">
