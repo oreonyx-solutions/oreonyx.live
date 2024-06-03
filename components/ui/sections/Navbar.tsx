@@ -123,20 +123,20 @@ export default function Navbar({ className }: NavbarProps) {
                   </div>
                 </Link>
               </DropdownMenuItem>
- 	      <DropdownMenuItem>
-                <Link href="about">
-                  <div className="flex space-x-2 items-center">
-                    <span>About us</span>
-                  </div>
-                </Link>
-              </DropdownMenuItem>
-	      <DropdownMenuItem>
-              <a target="_blank" href="https://app.oreonyx.com" title="Join the beta program" className="flex space-x-2 items-center">
-                <span className="font-medium"> Beta program</span>
-                <ArrowRight className="h-4 w-4" />
-              </a>
-              </DropdownMenuItem>
-	       <DropdownMenuItem>
+              <DropdownMenuItem>
+                      <Link href="about">
+                        <div className="flex space-x-2 items-center">
+                          <span>About us</span>
+                        </div>
+                      </Link>
+                    </DropdownMenuItem>
+              <DropdownMenuItem>
+                    <a href="https://app.oreonyx.com" title="Connexion" className="flex space-x-2 items-center">
+                      <span className="font-medium">Connexion</span>
+                      <ArrowRight className="h-4 w-4" />
+                    </a>
+                    </DropdownMenuItem>
+              <DropdownMenuItem>
                 <Link
                   title="Oreonyx climate"
                   href="/climate"
@@ -161,10 +161,9 @@ export default function Navbar({ className }: NavbarProps) {
           
           </div>
           <div> 
-	  <a
-            title="Join bêta"
-            target="_blank" 
-            href="https://tally.so/r/nrBOep"
+	        <a
+            title="Connexion"
+            href="https://app.oreonyx.com"
             className="h-11 w-11 rounded-full flex justify-center items-center text-white bg-black"
           >
             <PiUserDuotone className="text-lg" />
@@ -173,15 +172,14 @@ export default function Navbar({ className }: NavbarProps) {
           </div>
           </div>
           <a
-            target="_blank"
-            href="https://tally.so/r/nrBOep"
+            href="https://app.oreonyx.com"
             className="hidden lg:hidden"
           >
             <button className="px-6 py-2 border-2 hover:bg-black hover:text-white border-gray-900 uppercase space-x-2 flex items-center">
-              <span className="md:hidden font-medium"> Beta program</span>
+              <span className="md:hidden font-medium">Connexion</span>
               <span className="hidden md:inline font-medium">
                 {" "}
-                Join the beta program{" "}
+                Connexion{" "}
               </span>
               <PiArrowRightBold className="text-lg" />
 
