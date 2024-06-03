@@ -22,6 +22,7 @@ import { PiArrowRightBold, PiUserDuotone, PiGlobeHemisphereWestDuotone, PiListDu
 
 //components
 //import Banner from "@/components/ui/sections/Banner";
+// https://tally.so/r/nrBOep
 
 type NavbarProps = {
   className?: string;
@@ -130,7 +131,7 @@ export default function Navbar({ className }: NavbarProps) {
                 </Link>
               </DropdownMenuItem>
 	      <DropdownMenuItem>
-              <a target="_blank" href="https://tally.so/r/nrBOep" title="Join the beta program" className="flex space-x-2 items-center">
+              <a target="_blank" href="https://app.oreonyx.com" title="Join the beta program" className="flex space-x-2 items-center">
                 <span className="font-medium"> Beta program</span>
                 <ArrowRight className="h-4 w-4" />
               </a>
