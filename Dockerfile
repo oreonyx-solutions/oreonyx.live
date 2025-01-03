@@ -1,6 +1,6 @@
-FROM node:16-alpine
+FROM node:18
 
-WORKDIR /frontend
+WORKDIR /app
 
 COPY package*.json ./
 
@@ -10,4 +10,5 @@ COPY . .
 
 EXPOSE 3000
 
+RUN npm run build
 CMD npm run start
